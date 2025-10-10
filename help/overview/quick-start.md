@@ -21,7 +21,7 @@ Het instapproces begint met het instappen van uw domein. Het proces is anders, a
 
 ### Klanten met AEM Cloud
 
-De Klanten van de Wolk van AEM (Cloud Service/Managed Services/de Dienst van Edge Delivery), zullen de optie zien om LLM Optimizer via de kaart van de Aankondiging van het Product in [&#x200B; Experience Hub &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/experience-hub/experience-hub) te proberen.
+De Klanten van de Wolk van AEM (Cloud Service/Managed Services/de Dienst van Edge Delivery), zullen de optie zien om LLM Optimizer via de kaart van de Aankondiging van het Product in [&#x200B; Experience Hub &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/experience-hub/experience-hub) te proberen.
 
 >[!NOTE]
 >Nieuw toegevoegde herinneringen zullen niet in MerkAanwezigheid verschijnen tot de verwerking volledig is. Klanten van AEM Cloud (Cloud Service, Managed Services/Edge Delivery Service) kunnen de gratis proefversie van LLM Optimizer gebruiken. Voor het gebruik van meer dan 200 aanwijzingen is een aparte licentieovereenkomst vereist. Toegang wordt verleend op basis van &quot;actuele&quot; en &quot;beschikbare&quot; basis, en kan te allen tijde door Adobe worden gewijzigd, beperkt of verwijderd. Gelieve te bereiken uit aan uw [ rekeningsvertegenwoordiger ] voor meer informatie.
