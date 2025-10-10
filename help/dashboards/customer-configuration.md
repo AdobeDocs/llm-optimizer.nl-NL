@@ -1,9 +1,9 @@
 ---
 title: Klantconfiguratie
-description: Dit is het artikeloverzicht.
-source-git-commit: 5dbf794b87df92583daec83ab02063821ee7a412
+description: Gebruik de configuratie van de klant om te bepalen hoe uw merk binnen het optimaliseringsplatform LLM wordt gecontroleerd en geanalyseerd.
+source-git-commit: 7d01b35cb2153e020f0b64e493aad263fb9bb09f
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 # Klantconfiguratie
 
-De Configuratie van de klant is waar u bepaalt hoe uw merk binnen het platform zal worden gecontroleerd en worden geanalyseerd. U kunt categorieën (zoals bedrijfseenheden of productlijnen) aanpassen, concurrenten volgen, en merkpuntsaliassen toevoegen om alle variaties van uw merk in herinneringen te vangen. Deze opstelling verzekert het platform inzicht in uw bedrijfscontext, toelatend nauwkeurige zicht, verkeer, en opportuniteitsanalyse.
+De Configuratie van de klant is waar u bepaalt hoe uw merk binnen het optimaliseringsplatform LLM zal worden gecontroleerd en worden geanalyseerd. U kunt categorieën (zoals bedrijfseenheden of productlijnen) aanpassen, concurrenten volgen, en merkpuntsaliassen toevoegen om alle variaties van uw merk in herinneringen te vangen. Deze opstelling verzekert het platform inzicht in uw bedrijfscontext, toelatend nauwkeurige zicht, verkeer, en opportuniteitsanalyse.
 
-![&#x200B; Dashboard van de Configuratie van de Klant &#x200B;](/help/dashboards/assets/customer-config.png)
+![ Dashboard van de Configuratie van de Klant ](/help/dashboards/assets/customer-config.png)
 
 Als u wilt configureren hoe LLM Optimizer uw aanwezigheid van uw merk controleert en analyseert op verschillende markten en in concurrerende landschappen, hebt u toegang tot de volgende tabbladen:
 
@@ -32,7 +32,7 @@ Vanuit het tabblad Categorieën kunt u bedrijfscategorieën of productlijnen def
 3. Pas het **Verwante Gebied** aan waar de categorie zal worden gecontroleerd.
 4. Klik **sparen** en de nieuwe categorie zal op de categorielijst verschijnen.
 
-Het toevoegen van nieuwe categorieën zal automatisch geen onderwerpen en herinneringen produceren - deze zullen manueel van de [&#x200B; Inzichten van Gegevens &#x200B;](#data-insights) tabel moeten worden toegevoegd.
+Het toevoegen van nieuwe categorieën zal automatisch geen onderwerpen en herinneringen produceren - deze zullen manueel van de [ Inzichten van Gegevens ](#data-insights) tabel moeten worden toegevoegd.
 
 Als u een categorie wilt verwijderen, klikt u op het pictogram Verwijderen in de categorielijst. Wees voorzichtig, omdat **het schrappen van een categorie ook de bijbehorende punten** als concurrenten zal schrappen u opstelling of merkaliassen zou kunnen hebben die met die specifieke categorie verbonden zijn.
 
@@ -62,9 +62,9 @@ Als u een merkalias wilt verwijderen, klikt u op het verwijderpictogram in de li
 
 ## Gegevens-inzichten {#data-insights}
 
-Op dit tabblad kunt u vragen controleren, beheren en aanpassen. U kunt de gegevensinzichten van de Aanwezigheid van de a [&#x200B; &#x200B;](/help/dashboards/brand-presence.md#data-insights) .csv uploaden en de lijst met herinneringen en onderwerpen van die analyse worden bevolkt. U kunt onderwerpen en hun bijbehorende herinneringen ook schrappen wijzigen en toevoegen zoals nodig.
+Op dit tabblad kunt u vragen controleren, beheren en aanpassen. U kunt de gegevensinzichten van de Aanwezigheid van de a [ ](/help/dashboards/brand-presence.md#data-insights) .csv uploaden en de lijst met herinneringen en onderwerpen van die analyse worden bevolkt. U kunt onderwerpen en hun bijbehorende herinneringen ook schrappen wijzigen en toevoegen zoals nodig.
 
-Als u een CSV-bestand met gegevensinzichten wilt importeren, moet u eerst een bestand exporteren vanaf het dashboard Handaanwezigheid. Zie de [&#x200B; gegevensinzichten &#x200B;](/help/dashboards/brand-presence.md#data-insights) sectie leren hoe te om dat te doen. Zodra u het bestand hebt:
+Als u een CSV-bestand met gegevensinzichten wilt importeren, moet u eerst een bestand exporteren vanaf het dashboard Handaanwezigheid. Zie de [ gegevensinzichten ](/help/dashboards/brand-presence.md#data-insights) sectie leren hoe te om dat te doen. Zodra u het bestand hebt:
 
 1. Op het dashboard, klik **uploadt CSV**.
 2. In het venster Gegevens importeren sleept u het bestand en zet u het neer of kiest u het bestand handmatig.
