@@ -21,29 +21,29 @@ Het instapproces begint met het instappen van uw domein. Het proces is anders, a
 
 ### Klanten met AEM Cloud
 
-De Klanten van de Wolk van AEM (Cloud Service/Managed Services/de Dienst van Edge Delivery), zullen de optie zien om LLM Optimizer via de kaart van de Aankondiging van het Product in [ Experience Hub ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/experience-hub/experience-hub) te proberen.
+De Klanten van de Wolk van AEM (Cloud Service/Managed Services/de Dienst van Edge Delivery), zullen de optie zien om LLM Optimizer via de kaart van de Aankondiging van het Product in [&#x200B; Experience Hub &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/experience-hub/experience-hub) te proberen.
 
 >[!NOTE]
 >Nieuw toegevoegde herinneringen zullen niet in MerkAanwezigheid verschijnen tot de verwerking volledig is. Klanten van AEM Cloud (Cloud Service, Managed Services/Edge Delivery Service) kunnen de gratis proefversie van LLM Optimizer gebruiken. Voor het gebruik van meer dan 200 aanwijzingen is een aparte licentieovereenkomst vereist. Toegang wordt verleend op basis van &quot;actuele&quot; en &quot;beschikbare&quot; basis, en kan te allen tijde door Adobe worden gewijzigd, beperkt of verwijderd. Gelieve te bereiken uit aan uw [ rekeningsvertegenwoordiger ] voor meer informatie.
 
-![ Proefversie van LLM Optimizer ](/help/overview/assets/llm-trial.png)
+![&#x200B; Proefversie van LLM Optimizer &#x200B;](/help/overview/assets/llm-trial.png)
 
-Zodra u de **knoop van de Probeer LLM Optimizer** klikt, zult u aan [ https://llmo.now ](https://llmo.now) opnieuw worden gericht. U moet zich vervolgens aanmelden via IMS. Wanneer u zich hebt aangemeld, start u het instapproces door een domein en de merknaam op te geven.
+Zodra u de **knoop van de Probeer LLM Optimizer** klikt, zult u aan [&#x200B; https://llmo.now &#x200B;](https://llmo.now) opnieuw worden gericht. U moet zich vervolgens aanmelden via IMS. Wanneer u zich hebt aangemeld, start u het instapproces door een domein en de merknaam op te geven.
 
-![ LLM Optimizer domein ](/help/overview/assets/domain.png)
+![&#x200B; LLM Optimizer domein &#x200B;](/help/overview/assets/domain.png)
 
 >[!NOTE]
 >Het domein dat u hebt opgegeven, wordt gebruikt door iedereen in uw organisatie en kan niet worden gewijzigd.
 
 Om de Analyse van de Aanwezigheid van het Merk teweeg te brengen, zult u categorieën, onderwerpen, en herinneringen moeten verstrekken.
 
-![ de Analyse van de Aanwezigheid van het Merk ](/help/overview/assets/bp-analysis.png)
+![&#x200B; de Analyse van de Aanwezigheid van het Merk &#x200B;](/help/overview/assets/bp-analysis.png)
 
 Bovendien, moet u ook het logboek vormen CDN door:sturen voor verkeersanalyse. LLM Optimizer vereist merkpresentatiegegevens en inzichten van het agentische en verwijzingsverkeer om mogelijkheden te identificeren en aanbevelingen te verstrekken om klanten te helpen hun AI-zichtbaarheid verhogen.
 
 ### Klanten die geen AEM Cloud zijn
 
-Nadat u het contract hebt ondertekend, wordt u aan boord genomen via de slackbot-opdracht met het domein dat u op LLM Optimizer wilt laten instappen. Zodra dit onboarding volledig is, zult u aan login aan LLM Optimizer via [ https://llmo.now ](https://llmo.now) kunnen.
+Nadat u het contract hebt ondertekend, wordt u aan boord genomen via de slackbot-opdracht met het domein dat u op LLM Optimizer wilt laten instappen. Zodra dit onboarding volledig is, zult u aan login aan LLM Optimizer via [&#x200B; https://llmo.now &#x200B;](https://llmo.now) kunnen.
 
 ### Stap 2: Automatische voorpopulatie van inzichten
 
@@ -57,9 +57,9 @@ Zo weet u zeker dat u, zelfs voordat u aangepaste configuraties en invoer toevoe
 
 ### Stap 3: Pas Categorieën, Onderwerpen, en Vragen aan
 
-Klik op het [ dashboard van de klantenconfiguratie ](/help/dashboards/customer-configuration.md) beginnen uw Categorieën, Onderwerpen, en Herinneringen aan te passen.
+Klik op het [&#x200B; dashboard van de klantenconfiguratie &#x200B;](/help/dashboards/customer-configuration.md) beginnen uw Categorieën, Onderwerpen, en Herinneringen aan te passen.
 
-![ Dashboard van de Configuratie van de Klant ](/help/dashboards/assets/customer-config.png)
+![&#x200B; Dashboard van de Configuratie van de Klant &#x200B;](/help/dashboards/assets/customer-config.png)
 
 Vanuit dit dashboard kunt u:
 
@@ -80,9 +80,9 @@ Om de Inzichten van het Verkeer van het Verkeer van het Bureau en van het Verkee
 
 Nadat u informatie voor het Door:sturen van het Logboek CDN verstrekt, kunt u:
 
-* Bekijk het [ dashboard van de Aanwezigheid van het Merk ](/help/dashboards/brand-presence.md), bekijk uw zichtbaarheidsscore en spoor uw prestaties met betrekking tot uw concurrenten.
-* Onderzoek [ Agentic ](/help/dashboards/agentic-traffic.md) en [ het dashboards van het Verkeer van de Verwijzing ](/help/dashboards/referral-traffic.md).
-* Gebruik [ Kansen ](/help/dashboards/opportunities.md) om inhoud en technische verbeteringen te identificeren.
+* Bekijk het [&#x200B; dashboard van de Aanwezigheid van het Merk &#x200B;](/help/dashboards/brand-presence.md), bekijk uw zichtbaarheidsscore en spoor uw prestaties met betrekking tot uw concurrenten.
+* Onderzoek [&#x200B; Agentic &#x200B;](/help/dashboards/agentic-traffic.md) en [&#x200B; het dashboards van het Verkeer van de Verwijzing &#x200B;](/help/dashboards/referral-traffic.md).
+* Gebruik [&#x200B; Kansen &#x200B;](/help/dashboards/opportunities.md) om inhoud en technische verbeteringen te identificeren.
 * Exporteer gegevens en werk samen met uw team of nodig uw collega uit om het product te gebruiken.
 
-Om de mogelijkheden van optimizer volledig te begrijpen LLM, onderzoek alle beschikbare [ dashboards ](/help/dashboards/dashboards-overview.md).
+Om de mogelijkheden van optimizer volledig te begrijpen LLM, onderzoek alle beschikbare [&#x200B; dashboards &#x200B;](/help/dashboards/dashboards-overview.md).

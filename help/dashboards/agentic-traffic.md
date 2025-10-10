@@ -26,7 +26,7 @@ Op deze pagina vindt u het volgende:
 
 Bij de eerste aanmelding is het dashboard voor het verkeer voor de Agentic Traffic leeg. Om agentische interactie te bekijken, moet u **het logboek vormen CDN door:sturen**. **TBD punt aan CDN opstelling in snel begin/onboarding?**
 
-![ CDN Opstelling ](/help/dashboards/assets/ag-log-forward.png)
+![&#x200B; CDN Opstelling &#x200B;](/help/dashboards/assets/ag-log-forward.png)
 
 1. Selecteer uw CDN-provider (bijvoorbeeld Akamai, snel door Adobe beheerd, AWS Cloudfront, Azure CDN, Cloudflare of Overige).
 2. Voer een e-mail met primaire contactpersoon in.
@@ -51,7 +51,7 @@ Nadat u de gewenste filter selecteert, klik **toepassen Filters** om de selectie
 
 De mening van de Distributie van het Verkeer toont hoe het agentenverkeer over markten, categorieën, en paginatypen wordt verspreid. Als zodanig helpt deze weergave u te bepalen welke geografische gebieden, productgebieden of inhoudopmaak het vaakst door AI-agents worden benaderd tijdens de interactie met uw site.
 
-![ Distributie van het Verkeer ](/help/dashboards/assets/ag-main.png)
+![&#x200B; Distributie van het Verkeer &#x200B;](/help/dashboards/assets/ag-main.png)
 
 Bovenaan op de pagina staan drie belangrijke meetgegevens waarmee u rekening moet houden:
 
@@ -65,7 +65,7 @@ Tendindicatoren voor elke metrische sleutel tonen hoe deze waarden in de loop de
 
 Gebruik de grafiek van de Trends van het Verkeer van het Agentschap om de wekelijkse totalen van succesvolle, ontbroken, en algemene klappen te volgen. Als dusdanig, kunt u veranderingen in agentenactiviteit en prestaties in tijd controleren. U kunt de muis ook boven het diagram houden om de gegevensevolutie over het wekelijkse tijdkader te zien.
 
-![ Agentic de Trends van het Verkeer ](/help/dashboards/assets/ag-trends.png)
+![&#x200B; Agentic de Trends van het Verkeer &#x200B;](/help/dashboards/assets/ag-trends.png)
 
 ## Boven- en onderomslagen {#top-bottom-movers}
 
@@ -78,11 +78,11 @@ Deze twee metriek sorteren URLs als volgt:
 
 De mening van de Analyse van de Prestaties van de Agent van de Gebruiker en URL verstrekt verdere gegevensuitsplitsingen op hoe kruiplers en praatbots met uw plaats in wisselwerking staan. Klik op de onderstaande tabbladen voor gedetailleerde beschrijvingen.
 
-![ Agent van de Gebruiker en de Analyse van Prestaties URL ](/help/dashboards/assets/user-agent.png)
+![&#x200B; Agent van de Gebruiker en de Analyse van Prestaties URL &#x200B;](/help/dashboards/assets/user-agent.png)
 
 >[!BEGINTABS]
 
->[!TAB  Analyse van de Agent van 0} Gebruiker]
+>[!TAB  Analyse van de Agent van 0&rbrace; Gebruiker]
 
 De lijst van de Analyse van de Agent van de Gebruiker verstrekt een verdeling van verkeer door paginatype en agententype (bijvoorbeeld, kruiplers tegenover chatbots). Op deze manier is het gemakkelijk te begrijpen welke AI-agents kruipen welke delen van uw site. Het bevat de volgende categorieën:
 
