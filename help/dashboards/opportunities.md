@@ -1,7 +1,7 @@
 ---
 title: Optimalisatiemogelijkheden
 description: Dit is het artikeloverzicht.
-source-git-commit: e35ddb9b055d2f974fd94b3a21e13e92d05c8799
+source-git-commit: 77bddfa7351d573c20a0f68a08b69000bc06beb8
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Optimalisatiemogelijkheden zijn automatisch gedetecteerde inzichten die laten zien waar uw site en externe aanwezigheid kunnen worden verbeterd om de zichtbaarheid van uw merk in AI-zoekopdrachten te vergroten. Deze optimalisaties omvatten correcties op pagina&#39;s (het toevoegen van gestructureerde inhoud, chemicaliën, of samenvattingen), technische aanpassingen (het ontgrendelen van AI-crawlers of het oplossen van fouten) en het beïnvloeden van inhoud op gezaghebbende plaatsen van derden. Door deze optimalisatiemogelijkheden aan te pakken, kan uw merk nauwkeurig worden weergegeven en kan het waarschijnlijker worden genoemd in generatieve reacties.
 
-![&#x200B; de kansen van de Optimalisering &#x200B;](/help/dashboards/assets/oport.png)
+![ de kansen van de Optimalisering ](/help/dashboards/assets/oport.png)
 
 ## Opportunity-dashboard
 
