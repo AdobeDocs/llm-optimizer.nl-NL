@@ -1,9 +1,9 @@
 ---
 title: Optimalisatiemogelijkheden
 description: Dit is het artikeloverzicht.
-source-git-commit: 8c38027e46b53d85776fffe17597883c742235d6
+source-git-commit: ea8434daef2402f0dc9ac2d4f6060c38c9137fe6
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Optimalisatiemogelijkheden zijn automatisch gedetecteerde inzichten die laten zien waar uw site en externe aanwezigheid kunnen worden verbeterd om de zichtbaarheid van uw merk in AI-zoekopdrachten te vergroten. Deze optimalisaties omvatten correcties op pagina&#39;s (het toevoegen van gestructureerde inhoud, chemicaliën, of samenvattingen), technische aanpassingen (het ontgrendelen van AI-crawlers of het oplossen van fouten) en het beïnvloeden van inhoud op gezaghebbende plaatsen van derden. Door deze optimalisatiemogelijkheden aan te pakken, kan uw merk nauwkeurig worden weergegeven en kan het waarschijnlijker worden genoemd in generatieve reacties.
 
-![&#x200B; de kansen van de Optimalisering &#x200B;](/help/dashboards/assets/oport.png)
+![ de kansen van de Optimalisering ](/help/dashboards/assets/oport.png)
 
 ## Opportunity-dashboard
 
@@ -38,8 +38,8 @@ Hieronder ziet u een tabel met momenteel ondersteunde mogelijkheden:
 
 ### Zichtbaarheid van inhoud herstellen {#recover-contet}
 
-Zoals hierboven vermeld, markeert de zichtbaarheid van de inhoud pagina&#39;s waar belangrijke inhoud voor AI-agents verloren gaat door weergave op de client. Voor elke geïdentificeerde pagina wordt precies aangegeven welke inhoud ontbreekt in de AI-agentweergave, zodat u de zichtbaarheidsverschillen kunt vaststellen. Het wordt ook ondersteund door een &#39;edge-based&#39; pre-rendering functie die meer HTML-inhoud kan leveren aan mobiel verkeer zonder dat wijzigingen in het Content Management System (CMS) vereist zijn. Gelieve te merken op dat dit vermogen momenteel in **Vroege Toegang** is en ook opstelling van het team vereist LLMO om geoptimaliseerde inhoudslevering toe te laten.
+Zoals hierboven vermeld, markeert de zichtbaarheid van de inhoud pagina&#39;s waar belangrijke inhoud voor AI-agents verloren gaat door weergave op de client. Voor elke geïdentificeerde pagina wordt precies aangegeven welke inhoud ontbreekt in de AI-agentweergave, zodat u de zichtbaarheidsverschillen kunt vaststellen. Het wordt ook ondersteund door een &#39;edge-based&#39; pre-rendering functie die meer HTML-inhoud kan leveren aan mobiel verkeer zonder dat wijzigingen in het Content Management System (CMS) vereist zijn. Deze functionaliteit is momenteel in Vroege Toegang en vereist opstelling van het team LLMO. Neem contact op met `llmo-at-edge@adobe.com` om de zichtbaarheid van de inhoud te activeren.
 
 ### Extra gereedschappen
 
-De [&#x200B; LLM zichtcontrole &#x200B;](https://chromewebstore.google.com/detail/is-your-webpage-citable/jbjngahjjdgonbeinjlepfamjdmdcbcc) is een uitbreiding van Chrome die u precies laat zien hoeveel van uw inhoud LLMs van de webpagina kan toegang hebben en ook wat verborgen blijft. Deze software is ontworpen als een gratis, standalone diagnoseprogramma en vereist geen productlicentie of installatie. Met een enkele klik kunnen gebruikers de gereedschapsleesbaarheid van elke site evalueren, een vergelijking naast elkaar weergeven van wat AI-agents zien in vergelijking met wat menselijke gebruikers zien. Bovendien wordt geschat hoeveel inhoud kan worden hersteld door LLM Optimizer te gebruiken.
+De [ LLM zichtcontrole ](https://chromewebstore.google.com/detail/is-your-webpage-citable/jbjngahjjdgonbeinjlepfamjdmdcbcc) is een uitbreiding van Chrome die u precies laat zien hoeveel van uw inhoud LLMs van de webpagina kan toegang hebben en ook wat verborgen blijft. Deze software is ontworpen als een gratis, standalone diagnoseprogramma en vereist geen productlicentie of installatie. Met een enkele klik kunnen gebruikers de gereedschapsleesbaarheid van elke site evalueren, een vergelijking naast elkaar weergeven van wat AI-agents zien in vergelijking met wat menselijke gebruikers zien. Bovendien wordt geschat hoeveel inhoud kan worden hersteld door LLM Optimizer te gebruiken.
