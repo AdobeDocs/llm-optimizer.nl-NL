@@ -1,9 +1,9 @@
 ---
 title: URL-controle
-description: Dit is het artikeloverzicht.
-source-git-commit: e35ddb9b055d2f974fd94b3a21e13e92d05c8799
+description: Leer hoe u de URL-controle kunt gebruiken om te analyseren hoe specifieke pagina's op uw domein in AI-zoekopdrachten uitvoeren.
+source-git-commit: e8ea9ae0d6592ea3d1e9945ec117f852112ba9d7
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Met de URL-controle kunt u analyseren hoe specifieke pagina&#39;s op uw domein in AI-zoekopdrachten uitvoeren. Het combineert zicht, agentisch verkeer, en verwijzingsgegevens op het niveau URL om u een korrelige mening te geven van welke URLs wordt geciteerd en hoe vaak zij in reacties verschijnen. **SR-NEEDS CDN?**
 
-![&#x200B; Inspecteur URL &#x200B;](/help/dashboards/assets/url-insp.png)
+![ Inspecteur URL ](/help/dashboards/assets/url-insp.png)
 
 ## Filters
 
@@ -55,7 +55,7 @@ In de weergave van de aangehaalde URL worden alle URL&#39;s van uw merk weergege
 
 De trending URLs die voor citatiemening concurreren benadrukt externe URLs die momenteel in antwoorden relevant voor uw merk worden genoemd, die meten wie citaten in uw ruimte wint. De gegevenslijst heeft een onderzoeksgebied voor snelle toegang tot specifieke URLs. Ook, kunt u de **optie van de Uitvoer** gebruiken om lijst .csv te downloaden en de inzichten met uw team te delen of de lijst in uitvoerende rapportering te omvatten.
 
-![&#x200B; het Trending URLs die voor Cites &#x200B;](/help/dashboards/assets/trend-url.png) concurreren
+![ het Trending URLs die voor Cites ](/help/dashboards/assets/trend-url.png) concurreren
 
 De volgende cijfers worden verstrekt:
 

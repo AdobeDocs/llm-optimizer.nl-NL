@@ -1,9 +1,9 @@
 ---
 title: Collaboration
-description: Dit is het artikeloverzicht.
-source-git-commit: 5dbf794b87df92583daec83ab02063821ee7a412
+description: Leer hoe u het dashboard voor samenwerking kunt gebruiken om teamleden uit te nodigen voor de LLM Optimizer-werkruimte van uw organisatie.
+source-git-commit: e8ea9ae0d6592ea3d1e9945ec117f852112ba9d7
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -17,4 +17,4 @@ Met Collaboration kunt u teamleden uitnodigen voor de LLM Optimizer-werkruimte v
 
 U kunt teamleden uitnodigen door hun e-mail in het **E-mailgebied van het Adres** toe te voegen en **te klikken verzendt Uitnodiging**. Als ze accepteren, nemen ze deel aan de LLM Optimizer-werkruimte van uw organisatie.
 
-![&#x200B; Uitnodiging Collaboration &#x200B;](/help/dashboards/assets/collaboration.png)
+![ Uitnodiging Collaboration ](/help/dashboards/assets/collaboration.png)

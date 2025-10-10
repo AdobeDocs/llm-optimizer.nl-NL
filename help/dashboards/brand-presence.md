@@ -1,9 +1,9 @@
 ---
 title: Merk aanwezig
-description: Dit is het artikeloverzicht.
-source-git-commit: 601c17b07ed102322b674f685c65326f1ed36995
+description: Leer hoe u het dashboard Brand Presence kunt gebruiken om te begrijpen hoe uw merk wordt ervaren op het niveau van door AI gegenereerde reacties.
+source-git-commit: e8ea9ae0d6592ea3d1e9945ec117f852112ba9d7
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1174'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Het dashboard Brand Presence biedt een overzicht van hoe uw merk wordt waargenomen op het niveau van door AI gegenereerde reacties. Het laat zien waar, hoe vaak en in welke context uw merk wordt genoemd. U kunt het dashboard gebruiken om zichtbaarheid te meten, citaties bij te houden, concurrenten te vergelijken en sentimentstrends te verkennen. Het dashboard bestaat uit verschillende gedeelten, die elk verschillende inzichten bieden. Er zijn ook aanpasbare filters waarmee u de weergegeven gegevens kunt verfijnen.
 
-![&#x200B; Aanwezigheid van het Merk &#x200B;](/help/dashboards/assets/brand-main.png)
+![ Aanwezigheid van het Merk ](/help/dashboards/assets/brand-main.png)
 
 Op deze pagina vindt u het volgende:
 
@@ -38,7 +38,7 @@ Nadat u de gewenste filter selecteert, klik **toepassen Filters** om de selectie
 
 Het dashboard benadrukt drie zeer belangrijke metriek bij de bovenkant van de pagina: zichtbaarheidsscore, aanhalingstekens en citaten. Hoe lager de telling voor deze cijfers, hoe slechter uw merk wordt waargenomen, en u moet actie ondernemen om uw merkaanwezigheid te verbeteren. als **SR - VOEG hier optimalisatiekoppeling toe**. Hieronder ziet u een korte beschrijving van elke meting en van wat deze vertegenwoordigt.
 
-![&#x200B; Metriek van het Overzicht &#x200B;](/help/dashboards/assets/overview-metrics.png)
+![ Metriek van het Overzicht ](/help/dashboards/assets/overview-metrics.png)
 
 ### Zichtbaarheidsscore {#visibility-score}
 
@@ -58,7 +58,7 @@ Tendindicatoren voor elke metrische sleutel tonen hoe deze waarden in de loop de
 
 In het vergelijkingsgedeelte voor concurrenten kunt u maximaal vijf concurrenten selecteren en hun vermeldingen en citaten vergelijken met uw merk. Op deze manier kunt u uw prestaties in verhouding tot de concurrentie bekijken en benchmarken.
 
-![&#x200B; Vergelijking van de concurrent &#x200B;](/help/dashboards/assets/competitor-comparison.png)
+![ Vergelijking van de concurrent ](/help/dashboards/assets/competitor-comparison.png)
 
 De concurrenten worden geselecteerd van de drop-down lijst en de grafieken worden bijgewerkt wanneer u **klikt toepassen Filters**. De grafieken geven wekelijkse vermeldingen en wekelijkse citaten naast elkaar weer. U kunt de muis ook boven het diagram houden om de gegevensevolutie over het wekelijkse tijdkader te zien.
 
@@ -66,13 +66,13 @@ De concurrenten worden geselecteerd van de drop-down lijst en de grafieken worde
 
 In de sectie over trends in sentimenten kunt u bijhouden hoe uw merk wordt waargenomen in de gesampelde AI-antwoorden. De metrische sentimentstrend kan positief, neutraal of negatief zijn. Het kan bijvoorbeeld positief zijn als de antwoorden de productkwaliteit benadrukken, of negatief als zij de slechte dienst vermelden. De trendgrafiek toont de verschuivingen in de week van de merkperceptie. De sectie wordt pas gevuld nadat uw merk is vermeld.
 
-![&#x200B; Tendens van de Aanwijzing &#x200B;](/help/dashboards/assets/sentiment-trend.png)
+![ Tendens van de Aanwijzing ](/help/dashboards/assets/sentiment-trend.png)
 
 ## Gegevens-inzichten en het delen van stem {#data-insights}
 
 Aan het oprichten van het dashboard, hebben wij twee belangrijke lijsten: gegevensinzichten en aandeel van stem. De informatie in deze tabellen helpt u te bepalen waar uw merk sterk is en waar optimalisatie nodig is.  Door de **lijst van gegevensinzichten** te gebruiken kunt u onderwerpen en gebruikersvragen onderzoeken om inhoudseffect te beoordelen en te optimaliseren. De resultaten worden gedetailleerd door onderwerpen en herinneringen. Ondertussen, vergelijkt het **aandeel van stem** lijst, uw merkstem met andere concurrenten over onderwerpen en helpt u hiaten identificeren en toekomstige onderwerpen voorrang geven.
 
-![&#x200B; Inzichten van Gegevens &#x200B;](/help/dashboards/assets/data-insights.png)
+![ Inzichten van Gegevens ](/help/dashboards/assets/data-insights.png)
 
 Beide lijsten hebben een onderzoeksgebied voor snelle toegang tot onderwerpen. Ook, kunt u de **optie van de Uitvoer** gebruiken om lijst .csv te downloaden en de inzichten met uw team te delen of de lijst in uitvoerende rapportering te omvatten.
 

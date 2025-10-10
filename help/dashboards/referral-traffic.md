@@ -1,9 +1,9 @@
 ---
 title: Verwijzingsverkeer
-description: Dit is het artikeloverzicht.
-source-git-commit: c83b4929a82331534654fcfdccd41d91eefe6d92
+description: Leer hoe u het dashboard Referral-verkeer kunt gebruiken om te zien hoe bezoekers uw site bereiken via externe platforms, AI-citaties en verwijzingskoppelingen.
+source-git-commit: e8ea9ae0d6592ea3d1e9945ec117f852112ba9d7
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Op deze pagina vindt u het volgende:
 
 Bij de eerste aanmelding kan het dashboard Referral-verkeer leeg worden weergegeven. Om uw gegevens te bekijken, moet u een verwijzingsverkeersleverancier vormen.
 
-![&#x200B; Opstelling van de Verwijzing &#x200B;](/help/dashboards/assets/referral-setup.png)
+![ Opstelling van de Verwijzing ](/help/dashboards/assets/referral-setup.png)
 
 1. Selecteer uw Source (CDN-logboeken of AEM Operational Telemetry).
 2. Voer een e-mail met primaire contactpersoon in.
@@ -56,7 +56,7 @@ Het dashboard benadrukt de algemene verwijzingsprestaties door de volgende belan
 * **Constante tarief** - het percentage bezoekers die een toestemmingsherinnering goedkeuren.
 * **Stuitpercentage** - het percentage zittingen van verwijzingsbronnen die geen betrokkenheidsgebeurtenis hadden.
 
-![&#x200B; Verwijzing Pagina &#x200B;](/help/dashboards/assets/referral-traffic.png)
+![ Verwijzing Pagina ](/help/dashboards/assets/referral-traffic.png)
 
 Naast de algemene prestatiesmetriek die hierboven wordt voorgesteld, onderbreekt het **Hoogste Gebieden** paneel verkeer door geografie. Ondertussen, toont het **Belangrijkste paneel van de Verwijzing Bronnen** de platforms die de meeste bezoeken drijven.
 
@@ -64,13 +64,13 @@ Naast de algemene prestatiesmetriek die hierboven wordt voorgesteld, onderbreekt
 
 De lijst URL&#39;s met verwijzingen naar verwijzingen bevat de meest bezochte pagina&#39;s van uw site.
 
-![&#x200B; Hoogste Verwijzing URLs &#x200B;](/help/dashboards/assets/top-url.png)
+![ Hoogste Verwijzing URLs ](/help/dashboards/assets/top-url.png)
 
 ## Referral-verkeersdetails {#traffic-details}
 
 De lijst van de Details van het Verkeer van de Verwijzing helpt u zowel verkeersvolume als kwaliteit evalueren. Het verstrekt een gedetailleerde uitsplitsing door bron, met inbegrip van bezoektellingen, stuittarieven, en kanaaltype.
 
-![&#x200B; Details van het Verkeer van de Verwijzing &#x200B;](/help/dashboards/assets/traffic-details.png)
+![ Details van het Verkeer van de Verwijzing ](/help/dashboards/assets/traffic-details.png)
 
 De tabel bevat de volgende categorieën:
 
