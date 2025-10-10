@@ -2,9 +2,9 @@
 user-guide-title: LLM Optimizer
 breadcrumb-title: LLM Optimizer
 user-guide-description: Verhoog je merk met Adobe LLM Optimizer. Houd beweringen bij, ontdek inzichten en domineer zoekopdrachten op AI-basis. Neem de controle over uw zichtbaarheid - optimaliseer nu!
-source-git-commit: 5989f8b007b1b336fe23424c7bd0269b859664e0
+source-git-commit: 8af1282c6dfa6d56ea19c241b701dc1b833c255b
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
@@ -13,16 +13,17 @@ ht-degree: 0%
 # LLM Optimizer {#using}
 
 + [LLM Optimizer](/help/home.md)
-+ [LLM-overzicht](/help/overview/overview.md)
-+ QuickStart{#quickstart}
-   + [Aanbevolen procedures](/help/tutorials/best-practices.md)
++ LLM Optimizer Essentials{#essentials}
+   + [LLM Optimizer - Overzicht](/help/overview/overview.md)
    + [QuickStart](/help/overview/quick-start.md)
+   + [Aanbevolen procedures](/help/tutorials/best-practices.md)
 + Dashboards{#dashboards}
    + [Overzicht van dashboards](/help/dashboards/dashboards-overview.md)
    + [Merk aanwezig](/help/dashboards/brand-presence.md)
    + [Agentic Traffic](/help/dashboards/agentic-traffic.md)
-   + [Collaboration](/help/dashboards/collaboration.md)
-   + [Klantconfiguratie](/help/dashboards/customer-configuration.md)
    + [Verwijzingsverkeer](/help/dashboards/referral-traffic.md)
-   + [Kansen](/help/dashboards/opportunities.md)
    + [URL-controle](/help/dashboards/url-inspector.md)
+   + [Kansen](/help/dashboards/opportunities.md)
+   + [Klantconfiguratie](/help/dashboards/customer-configuration.md)
+   + [Collaboration](/help/dashboards/collaboration.md)
+
