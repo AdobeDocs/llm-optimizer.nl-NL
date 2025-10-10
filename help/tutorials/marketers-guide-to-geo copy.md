@@ -38,9 +38,9 @@ De focus ligt op waarderingen, top 10 posities, resultaten van zoekprogrammaresu
 
 In Adobe LLM Optimizer zijn top-KPI&#39;s rechtstreeks beschikbaar in het gereedschap.
 
-* AI-zichtbaarheid bijhouden: u moet zien wanneer en hoe uw pagina&#39;s worden weergegeven in door AI gegenereerde antwoorden. Dit omvat **citaties** en **citaten** en sentiment. Zie [ dashboard van de Aanwezigheid van 0} Merk](/help/dashboards/brand-presence.md)
+* AI-zichtbaarheid bijhouden: u moet zien wanneer en hoe uw pagina&#39;s worden weergegeven in door AI gegenereerde antwoorden. Dit omvat **citaties** en **citaten** en sentiment. Zie [&#x200B; dashboard van de Aanwezigheid van 0&rbrace; Merk](/help/dashboards/brand-presence.md)
 
-* Agentic Traffic Measurement: You need to understanding traffic coming from AI-powered referrals or summary&#39;s. Zie [ Agentic het dashboard van het Verkeer ](/help/dashboards/agentic-traffic.md)
+* Agentic Traffic Measurement: You need to understanding traffic coming from AI-powered referrals or summary&#39;s. Zie [&#x200B; Agentic het dashboard van het Verkeer &#x200B;](/help/dashboards/agentic-traffic.md)
 
 <!-- Not sure llm optimizer has all these - remove those not relevant-->
 

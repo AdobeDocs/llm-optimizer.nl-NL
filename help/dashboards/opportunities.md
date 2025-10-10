@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Optimalisatiemogelijkheden zijn automatisch gedetecteerde inzichten die laten zien waar uw site en externe aanwezigheid kunnen worden verbeterd om de zichtbaarheid van uw merk in AI-zoekopdrachten te vergroten. Deze optimalisaties omvatten correcties op pagina&#39;s (het toevoegen van gestructureerde inhoud, chemicaliën, of samenvattingen), technische aanpassingen (het ontgrendelen van AI-crawlers of het oplossen van fouten) en het beïnvloeden van inhoud op gezaghebbende plaatsen van derden. Door deze optimalisatiemogelijkheden aan te pakken, kan uw merk nauwkeurig worden weergegeven en kan het waarschijnlijker worden genoemd in generatieve reacties.
 
-![ de kansen van de Optimalisering ](/help/dashboards/assets/oport.png)
+![&#x200B; de kansen van de Optimalisering &#x200B;](/help/dashboards/assets/oport.png)
 
 ## Opportunity-dashboard
 

@@ -50,9 +50,9 @@ Om de Inzichten van het Verkeer van het Verkeer van het Bureau en van het Verkee
 
 Nadat u informatie voor het Door:sturen van het Logboek CDN verstrekt, kunt u:
 
-* Bekijk het [ dashboard van de Aanwezigheid van het Merk ](/help/dashboards/brand-presence.md), bekijk uw zichtbaarheidsscore en spoor uw prestaties met betrekking tot uw concurrenten.
-* Onderzoek [ Agentic ](/help/dashboards/agentic-traffic.md) en [ het dashboards van het Verkeer van de Verwijzing ](/help/dashboards/referral-traffic.md).
-* Gebruik [ Kansen ](/help/dashboards/opportunities.md) om inhoud en technische verbeteringen te identificeren.
+* Bekijk het [&#x200B; dashboard van de Aanwezigheid van het Merk &#x200B;](/help/dashboards/brand-presence.md), bekijk uw zichtbaarheidsscore en spoor uw prestaties met betrekking tot uw concurrenten.
+* Onderzoek [&#x200B; Agentic &#x200B;](/help/dashboards/agentic-traffic.md) en [&#x200B; het dashboards van het Verkeer van de Verwijzing &#x200B;](/help/dashboards/referral-traffic.md).
+* Gebruik [&#x200B; Kansen &#x200B;](/help/dashboards/opportunities.md) om inhoud en technische verbeteringen te identificeren.
 * Exporteer gegevens en werk samen met uw team of nodig uw collega uit om het product te gebruiken.
 
 Zie de beschikbare dashboards in de sectie hieronder.
