@@ -65,9 +65,9 @@ Met Adobe LLM Optimizer kunt u:
 
 Hier zijn bronnen die u kunnen helpen het beste uit de LLM Optimizer te halen:
 
-* [ QuickStart ](/help/overview/quick-start.md) krijgt u snel in werking gesteld.
-* [ overzicht van dashboards ](/help/dashboards/dashboards-overview.md) beschrijft alle dashboards beschikbaar in LLM Optimizer.
-* [ Beste praktijken ](/help/tutorials/best-practices.md) gidsen u door hoe te om het hulpmiddel te gebruiken om de inzichten te krijgen u voor uw merk nodig hebt.
+* [&#x200B; QuickStart &#x200B;](/help/overview/quick-start.md) krijgt u snel in werking gesteld.
+* [&#x200B; overzicht van dashboards &#x200B;](/help/dashboards/dashboards-overview.md) beschrijft alle dashboards beschikbaar in LLM Optimizer.
+* [&#x200B; Beste praktijken &#x200B;](/help/tutorials/best-practices.md) gidsen u door hoe te om het hulpmiddel te gebruiken om de inzichten te krijgen u voor uw merk nodig hebt.
 
 
 
