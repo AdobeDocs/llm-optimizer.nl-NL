@@ -1,9 +1,9 @@
 ---
 title: Klantconfiguratie
 description: Gebruik de configuratie van de klant om te bepalen hoe uw merk binnen het optimaliseringsplatform LLM wordt gecontroleerd en geanalyseerd.
-source-git-commit: 653a6be856412faac8783fa9dc7b759a7c6e1f68
+source-git-commit: b39a6acbcb86c91d23c3aab790266f37b579f651
 workflow-type: tm+mt
-source-wordcount: '1594'
+source-wordcount: '1608'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 De Configuratie van de klant is waar u bepaalt hoe uw merk binnen het optimaliseringsplatform LLM zal worden gecontroleerd en worden geanalyseerd. U kunt categorieën (zoals bedrijfseenheden of productlijnen) aanpassen, concurrenten volgen, en merkpuntsaliassen toevoegen om alle variaties van uw merk in herinneringen te vangen. Deze opstelling verzekert het platform inzicht in uw bedrijfscontext, toelatend nauwkeurige zicht, verkeer, en opportuniteitsanalyse.
 
-![&#x200B; Dashboard van de Configuratie van de Klant &#x200B;](/help/dashboards/assets/customer-config.png)
+![ Dashboard van de Configuratie van de Klant ](/help/dashboards/assets/customer-config.png)
 
 
 ## Beste praktijken voor het vormen van categorieën, onderwerpen, en herinneringen
@@ -104,7 +104,7 @@ Ben zeker om herinneringen regelmatig te herzien en bij te werken om ervoor te z
 
 >[!TIP]
 >
->* U kunt gereedschappen zoals LLM Optimizer en Google Search Console met regex-filters gebruiken om algemene vraagstructuren te identificeren (bijvoorbeeld &quot;hoe,&quot; &quot;wat&quot;, &quot;wanneer&quot;, &quot;waar&quot;).
+>* Met gereedschappen als de Adobe LLM Optimizer en Google Search Console met regex-filters kunt u veelvoorkomende vraagstructuren identificeren (bijvoorbeeld &quot;hoe&quot;, &quot;wat&quot;, &quot;wanneer&quot; en &quot;waar&quot;) en nagaan welke aanwijzingen mensen gebruiken om uw site te bezoeken.
 >* Als u wilt weten welke aanwijzingen relevant zijn voor uw site/merk, kunt u onsite zoekgegevens, veelgestelde vragen in de resultatenpagina&#39;s van zoekprogramma&#39;s gebruiken of zelfs LLM-chatbots rechtstreeks vragen welke vragen klanten kunnen stellen over uw merk.
 
 ### Aanbevolen werkwijzen voor concurrenten
@@ -140,7 +140,7 @@ Vanuit het tabblad Categorieën kunt u bedrijfscategorieën of productlijnen def
 3. Pas het **Verwante Gebied** aan waar de categorie zal worden gecontroleerd.
 4. Klik **sparen** en de nieuwe categorie zal op de categorielijst verschijnen.
 
-Het toevoegen van nieuwe categorieën zal automatisch geen onderwerpen en herinneringen produceren - deze zullen manueel van de [&#x200B; Inzichten van Gegevens &#x200B;](#data-insights) tabel moeten worden toegevoegd.
+Het toevoegen van nieuwe categorieën zal automatisch geen onderwerpen en herinneringen produceren - deze zullen manueel van de [ Inzichten van Gegevens ](#data-insights) tabel moeten worden toegevoegd.
 
 Als u een categorie wilt verwijderen, klikt u op het pictogram Verwijderen in de categorielijst. Wees voorzichtig, omdat **het schrappen van een categorie ook de bijbehorende punten** als concurrenten zal schrappen u opstelling of merkaliassen zou kunnen hebben die met die specifieke categorie verbonden zijn.
 
@@ -170,9 +170,9 @@ Als u een merkalias wilt verwijderen, klikt u op het verwijderpictogram in de li
 
 ## Gegevens-inzichten {#data-insights}
 
-Op dit tabblad kunt u vragen controleren, beheren en aanpassen. U kunt de gegevensinzichten van de Aanwezigheid van de a [&#x200B; &#x200B;](/help/dashboards/brand-presence.md#data-insights) .csv uploaden en de lijst met herinneringen en onderwerpen van die analyse worden bevolkt. U kunt onderwerpen en hun bijbehorende herinneringen ook schrappen wijzigen en toevoegen zoals nodig.
+Op dit tabblad kunt u vragen controleren, beheren en aanpassen. U kunt de gegevensinzichten van de Aanwezigheid van de a [ ](/help/dashboards/brand-presence.md#data-insights) .csv uploaden en de lijst met herinneringen en onderwerpen van die analyse worden bevolkt. U kunt onderwerpen en hun bijbehorende herinneringen ook schrappen wijzigen en toevoegen zoals nodig.
 
-Als u een CSV-bestand met gegevensinzichten wilt importeren, moet u eerst een bestand exporteren vanaf het dashboard Handaanwezigheid. Zie de [&#x200B; gegevensinzichten &#x200B;](/help/dashboards/brand-presence.md#data-insights) sectie leren hoe te om dat te doen. Zodra u het bestand hebt:
+Als u een CSV-bestand met gegevensinzichten wilt importeren, moet u eerst een bestand exporteren vanaf het dashboard Handaanwezigheid. Zie de [ gegevensinzichten ](/help/dashboards/brand-presence.md#data-insights) sectie leren hoe te om dat te doen. Zodra u het bestand hebt:
 
 1. Op het dashboard, klik **uploadt CSV**.
 2. In het venster Gegevens importeren sleept u het bestand en zet u het neer of kiest u het bestand handmatig.
