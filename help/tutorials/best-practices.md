@@ -64,7 +64,7 @@ Deze strategische aanpak zorgt voor gerichte, gegevensgestuurde verbeteringen in
 
 ## Actief optimaliseringsstappen
 
-LLM Optimizer stelt optimalisatiemogelijkheden in het [ 1} dashboard van Kansen voor.](/help/dashboards/opportunities.md)
+LLM Optimizer stelt optimalisatiemogelijkheden in het [&#x200B; 1&rbrace; dashboard van Kansen voor.](/help/dashboards/opportunities.md)
 
 Hier volgen enkele praktische acties om de zichtbaarheid van merken in LLM&#39;s te vergroten:
 
@@ -112,7 +112,7 @@ Zo kunt u de zichtbaarheid van uw merk in LLM&#39;s in de gaten houden:
    * Zorg ervoor dat uw inhoud uw expertise, betrouwbaarheid en autoriteit (EEAT) toont.
 
 1. Uw inhoud verbeteren
-   * Met de LLM Optimizer Opportunity kunt u direct wijzigingen in uw site identificeren en aangeven wat u specifiek aanbeveelt. Zie [ Kansen ](/help/dashboards/opportunities.md) (dan de resultaten meten.) Controleer regelmatig de sectie over de mogelijkheden en onderneem actie naar aanleiding van de gedane aanbevelingen.
+   * Met de LLM Optimizer Opportunity kunt u direct wijzigingen in uw site identificeren en aangeven wat u specifiek aanbeveelt. Zie [&#x200B; Kansen &#x200B;](/help/dashboards/opportunities.md) (dan de resultaten meten.) Controleer regelmatig de sectie over de mogelijkheden en onderneem actie naar aanleiding van de gedane aanbevelingen.
    * Werk uw website en andere inhoud bij om deze relevanter te maken voor de aanwijzingen waarop u zich wilt richten.
    * Voeg veelgestelde vragen toe aan uw pagina&#39;s die veelgestelde vragen beantwoorden.
    * Zorg ervoor dat de inhoud gemakkelijk te vinden en te lezen is voor LLM&#39;s. Los problemen zoals geblokkeerde pagina&#39;s of problemen met de code van uw website op.
