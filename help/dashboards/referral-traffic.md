@@ -27,7 +27,7 @@ Op deze pagina vindt u het volgende:
 
 Bij de eerste aanmelding kan het dashboard Referral-verkeer leeg worden weergegeven. Om uw gegevens te bekijken, moet u een verwijzingsverkeersleverancier vormen, door **te selecteren ga naar Configuratie**.
 
-![ Opstelling van de Verwijzing ](/help/dashboards/assets/referral-setup1.png)
+![&#x200B; Opstelling van de Verwijzing &#x200B;](/help/dashboards/assets/referral-setup1.png)
 
 <!--- 1. Select your Source (either CDN logs or AEM Operational Telemetry).
 2. Enter a primary contact email.
@@ -56,7 +56,7 @@ Het dashboard benadrukt de algemene verwijzingsprestaties door zeer belangrijke 
 * **Constante tarief** - het percentage bezoekers die een toestemmingsherinnering goedkeuren.
 * **Stuitpercentage** - het percentage zittingen van verwijzingsbronnen die geen betrokkenheidsgebeurtenis hadden.
 
-![ Verwijzing Pagina ](/help/dashboards/assets/referral-traffic.png)
+![&#x200B; Verwijzing Pagina &#x200B;](/help/dashboards/assets/referral-traffic.png)
 
 Naast de algemene prestatiesmetriek die hierboven wordt voorgesteld, onderbreekt het **Hoogste Gebieden** paneel verkeer door geografie. Ondertussen, toont het **Belangrijkste paneel van de Verwijzing Bronnen** de platforms die de meeste bezoeken drijven. Trend-indicatoren voor de meetwaarden laten zien hoe deze waarden in de loop der tijd veranderen ten opzichte van de vorige periode.
 
@@ -70,7 +70,7 @@ The Top Referral URLs list surfaces your site’s most visited pages from referr
 
 De de gegevensdetails van de Bron van de Verwijzing en lijsten van de Analyse van de Prestaties URL helpen u zowel verkeersvolume als kwaliteit evalueren. Klik op elk tabblad hieronder voor meer informatie:
 
-![ Details van het Verkeer van de Verwijzing ](/help/dashboards/assets/traffic-details.png)
+![&#x200B; Details van het Verkeer van de Verwijzing &#x200B;](/help/dashboards/assets/traffic-details.png)
 
 >[!BEGINTABS]
 
