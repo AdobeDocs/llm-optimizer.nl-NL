@@ -1,29 +1,62 @@
 ---
 title: Aanbevolen procedures voor LLM Optimizer
 description: Ontdek best practices voor LLM-optimalisatie om de zichtbaarheid van merken in AI-zoekopdrachten te verhogen. Inzichten voor benchmarking en optimalisering van inhoud.
-source-git-commit: 70d0b8c042cbdd87bab1c9ef3139af9c72a4a09d
+source-git-commit: 29e067086f9b6dd41c04b349c86ddc1c2baf8d2f
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1440'
 ht-degree: 0%
 
 ---
 
 
-# Aanbevolen procedures
-
-[ CONCEPT ]
+# Aanbevolen procedures voor LLM Optimizer
 
 De Optimalisering van LLM, ook genoemd Generative Motor Optimization (GEO), of de Optimalisering van de Motor van het Antwoord (AEO), of AI Optimization (AIO), is hoe u uw merk en inhoud zichtbaar, betrouwbaar, en terugwinnbaar binnen de door AI geproduceerde antwoorden - over ChatGPT, Perplexiteit, Copilot, Gemini, en andere LLM-gedreven medewerkers maakt.
 
 Als traditionele SEO u hielp om pagina-één rangschikking te winnen, helpt de optimalisering van LLM u AI citaties en zicht binnen antwoordmotoren winnen. Met de Adobe LLM Optimizer kunt u de zichtbaarheid van uw merk binnen de antwoordengines meten en verbeteren.
 
-In dit artikel worden aanbevolen procedures beschreven voor het meten en verbeteren van de zichtbaarheid en invloed in door AI gestuurde zoekomgevingen met de Adobe LLM Optimizer.
+In dit artikel worden aanbevolen procedures beschreven voor het meten en verbeteren van de zichtbaarheid en invloed in door AI gestuurde zoekomgevingen met Adobe LLM Optimizer.
+
+* [LLM vs SEO](#key-differences)
+* [Zichtbaarheid van LLM-merk ontgrendelen](#unlocking-llm-brand-visibility)
+* [Strategische campagneplanning](#strategic-campaign-planning)
+* [Handelbare optimaliseringsstappen](#actionable-optimization-steps)
+* [Offsite optimalisatie voor LLM-zichtbaarheid](#offsite-optimization-for-llm-visibility)
+* [Zichtbaarheid van de meetlint](#measuring-llm-visibility)
+* [Wijzigingen in zichtbaarheid bijhouden](#tracking-visibility-changes)
+
+## LLM versus SEO: belangrijkste verschillen {#key-differences}
+
+Een sterke SEO-stichting ondersteunt LLM-optimalisatie, maar er zijn nieuwe tactieken nodig om de zichtbaarheid van door AI gegenereerde reacties te garanderen.
+
+>[!NOTE]
+>
+>SEO-verkeer is momenteel nog steeds de grootste drijfveer voor het verkeer naar de meeste websites, waardoor het van groot belang is voor de zichtbaarheidsstrategie van uw merk.
+
+
+| SEO | LLM |
+|---------|----------|
+| Op basis van index | *Op token gebaseerde (getrainde gegevens) |
+| Betrokkenheid van koppelingsbevoegdheden | **Merknamen zijn belangrijker |
+| JS-rendering ondersteund | Zeer beperkte client-side JS-rendering |
+| Indexering in realtime | ***Ophalen-Augmented Generation (RAG) voor versheid |
+
+*Hoewel LLM-resultaten geen geïndexeerde pagina&#39;s gebruiken, gebruiken LLM&#39;s wel zoekmachines om snelle antwoorden te verbeteren via de RAG (Retrievel-Augmented Generation).
+
+** LLM&#39;s geven prioriteit aan relevantie van inhoud en aanwezigheid van het merk boven backlinks.
+
+*** RAG reduceert hallucinaties
+
+Andere overwegingen voor optimalisering LLM:
+
+* Onzekerheid van inhoud is van belang: LLM&#39;s geven prioriteit aan onlangs bijgewerkte inhoud. (Zoekprogramma&#39;s geven hier ook prioriteit aan voor tijdgevoelige query&#39;s, maar vertrouwen zwaarder op andere waarden.)
+* Het is van groot belang dat men in de vorm van beweringen en citaten (derden) verdiend wordt.
 
 ## Zichtbaarheid van LLM-merk ontgrendelen
 
-Optimalisatie van het grote taalmodel (LLM) transformeert de manier waarop merken worden gedetecteerd en waarnaar wordt verwezen in AI-omgevingen. Adobe LLM Optimizer biedt een gestructureerde aanpak om de zichtbaarheid van merken te verbeteren.
+Bij de zichtbaarheid van LLM gaat het er allemaal om hoe vaak en hoe prominent uw merk wordt weergegeven in door AI gegenereerde antwoorden.
 
-Voer de volgende stappen uit om uw LLM-zichtbaarheid te verbeteren:
+Om uw zichtbaarheid te verbeteren,
 
 1. **Analyseer:** Overzicht hoe uw merk in zeer belangrijke klantenherinneringen over LLMs verschijnt.
 2. **Plan:** de clusters van het doel van herinneringen met gelijkaardige bedoeling voor gerichte campagnes.
@@ -34,37 +67,20 @@ Voer de volgende stappen uit om uw LLM-zichtbaarheid te verbeteren:
 
 Als u deze stappen begrijpt en gebruikt, kunt u uw merk beter blijven gebruiken omdat AI centraal staat bij het detecteren van informatie.
 
-## LLM versus SEO: belangrijkste verschillen
-
-Een goede LLM strategie bouwt op een goede SEO strategie voort. Een SEO-strategie vormt de basis voor alle LLM-optimalisaties. SEO-verkeer is momenteel nog steeds de grootste drijfveer voor het verkeer naar de meeste websites, waardoor het erg belangrijk is voor de zichtbaarheidsstrategie van uw merk.
-
-Het is belangrijk om te begrijpen dat optimaliseren voor LLMs van traditionele SEO wegens sommige zeer belangrijke verschillen verschilt:
-
-* LLM&#39;s gebruiken tokens, niet indexen: resultaten worden gegenereerd op basis van opgeleide gegevens, niet op geïndexeerde webpagina&#39;s, maar LLM&#39;s gebruiken zoekmachines om snelle antwoorden te verbeteren via de RAG (Retrievel-Augmented Generation).
-* Real-time informatie via RAG: zoekprogramma&#39;s gebruiken real-time gegevens, terwijl RAG LLM&#39;s toestaat actuele informatie op te halen, waardoor hallucinaties afnemen.
-* Beperkte JS-rendering op client: LLM&#39;s verwerken momenteel JavaScript op client niet, wat invloed heeft op de zichtbare inhoud.
-
-Wegens sommige van deze fundamentele verschillen, met strategie LLM moet u het volgende overwegen:
-
-* Merknamen zijn meer belangrijk dan koppelingen voor LLM&#39;s: LLM&#39;s geven prioriteit aan relevantie van inhoud en aanwezigheid van merken boven backlinks. In tegenstelling tot SEO, gebruiken LLMs geen verbindingen om gezag te bepalen.
-* Onzekerheid van inhoud is van belang: LLM&#39;s geven prioriteit aan onlangs bijgewerkte inhoud. (Zoekprogramma&#39;s geven hier ook prioriteit aan voor tijdgevoelige query&#39;s, maar vertrouwen zwaarder op andere waarden.)
-* Het is van groot belang dat men in de vorm van beweringen en citaten (derden) verdiend wordt.
-
-## Strategische planning van campagnes
+## Strategische campagneplanning
 
 Het bouwen van een succesvolle LLM optimalisatiecampagne omvat:
 
-Identificeer high-value onderwerpen: Richt snelle intent met bedrijfsdoelstellingen en klantenbehoeften.
-Spot concurrent merkt op: Focus op aanwijzingen waar concurrenten worden genoemd en geeft aan dat er mogelijkheden zijn om merken in te sluiten.
-Groepprompts op intent: Gebruik onderwerpen en zoekvelden om vergelijkbare gebruikersdoelen te groeperen voor benchmarkingzichtbaarheid.
-Evalueer realistische opname van merken: evalueer of uw merk geloofwaardig kan worden genoemd, rekening houdend met factoren zoals EEAT (Experience, Expertise, gezaghebbendheid, betrouwbaarheid) en YMYL (Your Money or Your Life) standaarden.
+* Identificeer high-value onderwerpen: Richt snelle intent met bedrijfsdoelstellingen en klantenbehoeften.
+* Spot concurrent merkt op: Focus op aanwijzingen waar concurrenten worden genoemd en geeft aan dat er mogelijkheden zijn om merken in te sluiten.
+* Groepprompts op intent: Gebruik onderwerpen en zoekvelden om vergelijkbare gebruikersdoelen te groeperen voor benchmarkingzichtbaarheid.
+* Evalueer realistische opname van merken: evalueer of uw merk geloofwaardig kan worden genoemd, rekening houdend met factoren zoals EEAT (Experience, Expertise, gezaghebbendheid, betrouwbaarheid) en YMYL (Your Money or Your Life) standaarden.
 
 Deze strategische aanpak zorgt voor gerichte, gegevensgestuurde verbeteringen in de zichtbaarheid van LLM.
 
+## Handelbare optimaliseringsstappen
 
-## Actief optimaliseringsstappen
-
-LLM Optimizer stelt optimalisatiemogelijkheden in het [&#x200B; 1&rbrace; dashboard van Kansen voor.](/help/dashboards/opportunities.md)
+LLM Optimizer stelt optimalisatiemogelijkheden in het [ 1} dashboard van Kansen voor.](/help/dashboards/opportunities.md)
 
 Hier volgen enkele praktische acties om de zichtbaarheid van merken in LLM&#39;s te vergroten:
 
@@ -76,33 +92,47 @@ Hier volgen enkele praktische acties om de zichtbaarheid van merken in LLM&#39;s
 
 Door deze stappen consequent uit te voeren, kan de aanwezigheid van uw merk in door AI gestuurde zoekresultaten aanzienlijk worden verbeterd.
 
+## Offsite optimalisatie voor LLM-zichtbaarheid
 
+Offsite optimalisatie richt zich op het verbeteren van de zichtbaarheid van uw merk in door AI gegenereerde antwoorden door inhoudsbronnen van derden die in LLM&#39;s vaak worden genoemd, te beïnvloeden.
 
-## Wat is LLM-zichtbaarheid?
+Belangrijke offsite kanalen:
 
-De zichtbaarheid van LLM gaat allemaal over hoe vaak en hoe goed uw merk wordt weergegeven in antwoorden die worden gegenereerd door hulpprogramma&#39;s zoals ChatGPT of andere AI-modellen.
+* Wikipedia: Zorg ervoor dat de pagina&#39;s up-to-date, well-sourced en neutraal geschreven zijn.
+* Reddit &amp; Quora: Neem deel aan besprekingen met authentieke, nuttige bijdragen.
+* Artikelen en revisies koppelen: samenwerken met uitgevers voor inhoud van hoge kwaliteit.
+* YouTube en sociale media: maak video&#39;s en posts die veelgestelde vragen beantwoorden.
+* Nieuws en PR: Veilige dekking in betrouwbare verkooppunten.
 
-## De voortgang van de LLM meten
+Aanbevolen werkwijzen:
 
-Om de zichtbaarheid van uw website te benchmarken en om te zien hoe goed uw inspanningen werken, volgt u de volgende belangrijke cijfers:
+* Diversifieer uw offsite voetafdruk.
+* Verwijzingen bekijken met Adobe LLM Optimizer.
+* Werk de inhoud van de schaal bij en zoek naar nieuwe integratiemogelijkheden.
+* Coördinatie met PR- en sociale teams.
+* Zorgen voor onpartijdige en informatieve bijdragen.
+
+## Zichtbaarheid van de meetlint
+
+Volg de volgende belangrijke meetgegevens om de zichtbaarheid van uw website te benchmarken of om verbeteringen in de zichtbaarheid te zien:
 
 * **Vermeldingen:** Hoe vaak uw merk in reacties wordt vermeld.
 * **Bevallen:** Hoe vaak LLMs uw inhoud of bronnen gebruiken om vragen te beantwoorden.
 * **Sentiment:** Of de verwijzing van uw merk positief, neutraal, of negatief is.
 * **Positie:** waar uw merk in de reactie (b.v., eerst, midden, of laatste) wordt vermeld.
 
-Al deze factoren combineren in a **zicht** score, die u vertelt hoe sterk de aanwezigheid van uw merk in reacties LLM is.
+Deze metriek combineren in a **zicht** score, die u vertelt hoe sterk de aanwezigheid van uw merk in reacties LLM is. Zie het [ Merk Aanwezigheid ](/help/dashboards/brand-presence.md) bord.
 
-## Zichtbaarheidswijzigingen bijhouden
+## Wijzigingen in zichtbaarheid bijhouden
 
-Zo kunt u de zichtbaarheid van uw merk in LLM&#39;s in de gaten houden:
+U kunt de volgende stappen uitvoeren om de voortgang te controleren:
 
 1. Controleer uw huidige zichtbaarheid
-   * Adobe LLM Optimizer laat zien hoe vaak uw merk wordt genoemd en genoemd en wat het sentiment is in LLM-reacties. Zie het dashboard Aanwezigheid merk.
-   * Kijk naar de aanwijzingen (vragen) waar je merk wordt genoemd en waar het ontbreekt.
-   * Vergelijk uw zichtbaarheid met uw concurrenten om te zien hoe u opstapelt.
-   * Controleer hoe u in gebruiker-geproduceerde platforms zoals Reddit, Quora, en Wikipedia verschijnt aangezien deze vaak door LLMs worden geciteerd om informatie te vinden.
-   * Controleer hoe u in agentisch verkeer verschijnt. Het uitzendende verkeer gaat vaak niet naar de homepage - het is de moeite waard om te bekijken welke pagina&#39;s agenten bezoeken.
+   * Gebruik Adobe LLM Optimizer om u te laten zien hoe vaak uw merk wordt genoemd en genoemd en wat het sentiment is in LLM-reacties. Zie het [ dashboard van de Aanwezigheid van het Merk ](/help/dashboards/brand-presence.md).
+   * Analyseer aanwijzingen waar uw merk voorkomt en waar het niet voorkomt.
+   * Benchmark ten opzichte van concurrenten.
+   * Bekijk de zichtbaarheid op door de gebruiker gegenereerde platforms zoals Reddit, Quora en Wikipedia. Deze UGC-platforms worden vaak genoemd door LLM&#39;s om informatie te zoeken.
+   * Het agentische verkeer van de monitor om te begrijpen welke pagina&#39;sLLMs bezoeken. Het uitzendende verkeer gaat vaak **niet** naar de homepage maar andere pagina&#39;s lager in de hiërarchie. Zie [ Agentic het dashboard van het Verkeer ](/help/assets/overview/agentic-traffic-card.png).
    * Zorg ervoor dat de inhoud zichtbaar en toegankelijk is voor LLM&#39;s. Met de Chrome-plug-in kunt u zien welke AI-agents kunnen worden weergegeven.
 
 1. Uw strategie plannen
@@ -112,7 +142,7 @@ Zo kunt u de zichtbaarheid van uw merk in LLM&#39;s in de gaten houden:
    * Zorg ervoor dat uw inhoud uw expertise, betrouwbaarheid en autoriteit (EEAT) toont.
 
 1. Uw inhoud verbeteren
-   * Met de LLM Optimizer Opportunity kunt u direct wijzigingen in uw site identificeren en aangeven wat u specifiek aanbeveelt. Zie [&#x200B; Kansen &#x200B;](/help/dashboards/opportunities.md) (dan de resultaten meten.) Controleer regelmatig de sectie over de mogelijkheden en onderneem actie naar aanleiding van de gedane aanbevelingen.
+   * Met de LLM Optimizer Opportunity kunt u direct wijzigingen in uw site identificeren en aangeven wat u specifiek aanbeveelt. Zie [ Kansen ](/help/dashboards/opportunities.md) (dan de resultaten meten.) Controleer regelmatig de sectie over de mogelijkheden en onderneem actie naar aanleiding van de gedane aanbevelingen.
    * Werk uw website en andere inhoud bij om deze relevanter te maken voor de aanwijzingen waarop u zich wilt richten.
    * Voeg veelgestelde vragen toe aan uw pagina&#39;s die veelgestelde vragen beantwoorden.
    * Zorg ervoor dat de inhoud gemakkelijk te vinden en te lezen is voor LLM&#39;s. Los problemen zoals geblokkeerde pagina&#39;s of problemen met de code van uw website op.
@@ -120,6 +150,60 @@ Zo kunt u de zichtbaarheid van uw merk in LLM&#39;s in de gaten houden:
    * Met Adobe LLM Optimizer kunt u bijhouden hoe de zichtbaarheid in de loop der tijd verandert.
    * Als u merkt dat concurrenten vaker worden genoemd, past u uw strategie aan om vooruit te blijven.
    * Blijf uw inhoud bijwerken zodat deze overeenkomt met wat mensen zoeken en vragen.
+
+## Agentic Traffic
+
+Het uitzendende verkeer verwijst naar bezoeken van AI agenten zoals ChatGPT, Google AI wijze/overzichten, Kopiëren, of Perplexiteit. Deze agenten kruipen uw plaats om informatie te verzamelen voor het produceren van antwoorden.
+
+Het uitzendende verkeer toont op twee manieren: nul-klik ervaringen en zicht zonder kliks.
+
+### Ervaring zonder klikken
+
+In de traditionele zoekopdracht klikken gebruikers door naar websites om inhoud te consumeren. Maar met LLMs krijgen de gebruikers vaak volledige antwoorden direct in de praatjeinterface of de resultaten van de zoekmachine pate zonder ooit uw plaats te bezoeken. Dit wordt een nulklikervaring genoemd.
+
+Wat dit betekent voor je merk:
+
+1. Uw inhoud kan worden samengevat of genoemd door een AI-medewerker.
+2. De gebruiker krijgt de informatie die hij of zij nodig heeft zonder op de koppeling te klikken.
+3. De zichtbaarheid en invloed van uw site zijn losgekoppeld van het verkeer.
+
+Dus zelfs als je analyses minder bezoeken vertonen, kan je merk nog steeds zeer zichtbaar en invloedrijk zijn in door AI gegenereerde antwoorden.
+
+### Zichtbaarheid zonder klikken
+
+Agentisch verkeer verwijst naar AI-berichten die uw site bezoeken om informatie te verzamelen voor training of het beantwoorden van vragen.
+
+Deze bots doen het volgende:
+
+1. kruipt uw pagina&#39;s om feiten, structuur en context te extraheren.
+2. Gebruik die gegevens om antwoorden voor gebruikers te genereren.
+3. Kan uw merk of inhoud noemen - zelfs als geen mens ooit door klikt.
+
+Waarom dit van belang is:
+
+* Uw inhoud kan de beslissingen van gebruikers indirect beïnvloeden.
+* Mogelijk beïnvloedt u het aankoopgedrag, de merkperceptie of het vertrouwen zonder traditionele betrokkenheidsmaatstaven.
+
+Het volgen van agentisch verkeer helpt u begrijpen hoe AI uw inhoud ziet en gebruikt.
+
+### Hoe te voor het Verkeer van het Agentschap optimaliseren:
+
+Optimaliseren voor zintuiglijk verkeer:
+
+* Zorg voor de schuifbaarheid door de instellingen robots.txt en CDN te controleren.
+* Gebruik de [ Inspecteur URL ](/help/dashboards/url-inspector.md) om prestaties URL te analyseren.
+* Het gedrag van de Bot van het spoor door tot uw CDN- logboeken in het [ Agentic verkeersdashboard ](/help/dashboards/agentic-traffic.md) toegang te hebben.
+* Het verkeer van het segment om bedrijfsresultaten te begrijpen. Zie [ Beste praktijken voor categorieën, onderwerpen, herinneringen, en concurrenten ](/help/overview/best-practices-topics-prompts.md).
+
+Hier volgen de meetgegevens:
+
+* Agent-treffers per URL
+* Succespercentage van beide aanvragen
+* Aanhalingsfrequentie per pagina
+* Sentiment en plaatsing van merkvermeldingen
+* Zichtbaarheidsscore wordt in de loop der tijd
+
+<!-- Add screenshot when available in demo environment>
 
 
 <!-- Use the "Share of Voice" feature to see which competitors are dominating specific topics and adjust your strategy accordingly.-->

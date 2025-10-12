@@ -1,24 +1,27 @@
 ---
-title: Beste praktijken voor Categorieën, Onderwerpen en Vragen
-description: Beschrijving hier
-source-git-commit: 099d4387b6a5efd25e142db13e309a181fe67941
+title: Beste praktijken voor Categorieën, Onderwerpen, en Vragen
+description: Optimaliseer LLM-inzichten door categorieën, onderwerpen, vragen en concurrenten te configureren voor op maat gemaakte merkbewaking en strategische inhoudanalyse.
+source-git-commit: 29e067086f9b6dd41c04b349c86ddc1c2baf8d2f
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
 
 
-# Hier intro
-
-De Configuratie van de klant is waar u bepaalt hoe uw merk binnen het optimaliseringsplatform LLM zal worden gecontroleerd en worden geanalyseerd. U kunt categorieën (zoals bedrijfseenheden of productlijnen) aanpassen, concurrenten volgen, en merkpuntsaliassen toevoegen om alle variaties van uw merk in herinneringen te vangen. Deze opstelling verzekert het platform inzicht in uw bedrijfscontext, toelatend nauwkeurige zicht, verkeer, en opportuniteitsanalyse.
-
-## Beste praktijken voor het vormen van categorieën, onderwerpen en herinneringen
+# Beste praktijken voor het vormen van categorieën, onderwerpen, herinneringen, en concurrenten
 
 Deze sectie beschrijft beste praktijken om te besluiten hoe u opstelling uw categorieën, onderwerpen, herinneringen, en concurrenten wilt.
+
 Dit is een eerste belangrijke stap. Wat u nu beslist bepaalt hoe de informatie aan uw bedrijfscontext wordt aangepast. Eventuele wijzigingen in categorieën in de toekomst stellen historische gegevens opnieuw in.
 
-### Tips en trucs voor rubrieken
+In het dashboard van [[!UICONTROL Customer Configuration]](/help/dashboards/customer-configuration.md) definieert u hoe uw merk wordt gecontroleerd en geanalyseerd in het LLM-optimaliserplatform. Zie [[!UICONTROL Customer Configuration]](/help/dashboards/customer-configuration.md) voor informatie over het gebruik van het dashboard.
+
+![ het configuratievenster van de Klant ](/help/assets/best-practices/customer-configuration-best-practices.png)
+
+In het dashboard van [!UICONTROL Customer Configuration] kunt u categorieën (zoals bedrijfseenheden of productlijnen) aanpassen, concurrenten volgen, en merkaanduidingsaliassen toevoegen om alle variaties van uw merk in verschillende aanwijzingen vast te leggen. Deze opstelling verzekert het platform inzicht in uw bedrijfscontext, toelatend nauwkeurige zicht, verkeer, en opportuniteitsanalyse.
+
+## Tips en trucs voor rubrieken
 
 Met Categorieën kunt u uw inhoud ordenen in strategische bedrijfseenheden of logische groepen. Zij zijn het &quot;waar het&quot;emmertje en de top-level organisatorische structuur voor uw inhoud behoort.
 
@@ -46,16 +49,17 @@ Hoe te om te besluiten hoe u opstellingscategorieën op één vraag gebaseerd is
 >
 > * Kies één aanpak en blijf erbij.
 > * U kunt **slechts één** model van de Categorie per rekening/merk hebben. Meng niet tegelijkertijd **SBU** en **URL_DIR**.
+>   <!--Can you mix Product/Service with these?-->
 
 Voorbeeld:
 
 | Type locatie | Categorie | Voorbeelden van onderwerptaxonomie |
 |---------|----------|---------|
-| Ondernemingen met meerdere bedrijven | SBU | kleine intent set (How-to, Troubleshooting, Comparison, Pricing, Policy) |
+| Ondernemingen met meerdere bedrijven | SBU | Kleine intent set (Hoe kan ik, Problemen oplossen, Vergelijking, Prijsstelling, Beleid) |
 | Documentatie/ondersteuning voor zware locaties | URL_DIR | Hoe te, het Oplossen van problemen, Verwijzing, de nota&#39;s van de Versie |
 | eCommerce/Services-catalogus | Product/service | Vergelijking, Revisies, Prijsstelling/Beschikbaarheid, Hoe kan ik, Problemen oplossen |
 
-### Tips en trucs voor onderwerpen
+## Tips en trucs voor onderwerpen
 
 Onderwerpen helpen u de gebruikersinzet te begrijpen - zij tonen u wat de gebruiker wil. Hiermee kunt u herinneringen groeperen met een vergelijkbare gebruikersintentie. Beschouw het als het groeperen van relevante herinneringen samen.
 
@@ -73,12 +77,13 @@ Wanneer u een beslissing neemt over onderwerpen, wilt u een korte, platte lijst 
 * Prijzen en beschikbaarheid
 * Beleid en garantie
 * Contact opnemen met ondersteuning
-* Zakelijk/nieuws (als u ze echt nodig hebt)
+* Bedrijfs/Nieuws (als u dit echt nodig hebt)
 
 Houd rekening met het volgende wanneer u de lijst maakt:
 
 * Kan een redacteur het onderwerp in 5 seconden van de snelle tekst begrijpen? Zo niet, wijzig de naam/vereenvoudig.
 * Zal een verschillend team de moeilijke situatie voor verschillende onderwerpen bezitten? Zo ja, dan hebt u nuttige onderwerpen gekozen.
+  <!-- Last bullet point does not make sense. Clarification needed.-->
 
 Enkele handige tips:
 
@@ -88,11 +93,11 @@ Enkele handige tips:
 >[!IMPORTANT]
 >
 > * Houd onderwerpen op intent-Gebaseerd, niet organisatorische.
-> * Voeg geen categorieën/filters voor merk/non-brand/geografische aangezien u specifiek voor dit in het **Merken** lusje kunt filtreren.
+> * Voeg geen categorieën/filters toe voor merk/niet-merk/geografische locatie, aangezien u hiervoor specifiek kunt filteren op het tabblad **[!UICONTROL Brands]** .
 > * De onderwerpen worden uitgespreid uit over verscheidene categorieën, kunt u **niet** verschillende onderwerpen per categorie hebben.
 > * Één enkele herinnering kan in verscheidene onderwerpen of categorieën bestaan.
 
-### Tips en trucs voor vragen
+## Tips en trucs voor vragen
 
 De herinneringen identificeren de specifieke vragen of de vragen die de klanten stellen, die uw zaken kunnen beïnvloeden. Het zijn de daadwerkelijke vragen of vragen die de gebruikers in LLMs invoeren.
 
@@ -103,7 +108,7 @@ Ben zeker om herinneringen regelmatig te herzien en bij te werken om ervoor te z
 >* Met gereedschappen als de Adobe LLM Optimizer en Google Search Console met regex-filters kunt u veelvoorkomende vraagstructuren identificeren (bijvoorbeeld &quot;hoe&quot;, &quot;wat&quot;, &quot;wanneer&quot; en &quot;waar&quot;) en nagaan welke aanwijzingen mensen gebruiken om uw site te bezoeken.
 >* Als u wilt weten welke aanwijzingen relevant zijn voor uw site/merk, kunt u onsite zoekgegevens, veelgestelde vragen in de resultatenpagina&#39;s van zoekprogramma&#39;s gebruiken of zelfs LLM-chatbots rechtstreeks vragen welke vragen klanten kunnen stellen over uw merk.
 
-### Aanbevolen werkwijzen voor concurrenten
+## Aanbevolen werkwijzen voor concurrenten
 
 De concurrenten laten u zicht en de opmerkingen in reacties controleren LLM voor herinneringen en onderwerpen die voor uw zaken belangrijk zijn.
 
@@ -114,4 +119,9 @@ Met het volgen van concurrenten kunt u zien hoe vaak concurrenten naast uw merk 
 >[!TIP]
 >
 >Herzie regelmatig de opmerkingen en citaten van concurrenten om gebieden te identificeren waar uw merk kan verbeteren.
+
+## Meer informatie
+
+* [ dashboard van de Configuratie van de Klant ](/help/dashboards/customer-configuration.md) is waar u uw categorieën, onderwerpen, herinneringen, en concurrenten vormt.
+* [ de beste praktijken van LLM Optimizer ](/help/tutorials/best-practices.md) beschrijft beste praktijken rond Optimalisering LLM
 

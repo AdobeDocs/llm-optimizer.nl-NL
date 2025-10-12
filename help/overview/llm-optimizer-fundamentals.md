@@ -1,7 +1,7 @@
 ---
-title: LLM Optimizer Grondbeginselen
+title: LLM Optimizer Basics
 description: Meer informatie over hoe Adobe LLM Optimizer de zichtbaarheid van merken verhoogt in zoekopdrachten die door AI worden gestuurd. Houd opmerkingen, citaten en inzichten bij. Optimaliseren vandaag voor betere betrokkenheid en invloed.
-source-git-commit: 227eb378bd5484fad2fb4165822394b0b605747b
+source-git-commit: 29e067086f9b6dd41c04b349c86ddc1c2baf8d2f
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -9,9 +9,7 @@ ht-degree: 0%
 ---
 
 
-# LLM Optimizer - Overzicht
-
-<!-- This doesn't seem like a tutorials overview to me. Still trying to place correctly -->
+# LLM Optimizer Basics
 
 Op deze pagina vindt u het volgende:
 
@@ -34,9 +32,6 @@ Adobe LLM Optimizer beschikt over een aantal tools die zijn ontworpen voor gener
 * Mogelijkheden voor actie ontdekken: Inhoud en technische verbeteringen identificeren (zoals veelgestelde vragen, abstracten, schema, schuifbaarheid) om aanhalingstekens en citaten te verhogen.
 * Effect van het Verkeer van het spoor: controleer zowel agentic (AI medewerker) als verwijzingsverkeer aan uw bezeten eigenschappen, die zicht aan overeenkomst verbinden.
 * Laat Team Collaboration toe: De dashboards van het aandeel, wijst eigenaars toe, en richt doelstellingen over marketing, SEO, en communicatie teams.
-
-
-<!-- I'm adding headings because LLMs like them and that way we'll rank better. Generally question format/question words in the the title is preferred. We can discuss. Or we can mirror what we did for Sites Optimizer and have this info on another page-->
 
 ## Waarom optimalisatie van LLM van belang is voor uw merk
 
