@@ -80,7 +80,7 @@ Deze strategische aanpak zorgt voor gerichte, gegevensgestuurde verbeteringen in
 
 ## Handelbare optimaliseringsstappen
 
-LLM Optimizer stelt optimalisatiemogelijkheden in het [ 1} dashboard van Kansen voor.](/help/dashboards/opportunities.md)
+LLM Optimizer stelt optimalisatiemogelijkheden in het [&#x200B; 1&rbrace; dashboard van Kansen voor.](/help/dashboards/opportunities.md)
 
 Hier volgen enkele praktische acties om de zichtbaarheid van merken in LLM&#39;s te vergroten:
 
@@ -121,18 +121,18 @@ Volg de volgende belangrijke meetgegevens om de zichtbaarheid van uw website te 
 * **Sentiment:** Of de verwijzing van uw merk positief, neutraal, of negatief is.
 * **Positie:** waar uw merk in de reactie (b.v., eerst, midden, of laatste) wordt vermeld.
 
-Deze metriek combineren in a **zicht** score, die u vertelt hoe sterk de aanwezigheid van uw merk in reacties LLM is. Zie het [ Merk Aanwezigheid ](/help/dashboards/brand-presence.md) bord.
+Deze metriek combineren in a **zicht** score, die u vertelt hoe sterk de aanwezigheid van uw merk in reacties LLM is. Zie het [&#x200B; Merk Aanwezigheid &#x200B;](/help/dashboards/brand-presence.md) bord.
 
 ## Wijzigingen in zichtbaarheid bijhouden
 
 U kunt de volgende stappen uitvoeren om de voortgang te controleren:
 
 1. Controleer uw huidige zichtbaarheid
-   * Gebruik Adobe LLM Optimizer om u te laten zien hoe vaak uw merk wordt genoemd en genoemd en wat het sentiment is in LLM-reacties. Zie het [ dashboard van de Aanwezigheid van het Merk ](/help/dashboards/brand-presence.md).
+   * Gebruik Adobe LLM Optimizer om u te laten zien hoe vaak uw merk wordt genoemd en genoemd en wat het sentiment is in LLM-reacties. Zie het [&#x200B; dashboard van de Aanwezigheid van het Merk &#x200B;](/help/dashboards/brand-presence.md).
    * Analyseer aanwijzingen waar uw merk voorkomt en waar het niet voorkomt.
    * Benchmark ten opzichte van concurrenten.
    * Bekijk de zichtbaarheid op door de gebruiker gegenereerde platforms zoals Reddit, Quora en Wikipedia. Deze UGC-platforms worden vaak genoemd door LLM&#39;s om informatie te zoeken.
-   * Het agentische verkeer van de monitor om te begrijpen welke pagina&#39;sLLMs bezoeken. Het uitzendende verkeer gaat vaak **niet** naar de homepage maar andere pagina&#39;s lager in de hiërarchie. Zie [ Agentic het dashboard van het Verkeer ](/help/assets/overview/agentic-traffic-card.png).
+   * Het agentische verkeer van de monitor om te begrijpen welke pagina&#39;sLLMs bezoeken. Het uitzendende verkeer gaat vaak **niet** naar de homepage maar andere pagina&#39;s lager in de hiërarchie. Zie [&#x200B; Agentic het dashboard van het Verkeer &#x200B;](/help/assets/overview/agentic-traffic-card.png).
    * Zorg ervoor dat de inhoud zichtbaar en toegankelijk is voor LLM&#39;s. Met de Chrome-plug-in kunt u zien welke AI-agents kunnen worden weergegeven.
 
 1. Uw strategie plannen
@@ -142,7 +142,7 @@ U kunt de volgende stappen uitvoeren om de voortgang te controleren:
    * Zorg ervoor dat uw inhoud uw expertise, betrouwbaarheid en autoriteit (EEAT) toont.
 
 1. Uw inhoud verbeteren
-   * Met de LLM Optimizer Opportunity kunt u direct wijzigingen in uw site identificeren en aangeven wat u specifiek aanbeveelt. Zie [ Kansen ](/help/dashboards/opportunities.md) (dan de resultaten meten.) Controleer regelmatig de sectie over de mogelijkheden en onderneem actie naar aanleiding van de gedane aanbevelingen.
+   * Met de LLM Optimizer Opportunity kunt u direct wijzigingen in uw site identificeren en aangeven wat u specifiek aanbeveelt. Zie [&#x200B; Kansen &#x200B;](/help/dashboards/opportunities.md) (dan de resultaten meten.) Controleer regelmatig de sectie over de mogelijkheden en onderneem actie naar aanleiding van de gedane aanbevelingen.
    * Werk uw website en andere inhoud bij om deze relevanter te maken voor de aanwijzingen waarop u zich wilt richten.
    * Voeg veelgestelde vragen toe aan uw pagina&#39;s die veelgestelde vragen beantwoorden.
    * Zorg ervoor dat de inhoud gemakkelijk te vinden en te lezen is voor LLM&#39;s. Los problemen zoals geblokkeerde pagina&#39;s of problemen met de code van uw website op.
@@ -191,9 +191,9 @@ Het volgen van agentisch verkeer helpt u begrijpen hoe AI uw inhoud ziet en gebr
 Optimaliseren voor zintuiglijk verkeer:
 
 * Zorg voor de schuifbaarheid door de instellingen robots.txt en CDN te controleren.
-* Gebruik de [ Inspecteur URL ](/help/dashboards/url-inspector.md) om prestaties URL te analyseren.
-* Het gedrag van de Bot van het spoor door tot uw CDN- logboeken in het [ Agentic verkeersdashboard ](/help/dashboards/agentic-traffic.md) toegang te hebben.
-* Het verkeer van het segment om bedrijfsresultaten te begrijpen. Zie [ Beste praktijken voor categorieën, onderwerpen, herinneringen, en concurrenten ](/help/overview/best-practices-topics-prompts.md).
+* Gebruik de [&#x200B; Inspecteur URL &#x200B;](/help/dashboards/url-inspector.md) om prestaties URL te analyseren.
+* Het gedrag van de Bot van het spoor door tot uw CDN- logboeken in het [&#x200B; Agentic verkeersdashboard &#x200B;](/help/dashboards/agentic-traffic.md) toegang te hebben.
+* Het verkeer van het segment om bedrijfsresultaten te begrijpen. Zie [&#x200B; Beste praktijken voor categorieën, onderwerpen, herinneringen, en concurrenten &#x200B;](/help/overview/best-practices-topics-prompts.md).
 
 Hier volgen de meetgegevens:
 
