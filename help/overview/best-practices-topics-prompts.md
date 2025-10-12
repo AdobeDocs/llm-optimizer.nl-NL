@@ -17,7 +17,7 @@ Dit is een eerste belangrijke stap. Wat u nu beslist bepaalt hoe de informatie a
 
 In het dashboard van [[!UICONTROL Customer Configuration]](/help/dashboards/customer-configuration.md) definieert u hoe uw merk wordt gecontroleerd en geanalyseerd in het LLM-optimaliserplatform. Zie [[!UICONTROL Customer Configuration]](/help/dashboards/customer-configuration.md) voor informatie over het gebruik van het dashboard.
 
-![ het configuratievenster van de Klant ](/help/assets/best-practices/customer-configuration-best-practices.png)
+![&#x200B; het configuratievenster van de Klant &#x200B;](/help/assets/best-practices/customer-configuration-best-practices.png)
 
 In het dashboard van [!UICONTROL Customer Configuration] kunt u categorieën (zoals bedrijfseenheden of productlijnen) aanpassen, concurrenten volgen, en merkaanduidingsaliassen toevoegen om alle variaties van uw merk in verschillende aanwijzingen vast te leggen. Deze opstelling verzekert het platform inzicht in uw bedrijfscontext, toelatend nauwkeurige zicht, verkeer, en opportuniteitsanalyse.
 
@@ -128,6 +128,6 @@ Met het volgen van concurrenten kunt u zien hoe vaak concurrenten naast uw merk 
 
 ## Meer informatie
 
-* [ dashboard van de Configuratie van de Klant ](/help/dashboards/customer-configuration.md) is waar u uw categorieën, onderwerpen, herinneringen, en concurrenten vormt.
-* [ de beste praktijken van LLM Optimizer ](/help/tutorials/best-practices.md) beschrijft beste praktijken rond Optimalisering LLM
+* [&#x200B; dashboard van de Configuratie van de Klant &#x200B;](/help/dashboards/customer-configuration.md) is waar u uw categorieën, onderwerpen, herinneringen, en concurrenten vormt.
+* [&#x200B; de beste praktijken van LLM Optimizer &#x200B;](/help/tutorials/best-practices.md) beschrijft beste praktijken rond Optimalisering LLM
 
