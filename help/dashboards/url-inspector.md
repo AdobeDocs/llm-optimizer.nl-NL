@@ -1,9 +1,9 @@
 ---
 title: URL-controle
 description: Leer hoe u de URL-controle kunt gebruiken om te analyseren hoe specifieke pagina's op uw domein in AI-zoekopdrachten uitvoeren.
-source-git-commit: e8ea9ae0d6592ea3d1e9945ec117f852112ba9d7
+source-git-commit: 6d845628264885fd40fc6e14dff89b8aa80f9ca5
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 # URL-controle
 
-Met de URL-controle kunt u analyseren hoe specifieke pagina&#39;s op uw domein in AI-zoekopdrachten uitvoeren. Het combineert zicht, agentisch verkeer, en verwijzingsgegevens op het niveau URL om u een korrelige mening te geven van welke URLs wordt geciteerd en hoe vaak zij in reacties verschijnen. **SR-NEEDS CDN?**
+Met de URL-controle kunt u analyseren hoe specifieke pagina&#39;s op uw domein in AI-zoekopdrachten uitvoeren. Het combineert zicht, agentisch verkeer, en verwijzingsgegevens op het niveau URL om u een korrelige mening te geven van welke URLs wordt geciteerd en hoe vaak zij in reacties verschijnen.
 
-![&#x200B; Inspecteur URL &#x200B;](/help/dashboards/assets/url-insp.png)
+![ Inspecteur URL ](/help/dashboards/assets/url-insp.png)
 
 ## Filters
 
@@ -22,26 +22,27 @@ Boven aan de pagina kunt u filters toepassen om de weergave te verfijnen. De fil
 * **de Waaier van de Datum** - selecteer het tijdkader voor de getoonde gegevens. Bijvoorbeeld de laatste 4 weken. U hebt ook de optie om de tijdperiode aan te passen door de **optie van de Weken van de Douane te selecteren**.
 * **Categorie** - filter de getoonde resultaten door categorieën.
 * **Platform** - kies welke motor AI om te analyseren.
-* **Kanaal** - filter tussen kanalen zoals verdiend, concurrent en sociaal.
+* **Type van Inhoud van de Pagina** - filter door type van inhoud.
 * **Gebied** - filter de resultaten door geografie. Niet alle regio&#39;s zijn beschikbaar bij het starten.
+
 Nadat u de gewenste filter selecteert, klik **toepassen Filters** om de selectie op het dashboard toe te passen.
 
 ## Overzichtsgegevens
 
 De URL-controle bevat verschillende overzichtsmetriek, zodat u snel kunt beoordelen hoe uw pagina&#39;s in AI-zoekopdrachten worden uitgevoerd. De volgende cijfers worden verstrekt:
 
-* **Unieke herinneringen met bezeten citaten** - het totale aantal unieke AI herinneringen met bezeten citaten.(**SR-more detail? wat zijn bezeten citaten**)
+* **Unieke herinneringen met bezeten citaten** - het totale aantal unieke AI herinneringen met bezeten citaten.
 * **Volledige unieke herinneringen** - het totale aantal unieke AI herinneringen.
 * **Unieke geciteerde URLs** - het aantal unieke bezeten URLs die zijn aangehaald.
 * **Totale tijden aangehaald** - Totale tijden een bezeten URL is geciteerd in door AI geproduceerde antwoorden.
-* **Totale opvallende treffers** - het totale aantal klappen van AI agenten op uw URLs.
-* **de treffers van de Verwijzing van LLMs** - het totale aantal klappen die van AI-Gegenereerde antwoorden aan uw URLs worden geleid.
+<!-- * **Total agentic hits** - The total number of hits from AI agents on your URLs.
+* **Referral hits from LLMs** - The total number of hits directed from AI-generated answers to your URLs.-->
 
 De trendindicatoren voor elk overzichtsmetrisch tonen hoe deze waarden in tijd in vergelijking met de vorige periode veranderen.
 
 ## Je opgegeven URL&#39;s
 
-In de weergave van de aangehaalde URL worden alle URL&#39;s van uw merk weergegeven die in door AI gegenereerde antwoorden zijn genoemd, met ondersteunende meetgegevens. De gegevenslijst heeft ook een onderzoeksgebied voor snelle toegang tot specifieke URLs. De volgende cijfers worden verstrekt:
+In de weergave van de aangehaalde URL worden alle URL&#39;s van uw merk weergegeven die in door AI gegenereerde antwoorden zijn genoemd, met ondersteunende meetgegevens. De gegevenslijst heeft ook een onderzoeksgebied voor snelle toegang tot specifieke URLs. Ook, kunt u de **optie van de Uitvoer** gebruiken om lijst .csv te downloaden en de inzichten met uw team te delen of de lijst in uitvoerende rapportering te omvatten. De volgende cijfers worden verstrekt:
 
 * **URL** - geanalyseerde URL
 * **Geciteerde Tijden** - het aantal tijden URL is geciteerd in AI-Gegenereerde antwoorden.
@@ -55,7 +56,7 @@ In de weergave van de aangehaalde URL worden alle URL&#39;s van uw merk weergege
 
 De trending URLs die voor citatiemening concurreren benadrukt externe URLs die momenteel in antwoorden relevant voor uw merk worden genoemd, die meten wie citaten in uw ruimte wint. De gegevenslijst heeft een onderzoeksgebied voor snelle toegang tot specifieke URLs. Ook, kunt u de **optie van de Uitvoer** gebruiken om lijst .csv te downloaden en de inzichten met uw team te delen of de lijst in uitvoerende rapportering te omvatten.
 
-![&#x200B; het Trending URLs die voor Cites &#x200B;](/help/dashboards/assets/trend-url.png) concurreren
+![ het Trending URLs die voor Cites ](/help/dashboards/assets/trend-url.png) concurreren
 
 De volgende cijfers worden verstrekt:
 
@@ -66,4 +67,8 @@ De volgende cijfers worden verstrekt:
 * **Categorieën** - de productcategorieën of onderwerpen verbonden aan URL.
 * **Gebieden** - het geografische gebied waar URL werd geciteerd.
 
-Elke URL heeft a **Details** knoop wanneer u uw muis over het beweegt. Als u op de knop klikt, wordt er een apart venster weergegeven met meer details.
+### Venster Details
+
+Voor zowel de geciteerde als trending meningen, hebben URLs a **Details** knoop wanneer u uw muis over specifieke URL beweegt. Als u op de knop klikt, wordt een apart venster met meer details weergegeven. In het venster Details ziet u hoe vaak de URL wordt genoemd, het gevoel van AI-reacties op de plaats waar deze wordt vermeld, de onderwerpen en aanwijzingen die erin worden weergegeven en trends in het agentische en verwijzingsverkeer in de loop van de tijd (voor eigenlijke URL&#39;s).
+
+![ Venster van Details ](/help/dashboards/assets/details-url.png)
