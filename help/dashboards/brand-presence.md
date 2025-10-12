@@ -1,9 +1,9 @@
 ---
 title: Merk aanwezig
 description: Leer hoe u het dashboard Brand Presence kunt gebruiken om te begrijpen hoe uw merk wordt ervaren op het niveau van door AI gegenereerde reacties.
-source-git-commit: e8ea9ae0d6592ea3d1e9945ec117f852112ba9d7
+source-git-commit: 4cbfbe420a8419a04c2d6c465b6a290ee00ff3d4
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1227'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Het dashboard Brand Presence biedt een overzicht van hoe uw merk wordt waargenomen op het niveau van door AI gegenereerde reacties. Het laat zien waar, hoe vaak en in welke context uw merk wordt genoemd. U kunt het dashboard gebruiken om zichtbaarheid te meten, citaties bij te houden, concurrenten te vergelijken en sentimentstrends te verkennen. Het dashboard bestaat uit verschillende gedeelten, die elk verschillende inzichten bieden. Er zijn ook aanpasbare filters waarmee u de weergegeven gegevens kunt verfijnen.
 
-![&#x200B; Aanwezigheid van het Merk &#x200B;](/help/dashboards/assets/brand-main.png)
+![ Aanwezigheid van het Merk ](/help/dashboards/assets/brand-main.png)
 
 Op deze pagina vindt u het volgende:
 
@@ -28,17 +28,19 @@ Op deze pagina vindt u het volgende:
 Boven aan de pagina kunt u filters toepassen om de weergave te verfijnen. De filters u kiest zullen **alle** secties beïnvloeden huidig op het dashboard. U kunt het volgende aanpassen:
 
 * **de Waaier van de Datum** - selecteer het tijdkader voor de getoonde gegevens. Bijvoorbeeld de laatste 4 weken. U hebt ook de optie om de tijdperiode aan te passen door de **optie van de Weken van de Douane te selecteren**.
-* **Categorie** - filter de getoonde resultaten door vooraf bepaalde categorieën. U kunt douanecategorieën aan dit gebied (**SR** - ook toevoegen?).
+* **Categorie** - filter de getoonde resultaten door of vooraf bepaalde categorieën of douanecategorieën.
 * **Platform** - kies welke motor AI om te analyseren.
+* **vraagt Oorsprong** - kies de oorsprong van de herinneringen. De oorsprong kan door de gebruiker worden ingevoerd of door AI worden gegenereerd.
+* **Vragen het Brandmerken** - de resultaten van de Filter door of brandde herinneringen of non-branded herinneringen.
 * **Gebied** - filter de resultaten door geografie. Niet alle regio&#39;s zijn beschikbaar bij het starten.
 
 Nadat u de gewenste filter selecteert, klik **toepassen Filters** om de selectie op het dashboard toe te passen.
 
 ## Overzichtsgegevens {#overview-metrics}
 
-Het dashboard benadrukt drie zeer belangrijke metriek bij de bovenkant van de pagina: zichtbaarheidsscore, aanhalingstekens en citaten. Hoe lager de telling voor deze cijfers, hoe slechter uw merk wordt waargenomen, en u moet actie ondernemen om uw merkaanwezigheid te verbeteren. als **SR - VOEG hier optimalisatiekoppeling toe**. Hieronder ziet u een korte beschrijving van elke meting en van wat deze vertegenwoordigt.
+Het dashboard benadrukt drie zeer belangrijke metriek bij de bovenkant van de pagina: zichtbaarheidsscore, aanhalingstekens en citaten. Hoe lager de telling voor deze cijfers, hoe slechter uw merk wordt waargenomen, en u moet actie ondernemen om uw merkaanwezigheid te verbeteren. Hieronder ziet u een korte beschrijving van elke meting en van wat deze vertegenwoordigt.
 
-![&#x200B; Metriek van het Overzicht &#x200B;](/help/dashboards/assets/overview-metrics.png)
+![ Metriek van het Overzicht ](/help/dashboards/assets/overview-metrics.png)
 
 ### Zichtbaarheidsscore {#visibility-score}
 
@@ -58,21 +60,21 @@ Tendindicatoren voor elke metrische sleutel tonen hoe deze waarden in de loop de
 
 In het vergelijkingsgedeelte voor concurrenten kunt u maximaal vijf concurrenten selecteren en hun vermeldingen en citaten vergelijken met uw merk. Op deze manier kunt u uw prestaties in verhouding tot de concurrentie bekijken en benchmarken.
 
-![&#x200B; Vergelijking van de concurrent &#x200B;](/help/dashboards/assets/competitor-comparison.png)
+![ Vergelijking van de concurrent ](/help/dashboards/assets/competitor-comparison.png)
 
 De concurrenten worden geselecteerd van de drop-down lijst en de grafieken worden bijgewerkt wanneer u **klikt toepassen Filters**. De grafieken geven wekelijkse vermeldingen en wekelijkse citaten naast elkaar weer. U kunt de muis ook boven het diagram houden om de gegevensevolutie over het wekelijkse tijdkader te zien.
 
 ## Analyse van tendensen in de richting {#sentiment-trend}
 
-In de sectie over trends in sentimenten kunt u bijhouden hoe uw merk wordt waargenomen in de gesampelde AI-antwoorden. De metrische sentimentstrend kan positief, neutraal of negatief zijn. Het kan bijvoorbeeld positief zijn als de antwoorden de productkwaliteit benadrukken, of negatief als zij de slechte dienst vermelden. De trendgrafiek toont de verschuivingen in de week van de merkperceptie. De sectie wordt pas gevuld nadat uw merk is vermeld.
+In de sectie over trends in sentimenten kunt u bijhouden hoe uw merk wordt waargenomen in de gesampelde AI-antwoorden. De metrische sentimentstrend kan positief, neutraal of negatief zijn. Het kan bijvoorbeeld positief zijn als de antwoorden de productkwaliteit of negatief benadrukken als ze de slechte service vermelden. De trendgrafiek toont de verschuivingen in de week van de merkperceptie. De sectie wordt pas gevuld nadat uw merk is vermeld.
 
-![&#x200B; Tendens van de Aanwijzing &#x200B;](/help/dashboards/assets/sentiment-trend.png)
+![ Tendens van de Aanwijzing ](/help/dashboards/assets/sentiment-trend.png)
 
 ## Gegevens-inzichten en het delen van stem {#data-insights}
 
 Aan het oprichten van het dashboard, hebben wij twee belangrijke lijsten: gegevensinzichten en aandeel van stem. De informatie in deze tabellen helpt u te bepalen waar uw merk sterk is en waar optimalisatie nodig is.  Door de **lijst van gegevensinzichten** te gebruiken kunt u onderwerpen en gebruikersvragen onderzoeken om inhoudseffect te beoordelen en te optimaliseren. De resultaten worden gedetailleerd door onderwerpen en herinneringen. Ondertussen, vergelijkt het **aandeel van stem** lijst, uw merkstem met andere concurrenten over onderwerpen en helpt u hiaten identificeren en toekomstige onderwerpen voorrang geven.
 
-![&#x200B; Inzichten van Gegevens &#x200B;](/help/dashboards/assets/data-insights.png)
+![ Inzichten van Gegevens ](/help/dashboards/assets/data-insights.png)
 
 Beide lijsten hebben een onderzoeksgebied voor snelle toegang tot onderwerpen. Ook, kunt u de **optie van de Uitvoer** gebruiken om lijst .csv te downloaden en de inzichten met uw team te delen of de lijst in uitvoerende rapportering te omvatten.
 
@@ -84,25 +86,26 @@ Klik op de onderstaande tabbladen voor meer informatie over elke tabel en de bij
 
 De lijst van gegevensinzichten helpt u onderwerpen en gebruikersherinneringen onderzoeken om inhoudseffect te beoordelen en te optimaliseren. De volgende maatstaven worden weergegeven:
 
-* **Categorie** - de onderwerpcategorie vertegenwoordigt de sleutelwoorden van SEO en gebruikersvragen met betrekking tot uw merk. U kunt klikken om elk onderwerp uit te breiden en individuele herinneringen te zien die voor merkaanwezigheid worden geanalyseerd. Elk onderwerp en knoop hebben a **Details** knoop wanneer u uw muis over het beweegt. Als u op de knop klikt, wordt er een apart venster weergegeven met meer details.
+* **Onderwerp** - de onderwerpcategorie vertegenwoordigt de sleutelwoorden van SEO en gebruikersvragen met betrekking tot uw merk. U kunt klikken om elk onderwerp uit te breiden en individuele herinneringen te zien die voor merkaanwezigheid worden geanalyseerd. Elk onderwerp en knoop hebben a **Details** knoop wanneer u uw muis over het beweegt. Als u op de knop klikt, wordt er een apart venster weergegeven met meer details.
+* **Gebied** - toont het gebied van de herinneringen.
 * **Populariteit** - de populiteitscategorie vertegenwoordigt het onderzoeksvolume voor dit onderwerp met betrekking tot alle andere onderwerpen in de analyse. De waarde kan Hoog, Medium of Laag zijn.
-* **Score van de Zichtbaarheid** - de zichtbaarheidsScore voor dat onderwerp. Het weerspiegelt gewogen factoren zoals genoemd, citaties, sentiment en rangorde.
+* **Score van de Zichtbaarheid** - de zichtbaarheidsscore voor dat onderwerp. Het weerspiegelt gewogen factoren zoals genoemd, citaties, sentiment en rangorde.
 * **Vermeldingen** - het aantal tijden uw merk in AI reacties voor dit onderwerp of deze onderwerp/snelle combinatie werd vermeld.
-* **Sentiment** - de merkperceptie in AI reacties aangezien het op elk onderwerp betrekking heeft. De sentimentele maatstaf kan positief, neutraal of negatief zijn.
-* **Positie** - hoe vroeg uw merk in het AI antwoord verschijnt, berekend als gemiddelde over alle weken.
+* **Sentiment** - de merkperceptie in AI reacties aangezien het op elk onderwerp betrekking heeft dat als gemiddelde over alle weken wordt berekend. Alleen gevuld wanneer uw merk daadwerkelijk wordt vermeld
+* **Positie** - de relatieve belangrijkheid van uw merk in AI reacties, die als gemiddelde over alle weken worden berekend.
 * **Alle Keuringen** - het aantal unieke bronnen die in AI reacties voor dit onderwerp of deze onderwerp/snelle combinatie (omvat bezeten citaten) worden genoemd.
 * **BezitBevelen** - het aantal tijden uw merk in AI reacties voor dit sleutelwoord of deze sleutelwoord/vraagcombinatie werd geciteerd.
 
 >[!TAB  Aandeel van Stem ]
 
-Het **aandeel van stem** lijst, vergelijkt uw merkstem met andere concurrenten over onderwerpen. De volgende maatstaven worden weergegeven:
+Het Aandeel van de lijst van de Stem verstrekt een vergelijkend onderzoek naar hoe uw merk over zeer belangrijke onderwerpen in generatieve reacties van AI presteert. Het helpt u zichthiaten identificeren, concurrerende prestaties volgen, en gebieden voor optimalisering voorrang geven. De volgende maatstaven worden weergegeven:
 
 * **Onderwerp** - het geanalyseerde onderwerp.
 * **Populariteit** - het onderzoeksvolume voor het onderwerp met betrekking tot alle andere onderwerpen in uw analyse.
 * **Vermeldingen** - Aantal tijden uw merk in AI reacties voor het onderwerp of de onderwerp/snelle combinatie werd vermeld.
 * **Rangschikkend** - het rangschikken van het Aandeel van uw merk van Stem, met betrekking tot alle geïdentificeerde concurrenten.
-* **Aandeel van stem** - het percentage van tijd een merk wordt vermeld, met betrekking tot alle verklaringen in AI antwoorden.
-* **Hoogste 5 Concurrenten** - de hoogste vijf concurrenten die door hun Aandeel van Stem (hoogste aan het laagst) worden georganiseerd.
+* **Aandeel van stem** - het percentage van totaal noemt uw merk over AI-geproduceerde reacties houdt.
+* **Hoogste 5 Medewerkers** - de hoogste vijf merken die het vaakst voor de zelfde onderwerpen worden vermeld. De concurrenten worden georganiseerd door hun Aandeel van Stem (het hoogste aan het laagste).
 
 >[!ENDTABS]
 
