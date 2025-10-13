@@ -1,23 +1,19 @@
 ---
 title: Klantconfiguratie
 description: Gebruik de configuratie van de klant om te bepalen hoe uw merk binnen het optimaliseringsplatform LLM wordt gecontroleerd en geanalyseerd.
-source-git-commit: 4192fe32c9e7cea4218ea580a9300f1fceb0f909
+source-git-commit: a699f8f3c50f77d07f29cd354fd1ef8e6eed8ff9
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
 
 
-# Klantconfiguratie
+# Klantconfiguratie {#customer-configuration}
 
-De Configuratie van de klant is waar u bepaalt hoe uw merk binnen het optimaliseringsplatform LLM zal worden gecontroleerd en worden geanalyseerd. U kunt categorieën (zoals bedrijfseenheden of productlijnen) aanpassen, concurrenten volgen, en merkpuntsaliassen toevoegen om alle variaties van uw merk in herinneringen te vangen. Deze opstelling verzekert het platform inzicht in uw bedrijfscontext, toelatend nauwkeurige zicht, verkeer, en opportuniteitsanalyse.
+Het Klantconfiguratiedashboard is een krachtig hulpmiddel dat inzicht biedt in de zichtbaarheid van uw merk in LLM&#39;s. Door correct opstellingscategorieën, onderwerpen, herinneringen, en concurrenten, kunt u ervoor zorgen uw merk goed wordt geplaatst om in LLM-Gegenereerde reacties te verschijnen. Deze opstelling verzekert het platform inzicht in uw bedrijfscontext, toelatend nauwkeurige zicht, verkeer, en opportuniteitsanalyse.
 
-![&#x200B; Dashboard van de Configuratie van de Klant &#x200B;](/help/dashboards/assets/customer-config.png)
-
-## Klantconfiguratiedashboard
-
-Het Klantconfiguratiedashboard is een krachtig hulpmiddel dat inzicht biedt in de zichtbaarheid van uw merk in LLM&#39;s. Door correct opstellingscategorieën, onderwerpen, herinneringen, en concurrenten, kunt u ervoor zorgen uw merk goed gepositioneerd is om in LLM-Gegenereerde reacties te verschijnen. Regelmatig evalueren van inzichten zoals Spraak delen, zichtbaarheid van inhoud en mogelijkheden helpt u uw strategie aan te passen en uw concurrenten voor te blijven.
+![ Dashboard van de Configuratie van de Klant ](/help/dashboards/assets/customer-config.png)
 
 Als u wilt configureren hoe LLM Optimizer uw aanwezigheid van uw merk controleert en analyseert op verschillende markten en in concurrerende landschappen, hebt u toegang tot de volgende tabbladen:
 
@@ -25,18 +21,22 @@ Als u wilt configureren hoe LLM Optimizer uw aanwezigheid van uw merk controleer
 * [Concurrentietracering](#competitor-tracking)
 * [Merkaliassen](#brand-aliases)
 * [Gegevens-inzichten](#data-insights)
-* [Agentic CDN](#agentic-cdn)
+* [CDN-configuratie](#agentic-cdn)
+
+>[!IMPORTANT]
+>
+> Voor meer details op hoe te opstelling zien uw categorieën, onderwerpen, herinneringen, en concurrenten [ Beste praktijken voor het vormen van categorieën, onderwerpen, herinneringen, en concurrenten ](/help/overview/best-practices-topics-prompts.md) pagina.
 
 ## Categorieën {#categories}
 
-Vanuit het tabblad Categorieën kunt u bedrijfscategorieën of productlijnen definiëren die u wilt bijhouden en deze aan specifieke gebieden koppelen. Over het algemeen heeft het tabblad Categorieën betrekking op elke andere aanpassing op deze pagina, omdat categorieën in het categorieveld worden weergegeven voor de andere aanpassingen (het bijhouden van concurrenten, aliassen enzovoort). Een nieuwe categorie toevoegen:
+Vanuit het tabblad Categorieën kunt u bedrijfscategorieën of productlijnen definiëren die u wilt bijhouden en deze aan specifieke gebieden koppelen. Over het algemeen heeft het tabblad Categorieën betrekking op bijna elke andere aanpassing op deze pagina, omdat categorieën in het categorieveld worden weergegeven voor de andere aanpassingen (het bijhouden van concurrenten, aliassen enzovoort). Een nieuwe categorie toevoegen:
 
 1. Klik **toevoegen** knoop.
 2. In het nieuwe configuratievenster, voeg de **Naam van de Categorie** toe.
 3. Pas het **Verwante Gebied** aan waar de categorie zal worden gecontroleerd.
 4. Klik **sparen** en de nieuwe categorie zal op de categorielijst verschijnen.
 
-Het toevoegen van nieuwe categorieën zal automatisch geen onderwerpen en herinneringen produceren - deze zullen manueel van de [&#x200B; Inzichten van Gegevens &#x200B;](#data-insights) tabel moeten worden toegevoegd.
+Het toevoegen van nieuwe categorieën zal automatisch geen onderwerpen en herinneringen produceren - deze zullen manueel van de [ Inzichten van Gegevens ](#data-insights) tabel moeten worden toegevoegd.
 
 Als u een categorie wilt verwijderen, klikt u op het pictogram Verwijderen in de categorielijst. Wees voorzichtig, omdat **het schrappen van een categorie ook de bijbehorende punten** als concurrenten zal schrappen u opstelling of merkaliassen zou kunnen hebben die met die specifieke categorie verbonden zijn.
 
@@ -66,9 +66,9 @@ Als u een merkalias wilt verwijderen, klikt u op het verwijderpictogram in de li
 
 ## Gegevens-inzichten {#data-insights}
 
-Op dit tabblad kunt u vragen controleren, beheren en aanpassen. U kunt de gegevensinzichten van de Aanwezigheid van de a [&#x200B; &#x200B;](/help/dashboards/brand-presence.md#data-insights) .csv uploaden en de lijst met herinneringen en onderwerpen van die analyse worden bevolkt. U kunt onderwerpen en hun bijbehorende herinneringen ook schrappen wijzigen en toevoegen zoals nodig.
+Op dit tabblad kunt u vragen controleren, beheren en aanpassen. U kunt de gegevensinzichten van de Aanwezigheid van de a [ ](/help/dashboards/brand-presence.md#data-insights) .csv uploaden en de lijst met herinneringen en onderwerpen van die analyse worden bevolkt. U kunt onderwerpen en hun bijbehorende herinneringen ook schrappen wijzigen en toevoegen zoals nodig.
 
-Als u een CSV-bestand met gegevensinzichten wilt importeren, moet u eerst een bestand exporteren vanaf het dashboard Handaanwezigheid. Zie de [&#x200B; gegevensinzichten &#x200B;](/help/dashboards/brand-presence.md#data-insights) sectie leren hoe te om dat te doen. Zodra u het bestand hebt:
+Als u een CSV-bestand met gegevensinzichten wilt importeren, moet u eerst een bestand exporteren vanaf het dashboard Handaanwezigheid. Zie de [ gegevensinzichten ](/help/dashboards/brand-presence.md#data-insights) sectie leren hoe te om dat te doen. Zodra u het bestand hebt:
 
 1. Op het dashboard, klik **uploadt CSV**.
 2. In het venster Gegevens importeren sleept u het bestand en zet u het neer of kiest u het bestand handmatig.
@@ -90,7 +90,15 @@ Bovendien kunt u onderwerpen/herinneringen aan de lijst onafhankelijk van een Cs
 
 Voor de lijst, kunt u elk onderwerp klikken en de bijbehorende herinnering(en) zullen verschijnen, om het onderwerp en zijn bijbehorende herinneringen te schrappen, klik het schrappingspictogram van de lijst.
 
-<!--## Agentic CDN {#agentic-cdn}
+## CDN-configuratie {#cdn-configuration}
 
-Not available (will it be available for release?).-->
+Vanuit dit tabblad kunt u uw CDN-streams configureren, zodat Adobe LLM Optimizer uw CDN-gegevens kan analyseren. Deze gegevens worden gebruikt om dashboards (zoals het Verkeer van de Agentica), die inzicht in verkeerspatronen, prestatiesmetriek, en optimaliseringskansen verstrekken te aandrijven. Aan boord van uw leverancier CDN, klik **Op boord CDN**.
 
+![ Klantenconfiguratie CDN ](/help/overview/assets/cc-cdn.png)
+
+Op het **Aan boord CDN Providervenster**:
+
+1. Selecteer uw CDN-provider (bijvoorbeeld Akamai, snel door Adobe beheerd, AWS Cloudfront, Azure CDN, Cloudflare of Overige).
+2. Klik **Onboard** om logboek toe te laten door:sturen.
+
+Als u **Andere** selecteert, zult u aan Adobe voor hulp moeten bereiken.

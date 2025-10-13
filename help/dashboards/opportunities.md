@@ -1,9 +1,9 @@
 ---
 title: Optimalisatiemogelijkheden
 description: Leer hoe u het opportuniteitsdashboard kunt gebruiken om automatisch te bepalen hoe uw site kan worden verbeterd om de zichtbaarheid van uw merk te verhogen.
-source-git-commit: e8ea9ae0d6592ea3d1e9945ec117f852112ba9d7
+source-git-commit: a699f8f3c50f77d07f29cd354fd1ef8e6eed8ff9
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -11,9 +11,11 @@ ht-degree: 0%
 
 # Optimalisatiemogelijkheden
 
-Optimalisatiemogelijkheden zijn automatisch gedetecteerde inzichten die laten zien waar uw site en externe aanwezigheid kunnen worden verbeterd om de zichtbaarheid van uw merk in AI-zoekopdrachten te vergroten. Deze optimalisaties omvatten correcties op pagina&#39;s (het toevoegen van gestructureerde inhoud, chemicaliën, of samenvattingen), technische aanpassingen (het ontgrendelen van AI-crawlers of het oplossen van fouten) en het beïnvloeden van inhoud op gezaghebbende plaatsen van derden. Door deze optimalisatiemogelijkheden aan te pakken, kan uw merk nauwkeurig worden weergegeven en kan het waarschijnlijker worden genoemd in generatieve reacties.
+Optimalisatiemogelijkheden zijn automatisch gedetecteerde inzichten die laten zien waar uw site en externe aanwezigheid kunnen worden verbeterd om de zichtbaarheid van uw merk in AI-zoekopdrachten te vergroten.
 
-![&#x200B; de kansen van de Optimalisering &#x200B;](/help/dashboards/assets/oport.png)
+Deze optimalisaties omvatten correcties op pagina&#39;s (het toevoegen van gestructureerde inhoud, chemicaliën, of samenvattingen), technische aanpassingen (het ontgrendelen van AI-crawlers of het oplossen van fouten) en het beïnvloeden van inhoud op gezaghebbende plaatsen van derden. Door deze optimalisatiemogelijkheden aan te pakken, kan uw merk nauwkeurig worden weergegeven en kan het waarschijnlijker worden genoemd in generatieve reacties.
+
+![ de kansen van de Optimalisering ](/help/dashboards/assets/oport.png)
 
 ## Opportunity-dashboard
 
@@ -35,11 +37,12 @@ Hieronder ziet u een tabel met momenteel ondersteunde mogelijkheden:
 | Dubbele koppen zoeken | Inhoud (onsite) | Scant koptags van HTML en markeert herhaalde koppen. Hiermee worden beïnvloede URL&#39;s en gedupliceerde tekstfragmenten weergegeven. | Herzie rubrieken om uniek te zijn en hiërarchie te handhaven (H1 → H2 → H3). Dubbele secties samenvoegen of hernoemen. |
 | Geblokkeerd agentschapsverkeer detecteren | Technische GEO | Analyseert CDN-logboeken voor geblokkeerde aanvragen van bekende AI-agents (bijvoorbeeld GPTBot, PerplexityBot). Rapporten beïnvloedden URLs en agenten. | Werk robots.txt bij of server vormt om toegang voor gesteunde AI kruiplers toe te staan waar aangewezen. |
 | 404s / 403s / 5xx problemen detecteren | Technische GEO | Controleert CDN-logboeken op foutreacties. Meldt frequentie, beïnvloedde URLs, en geschatte verloren treffers. | Los verbroken koppelingen op, werk machtigingen bij en los problemen op de server op, zodat met de belangrijkste inhoud 200 reacties worden geretourneerd. |
+| Zichtbaarheid van inhoud herstellen (vroege toegang) | Technische GEO | Hiermee markeert u pagina&#39;s waar kritieke inhoud wordt verborgen voor AI-agents. Hiermee worden beïnvloede URL&#39;s en verwachte inhoud weergegeven die kunnen worden hersteld. | Geef de pagina&#39;s vooraf weer, zodat er meer inhoud beschikbaar is voor AI-agents zonder JavaScript-uitvoering. |
 
 ### Zichtbaarheid van inhoud herstellen {#recover-contet}
 
-Zoals hierboven vermeld, markeert de zichtbaarheid van de inhoud pagina&#39;s waar belangrijke inhoud voor AI-agents verloren gaat door weergave op de client. Voor elke geïdentificeerde pagina wordt precies aangegeven welke inhoud ontbreekt in de AI-agentweergave, zodat u de zichtbaarheidsverschillen kunt vaststellen. Het wordt ook ondersteund door een &#39;edge-based&#39; pre-rendering functie die meer HTML-inhoud kan leveren aan mobiel verkeer zonder dat wijzigingen in het Content Management System (CMS) vereist zijn. Deze functionaliteit is momenteel in Vroege Toegang en vereist opstelling van het team LLMO. Neem contact op met `llmo-at-edge@adobe.com` om de zichtbaarheid van de inhoud te activeren.
+Zoals hierboven vermeld, markeert de zichtbaarheid van de inhoud pagina&#39;s waar belangrijke inhoud voor AI-agents verloren gaat door weergave op de client. Voor elke geïdentificeerde pagina wordt precies aangegeven welke inhoud ontbreekt in de AI-agentweergave, zodat u de zichtbaarheidsverschillen kunt vaststellen. Het wordt ook ondersteund door een &#39;edge-based&#39; pre-rendering functie die meer HTML-inhoud kan leveren aan mobiel verkeer zonder dat wijzigingen in het Content Management System (CMS) vereist zijn. Deze functionaliteit is momenteel in Vroege Toegang en vereist opstelling van het team van LLM Optimizer. Neem contact op met `llmo-at-edge@adobe.com` om de zichtbaarheid van de inhoud te activeren.
 
 ### Extra gereedschappen
 
-De [&#x200B; LLM zichtcontrole &#x200B;](https://chromewebstore.google.com/detail/is-your-webpage-citable/jbjngahjjdgonbeinjlepfamjdmdcbcc) is een uitbreiding van Chrome die u precies laat zien hoeveel van uw inhoud LLMs van de webpagina kan toegang hebben en ook wat verborgen blijft. Deze software is ontworpen als een gratis, standalone diagnoseprogramma en vereist geen productlicentie of installatie. Met een enkele klik kunnen gebruikers de gereedschapsleesbaarheid van elke site evalueren, een vergelijking naast elkaar weergeven van wat AI-agents zien in vergelijking met wat menselijke gebruikers zien. Bovendien wordt geschat hoeveel inhoud kan worden hersteld door LLM Optimizer te gebruiken.
+De [ LLM zichtcontrole ](https://chromewebstore.google.com/detail/is-your-webpage-citable/jbjngahjjdgonbeinjlepfamjdmdcbcc) is een uitbreiding van Chrome die u precies laat zien hoeveel van uw inhoud LLMs van de webpagina kan toegang hebben en ook wat verborgen blijft. Deze software is ontworpen als een gratis, standalone diagnoseprogramma en vereist geen productlicentie of installatie. Met een enkele klik kunnen gebruikers de gereedschapsleesbaarheid van elke site evalueren, een vergelijking naast elkaar weergeven van wat AI-agents zien in vergelijking met wat menselijke gebruikers zien. Bovendien wordt geschat hoeveel inhoud kan worden hersteld door LLM Optimizer te gebruiken.
