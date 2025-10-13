@@ -1,9 +1,9 @@
 ---
 title: Adobe LLM Optimizer
 description: Verhoog je merk met Adobe LLM Optimizer. Houd beweringen bij, ontdek inzichten en domineer zoekopdrachten op AI-basis. Neem de controle over uw zichtbaarheid - optimaliseer nu!
-source-git-commit: 29e067086f9b6dd41c04b349c86ddc1c2baf8d2f
+source-git-commit: 2a723770b33a0c93e13e1b123962892fb3f9505b
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -19,16 +19,16 @@ Adobe LLM Optimizer is een generatieve AI-eerste toepassing voor Generative Engi
 
 <!-- CARDS
 
+* ./overview/overview.md
+  {title= LLM Optimizer overview}
+  {image= /help/assets/overview/llm-overview-card.png}
+  {description= Learn about how Adobe LLM Optimizer boosts brand visibility in AI-driven search.}
+  {target=_blank}
+  {cta=Learn more}
 * ./overview/quick-start.md
   {title= Quickstart guide}
   {description= Learn how to quickly get up and running with the LLM Optimizer.}
   {image= /help/assets/overview/agentic-traffic-card.png}
-  {target=_blank}
-  {cta=Learn more}
-* ./overview/best-practices-topics-prompts.md
-  {title= Best practices for setting up categories, topics, prompts, and competitors}
-  {description= Learn how to configure LLM Optimizer for tailored brand monitoring and strategic content analysis.}
-  {image= /help/assets/overview/customer-configuration-card.png}
   {target=_blank}
   {cta=Learn more}
 * ./dashboards/dashboards-overview.md
@@ -40,6 +40,29 @@ Adobe LLM Optimizer is een generatieve AI-eerste toepassing voor Generative Engi
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="LLM Optimizer overview">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="./overview/overview.md" title="LLM Optimizer-overzicht" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="/help/assets/overview/llm-overview-card.png" alt="LLM Optimizer-overzicht"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="./overview/overview.md" target="_blank" rel="referrer" title="LLM Optimizer-overzicht"> overzicht van LLM Optimizer </a>
+                    </p>
+                    <p class="is-size-6">Meer informatie over hoe Adobe LLM Optimizer de zichtbaarheid van merken verhoogt in zoekopdrachten die door AI worden gestuurd.</p>
+                </div>
+                <a href="./overview/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> Leer meer </span>
+                </a>
+            </div>
+        </div>
+    </div>
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Quickstart guide">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
@@ -58,29 +81,6 @@ Adobe LLM Optimizer is een generatieve AI-eerste toepassing voor Generative Engi
                     <p class="is-size-6">Leer hoe u snel aan de slag kunt met de LLM Optimizer.</p>
                 </div>
                 <a href="./overview/quick-start.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> Leer meer </span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Best practices for setting up categories, topics, prompts, and competitors">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="./overview/best-practices-topics-prompts.md" title="Beste werkwijzen voor vestiging categorieën, onderwerpen, herinneringen, en concurrenten" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="/help/assets/overview/customer-configuration-card.png" alt="Beste werkwijzen voor vestiging categorieën, onderwerpen, herinneringen, en concurrenten"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./overview/best-practices-topics-prompts.md" target="_blank" rel="referrer" title="Beste werkwijzen voor vestiging categorieën, onderwerpen, herinneringen, en concurrenten"> Beste praktijken voor vestiging categorieën, onderwerpen, herinneringen, en concurrenten </a>
-                    </p>
-                    <p class="is-size-6">Leer hoe u LLM Optimizer configureert voor op maat gesneden merkbewaking en strategische inhoudanalyse.</p>
-                </div>
-                <a href="./overview/best-practices-topics-prompts.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> Leer meer </span>
                 </a>
             </div>
@@ -118,8 +118,14 @@ Adobe LLM Optimizer is een generatieve AI-eerste toepassing voor Generative Engi
 
 <!-- CARDS
 
+* ./overview/best-practices-topics-prompts.md
+  {title= Best practices for setting up categories, topics, prompts, and tracking others}
+  {description= Learn how to configure LLM Optimizer for tailored brand monitoring and strategic content analysis.}
+  {image= /help/assets/overview/customer-configuration-card.png}
+  {target=_blank}
+  {cta=Learn more}
 * ./tutorials/best-practices.md
-  {title= Best practices for marketers and SEO analysts}
+  {title= Best practices for LLM optimization using Adobe LLM Optimizer}
   {image= /help/assets/overview/best-practices-card.png}
   {description= Learn how LLM Optimizer can help you drive brand authority in AI search and discovery.}
 * https://business.adobe.com/products/llm-optimizer.html
@@ -131,12 +137,12 @@ Adobe LLM Optimizer is een generatieve AI-eerste toepassing voor Generative Engi
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Best practices for marketers and SEO analysts">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Best practices for setting up categories, topics, prompts, and tracking others">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./tutorials/best-practices.md" title="Aanbevolen procedures voor marketers en SEO-analisten" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="/help/assets/overview/best-practices-card.png" alt="Aanbevolen procedures voor marketers en SEO-analisten"
+                    <a href="./overview/best-practices-topics-prompts.md" title="Tips en trucs voor het instellen van categorieën, onderwerpen, vragen en het volgen van anderen" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="/help/assets/overview/customer-configuration-card.png" alt="Tips en trucs voor het instellen van categorieën, onderwerpen, vragen en het volgen van anderen"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -144,7 +150,30 @@ Adobe LLM Optimizer is een generatieve AI-eerste toepassing voor Generative Engi
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./tutorials/best-practices.md" target="_blank" rel="referrer" title="Aanbevolen procedures voor marketers en SEO-analisten"> Beste praktijken voor marketers en analisten SEO </a>
+                        <a href="./overview/best-practices-topics-prompts.md" target="_blank" rel="referrer" title="Tips en trucs voor het instellen van categorieën, onderwerpen, vragen en het volgen van anderen"> Beste praktijken voor vestiging categorieën, onderwerpen, herinneringen, en het volgen anderen </a>
+                    </p>
+                    <p class="is-size-6">Leer hoe u LLM Optimizer configureert voor op maat gesneden merkbewaking en strategische inhoudanalyse.</p>
+                </div>
+                <a href="./overview/best-practices-topics-prompts.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> Leer meer </span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Best practices for LLM optimization using Adobe LLM Optimizer">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="./tutorials/best-practices.md" title="Aanbevolen procedures voor LLM-optimalisatie met Adobe LLM Optimizer" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="/help/assets/overview/best-practices-card.png" alt="Aanbevolen procedures voor LLM-optimalisatie met Adobe LLM Optimizer"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="./tutorials/best-practices.md" target="_blank" rel="referrer" title="Aanbevolen procedures voor LLM-optimalisatie met Adobe LLM Optimizer"> Beste praktijken voor optimalisering LLM gebruikend Adobe LLM Optimizer </a>
                     </p>
                     <p class="is-size-6">Leer hoe LLM Optimizer u kan helpen bij het aansturen van merkbevoegdheden in AI-zoekopdrachten en -detectie.</p>
                 </div>

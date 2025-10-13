@@ -1,9 +1,9 @@
 ---
 title: LLM Optimizer Basics
 description: Meer informatie over hoe Adobe LLM Optimizer de zichtbaarheid van merken verhoogt in zoekopdrachten die door AI worden gestuurd. Houd opmerkingen, citaten en inzichten bij. Optimaliseren vandaag voor betere betrokkenheid en invloed.
-source-git-commit: 29e067086f9b6dd41c04b349c86ddc1c2baf8d2f
+source-git-commit: 06c09c4690488d9b29d0626521fb53bf7d70d3a8
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Adobe LLM Optimizer is een generatieve AI-eerste toepassing voor Generative Engi
 Adobe LLM Optimizer beschikt over een aantal tools die zijn ontworpen voor generatieve motoroptimalisatie:
 
 * Merk van de maatregel Zichtbaarheid: Spoor wanneer, waar, en hoe vaak uw merk in AI-Gerichte onderzoeksresultaten verschijnt, met een duidelijke zichtbaarheidsscore voor benchmarking.
-* Benchmark-concurrenten: vergelijk het aandeel van uw merk in stem en aanwezigheid ten opzichte van concurrenten in generatieve motoren.
+* Benchmark Overige: Vergelijk het aandeel van je merk in stem en aanwezigheid met concurrenten en anderen in generatieve engines.
 * Mogelijkheden voor actie ontdekken: Inhoud en technische verbeteringen identificeren (zoals veelgestelde vragen, abstracten, schema, schuifbaarheid) om aanhalingstekens en citaten te verhogen.
 * Effect van het Verkeer van het spoor: controleer zowel agentic (AI medewerker) als verwijzingsverkeer aan uw bezeten eigenschappen, die zicht aan overeenkomst verbinden.
 * Laat Team Collaboration toe: De dashboards van het aandeel, wijst eigenaars toe, en richt doelstellingen over marketing, SEO, en communicatie teams.
@@ -53,7 +53,7 @@ Generatieve motoroptimalisatie is van nature interfunctioneel. LLM Optimizer is 
 Met Adobe LLM Optimizer kunt u:
 
 **de Zichtbaarheid van het Merk van de Maatregel** - spoor wanneer, waar, en hoe vaak uw merk in AI-Vervaardigde onderzoeksresultaten wordt vermeld. Beweeg verder dan giswerk met een duidelijke zichtbaarheidsscore die je in de loop der tijd kunt benchmarken.
-**Benchmark Concurrenten** - zie hoe uw merk tegen concurrenten in generatieve motoren stapelt. Identificeer aandeel van stemhiaten en ontdek concurrerende voordelen.
+**Benchmark anderen** - zie hoe uw merk tegen anderen in generatieve motoren stapelt. Identificeer aandeel van stemhiaten en ontdek concurrerende voordelen.
 **ontdekt Actiebare Kansen** - de inhoudskansen van het Punt (b.v., FAQs, abstracts, schema) en technische kansen (doorschuifbaarheid, indexerende kwesties) die aanhalingstekens en citaten direct verhogen.
 **Effect van het Verkeer van het Spoor van AI** - het agentische verkeer van de Monitor (van de medewerkers van AI) en verwijzingsverkeer (de gebruiker klikt van citaties) aan uw bezeten eigenschappen. De zichtbaarheid van GEO beperken tot echte betrokkenheid.
 **laat Team Collaboration** toe - de dashboards van het Aandeel, wijst eigenaars voor herinneringen of categorieën toe, en verzekert zichtbaarheidsdoelstellingen over marketing, SEO, en communicatie functies worden gevolgd.
