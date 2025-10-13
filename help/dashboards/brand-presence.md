@@ -1,9 +1,9 @@
 ---
 title: Merk aanwezig
 description: Leer hoe u het dashboard Brand Presence kunt gebruiken om te begrijpen hoe uw merk wordt ervaren op het niveau van door AI gegenereerde reacties.
-source-git-commit: a699f8f3c50f77d07f29cd354fd1ef8e6eed8ff9
+source-git-commit: 5e8efde82c10c9afa09d51ec9ef20fc006363210
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1215'
 ht-degree: 0%
 
 ---
@@ -11,15 +11,15 @@ ht-degree: 0%
 
 # Merk aanwezig {#brand-presence}
 
-Het dashboard Brand Presence biedt een gedetailleerd overzicht van hoe uw merk wordt waargenomen op het niveau van door AI gegenereerde reacties. Het laat zien waar, hoe vaak en in welke context uw merk wordt genoemd. U kunt het dashboard gebruiken om zichtbaarheid te meten, citaties bij te houden, concurrenten te vergelijken en sentimentstrends te verkennen. Het dashboard bestaat uit verschillende gedeelten, die elk verschillende inzichten bieden. Er zijn ook aanpasbare filters waarmee u de weergegeven gegevens kunt verfijnen.
+Het dashboard Brand Presence biedt een gedetailleerd overzicht van hoe uw merk wordt waargenomen op het niveau van door AI gegenereerde reacties. Het laat zien waar, hoe vaak en in welke context uw merk wordt genoemd. U kunt het dashboard gebruiken om zichtbaarheid te meten, aanhalingstekens te volgen en sentimentstrends te verkennen. Het dashboard bestaat uit verschillende gedeelten, die elk verschillende inzichten bieden. Er zijn ook aanpasbare filters waarmee u de weergegeven gegevens kunt verfijnen.
 
-![&#x200B; Aanwezigheid van het Merk &#x200B;](/help/dashboards/assets/brand-main.png)
+![ Aanwezigheid van het Merk ](/help/dashboards/assets/brand-main1.png)
 
 Op deze pagina vindt u het volgende:
 
 * [Filters](#filters)
 * [Overzichtsgegevens](##key-metrics)
-* [Vergelijking van concurrenten](##competitor-comparison)
+* [Andere vergelijking](##others-comparison)
 * [Tendend gevoel](#sentiment-trend)
 * [Gegevens-inzichten](#data-insights)
 
@@ -40,7 +40,7 @@ Nadat u de gewenste filter selecteert, klik **toepassen Filters** om de selectie
 
 Het dashboard benadrukt drie zeer belangrijke metriek bij de bovenkant van de pagina: zichtbaarheidsscore, aanhalingstekens en citaten. Hoe lager de telling voor deze cijfers, hoe slechter uw merk wordt waargenomen, en u moet actie ondernemen om uw merkaanwezigheid te verbeteren. Hieronder ziet u een korte beschrijving van elke meting en van wat deze vertegenwoordigt.
 
-![&#x200B; Metriek van het Overzicht &#x200B;](/help/dashboards/assets/overview-metrics.png)
+![ Metriek van het Overzicht ](/help/dashboards/assets/overview-metrics.png)
 
 ### Zichtbaarheidsscore {#visibility-score}
 
@@ -56,27 +56,27 @@ Deze metrische waarde geeft het aantal keren weer dat naar uw site is verwezen a
 
 Tendindicatoren voor elke metrische sleutel tonen hoe deze waarden in de loop der tijd veranderen ten opzichte van de vorige periode.
 
-## Vergelijking van concurrenten {#competitor-comparison}
+## Andere vergelijking {#others-comparison}
 
-In het vergelijkingsgedeelte voor concurrenten kunt u maximaal vijf concurrenten selecteren en hun vermeldingen en citaten vergelijken met uw merk. Op deze manier kunt u uw prestaties in verhouding tot de concurrentie bekijken en benchmarken.
+In de andere vergelijkingssectie kunt u maximaal vijf andere merken selecteren en hun vermeldingen en citaten vergelijken met uw merk. Op deze manier kunt u uw prestaties bekijken en benchmarken ten opzichte van andere merken.
 
-![&#x200B; Vergelijking van de concurrent &#x200B;](/help/dashboards/assets/competitor-comparison.png)
+![ Andere Vergelijking ](/help/dashboards/assets/competitor-comparison1.png)
 
-De concurrenten worden geselecteerd van de drop-down lijst en de grafieken worden bijgewerkt wanneer u **klikt toepassen Filters**. De grafieken geven wekelijkse vermeldingen en wekelijkse citaten naast elkaar weer. U kunt de muis ook boven het diagram houden om de gegevensevolutie over het wekelijkse tijdkader te zien.
+De andere merken worden geselecteerd van de drop-down lijst en de grafieken worden bijgewerkt wanneer u **klikt toepassen Filters**. De grafieken geven wekelijkse vermeldingen en wekelijkse citaten naast elkaar weer. U kunt de muis ook boven het diagram houden om de gegevensevolutie over het wekelijkse tijdkader te zien.
 
 ## Analyse van tendensen in de richting {#sentiment-trend}
 
 In de sectie over trends in sentimenten kunt u bijhouden hoe uw merk wordt waargenomen in de gesampelde AI-antwoorden. De metrische sentimentstrend kan positief, neutraal of negatief zijn. Het kan bijvoorbeeld positief zijn als de antwoorden de productkwaliteit of negatief benadrukken als ze de slechte service vermelden. De trendgrafiek toont de verschuivingen in de week van de merkperceptie. De sectie wordt pas gevuld nadat uw merk is vermeld.
 
-![&#x200B; Tendens van de Aanwijzing &#x200B;](/help/dashboards/assets/sentiment-trend.png)
+![ Tendens van de Aanwijzing ](/help/dashboards/assets/sentiment-trend.png)
 
 ## Gegevens-inzichten en het delen van stem {#data-insights}
 
 Aan het oprichten van het dashboard, hebben wij twee belangrijke lijsten: gegevensinzichten en aandeel van stem. De informatie in deze tabellen helpt u te bepalen waar uw merk sterk is en waar optimalisatie nodig is.
 
-Door de **lijst van gegevensinzichten** te gebruiken kunt u onderwerpen en gebruikersvragen onderzoeken om inhoudseffect te beoordelen en te optimaliseren. De resultaten worden gedetailleerd door onderwerpen en herinneringen. Ondertussen, vergelijkt het **aandeel van stem** lijst, uw merkstem met andere concurrenten over onderwerpen en helpt u hiaten identificeren en toekomstige onderwerpen voorrang geven.
+Door de **lijst van gegevensinzichten** te gebruiken kunt u onderwerpen en gebruikersvragen onderzoeken om inhoudseffect te beoordelen en te optimaliseren. De resultaten worden gedetailleerd door onderwerpen en herinneringen. Ondertussen, vergelijkt het **aandeel van stem** lijst, uw merkstem met andere merken over onderwerpen en helpt u hiaten identificeren en toekomstige onderwerpen voorrang geven.
 
-![&#x200B; Inzichten van Gegevens &#x200B;](/help/dashboards/assets/data-insights.png)
+![ Inzichten van Gegevens ](/help/dashboards/assets/data-insights.png)
 
 Beide lijsten hebben een onderzoeksgebied voor snelle toegang tot onderwerpen. Ook, kunt u de **optie van de Uitvoer** gebruiken om lijst .csv te downloaden en de inzichten met uw team te delen of de lijst in uitvoerende rapportering te omvatten.
 
@@ -105,9 +105,9 @@ Het Aandeel van de lijst van de Stem verstrekt een vergelijkend onderzoek naar h
 * **Onderwerp** - het geanalyseerde onderwerp.
 * **Populariteit** - het onderzoeksvolume voor het onderwerp met betrekking tot alle andere onderwerpen in uw analyse.
 * **Vermeldingen** - Aantal tijden uw merk in AI reacties voor het onderwerp of de onderwerp/snelle combinatie werd vermeld.
-* **Rangschikkend** - het rangschikken van het Aandeel van uw merk van Stem, met betrekking tot alle geïdentificeerde concurrenten.
+* **Rangschikkend** - het rangschikken van het Aandeel van uw merk van Stem, met betrekking tot alle andere geïdentificeerde merken.
 * **Aandeel van stem** - het percentage van totaal noemt uw merk over AI-geproduceerde reacties houdt.
-* **Hoogste 5 Medewerkers** - de hoogste vijf merken die het vaakst voor de zelfde onderwerpen worden vermeld. De concurrenten worden georganiseerd door hun Aandeel van Stem (het hoogste aan het laagste).
+* **Hoogste 5 anderen** - de hoogste vijf merken die het vaakst voor de zelfde onderwerpen worden vermeld. De merken worden georganiseerd door hun Aandeel van Stem (het hoogst aan het laagst).
 
 >[!ENDTABS]
 
@@ -119,5 +119,5 @@ Belangrijke manieren om de tabel te gebruiken:
 
 * Prioriteit geven aan onderwerpen met een hoge populariteit en een lage zichtbaarheid - optimalisatie waarbij de vraag van het publiek sterk is, maar uw merk zwak aanwezig is.
 * Bewegingsverschuivingen bijhouden - steunonderwerpen waar gesproken wordt over trending negative of neutral, en uw reactie coördineren.
-* Vergelijk citaties en eigen citaten - geef aanwijzingen waar uw merk wordt genoemd maar waar de inhoud van de concurrent wordt genoemd, wat een inhoudskloof aangeeft.
+* Vergelijk citaties met eigen citaten - geef aanwijzingen op waar uw merk wordt vermeld maar de inhoud van een ander merk wordt genoemd, wat een inhoudskloof aangeeft.
 * Evalueer het positiebereik - controleer of uw merk in de AI-reacties (posities 1-3) of verder omlaag verschijnt (6-10).

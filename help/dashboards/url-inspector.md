@@ -1,7 +1,7 @@
 ---
 title: URL-controle
 description: Leer hoe u de URL-controle kunt gebruiken om te analyseren hoe specifieke pagina's op uw domein in AI-zoekopdrachten uitvoeren.
-source-git-commit: a699f8f3c50f77d07f29cd354fd1ef8e6eed8ff9
+source-git-commit: 5e8efde82c10c9afa09d51ec9ef20fc006363210
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Met de URL-controle kunt u analyseren hoe specifieke pagina&#39;s op uw domein in AI-zoekopdrachten uitvoeren. Het combineert zicht, agentisch verkeer, en verwijzingsgegevens op het niveau URL om u een korrelige mening te geven van welke URLs wordt geciteerd en hoe vaak zij in reacties verschijnen.
 
-![&#x200B; Inspecteur URL &#x200B;](/help/dashboards/assets/url-insp.png)
+![ Inspecteur URL ](/help/dashboards/assets/url-insp.png)
 
 ## Filters
 
@@ -44,7 +44,7 @@ De trendindicatoren voor elk overzichtsmetrisch tonen hoe deze waarden in tijd i
 
 In de weergave URL&#39;s waarnaar wordt verwezen, worden alle URL&#39;s van uw merk weergegeven die in door AI gegenereerde antwoorden zijn genoemd, met ondersteuning voor maatstaven. De gegevenslijst heeft ook een onderzoeksgebied voor snelle toegang tot specifieke URLs. Ook, kunt u de **optie van de Uitvoer** gebruiken om lijst .csv te downloaden en de inzichten met uw team te delen of de lijst in uitvoerende rapportering te omvatten.
 
-![&#x200B; Bewerkte URLs &#x200B;](/help/dashboards/assets/cited-urls.png)
+![ Bewerkte URLs ](/help/dashboards/assets/cited-urls.png)
 
 De volgende cijfers worden verstrekt:
 
@@ -60,12 +60,12 @@ De volgende cijfers worden verstrekt:
 
 De trending URLs die voor citatiemening concurreren, benadrukt externe URLs die momenteel in antwoorden relevant voor uw merk worden genoemd, die meten wie citaten in uw ruimte wint. De gegevenslijst heeft een onderzoeksgebied voor snelle toegang tot specifieke URLs. Ook, kunt u de **optie van de Uitvoer** gebruiken om lijst .csv te downloaden en de inzichten met uw team te delen of de lijst in uitvoerende rapportering te omvatten.
 
-![&#x200B; het Trending URLs die voor Cites &#x200B;](/help/dashboards/assets/trend-url.png) concurreren
+![ het Trending URLs die voor Cites ](/help/dashboards/assets/trend-url.png) concurreren
 
 De volgende cijfers worden verstrekt:
 
 * **URL** - geanalyseerde URL
-* **Type van Inhoud** - het type van inhoud (bezeten, sociale, verdiende, concurrent).
+* **Type van Inhoud** - het type van inhoud (bezeten, sociale, verdiende, andere).
 * **Geciteerde Tijden** - het aantal tijden URL is geciteerd in AI-Gegenereerde antwoorden.
 * **Herinneringen die in** worden vermeld - het aantal unieke AI herinneringen die URL citeren.
 * **Categorieën** - de productcategorieën of onderwerpen verbonden aan URL.
@@ -75,4 +75,4 @@ De volgende cijfers worden verstrekt:
 
 Voor zowel de geciteerde als trending meningen, hebben URLs a **Details** knoop wanneer u uw muis over specifieke URL beweegt. Als u op de knop klikt, wordt er een apart venster weergegeven met aanvullende gegevens. In het venster Details ziet u hoe vaak de URL wordt genoemd, het gevoel van AI-reacties op de plaats waar deze wordt vermeld, de onderwerpen en aanwijzingen die erin worden weergegeven en trends in het agentische en verwijzingsverkeer in de loop van de tijd (voor eigenlijke URL&#39;s).
 
-![&#x200B; Venster van Details &#x200B;](/help/dashboards/assets/details-url.png)
+![ Venster van Details ](/help/dashboards/assets/details-url.png)
