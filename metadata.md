@@ -2,13 +2,15 @@
 cloud: Experience Cloud
 solution: LLM Optimizer
 type: Documentation
+description: LLM Optimizer-documentatie.
 mini-toc-levels: 2
 feature-set: LLM Optimizer
 git-repo: https://github.com/AdobeDocs/llm-optimizer.nl-NL
-hide: true
-source-git-commit: bb3e3e4ebc7499fb8c8dfc165eb87595b40a4b4c
+index: y
+recommendations: noDisplay
+source-git-commit: 43372ded8691adbbbbcfd859b4d2176c17115ba8
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
@@ -18,4 +20,4 @@ ht-degree: 0%
 
 Het bestand metadata.md bevat metagegevens op repo-niveau die worden doorgegeven aan de bestanden in de repo in de gebruikershandleiding TOC.md. Als u de inhoud metadata.md voor om het even welke gebruikersgids wilt veranderen, doe dit in om het even welk dossier van TOC.md.
 
-Zie [&#x200B; Meta-gegevens &#x200B;](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html) voor een lijst van geldige waarden voor **oplossing**, **product**, en **type**.
+Zie [ Meta-gegevens ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html) voor een lijst van geldige waarden voor **oplossing**, **product**, en **type**.
