@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Verwijzingsverkeer
 
-Het Verkeer van de verwijzing toont hoe de bezoekers bij uw plaats van externe platforms, AI citaties, en verwijzingsverbindingen aankomen. Het volgt en analyseert verkeersbronnen, verwijzingspatronen, en omzettingsmetriek van externe websites en platforms. Dit zal u helpen begrijpen welke bronnen, gebieden, en pagina&#39;s het meest betrokken verkeer drijven. Het gegeven wordt afkomstig van of de CDN- logboeken of [&#x200B; Operationele Telemetrie van AEM &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service). Beide bronnen zijn privacybescherming en leggen geen persoonlijke gebruikersgegevens vast. Er zijn ook aanpasbare filters waarmee u de weergegeven gegevens kunt verfijnen.
+Het Verkeer van de verwijzing toont hoe de bezoekers bij uw plaats van externe platforms, AI citaties, en verwijzingsverbindingen aankomen. Het volgt en analyseert verkeersbronnen, verwijzingspatronen, en omzettingsmetriek van externe websites en platforms. Dit zal u helpen begrijpen welke bronnen, gebieden, en pagina&#39;s het meest betrokken verkeer drijven. Het gegeven wordt afkomstig van of de CDN- logboeken of [&#x200B; Operationele Telemetrie van AEM &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service). Beide bronnen zijn privacybescherming en leggen geen persoonlijke gebruikersgegevens vast. Er zijn ook aanpasbare filters waarmee u de weergegeven gegevens kunt verfijnen.
 
 ![&#x200B; Verwijzing Pagina &#x200B;](/help/dashboards/assets/referral-traffic.png)
 
