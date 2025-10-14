@@ -1,7 +1,8 @@
 ---
 title: Verwijzingsverkeer
 description: Leer hoe u het dashboard Referral-verkeer kunt gebruiken om te zien hoe bezoekers uw site bereiken via externe platforms, AI-citaties en verwijzingskoppelingen.
-source-git-commit: a6d050516e681094d97b25fcdc59e9ed4e60e104
+feature: Referral Traffic
+source-git-commit: c6e37395362262eb5fe8366473e76086e36d77e9
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 Het Verkeer van de verwijzing toont hoe de bezoekers bij uw plaats van externe platforms, AI citaties, en verwijzingsverbindingen aankomen. Het volgt en analyseert verkeersbronnen, verwijzingspatronen, en omzettingsmetriek van externe websites en platforms. Dit zal u helpen begrijpen welke bronnen, gebieden, en pagina&#39;s het meest betrokken verkeer drijven. <!--Data is sourced from the CDN logs, a privacy-preserving source that does not capture personal user data.--> Er zijn ook aanpasbare filters waarmee u de weergegeven gegevens kunt verfijnen.
 
-![&#x200B; Verwijzing Pagina &#x200B;](/help/dashboards/assets/referral-traffic.png)
+![ Verwijzing Pagina ](/help/dashboards/assets/referral-traffic.png)
 
 Op deze pagina vindt u het volgende:
 
@@ -25,9 +26,9 @@ Op deze pagina vindt u het volgende:
 
 ## Instellen {#setup}
 
-Bij de eerste aanmelding kan het dashboard Referral-verkeer leeg worden weergegeven. Om uw gegevens te bekijken, moet u [&#x200B; CDN logboek vormen door:sturen &#x200B;](/help/dashboards/customer-configuration.md#cdn-configuration), door te selecteren **ga naar Configuratie**.
+Bij de eerste aanmelding kan het dashboard Referral-verkeer leeg worden weergegeven. Om uw gegevens te bekijken, moet u [ CDN logboek vormen door:sturen ](/help/dashboards/customer-configuration.md#cdn-configuration), door te selecteren **ga naar Configuratie**.
 
-![&#x200B; Opstelling van de Verwijzing &#x200B;](/help/dashboards/assets/referral-setup1.png)
+![ Opstelling van de Verwijzing ](/help/dashboards/assets/referral-setup1.png)
 
 <!--- 1. Select your Source (either CDN logs or AEM Operational Telemetry).
 2. Enter a primary contact email.
@@ -56,13 +57,13 @@ Het dashboard benadrukt de algemene verwijzingsprestaties door zeer belangrijke 
 * **Constante tarief** - het percentage bezoekers die een toestemmingsherinnering goedkeuren.
 * **Stuitpercentage** - het percentage zittingen van verwijzingsbronnen die geen betrokkenheidsgebeurtenis hadden.
 
-![&#x200B; Verwijzing Pagina &#x200B;](/help/dashboards/assets/referral-traffic.png)
+![ Verwijzing Pagina ](/help/dashboards/assets/referral-traffic.png)
 
 Naast de algemene prestatiesmetriek die hierboven wordt voorgesteld, onderbreekt het **Hoogste Gebieden** paneel verkeer door geografie. Ondertussen, toont het **Belangrijkste paneel van de Verwijzing Bronnen** de platforms die de meeste bezoeken drijven. Trend-indicatoren voor de meetwaarden laten zien hoe deze waarden in de loop der tijd veranderen ten opzichte van de vorige periode.
 
 <!--## Top Referral URLs {#top-referrals}
 
-The Top Referral URLs list surfaces your site’s most visited pages from referrals.
+The Top Referral URLs list surfaces your site's most visited pages from referrals.
 
 ![Top Referral URLs](/help/dashboards/assets/top-url.png)-->
 
@@ -70,7 +71,7 @@ The Top Referral URLs list surfaces your site’s most visited pages from referr
 
 De de gegevensdetails van de Bron van de Verwijzing en lijsten van de Analyse van de Prestaties URL helpen u zowel verkeersvolume als kwaliteit evalueren. Klik op elk tabblad hieronder voor meer informatie:
 
-![&#x200B; Details van het Verkeer van de Verwijzing &#x200B;](/help/dashboards/assets/traffic-details.png)
+![ Details van het Verkeer van de Verwijzing ](/help/dashboards/assets/traffic-details.png)
 
 >[!BEGINTABS]
 
