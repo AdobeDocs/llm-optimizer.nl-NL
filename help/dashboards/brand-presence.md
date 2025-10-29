@@ -2,9 +2,9 @@
 title: Merk aanwezig
 description: Leer hoe u het dashboard Brand Presence kunt gebruiken om te begrijpen hoe uw merk wordt ervaren op het niveau van door AI gegenereerde reacties.
 feature: Brand Presence
-source-git-commit: c6e37395362262eb5fe8366473e76086e36d77e9
+source-git-commit: e50c87e8e5a669526f3c10855c1629ce82b67aef
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1275'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Het dashboard Brand Presence biedt een gedetailleerd overzicht van hoe uw merk wordt waargenomen op het niveau van door AI gegenereerde reacties. Het laat zien waar, hoe vaak en in welke context uw merk wordt genoemd. U kunt het dashboard gebruiken om zichtbaarheid te meten, aanhalingstekens te volgen en sentimentstrends te verkennen. Het dashboard bestaat uit verschillende gedeelten, die elk verschillende inzichten bieden. Er zijn ook aanpasbare filters waarmee u de weergegeven gegevens kunt verfijnen.
 
-![&#x200B; Aanwezigheid van het Merk &#x200B;](/help/dashboards/assets/brand-main.png)
+![ Aanwezigheid van het Merk ](/help/dashboards/assets/brand-main.png)
 
 Op deze pagina vindt u het volgende:
 
@@ -30,6 +30,7 @@ Boven aan de pagina kunt u filters toepassen om de weergave te verfijnen. De fil
 
 * **de Waaier van de Datum** - selecteer het tijdkader voor de getoonde gegevens. Bijvoorbeeld de laatste 4 weken. U hebt ook de optie om de tijdperiode aan te passen door de **optie van de Weken van de Douane te selecteren**.
 * **Categorie** - filter de getoonde resultaten door of vooraf bepaalde categorieën of douanecategorieën.
+* **Onderwerp** - filter door onderwerp om inhoudsthema&#39;s en onderwerpgebieden te analyseren waar uw merk in AI reacties verschijnt.
 * **Platform** - kies welke motor AI om te analyseren.
 * **vraagt Oorsprong** - kies de oorsprong van de herinneringen. De oorsprong kan door de gebruiker worden ingevoerd of door AI worden gegenereerd.
 * **Vragen het Brandmerken** - de resultaten van de Filter door of brandde herinneringen of non-branded herinneringen.
@@ -41,15 +42,15 @@ Nadat u de gewenste filter selecteert, klik **toepassen Filters** om de selectie
 
 Het dashboard benadrukt drie zeer belangrijke metriek bij de bovenkant van de pagina: zichtbaarheidsscore, aanhalingstekens en citaten. Hoe lager de telling voor deze cijfers, hoe slechter uw merk wordt waargenomen, en u moet actie ondernemen om uw merkaanwezigheid te verbeteren. Hieronder ziet u een korte beschrijving van elke meting en van wat deze vertegenwoordigt.
 
-![&#x200B; Metriek van het Overzicht &#x200B;](/help/dashboards/assets/overview-metrics.png)
+![ Metriek van het Overzicht ](/help/dashboards/assets/overview-metrics.png)
 
 ### Zichtbaarheidsscore {#visibility-score}
 
 De zichtbaarheidsscore bestaat uit factoren zoals: vermeldingen, citaten, sentiment en rangorde. Aan elke factor is een bepaald &quot;gewicht&quot; gekoppeld, dat bij de eindscore optelt.
 
-### Opmerkingen {#mentions}
+### Merknamen {#mentions}
 
-Deze maatstaf geeft het totale aantal keren weer dat uw merk of categorieën zijn vermeld op de gesamplede AI-herinneringen. U hebt bijvoorbeeld het merk &quot;Coffe B&quot; met de categorieën &quot;Machines&quot; en &quot;Accessoires&quot; en deze maatstaf telt het totale aantal keren dat deze worden weergegeven in de gesamplede AI-antwoorden.
+Deze maatstaf geeft het totale aantal keren weer dat uw merk of categorieën zijn vermeld op de gesamplede AI-herinneringen. Als u bijvoorbeeld het merk &quot;Coffe B&quot; hebt, met de categorieën &quot;Machines&quot; en &quot;Accessoires&quot; telt deze maatstaf het totale aantal keren dat deze worden weergegeven in de gesamplede AI-antwoorden.
 
 ### Kaarten {#citations}
 
@@ -61,15 +62,15 @@ Tendindicatoren voor elke metrische sleutel tonen hoe deze waarden in de loop de
 
 In de andere vergelijkingssectie kunt u maximaal vijf andere merken selecteren en hun vermeldingen en citaten vergelijken met uw merk. Op deze manier kunt u uw prestaties bekijken en benchmarken ten opzichte van andere merken.
 
-![&#x200B; Andere Vergelijking &#x200B;](/help/dashboards/assets/other-comparison.png)
+![ Andere Vergelijking ](/help/dashboards/assets/other-comparison.png)
 
-De andere merken worden geselecteerd van de drop-down lijst en de grafieken worden bijgewerkt wanneer u **klikt toepassen Filters**. De grafieken geven wekelijkse vermeldingen en wekelijkse citaten naast elkaar weer. U kunt de muis ook boven het diagram houden om de gegevensevolutie over het wekelijkse tijdkader te zien.
+De andere merken worden geselecteerd van de drop-down lijst en de grafieken worden bijgewerkt wanneer u **klikt toepassen Filters**. De grafieken geven wekelijkse merknamen en wekelijkse merkcitaten naast elkaar weer. U kunt de muis ook boven het diagram houden om de gegevensevolutie over het wekelijkse tijdkader te zien.
 
 ## Analyse van tendensen in de richting {#sentiment-trend}
 
-In de sectie over trends in sentimenten kunt u bijhouden hoe uw merk wordt waargenomen in de gesampelde AI-antwoorden. De metrische sentimentstrend kan positief, neutraal of negatief zijn. Het kan bijvoorbeeld positief zijn als de antwoorden de productkwaliteit of negatief benadrukken als ze de slechte service vermelden. De trendgrafiek toont de verschuivingen in de week van de merkperceptie. De sectie wordt pas gevuld nadat uw merk is vermeld.
+In de sectie over trends in sentimenten kunt u bijhouden hoe uw merk wordt waargenomen in de gesampelde AI-antwoorden. De metrische sentimentstrend kan positief, neutraal of negatief zijn. Het kan bijvoorbeeld positief zijn als de antwoorden de productkwaliteit of negatief benadrukken als ze de slechte service vermelden. De trendgrafiek toont de verschuivingen in de week van de merkperceptie. Deze sectie wordt alleen ingevuld nadat uw merk is vermeld.
 
-![&#x200B; Tendens van de Aanwijzing &#x200B;](/help/dashboards/assets/sentiment-trend.png)
+![ Tendens van de Aanwijzing ](/help/dashboards/assets/sentiment-trend.png)
 
 ## Gegevens-inzichten en het delen van stem {#data-insights}
 
@@ -77,9 +78,9 @@ Aan het oprichten van het dashboard, hebben wij twee belangrijke lijsten: gegeve
 
 Door de **lijst van gegevensinzichten** te gebruiken kunt u onderwerpen en gebruikersvragen onderzoeken om inhoudseffect te beoordelen en te optimaliseren. De resultaten worden gedetailleerd door onderwerpen en herinneringen. Ondertussen, vergelijkt het **aandeel van stem** lijst, uw merkstem met andere merken over onderwerpen en helpt u hiaten identificeren en toekomstige onderwerpen voorrang geven.
 
-![&#x200B; Inzichten van Gegevens &#x200B;](/help/dashboards/assets/data-insights.png)
+![ Inzichten van Gegevens ](/help/dashboards/assets/data-insights.png)
 
-Beide lijsten hebben een onderzoeksgebied voor snelle toegang tot onderwerpen. Ook, kunt u de **optie van de Uitvoer** gebruiken om lijst .csv te downloaden en de inzichten met uw team te delen of de lijst in uitvoerende rapportering te omvatten.
+Beide lijsten hebben een onderzoeksgebied voor snelle toegang tot onderwerpen en u kunt aanpassen welke metriek wordt getoond door **te klikken vormt Kolommen** knoop. Ook, kunt u de **optie van de Uitvoer** gebruiken om lijst .csv te downloaden en de inzichten met uw team te delen of de lijsten in uitvoerende rapportering te omvatten.
 
 Klik op de onderstaande tabbladen voor meer informatie over elke tabel en de bijbehorende metriek.
 
@@ -98,6 +99,9 @@ De lijst van gegevensinzichten helpt u onderwerpen en gebruikersherinneringen on
 * **Positie** - de relatieve belangrijkheid van uw merk in AI reacties, die als gemiddelde over alle weken worden berekend.
 * **Alle Keuringen** - het aantal unieke bronnen die in AI reacties voor dit onderwerp of deze onderwerp/snelle combinatie (omvat bezeten citaten) worden genoemd.
 * **BezitBevelen** - het aantal tijden uw merk in AI reacties voor dit sleutelwoord of deze sleutelwoord/vraagcombinatie werd geciteerd.
+  <!--* **Executions**-->
+
+U kunt extra details voor elk onderwerp ook bekijken door op het **pictogram van Details** aan het eind van elke rij te klikken.
 
 >[!TAB  Aandeel van Stem ]
 
@@ -119,6 +123,6 @@ De lijst van de Inzichten van Gegevens helpt u zich van metriek aan acties beweg
 Belangrijke manieren om de tabel te gebruiken:
 
 * Prioriteit geven aan onderwerpen met een hoge populariteit en een lage zichtbaarheid - optimalisatie waarbij de vraag van het publiek sterk is, maar uw merk zwak aanwezig is.
-* Bewegingsverschuivingen bijhouden - steunonderwerpen waar gesproken wordt over trending negative of neutral, en uw reactie coördineren.
+* Wijzigingen in sentimenten bijhouden - onderwerpen waar gesproken tekst negatief of neutraal wordt en uw reactie coördineren.
 * Vergelijk citaties met eigen citaten - geef aanwijzingen op waar uw merk wordt vermeld maar de inhoud van een ander merk wordt genoemd, wat een inhoudskloof aangeeft.
 * Evalueer het positiebereik - controleer of uw merk in de AI-reacties (posities 1-3) of verder omlaag verschijnt (6-10).

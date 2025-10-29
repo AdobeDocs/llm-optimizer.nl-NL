@@ -2,9 +2,9 @@
 title: URL-controle
 description: Leer hoe u de URL-controle kunt gebruiken om te analyseren hoe specifieke pagina's op uw domein in AI-zoekopdrachten uitvoeren.
 feature: URL Inspector
-source-git-commit: c6e37395362262eb5fe8366473e76086e36d77e9
+source-git-commit: e50c87e8e5a669526f3c10855c1629ce82b67aef
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Met de URL-controle kunt u analyseren hoe specifieke pagina&#39;s op uw domein in AI-zoekopdrachten uitvoeren. Het combineert zicht, agentisch verkeer, en verwijzingsgegevens op het niveau URL om u een korrelige mening te geven van welke URLs wordt geciteerd en hoe vaak zij in reacties verschijnen.
 
-![&#x200B; Inspecteur URL &#x200B;](/help/dashboards/assets/url-insp.png)
+![ Inspecteur URL ](/help/dashboards/assets/url-insp.png)
 
 ## Filters
 
@@ -36,16 +36,16 @@ De URL-controle bevat verschillende overzichtsmetriek, zodat u snel kunt beoorde
 * **Volledige unieke herinneringen** - het totale aantal unieke AI herinneringen.
 * **Unieke geciteerde URLs** - het aantal unieke bezeten URLs die zijn aangehaald.
 * **Totale tijden aangehaald** - Totale tijden een bezeten URL is geciteerd in door AI geproduceerde antwoorden.
-<!-- * **Total agentic hits** - The total number of hits from AI agents on your URLs.
-* **Referral hits from LLMs** - The total number of hits directed from AI-generated answers to your URLs.-->
+* **Totale opvallende treffers** - het totale aantal klappen van AI agenten op uw URLs.
+* **de treffers van de Verwijzing van LLMs** - het totale aantal klappen die van AI-Gegenereerde antwoorden aan uw URLs worden geleid.
 
 De trendindicatoren voor elk overzichtsmetrisch tonen hoe deze waarden in tijd in vergelijking met de vorige periode veranderen.
 
 ## Je opgegeven URL&#39;s
 
-In de weergave URL&#39;s waarnaar wordt verwezen, worden alle URL&#39;s van uw merk weergegeven die in door AI gegenereerde antwoorden zijn genoemd, met ondersteuning voor maatstaven. De gegevenslijst heeft ook een onderzoeksgebied voor snelle toegang tot specifieke URLs. Ook, kunt u de **optie van de Uitvoer** gebruiken om lijst .csv te downloaden en de inzichten met uw team te delen of de lijst in uitvoerende rapportering te omvatten.
+In de weergave URL&#39;s waarnaar wordt verwezen, worden alle URL&#39;s van uw merk weergegeven die in door AI gegenereerde antwoorden zijn genoemd, met ondersteuning voor maatstaven. Beide lijsten hebben een onderzoeksgebied voor snelle toegang tot onderwerpen en u kunt aanpassen welke metriek wordt getoond door **te klikken vormt Kolommen** knoop. Ook, kunt u de **optie van de Uitvoer** gebruiken om lijst .csv te downloaden en de inzichten met uw team te delen of de lijst in uitvoerende rapportering te omvatten.
 
-![&#x200B; Bewerkte URLs &#x200B;](/help/dashboards/assets/cited-urls.png)
+![ Bewerkte URLs ](/help/dashboards/assets/cited-urls.png)
 
 De volgende cijfers worden verstrekt:
 
@@ -61,7 +61,7 @@ De volgende cijfers worden verstrekt:
 
 De trending URLs die voor citatiemening concurreren, benadrukt externe URLs die momenteel in antwoorden relevant voor uw merk worden genoemd, die meten wie citaten in uw ruimte wint. De gegevenslijst heeft een onderzoeksgebied voor snelle toegang tot specifieke URLs. Ook, kunt u de **optie van de Uitvoer** gebruiken om lijst .csv te downloaden en de inzichten met uw team te delen of de lijst in uitvoerende rapportering te omvatten.
 
-![&#x200B; het Trending URLs die voor Cites &#x200B;](/help/dashboards/assets/trend-url.png) concurreren
+![ het Trending URLs die voor Cites ](/help/dashboards/assets/trend-url.png) concurreren
 
 De volgende cijfers worden verstrekt:
 
@@ -74,6 +74,6 @@ De volgende cijfers worden verstrekt:
 
 ### Venster Details
 
-Voor zowel de geciteerde als trending meningen, hebben URLs a **Details** knoop wanneer u uw muis over specifieke URL beweegt. Als u op de knop klikt, wordt er een apart venster weergegeven met aanvullende gegevens. In het venster Details ziet u hoe vaak de URL wordt genoemd, het gevoel van AI-reacties op de plaats waar deze wordt vermeld, de onderwerpen en aanwijzingen die erin worden weergegeven en trends in het agentische en verwijzingsverkeer in de loop van de tijd (voor eigenlijke URL&#39;s).
+Voor zowel de geciteerde als trending meningen, heeft URLs a **Details** knoop aan het eind van elke rij. Als u op de knop klikt, wordt er een apart venster weergegeven met aanvullende gegevens. Het detailvenster toont hoe vaak URL wordt geciteerd, <!--the sentiment of AI responses where it is mentioned,--> de onderwerpen en herinneringen het binnen verschijnt, en tendensen in agentic en verwijzingsverkeer in tijd (voor bezeten URLs).
 
-![&#x200B; Venster van Details &#x200B;](/help/dashboards/assets/details-url.png)
+![ Venster van Details ](/help/dashboards/assets/details-url.png)
