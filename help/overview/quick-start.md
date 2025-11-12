@@ -33,7 +33,7 @@ Zie de onderstaande sectie voor meer informatie over het activeren van de gratis
 
 ### Klanten met AEM Cloud
 
-Als u een Klanten van de Wolk van AEM bent hebt u de optie om LLM Optimizer te proberen door de kaart van de Aankondiging van het Product in [&#x200B; Experience Hub &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/experience-hub/experience-hub) te gebruiken.
+Als u een Klanten van de Wolk van AEM bent hebt u de optie om LLM Optimizer te proberen door de kaart van de Aankondiging van het Product in [&#x200B; Experience Hub &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/experience-hub/experience-hub) te gebruiken.
 
 >[!NOTE]
 >Nieuw toegevoegde herinneringen zullen niet in het [&#x200B; dashboard van de Aanwezigheid van het Merk &#x200B;](/help/dashboards/brand-presence.md) verschijnen tot de verwerking volledig is. Klanten van AEM Cloud kunnen de gratis proefversie van LLM Optimizer gebruiken. Voor het gebruik van meer dan 200 aanwijzingen is een aparte licentieovereenkomst vereist. Toegang wordt verleend op basis van &quot;actuele&quot; en &quot;beschikbare&quot; basis, en kan te allen tijde door Adobe worden gewijzigd, beperkt of verwijderd. Neem contact op met uw accountvertegenwoordiger voor meer informatie.
