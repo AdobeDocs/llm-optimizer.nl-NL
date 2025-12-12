@@ -40,7 +40,7 @@ Optimaliseren in Edge is ontworpen voor zakelijke gebruikers in marketing-, SEO-
 
 ## Welke mogelijkheden zijn er in Edge geoptimaliseerd?
 
-De kansen die de agentische Webervaring kunnen verbeteren worden gesteund met Optimize in Edge. Leer meer over elke kans in [ sectie van Kansen ](/help/dashboards/opportunities.md).
+De kansen die de agentische Webervaring kunnen verbeteren worden gesteund met Optimize in Edge. Leer meer over elke kans in [&#x200B; sectie van Kansen &#x200B;](/help/dashboards/opportunities.md).
 
 ## Onboarding
 
@@ -386,9 +386,9 @@ Belangrijke overwegingen:
 
 **Tokowaka BYOCDN - snel - VCL**
 
-![ VCL van de Fastly ](/help/assets/optimize-at-edge/fastly-vcl.png)
+![&#x200B; VCL van de Fastly &#x200B;](/help/assets/optimize-at-edge/fastly-vcl.png)
 
-![ voeg VCL fragmenten ](/help/assets/optimize-at-edge/add-vcl-snippets.png) toe
+![&#x200B; voeg VCL fragmenten &#x200B;](/help/assets/optimize-at-edge/add-vcl-snippets.png) toe
 
 **vcl_recv fragment**
 
@@ -457,9 +457,9 @@ Deze kans geeft pagina&#39;s weer waar de belangrijkste inhoud verborgen is voor
 
 #### Extra gereedschappen
 
-Is uw webpagina te vinden? De [ Adobe LLM Optimizer: Is uw webpagina citeerbaar?](https://chromewebstore.google.com/detail/adobe-llm-optimizer-is-yo/jbjngahjjdgonbeinjlepfamjdmdcbcc) Met de Chrome-extensie kunt u precies zien hoeveel van uw webpagina-inhoud LLM&#39;s kunnen benaderen en wat verborgen blijft. Deze software is ontworpen als een gratis, standalone diagnoseprogramma en vereist geen productlicentie of installatie.
+Is uw webpagina te vinden? De [&#x200B; Adobe LLM Optimizer: Is uw webpagina citeerbaar?](https://chromewebstore.google.com/detail/adobe-llm-optimizer-is-yo/jbjngahjjdgonbeinjlepfamjdmdcbcc) Met de Chrome-extensie kunt u precies zien hoeveel van uw webpagina-inhoud LLM&#39;s kunnen benaderen en wat verborgen blijft. Deze software is ontworpen als een gratis, standalone diagnoseprogramma en vereist geen productlicentie of installatie.
 
-Met één klik kunt u de gereedschapsleesbaarheid van elke site evalueren, naast elkaar een vergelijking bekijken van wat AI-agents zien ten opzichte van wat menselijke gebruikers zien en inschatten hoeveel inhoud met LLM Optimizer kan worden hersteld. Zie [ AI uw website lezen?](https://business.adobe.com/blog/introducing-the-llm-optimizer-chrome-extension) voor meer informatie.
+Met één klik kunt u de gereedschapsleesbaarheid van elke site evalueren, naast elkaar een vergelijking bekijken van wat AI-agents zien ten opzichte van wat menselijke gebruikers zien en inschatten hoeveel inhoud met LLM Optimizer kan worden hersteld. Zie [&#x200B; AI uw website lezen?](https://business.adobe.com/blog/introducing-the-llm-optimizer-chrome-extension) voor meer informatie.
 
 ### Koppen voor LLM&#39;s optimaliseren
 
@@ -485,31 +485,31 @@ Voor elke gelegenheid kunt u de optimalisaties aan de rand voorvertonen, bewerke
 
 Met Voorvertoning kunnen gebruikers zien wat het effect is van een suggestie op de pagina voordat er iets live gaat. Er wordt een verschil tussen de huidige pagina en de voor AI geoptimaliseerde versie verwacht na het toepassen van de suggestie. In deze weergave wordt dezelfde logica voor optimaliseren bij Edge gebruikt die live verkeer mogelijk maakt, maar in een veilige, geïsoleerde voorvertoningsmodus. Dit beïnvloedt levend verkeer niet aangezien het een read-only simulatie voor overzicht is.
 
-![ Voorproef ](/help/assets/optimize-at-edge/preview.png)
+![&#x200B; Voorproef &#x200B;](/help/assets/optimize-at-edge/preview.png)
 
 ### Bewerken
 
 Met Bewerken kunnen gebruikers de automatisch gegenereerde suggestie verfijnen of herschrijven voordat ze deze implementeren. In plaats van passief de suggestie te accepteren, behouden gebruikers volledige controle via deze &#39;human-in-the-loop&#39; workflow. In de weergave worden voorgestelde wijzigingen weergegeven in een gestructureerde editor, waar gebruikers de tekst kunnen wijzigen om deze beter aan te passen aan hun intentie. De bewerkte versie wordt vervolgens aan AI-agents geleverd zodra deze zijn geïmplementeerd.
 
-![ geeft ](/help/assets/optimize-at-edge/edit.png) uit
+![&#x200B; geeft &#x200B;](/help/assets/optimize-at-edge/edit.png) uit
 
 ### Implementeren
 
 Met Deploy publiceert u de geselecteerde suggesties, zodat de geoptimaliseerde ervaringen van de rand naar AI-agents kunnen worden gestuurd. Als CDN volledig wordt verpletterd, gaan alle pagina&#39;s in het domein met de nieuwe veranderingen typisch binnen notulen. Als het verpletteren voor uitgezochte wegen slechts is gevormd, slechts gaan de gevoegde op lijst van gewenste personen pagina&#39;s met de optimalisaties.
 
-![ opstellen ](/help/assets/optimize-at-edge/deploy.png)
+![&#x200B; opstellen &#x200B;](/help/assets/optimize-at-edge/deploy.png)
 
 ### Live weergeven
 
 Met Live View kunnen gebruikers controleren of de optimalisatie live is en zich gedraagt zoals verwacht voor zintuiglijk verkeer, een weergave die anders moeilijk toegankelijk zou zijn. Gebruikers kunnen de actieve pagina weergeven onder Vaste suggesties, waardoor de pagina wordt weergegeven zoals deze wordt weergegeven aan AI-agents.
 
-![ Levende Mening ](/help/assets/optimize-at-edge/view-live.png)
+![&#x200B; Levende Mening &#x200B;](/help/assets/optimize-at-edge/view-live.png)
 
 ### Terugdraaien
 
 Met Terugdraaien wordt een eerder geïmplementeerde optimalisatie veilig hersteld. De alleen-AI-versie van de pagina wordt doorgaans binnen enkele minuten teruggezet naar de vorige staat, zodat gebruikers, indien nodig, veilig kunnen experimenteren met optimalisaties.
 
-![ Terugkeer ](/help/assets/optimize-at-edge/rollback.png)
+![&#x200B; Terugkeer &#x200B;](/help/assets/optimize-at-edge/rollback.png)
 
 ## Veelgestelde vragen
 
