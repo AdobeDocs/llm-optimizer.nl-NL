@@ -2,9 +2,9 @@
 user-guide-title: LLM Optimizer
 breadcrumb-title: LLM Optimizer
 user-guide-description: Verhoog je merk met Adobe LLM Optimizer. Houd beweringen bij, ontdek inzichten en domineer zoekopdrachten op AI-basis. Neem de controle over uw zichtbaarheid - optimaliseer nu!
-source-git-commit: 1be26ad8f8e3abb87c5d897172c1ac5dcbf01f87
+source-git-commit: 8f914fb60036058870b63addae690c945127f349
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
@@ -27,3 +27,5 @@ ht-degree: 0%
    + [Kansen](/help/dashboards/opportunities.md)
    + [Klantconfiguratie](/help/dashboards/customer-configuration.md)
    + [Collaboration](/help/dashboards/collaboration.md)
++ Aanvullende bronnen{#resources}
+   + [Optimaliseren bij Edge](/help/dashboards/optimize-at-edge.md)
