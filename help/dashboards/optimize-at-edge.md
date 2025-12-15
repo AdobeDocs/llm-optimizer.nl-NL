@@ -35,7 +35,7 @@ Optimaliseren in Edge is ontworpen voor zakelijke gebruikers in marketing-, SEO-
 
 ### Welke mogelijkheden worden gesteund met Optimize in Edge?
 
-De kansen die de agentische Webervaring kunnen verbeteren worden gesteund met Optimize in Edge. Leer meer over elke kans zowel in de [ pagina van het Dashboard van Kansen ](/help/dashboards/opportunities.md) als de opportuniteitssectie in de huidige pagina.
+De kansen die de agentische Webervaring kunnen verbeteren worden gesteund met Optimize in Edge. Leer meer over elke kans zowel in de [&#x200B; pagina van het Dashboard van Kansen &#x200B;](/help/dashboards/opportunities.md) als de opportuniteitssectie in de huidige pagina.
 
 ## Onboarding
 
@@ -74,7 +74,7 @@ curl -svo page.html https://frescopa.coffee/about-us --header "user-agent: chatg
 < x-tokowaka-request-id: 50fce12d-0519-4fc6-af78-d928785c1b85
 ```
 
-De verpletterende configuratie wordt gedaan door een [ originSelector CDN regel ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#origin-selectors) te gebruiken. De voorwaarden zijn als volgt:
+De verpletterende configuratie wordt gedaan door een [&#x200B; originSelector CDN regel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#origin-selectors) te gebruiken. De voorwaarden zijn als volgt:
 
 * beslissen welk domein moet worden verpletterd
 * bepalen welke paden moeten worden gerouteerd
@@ -83,9 +83,9 @@ De verpletterende configuratie wordt gedaan door een [ originSelector CDN regel 
 
 Om de regel op te stellen, moet u:
 
-* creeer de pijpleiding van de a [ configuratie ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/config-pipeline)
+* creeer de pijpleiding van de a [&#x200B; configuratie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/config-pipeline)
 * het configuratiebestand van `cdn.yaml` toewijzen in uw opslagplaats
-* stel api sleutel als [ geheime omgevingsvariabele ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-credentials-authentication) op
+* stel api sleutel als [&#x200B; geheime omgevingsvariabele &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-credentials-authentication) op
 * de configuratiepijplijn uitvoeren
 
 
@@ -408,9 +408,9 @@ Important considerations:
 
 **Tokowaka BYOCDN - snel - VCL**
 
-![ VCL van de Fastly ](/help/assets/optimize-at-edge/fastly-vcl.png)
+![&#x200B; VCL van de Fastly &#x200B;](/help/assets/optimize-at-edge/fastly-vcl.png)
 
-![ voeg VCL fragmenten ](/help/assets/optimize-at-edge/add-vcl-snippets.png) toe
+![&#x200B; voeg VCL fragmenten &#x200B;](/help/assets/optimize-at-edge/add-vcl-snippets.png) toe
 
 **vcl_recv fragment**
 
@@ -471,9 +471,9 @@ Deze tabel vindt u in de volgende tabel met mogelijkheden die de taalkundige web
 
 ### Extra gereedschappen
 
-De [ Adobe LLM Optimizer: Is uw webpagina citeerbaar?](https://chromewebstore.google.com/detail/adobe-llm-optimizer-is-yo/jbjngahjjdgonbeinjlepfamjdmdcbcc) Met de Chrome-extensie kunt u precies zien hoeveel van uw webpagina-inhoud LLM&#39;s kunnen benaderen en wat verborgen blijft. Deze software is ontworpen als een gratis, standalone diagnoseprogramma en vereist geen productlicentie of installatie.
+De [&#x200B; Adobe LLM Optimizer: Is uw webpagina citeerbaar?](https://chromewebstore.google.com/detail/adobe-llm-optimizer-is-yo/jbjngahjjdgonbeinjlepfamjdmdcbcc) Met de Chrome-extensie kunt u precies zien hoeveel van uw webpagina-inhoud LLM&#39;s kunnen benaderen en wat verborgen blijft. Deze software is ontworpen als een gratis, standalone diagnoseprogramma en vereist geen productlicentie of installatie.
 
-Met één klik kunt u de gereedschapsleesbaarheid van elke site evalueren. U kunt een vergelijking naast elkaar bekijken van wat AI agenten tegenover zien wat menselijke gebruikers zien, en schatten hoeveel inhoud door LLM Optimizer kon worden teruggekregen. Zie [ AI uw website lezen?](https://business.adobe.com/blog/introducing-the-llm-optimizer-chrome-extension) voor meer informatie.
+Met één klik kunt u de gereedschapsleesbaarheid van elke site evalueren. U kunt een vergelijking naast elkaar bekijken van wat AI agenten tegenover zien wat menselijke gebruikers zien, en schatten hoeveel inhoud door LLM Optimizer kon worden teruggekregen. Zie [&#x200B; AI uw website lezen?](https://business.adobe.com/blog/introducing-the-llm-optimizer-chrome-extension) voor meer informatie.
 
 ## Gedetailleerde mogelijkheden
 
@@ -511,31 +511,31 @@ Voor elke gelegenheid kunt u de optimalisaties aan de rand voorvertonen, bewerke
 
 **Voorproef** laat u het effect van een suggestie zien alvorens het live gaat. Er wordt een verschil tussen de huidige pagina en de voor AI geoptimaliseerde versie verwacht na het toepassen van de suggestie. In deze weergave wordt dezelfde functie Optimaliseren bij Edge gebruikt die live verkeer, maar in een geïsoleerde voorvertoningsmodus, mogelijk maakt. Dit beïnvloedt levend verkeer niet aangezien het een read-only simulatie voor overzicht is.
 
-![ Voorproef ](/help/assets/optimize-at-edge/preview.png)
+![&#x200B; Voorproef &#x200B;](/help/assets/optimize-at-edge/preview.png)
 
 ### Bewerken
 
 **geeft** uit staat u toe om de auto-geproduceerde suggestie te verfijnen of geheel te herschrijven alvorens het op te stellen. In plaats van de suggestie te accepteren, kunt u de volledige controle behouden via de bewerkingsworkflow. In de weergave worden voorgestelde wijzigingen weergegeven in een gestructureerde editor, waar u de tekst kunt wijzigen zodat deze beter aansluit bij uw oorspronkelijke intentie. De bewerkte versie wordt vervolgens aan AI-agents geleverd zodra deze zijn geïmplementeerd.
 
-![ geeft ](/help/assets/optimize-at-edge/edit.png) uit
+![&#x200B; geeft &#x200B;](/help/assets/optimize-at-edge/edit.png) uit
 
 ### Implementeren
 
 **stelt** op publiceert de geselecteerde suggesties zodat kunnen de geoptimaliseerde ervaringen van de rand aan AI agenten worden gediend. Als CDN volledig wordt verpletterd, gaan alle pagina&#39;s in het domein gewoonlijk met de nieuwe veranderingen binnen notulen. Als het verpletteren voor uitgezochte wegen slechts is gevormd, slechts gaan de gevoegde op lijst van gewenste personen pagina&#39;s met de optimalisaties.
 
-![ opstellen ](/help/assets/optimize-at-edge/deploy.png)
+![&#x200B; opstellen &#x200B;](/help/assets/optimize-at-edge/deploy.png)
 
 ### Live weergeven
 
 **Levende Mening** laat u verifiëren dat de optimalisering levend is en zich zoals verwacht voor agentisch verkeer gedraagt, een mening die anders moeilijk zou zijn om toegang te hebben. U kunt de actieve pagina weergeven onder Vaste suggesties, waardoor de pagina wordt weergegeven zoals deze wordt weergegeven bij AI-agents.
 
-![ Levende Mening ](/help/assets/optimize-at-edge/view-live.png)
+![&#x200B; Levende Mening &#x200B;](/help/assets/optimize-at-edge/view-live.png)
 
 ### Terugdraaien
 
 Met Terugdraaien wordt een eerder geïmplementeerde optimalisatie veilig hersteld. De alleen-AI versie van de pagina wordt doorgaans binnen enkele minuten teruggezet naar de vorige staat, zodat u indien nodig veilig met optimalisaties kunt experimenteren.
 
-![ Terugkeer ](/help/assets/optimize-at-edge/rollback.png)
+![&#x200B; Terugkeer &#x200B;](/help/assets/optimize-at-edge/rollback.png)
 
 ## Veelgestelde vragen
 

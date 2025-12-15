@@ -16,7 +16,7 @@ Optimalisatiemogelijkheden zijn automatisch gedetecteerde inzichten die laten zi
 
 Deze optimalisaties omvatten correcties op pagina&#39;s (het toevoegen van gestructureerde inhoud, chemicaliën, of samenvattingen), technische aanpassingen (het ontgrendelen van AI-crawlers of het oplossen van fouten) en het beïnvloeden van inhoud op gezaghebbende plaatsen van derden. Door deze optimalisatiemogelijkheden aan te pakken, kan uw merk nauwkeurig worden weergegeven en kan het waarschijnlijker worden genoemd in generatieve reacties.
 
-![ de kansen van de Optimalisering ](/help/dashboards/assets/oport.png)
+![&#x200B; de kansen van de Optimalisering &#x200B;](/help/dashboards/assets/oport.png)
 
 ## Opportunity-dashboard
 
@@ -42,7 +42,7 @@ Hieronder ziet u een tabel met momenteel ondersteunde mogelijkheden:
 
 ## Automatische optimalisatie {#auto-optimization}
 
-Dankzij automatische optimalisatie kunt u met één muisklik aanbevolen optimalisaties implementeren, waardoor de handmatige inspanning en de tijd tot waarde worden beperkt. Optimalisaties kunnen worden toegepast bij de inhoudsbron of bij de CDN-rand. Op Edge gebaseerde automatische optimalisatie is momenteel beschikbaar in Vroege Toegang voor bepaalde mogelijkheden. Voor meer details, zie [ optimaliseren bij Edge ](/help/dashboards/optimize-at-edge.md) pagina.
+Dankzij automatische optimalisatie kunt u met één muisklik aanbevolen optimalisaties implementeren, waardoor de handmatige inspanning en de tijd tot waarde worden beperkt. Optimalisaties kunnen worden toegepast bij de inhoudsbron of bij de CDN-rand. Op Edge gebaseerde automatische optimalisatie is momenteel beschikbaar in Vroege Toegang voor bepaalde mogelijkheden. Voor meer details, zie [&#x200B; optimaliseren bij Edge &#x200B;](/help/dashboards/optimize-at-edge.md) pagina.
 
 ### Zichtbaarheid van inhoud herstellen {#recover-contet}
 
@@ -50,4 +50,4 @@ Zoals hierboven vermeld, markeert de zichtbaarheid van de inhoud pagina&#39;s wa
 
 ### Extra gereedschappen
 
-De [ LLM zichtcontrole ](https://chromewebstore.google.com/detail/is-your-webpage-citable/jbjngahjjdgonbeinjlepfamjdmdcbcc) is een uitbreiding van Chrome die u precies laat zien hoeveel van uw inhoud LLMs van de webpagina kan toegang hebben en ook wat verborgen blijft. Deze software is ontworpen als een gratis, standalone diagnoseprogramma en vereist geen productlicentie of installatie. Met een enkele klik kunnen gebruikers de gereedschapsleesbaarheid van elke site evalueren, een vergelijking naast elkaar weergeven van wat AI-agents zien in vergelijking met wat menselijke gebruikers zien. Bovendien wordt geschat hoeveel inhoud kan worden hersteld door LLM Optimizer te gebruiken.
+De [&#x200B; LLM zichtcontrole &#x200B;](https://chromewebstore.google.com/detail/is-your-webpage-citable/jbjngahjjdgonbeinjlepfamjdmdcbcc) is een uitbreiding van Chrome die u precies laat zien hoeveel van uw inhoud LLMs van de webpagina kan toegang hebben en ook wat verborgen blijft. Deze software is ontworpen als een gratis, standalone diagnoseprogramma en vereist geen productlicentie of installatie. Met een enkele klik kunnen gebruikers de gereedschapsleesbaarheid van elke site evalueren, een vergelijking naast elkaar weergeven van wat AI-agents zien in vergelijking met wat menselijke gebruikers zien. Bovendien wordt geschat hoeveel inhoud kan worden hersteld door LLM Optimizer te gebruiken.
