@@ -1,9 +1,9 @@
 ---
 title: Adobe LLM Optimizer
 description: Verhoog je merk met Adobe LLM Optimizer. Houd beweringen bij, ontdek inzichten en domineer zoekopdrachten op AI-basis. Neem de controle over uw zichtbaarheid - optimaliseer nu!
-source-git-commit: 37dcc663240c3466437c6c5b17e01b4e56e1306b
+source-git-commit: c8752f04dda63c6add508e034b1b158ae43140e0
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,9 @@ Adobe LLM Optimizer is een generatieve AI-eerste toepassing voor Generative Engi
   {title= Best practices for LLM optimization using Adobe LLM Optimizer}
   {image= /help/assets/overview/best-practices-card.png}
   {description= Learn how LLM Optimizer can help you drive brand authority in AI search and discovery.}
-* https://business.adobe.com/nl/products/llm-optimizer.html
+  {target=_blank}
+  {cta=Learn more}
+* https://business.adobe.com/products/llm-optimizer.html
   {title = Explore the capabilities of the Adobe LLM Optimizer}
   {image = /help/assets/overview/business-adobe.png}
   {target=_blank}
@@ -133,6 +135,8 @@ Adobe LLM Optimizer is een generatieve AI-eerste toepassing voor Generative Engi
   {title= Optimize at Edge}
   {image= /help/assets/overview/optimize-on-edge-card.png}
   {description= Learn how to deliver optimizations in LLM Optimizer without any authoring changes required.}
+  {target=_blank}
+  {cta=Learn more}
 
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
@@ -187,7 +191,7 @@ Adobe LLM Optimizer is een generatieve AI-eerste toepassing voor Generative Engi
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://business.adobe.com/nl/products/llm-optimizer.html" title="De mogelijkheden van de Adobe LLM Optimizer verkennen" target="_blank" rel="referrer">
+                    <a href="https://business.adobe.com/products/llm-optimizer.html" title="De mogelijkheden van de Adobe LLM Optimizer verkennen" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="/help/assets/overview/business-adobe.png" alt="De mogelijkheden van de Adobe LLM Optimizer verkennen"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -196,16 +200,54 @@ Adobe LLM Optimizer is een generatieve AI-eerste toepassing voor Generative Engi
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://business.adobe.com/nl/products/llm-optimizer.html" target="_blank" rel="referrer" title="De mogelijkheden van de Adobe LLM Optimizer verkennen"> Onderzoek de mogelijkheden van Adobe LLM Optimizer </a>
+                        <a href="https://business.adobe.com/products/llm-optimizer.html" target="_blank" rel="referrer" title="De mogelijkheden van de Adobe LLM Optimizer verkennen"> Onderzoek de mogelijkheden van Adobe LLM Optimizer </a>
                     </p>
                     <p class="is-size-6">Vorm de aanwezigheid van uw merk in AI onderzoeksresultaten met Adobe LLM Optimizer. Vergroot GEO-inzichten, vergroot de zichtbaarheid van LLM's en drijf een meetbare groei van het verkeer op.</p>
                 </div>
-                <a href="https://business.adobe.com/nl/products/llm-optimizer.html" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://business.adobe.com/products/llm-optimizer.html" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> Leer meer </span>
                 </a>
             </div>
         </div>
     </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Optimize at Edge">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="./dashboards/optimize-at-edge.md" title="Optimaliseren bij Edge" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="/help/assets/overview/optimize-on-edge-card.png" alt="Optimaliseren bij Edge"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="./dashboards/optimize-at-edge.md" target="_blank" rel="referrer" title="Optimaliseren bij Edge"> optimaliseren bij Edge </a>
+                    </p>
+                    <p class="is-size-6">Leer hoe u optimalisaties in LLM Optimizer kunt uitvoeren zonder dat er ontwerpwijzigingen nodig zijn.</p>
+                </div>
+                <a href="./dashboards/optimize-at-edge.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> Leer meer </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+
+<!-- CARDS
+
+* ./dashboards/optimize-at-edge.md
+  {title= Optimize at Edge}
+  {image= /help/assets/overview/optimize-on-edge-card.png}
+  {description= Learn how to deliver optimizations in LLM Optimizer without any authoring changes required.}
+  {target=_blank}
+  {cta=Learn more}
+
+-->
+<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
+<div class="columns">
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Optimize at Edge">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
