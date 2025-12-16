@@ -1,9 +1,9 @@
 ---
 title: Adobe LLM Optimizer
 description: Verhoog je merk met Adobe LLM Optimizer. Houd beweringen bij, ontdek inzichten en domineer zoekopdrachten op AI-basis. Neem de controle over uw zichtbaarheid - optimaliseer nu!
-source-git-commit: 782266229b98b515b33a7e004c3bb681eb412cf5
+source-git-commit: 66993ce43c6b25c27dcd2affdb56352802949e18
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ Adobe LLM Optimizer is een generatieve AI-eerste toepassing voor Generative Engi
   {description= Learn how LLM Optimizer can help you drive brand authority in AI search and discovery.}
   {target=_blank}
   {cta=Learn more}
-* https://business.adobe.com/nl/products/llm-optimizer.html
+* https://business.adobe.com/products/llm-optimizer.html
   {title = Explore the capabilities of the Adobe LLM Optimizer}
   {image = /help/assets/overview/business-adobe.png}
   {target=_blank}
@@ -185,7 +185,7 @@ Adobe LLM Optimizer is een generatieve AI-eerste toepassing voor Generative Engi
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://business.adobe.com/nl/products/llm-optimizer.html" title="De mogelijkheden van de Adobe LLM Optimizer verkennen" target="_blank" rel="referrer">
+                    <a href="https://business.adobe.com/products/llm-optimizer.html" title="De mogelijkheden van de Adobe LLM Optimizer verkennen" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="/help/assets/overview/business-adobe.png" alt="De mogelijkheden van de Adobe LLM Optimizer verkennen"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -194,11 +194,11 @@ Adobe LLM Optimizer is een generatieve AI-eerste toepassing voor Generative Engi
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://business.adobe.com/nl/products/llm-optimizer.html" target="_blank" rel="referrer" title="De mogelijkheden van de Adobe LLM Optimizer verkennen"> Onderzoek de mogelijkheden van Adobe LLM Optimizer </a>
+                        <a href="https://business.adobe.com/products/llm-optimizer.html" target="_blank" rel="referrer" title="De mogelijkheden van de Adobe LLM Optimizer verkennen"> Onderzoek de mogelijkheden van Adobe LLM Optimizer </a>
                     </p>
                     <p class="is-size-6">Vorm de aanwezigheid van uw merk in AI onderzoeksresultaten met Adobe LLM Optimizer. Vergroot GEO-inzichten, vergroot de zichtbaarheid van LLM's en drijf een meetbare groei van het verkeer op.</p>
                 </div>
-                <a href="https://business.adobe.com/nl/products/llm-optimizer.html" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://business.adobe.com/products/llm-optimizer.html" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> Leer meer </span>
                 </a>
             </div>
@@ -206,6 +206,8 @@ Adobe LLM Optimizer is een generatieve AI-eerste toepassing voor Generative Engi
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+
+## Optimaliseren bij Edge
 
 <!-- CARDS
 
