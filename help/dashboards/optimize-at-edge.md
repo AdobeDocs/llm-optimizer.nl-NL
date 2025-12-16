@@ -2,9 +2,9 @@
 title: Optimaliseren bij Edge
 description: Leer hoe u optimalisaties in LLM Optimizer kunt leveren aan de CDN-rand zonder dat er ontwerpwijzigingen nodig zijn.
 feature: Opportunities
-source-git-commit: 522abddcabaf02ce86fb4d7978ef7fa4d6eb0358
+source-git-commit: 39658a057fd4d67f74dc286e1687e384133ac653
 workflow-type: tm+mt
-source-wordcount: '2218'
+source-wordcount: '2224'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Deze pagina biedt een gedetailleerd overzicht van hoe u optimalisaties aan de CD
 
 Optimaliseren bij Edge is een op randen gebaseerde implementatiefunctie in LLM Optimizer die voor AI vriendelijke wijzigingen zorgt voor LLM-gebruikersagents. In de huidige context betekent &quot;Edge&quot; dat de optimalisatie wordt toegepast op de CDN-laag. Omdat het optimalisaties bij de laag CDN levert, worden geen auteursveranderingen in het Systeem van het Beheer van de Inhoud (CMS) vereist zodat uw oorsprong CMS onveranderd blijft. Met deze scheiding kunt u de zichtbaarheid van LLM verbeteren zonder de bestaande publicatieworkflows te wijzigen. Het is alleen gericht op agentisch verkeer en heeft geen invloed op menselijke gebruikers of SEO-bots. Wanneer LLM Optimizer mogelijkheden detecteert om een pagina te optimaliseren, kunnen gebruikers correcties direct bij de CDN-rand implementeren.
 
-Optimaliseren in Edge is een sneller en leener alternatief voor traditionele oplossingen die complexe technische inspanningen vereisen. Zoals vermeld, zodra u eenmalig opstelling voltooit, worden geen platformveranderingen of lange ontwikkelingscycli vereist om de veranderingen toe te passen. U kunt verbeteringen in minuten publiceren zonder dat u hiervoor de betrokkenheid van de ontwikkelaar nodig hebt. Dit is een manier waarop u uw website kunt optimaliseren voor AI-agents met een laag risico en zonder code.
+Optimaliseren in Edge is een sneller en leener alternatief voor traditionele oplossingen die complexe technische inspanningen vereisen. Zoals vermeld, zodra u eenmalig opstelling voltooit, worden geen platformveranderingen of lange ontwikkelingscycli vereist om de veranderingen toe te passen. U kunt verbeteringen in minuten publiceren zonder dat u hiervoor de betrokkenheid van de ontwikkelaar nodig hebt. U kunt uw website op deze manier zonder code optimaliseren voor AI-agents.
 
 Optimaliseren in Edge is ontworpen voor zakelijke gebruikers in marketing-, SEO-, content- en digitale strategische teams. Zo kunnen zakelijke gebruikers de volledige reis in LLM Optimizer voltooien: mogelijkheden identificeren, suggesties begrijpen en de oplossingen eenvoudig implementeren. Met Optimaliseren bij Edge kunnen gebruikers de wijzigingen voorvertonen, deze snel implementeren aan de CDN-rand en controleren of de optimalisaties live zijn. Prestaties kunnen worden bijgehouden in het ecosysteem van LLM Optimizer.
 
@@ -29,13 +29,13 @@ Optimaliseren in Edge is ontworpen voor zakelijke gebruikers in marketing-, SEO-
 
 * **AI-slechts levering:** serveert geoptimaliseerde HTML slechts aan AI agenten zonder invloed op of menselijke bezoekers of OSEO bots.
 * **Snellere cycli:** publiceer veranderingen in notulen, niet weken. Er zijn geen platformwijzigingen of lange technische cycli vereist.
-* **Laag-risico en omkeerbaar:** gesteund met een één-klik het terugschroeven van prijzen vermogen dat de pagina in notulen kan terugkeren.
+* **Omkeerbaar:** gesteund met één-klik het terugschroeven van prijzen vermogen dat de pagina in notulen kan terugkeren.
 * **geen prestatieseffect:** Op Edge gebaseerde optimalisaties en caching houden plaatslatentie onaangetast.
 * **CDN en CMS-agnostic:** werkt met om het even welke configuratie CDN en front-end opstelling ongeacht het Systeem van het Beheer van de Inhoud.
 
 ### Welke mogelijkheden worden gesteund met Optimize in Edge?
 
-De kansen die de agentische Webervaring kunnen verbeteren worden gesteund met Optimize in Edge. Leer meer over elke kans zowel in de [&#x200B; pagina van het Dashboard van Kansen &#x200B;](/help/dashboards/opportunities.md) als de opportuniteitssectie in de huidige pagina.
+De kansen die de agentische Webervaring kunnen verbeteren worden gesteund met Optimize in Edge. Leer meer over elke kans zowel in de [ pagina van het Dashboard van Kansen ](/help/dashboards/opportunities.md) als de opportuniteitssectie in de huidige pagina.
 
 ## Onboarding
 
@@ -74,7 +74,7 @@ curl -svo page.html https://frescopa.coffee/about-us --header "user-agent: chatg
 < x-tokowaka-request-id: 50fce12d-0519-4fc6-af78-d928785c1b85
 ```
 
-De verpletterende configuratie wordt gedaan door een [&#x200B; originSelector CDN regel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#origin-selectors) te gebruiken. De voorwaarden zijn als volgt:
+De verpletterende configuratie wordt gedaan door een [ originSelector CDN regel ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#origin-selectors) te gebruiken. De voorwaarden zijn als volgt:
 
 * beslissen welk domein moet worden verpletterd
 * bepalen welke paden moeten worden gerouteerd
@@ -83,9 +83,9 @@ De verpletterende configuratie wordt gedaan door een [&#x200B; originSelector CD
 
 Om de regel op te stellen, moet u:
 
-* creeer de pijpleiding van de a [&#x200B; configuratie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/operations/config-pipeline)
+* creeer de pijpleiding van de a [ configuratie ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/config-pipeline)
 * het configuratiebestand van `cdn.yaml` toewijzen in uw opslagplaats
-* stel api sleutel als [&#x200B; geheime omgevingsvariabele &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-credentials-authentication) op
+* stel api sleutel als [ geheime omgevingsvariabele ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-credentials-authentication) op
 * de configuratiepijplijn uitvoeren
 
 
@@ -408,9 +408,9 @@ Important considerations:
 
 **Tokowaka BYOCDN - snel - VCL**
 
-![&#x200B; VCL van de Fastly &#x200B;](/help/assets/optimize-at-edge/fastly-vcl.png)
+![ VCL van de Fastly ](/help/assets/optimize-at-edge/fastly-vcl.png)
 
-![&#x200B; voeg VCL fragmenten &#x200B;](/help/assets/optimize-at-edge/add-vcl-snippets.png) toe
+![ voeg VCL fragmenten ](/help/assets/optimize-at-edge/add-vcl-snippets.png) toe
 
 **vcl_recv fragment**
 
@@ -471,9 +471,9 @@ Deze tabel vindt u in de volgende tabel met mogelijkheden die de taalkundige web
 
 ### Extra gereedschappen
 
-De [&#x200B; Adobe LLM Optimizer: Is uw webpagina citeerbaar?](https://chromewebstore.google.com/detail/adobe-llm-optimizer-is-yo/jbjngahjjdgonbeinjlepfamjdmdcbcc) Met de Chrome-extensie kunt u precies zien hoeveel van uw webpagina-inhoud LLM&#39;s kunnen benaderen en wat verborgen blijft. Deze software is ontworpen als een gratis, standalone diagnoseprogramma en vereist geen productlicentie of installatie.
+De [ Adobe LLM Optimizer: Is uw webpagina citeerbaar?](https://chromewebstore.google.com/detail/adobe-llm-optimizer-is-yo/jbjngahjjdgonbeinjlepfamjdmdcbcc) Met de Chrome-extensie kunt u precies zien hoeveel van uw webpagina-inhoud LLM&#39;s kunnen benaderen en wat verborgen blijft. Deze software is ontworpen als een gratis, standalone diagnoseprogramma en vereist geen productlicentie of installatie.
 
-Met één klik kunt u de gereedschapsleesbaarheid van elke site evalueren. U kunt een vergelijking naast elkaar bekijken van wat AI agenten tegenover zien wat menselijke gebruikers zien, en schatten hoeveel inhoud door LLM Optimizer kon worden teruggekregen. Zie [&#x200B; AI uw website lezen?](https://business.adobe.com/blog/introducing-the-llm-optimizer-chrome-extension) voor meer informatie.
+Met één klik kunt u de gereedschapsleesbaarheid van elke site evalueren. U kunt een vergelijking naast elkaar bekijken van wat AI agenten tegenover zien wat menselijke gebruikers zien, en schatten hoeveel inhoud door LLM Optimizer kon worden teruggekregen. Zie [ AI uw website lezen?](https://business.adobe.com/blog/introducing-the-llm-optimizer-chrome-extension) voor meer informatie.
 
 ## Gedetailleerde mogelijkheden
 
@@ -482,10 +482,10 @@ In de volgende secties kunt u aanvullende details bekijken voor elke opportunite
 ### Zichtbaarheid van inhoud herstellen
 
 Deze kans geeft pagina&#39;s weer waar de belangrijkste inhoud verborgen is voor AI-agents vanwege renderen op de client. Voor elke geïdentificeerde pagina wordt precies weergegeven welke inhoud ontbreekt in de AI-agentweergave, worden de zichtbaarheidsverschillen gemarkeerd en kunt u direct wijzigingen toepassen om de verborgen inhoud te herstellen. Wanneer u deze kans met Optimize in Edge opstelt, wordt een pre-teruggegeven, AI-geoptimaliseerde versie van de pagina aan gebruikersagenten LLM getoond zodat kunnen zij tot de volledige context toegang hebben zonder JavaScript uit te voeren.
-Hierdoor is de pagina volledig zichtbaar voor AI-agents. Er worden aanvullende verbeteringen toegepast op die vooraf gerenderde HTML.
+Dit zorgt ervoor dat de pagina voor het eerst volledig zichtbaar is voor AI-agents. Er worden aanvullende verbeteringen toegepast op die vooraf gerenderde HTML.
 
 >[!IMPORTANT]
->Deze pre-renderfunctie is automatisch van toepassing op alle hieronder vermelde mogelijkheden wanneer deze worden geïmplementeerd met Optimize in Edge.
+>Deze pre-renderfunctie is automatisch van toepassing op alle hieronder weergegeven mogelijkheden bij Optimaliseren in Edge om ervoor te zorgen dat de pagina volledig zichtbaar is voor AI-agents.
 
 ### Koppen voor LLM&#39;s optimaliseren
 
@@ -505,37 +505,37 @@ Deze kans vindt pagina&#39;s met lange, complexe alinea&#39;s die AI-begrip kunn
 
 ## Automatisch optimaliseren bij Edge
 
-Voor elke gelegenheid kunt u de optimalisaties aan de rand voorvertonen, bewerken, implementeren, live voorvertonen en terugdraaien.
+Voor elke gelegenheid, kunt u voorproef, uitgeven, opstellen, levende bekijken, en de optimalisaties bij de rand terugdraaien.
 
 ### Voorvertoning
 
 **Voorproef** laat u het effect van een suggestie zien alvorens het live gaat. Er wordt een verschil tussen de huidige pagina en de voor AI geoptimaliseerde versie verwacht na het toepassen van de suggestie. In deze weergave wordt dezelfde functie Optimaliseren bij Edge gebruikt die live verkeer, maar in een geïsoleerde voorvertoningsmodus, mogelijk maakt. Dit beïnvloedt levend verkeer niet aangezien het een read-only simulatie voor overzicht is.
 
-![&#x200B; Voorproef &#x200B;](/help/assets/optimize-at-edge/preview.png)
+![ Voorproef ](/help/assets/optimize-at-edge/preview.png)
 
 ### Bewerken
 
 **geeft** uit staat u toe om de auto-geproduceerde suggestie te verfijnen of geheel te herschrijven alvorens het op te stellen. In plaats van de suggestie te accepteren, kunt u de volledige controle behouden via de bewerkingsworkflow. In de weergave worden voorgestelde wijzigingen weergegeven in een gestructureerde editor, waar u de tekst kunt wijzigen zodat deze beter aansluit bij uw oorspronkelijke intentie. De bewerkte versie wordt vervolgens aan AI-agents geleverd zodra deze zijn geïmplementeerd.
 
-![&#x200B; geeft &#x200B;](/help/assets/optimize-at-edge/edit.png) uit
+![ geeft ](/help/assets/optimize-at-edge/edit.png) uit
 
 ### Implementeren
 
 **stelt** op publiceert de geselecteerde suggesties zodat kunnen de geoptimaliseerde ervaringen van de rand aan AI agenten worden gediend. Als CDN volledig wordt verpletterd, gaan alle pagina&#39;s in het domein gewoonlijk met de nieuwe veranderingen binnen notulen. Als het verpletteren voor uitgezochte wegen slechts is gevormd, slechts gaan de gevoegde op lijst van gewenste personen pagina&#39;s met de optimalisaties.
 
-![&#x200B; opstellen &#x200B;](/help/assets/optimize-at-edge/deploy.png)
+![ opstellen ](/help/assets/optimize-at-edge/deploy.png)
 
 ### Live weergeven
 
 **Levende Mening** laat u verifiëren dat de optimalisering levend is en zich zoals verwacht voor agentisch verkeer gedraagt, een mening die anders moeilijk zou zijn om toegang te hebben. U kunt de actieve pagina weergeven onder Vaste suggesties, waardoor de pagina wordt weergegeven zoals deze wordt weergegeven bij AI-agents.
 
-![&#x200B; Levende Mening &#x200B;](/help/assets/optimize-at-edge/view-live.png)
+![ Levende Mening ](/help/assets/optimize-at-edge/view-live.png)
 
 ### Terugdraaien
 
 Met Terugdraaien wordt een eerder geïmplementeerde optimalisatie veilig hersteld. De alleen-AI versie van de pagina wordt doorgaans binnen enkele minuten teruggezet naar de vorige staat, zodat u indien nodig veilig met optimalisaties kunt experimenteren.
 
-![&#x200B; Terugkeer &#x200B;](/help/assets/optimize-at-edge/rollback.png)
+![ Terugkeer ](/help/assets/optimize-at-edge/rollback.png)
 
 ## Veelgestelde vragen
 
@@ -566,4 +566,3 @@ Nee. Optimaliseren in Edge is niet alleen CDN-agnostisch en werkt met elke front
 V. Hoe wordt Optimaliseren bij Edge-pre-rendering anders dan bij traditionele rendering op de server?
 
 Beide problemen lossen verschillende problemen op en kunnen samenwerken. Traditionele SSR rendert inhoud aan serverzijde maar omvat geen inhoud die later in browser wordt geladen. Optimaliseren bij voorrendering van Edge legt de pagina vast nadat JavaScript en client-side gegevens zijn geladen, waardoor de volledig geassembleerde versie aan de CDN-rand wordt geproduceerd. SSR richt zich op het verbeteren van de menselijke ervaring en Optimize in Edge verbetert de webervaring voor LLMs.
-
