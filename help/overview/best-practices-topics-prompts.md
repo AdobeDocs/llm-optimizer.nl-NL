@@ -2,9 +2,9 @@
 title: Beste praktijken voor Categorieën, Onderwerpen, Herinneringen, en anderen
 description: Optimaliseer LLM inzichten door categorieën, onderwerpen, herinneringen, en andere merken te vormen om met inbegrip van concurrenten voor op maat gemaakte merkcontrole en strategische inhoudanalyse te volgen.
 feature: Best Practices, Customer Configuration
-source-git-commit: c6e37395362262eb5fe8366473e76086e36d77e9
+source-git-commit: a4dd9b1aece2936fb95a2e831ec8b41946bc5f46
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
@@ -12,15 +12,52 @@ ht-degree: 0%
 
 # Beste praktijken voor het vormen van categorieën, onderwerpen, herinneringen, en anderen om te volgen
 
-In deze sectie worden de aanbevolen procedures beschreven voor het bepalen van de manier waarop u categorieën, onderwerpen, aanwijzingen en andere opties wilt instellen om bij te houden.
+In deze sectie worden de aanbevolen procedures beschreven voor het bepalen van de manier waarop u categorieën, onderwerpen, aanwijzingen en andere opties wilt instellen om bij te houden. Daarnaast bevat het ook informatie over de Industry Prompt Library, die Adobe heeft ontwikkeld met uitgebreid onderzoek met experts uit de industrie.
 
 Dit is een eerste belangrijke stap. Wat u nu beslist bepaalt hoe de informatie aan uw bedrijfscontext wordt aangepast. Eventuele wijzigingen in categorieën in de toekomst stellen historische gegevens opnieuw in.
 
 In het dashboard van [[!UICONTROL Customer Configuration]](/help/dashboards/customer-configuration.md) definieert u hoe uw merk wordt gecontroleerd en geanalyseerd in het LLM-optimaliserplatform. Zie [[!UICONTROL Customer Configuration]](/help/dashboards/customer-configuration.md) voor informatie over het gebruik van het dashboard.
 
-![&#x200B; het configuratievenster van de Klant &#x200B;](/help/assets/best-practices/customer-configuration-best-practices.png)
+![ het configuratievenster van de Klant ](/help/assets/best-practices/customer-configuration-best-practices.png)
 
 In het dashboard van [!UICONTROL Customer Configuration] kunt u categorieën (zoals bedrijfseenheden of productlijnen) aanpassen, andere merken volgen, en merkaanduidingsaliassen toevoegen om alle variaties van uw merk in verschillende aanwijzingen vast te leggen. Deze opstelling verzekert het platform inzicht in uw bedrijfscontext, toelatend nauwkeurige zicht, verkeer, en opportuniteitsanalyse.
+
+## Industry Promptbibliotheek
+
+Om te helpen met herinneringen en onderwerpen beginnen, heeft Adobe een Bibliotheek van de Vragen van de Industrie gecreeerd die door uitgebreid onderzoek met de industriedeskundigen en analyse van AI onderzoeksgedrag over 6.000+ klanten wordt ontwikkeld. Deze bibliotheek identificeert de meest relevante onderwerpen en herinneringen die op industrie-specifieke tendensen, bevestigde bedrijfsdoelstellingen, en real-world de patronen van het klantenonderzoek worden gebaseerd.
+
+De Industry Prompt Library gebruiken:
+
+1. Download het Prompt dossier van de Bibliotheek van LLM Optimizer door aan het **dashboard van de Configuratie van de Klant te navigeren**.
+2. Het overzicht stelde **Onderwerpen** voor en **Vragen** voor de industrie van uw merk op het respectieve lusje, en kiest en kiest de opties die het meest relevant zijn.
+3. De kolom van het Stadium van de Reis van de Klant van het overzicht **om snelle opties over de klantenlevenscyclus (bijvoorbeeld, ontdekking aan omzetting aan behoud) te bekijken.** De vroege fase/top van de herinneringen van funnel zijn hoge prioriteit maar ook nadenken later stadium opties om behoud te bevorderen, klantensteun toe te laten, etc.
+4. Wijzig de onderwerpen of aanwijzingen die u nodig hebt om uw doelstellingen en doelstellingen het beste te ondersteunen voordat u ze uploadt naar Adobe LLM Optimizer (voeg bijvoorbeeld uw merk/productnaam toe, voeg terminologie voor het merk toe). U kunt aanvragen handmatig toevoegen aan LLMO of bulksgewijs uploaden met de meegeleverde sjabloon *.csv* .
+
+>[!TIP]
+>
+> Gebruik een combinatie van domeinspecifieke herinneringen die door LLM Optimizer tijdens aanvankelijke opstelling en de Bibliotheek van de Vragen van de Industrie worden geadviseerd om uw snelle strategie te leiden.
+
+### Prompt Library Research Foundation
+
+De Industry Prompt Library is ontwikkeld via een uitgebreid onderzoeksinitiatief waarin het volgende wordt gecombineerd:
+
+* **intelligentie van de Klant:** Analyse van AI onderzoeksgedrag en voorkeur over 6.000+ klanten
+* **deskundigheid van de Industrie:** Perspectieven van deskundigen in Auto, de Financiële Diensten, Gezondheidszorg, Telecom, en de sectoren van de Reizen.
+* **Gegevens-gedreven inzichten:** Identificatie van high-impact onderwerpen en vraagpatronen die klantenovereenkomst en omzetting drijven.
+
+De belangrijkste onderwerpen die door klanten over industrieën worden gezocht:
+
+* **Auto:** de auto kwesties van het Oplossen van problemen, die voertuigen en Financiering/Leasing vergelijken
+* **Financiële Diensten:** Onderzoek financiële producten
+* **Gezondheidszorg:** die symptomen of gezondheidskwesties, de opties van de Behandeling vergelijken, laboratoriumresultaten of medische termijnen begrijpen
+* **Telecom:** het vergelijken van plannen, de termijnen en de bevorderingen van het Contract, de Controlerende dienst in lokaal gebied
+* **Reizen:** voorbereidend voor een reis, het Onderzoek en het boeken reis
+
+De tendensen van de klant op AI onderzoek en snel gedrag in hulpmiddelen LLM:
+
+* Klanten stellen vragen of gebruiken trefwoorden tijdens het gebruik van de zoekgereedschappen voor LLM.
+* Zij gebruiken hoofdzakelijk LLM onderzoeksinstrumenten voor vroege onderzoek en ontdekking.
+* Klanten hebben de neiging om een specifiek merk of een productnaam in hun herinneringen te vermelden.
 
 ## Tips en trucs voor rubrieken
 
@@ -46,13 +83,13 @@ Hoe te om te besluiten hoe u opstellingscategorieën op één vraag gebaseerd is
 * Als u a *Web/inhoudseigenaar* bent, kies de **URL_DIR** benadering.
 * Als u a *handelend/aanbiedt manager* bent, kies de **product/de categorie van de Dienst** benadering.
 
-![&#x200B; Toevoegend categorieën in LLM Optimizer &#x200B;](/help/assets/best-practices/add-category.png)
+![ Toevoegend categorieën in LLM Optimizer ](/help/assets/best-practices/add-category.png)
 
 >[!IMPORTANT]
 >
 > * Kies één aanpak en blijf erbij.
 > * U kunt **slechts één** model van de Categorie per rekening/merk hebben. Meng niet tegelijkertijd **SBU** en **URL_DIR**.
->   <!--Can you mix Product/Service with these?-->
+<!--Can you mix Product/Service with these?-->
 
 Voorbeeld:
 
@@ -82,7 +119,7 @@ Wanneer u een beslissing neemt over onderwerpen, wilt u een korte, platte lijst 
 * Contact opnemen met ondersteuning
 * Bedrijfs/Nieuws (als u dit echt nodig hebt)
 
-![&#x200B; Toevoegend onderwerpen in LLM Optimizer &#x200B;](/help/assets/best-practices/add-topic.png)
+![ Toevoegend onderwerpen in LLM Optimizer ](/help/assets/best-practices/add-topic.png)
 
 Houd rekening met het volgende wanneer u de lijst maakt:
 
@@ -133,6 +170,6 @@ Met anderen die volgen, kunt u zien hoe vaak andere merken naast uw merk in vers
 
 ## Meer informatie
 
-* [&#x200B; dashboard van de Configuratie van de Klant &#x200B;](/help/dashboards/customer-configuration.md) is waar u uw categorieën, onderwerpen, herinneringen, en anderen het volgen vormt.
-* [&#x200B; de beste praktijken van LLM Optimizer &#x200B;](/help/tutorials/best-practices.md) beschrijft beste praktijken rond Optimalisering LLM
+* [ dashboard van de Configuratie van de Klant ](/help/dashboards/customer-configuration.md) is waar u uw categorieën, onderwerpen, herinneringen, en anderen het volgen vormt.
+* [ de beste praktijken van LLM Optimizer ](/help/tutorials/best-practices.md) beschrijft beste praktijken rond Optimalisering LLM
 
