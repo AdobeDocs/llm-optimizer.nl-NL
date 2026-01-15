@@ -2,9 +2,9 @@
 title: Klantconfiguratie
 description: Gebruik de configuratie van de klant om te bepalen hoe uw merk binnen het optimaliseringsplatform LLM wordt gecontroleerd en geanalyseerd.
 feature: Customer Configuration
-source-git-commit: e50c87e8e5a669526f3c10855c1629ce82b67aef
+source-git-commit: 5d8b59ea4281c88bb42dc48096c07a3faaeb2e88
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -14,19 +14,47 @@ ht-degree: 0%
 
 Het Klantconfiguratiedashboard is een krachtig hulpmiddel dat inzicht biedt in de zichtbaarheid van uw merk in LLM&#39;s. Door categorieën, onderwerpen en herinneringen correct op te zetten, kunt u ervoor zorgen dat uw merk goed gepositioneerd is om in LLM-Gegenereerde reacties te verschijnen. Deze opstelling verzekert het platform inzicht in uw bedrijfscontext, toelatend nauwkeurige zicht, verkeer, en opportuniteitsanalyse.
 
-![&#x200B; Dashboard van de Configuratie van de Klant &#x200B;](/help/dashboards/assets/customer-config.png)
+![ Dashboard van de Configuratie van de Klant ](/help/dashboards/assets/customer-config.png)
 
 Als u wilt configureren hoe LLM Optimizer uw aanwezigheid van uw merk controleert en analyseert op verschillende markten en in concurrerende landschappen, hebt u toegang tot de volgende tabbladen:
 
+* [Vragen](#prompts-brand)
 * [Categorieën](#categories)
-* [Overige bijhouden](#others-tracking)
+* [Andere merken](#other-brands)
 * [Merkaliassen](#brand-aliases)
-* [Gegevens-inzichten](#data-insights)
 * [CDN-configuratie](#agentic-cdn)
 
 >[!IMPORTANT]
 >
-> Voor meer details op hoe te opstelling zien uw categorieën, onderwerpen, herinneringen de [&#x200B; Beste praktijken voor het vormen van categorieën, onderwerpen, herinneringen &#x200B;](/help/overview/best-practices-topics-prompts.md) pagina.
+> Voor meer details op hoe te opstelling zien uw categorieën, onderwerpen, herinneringen de [ Beste praktijken voor het vormen van categorieën, onderwerpen, herinneringen ](/help/overview/best-practices-topics-prompts.md) pagina.
+
+## Vragen {#prompts-brand}
+
+Op dit tabblad kunt u vragen controleren, beheren en aanpassen. U kunt de analyse van de Aanwezigheid van het a [ ](/help/dashboards/brand-presence.md) .csv uploaden en de lijst zal met herinneringen en onderwerpen van die analyse worden bevolkt of [ download een Bibliotheek van Vragen ](/help/overview/best-practices-topics-prompts.md) die door Adobe wordt gecreeerd. U kunt onderwerpen en hun bijbehorende herinneringen ook schrappen wijzigen en toevoegen zoals nodig.
+
+Als u een CSV-bestand met gegevensinzichten wilt importeren, moet u eerst een bestand exporteren vanaf het dashboard Handaanwezigheid. Zie de [ gegevensinzichten ](/help/dashboards/brand-presence.md#data-insights) sectie leren hoe te om dat te doen. Zodra u het bestand hebt:
+
+1. Op het dashboard, klik **uploadt CSV**.
+2. In het venster Gegevens importeren sleept u het bestand en zet u het neer of kiest u het bestand handmatig.
+3. Klik **uploadt Gegevens**.
+
+U kunt een nieuw Csv- dossier ook tot stand brengen door het malplaatje van het **venster van de Inzichten van Gegevens van de Invoer** te downloaden. Zodra u het malplaatje hebt, open het en input uw onderwerpen samen met hun bijbehorende herinneringen, categorieën, en gebieden elk in een nieuwe lijn.
+
+Om te leren hoe te om de Bibliotheek van de Vragen van de Industrie te downloaden en te gebruiken die door Adobe wordt gecreeerd zie de sectie van de Bibliotheek van de Vragen van de Industrie op [ deze pagina ](/help/overview/best-practices-topics-prompts.md)
+
+Bovendien kunt u onderwerpen/herinneringen aan de lijst onafhankelijk van een Csv- dossier of snelle bibliotheek ook toevoegen. Hiervoor moet u op het dashboard:
+
+1. Klik **toevoegen Onderwerp** knoop.
+2. In het nieuwe configuratievenster, selecteer de **Categorie**. Eerder gemaakte categorieën worden hier weergegeven.
+3. Voer de onderwerpnaam in.
+4. Voeg de snelle tekst toe.
+5. Selecteer het gebied.
+6. Klik **toevoegen Vragen** en het onderwerp met de herinnering zal op de lijst verschijnen.
+
+>[!NOTE]
+>Nieuw toegevoegde herinneringen zullen niet in MerkAanwezigheid verschijnen tot de verwerking volledig is.
+
+Voor de lijst, kunt u elk onderwerp klikken en de bijbehorende herinnering(en) zullen verschijnen, om het onderwerp en zijn bijbehorende herinneringen te schrappen, klik het schrappingspictogram van de lijst.
 
 ## Categorieën {#categories}
 
@@ -37,11 +65,11 @@ Vanuit het tabblad Categorieën kunt u bedrijfscategorieën of productlijnen def
 3. Pas het **Verwante Gebied** aan waar de categorie zal worden gecontroleerd.
 4. Klik **sparen** en de nieuwe categorie zal op de categorielijst verschijnen.
 
-Het toevoegen van nieuwe categorieën zal automatisch geen onderwerpen en herinneringen produceren - deze zullen manueel van de [&#x200B; Inzichten van Gegevens &#x200B;](#data-insights) tabel moeten worden toegevoegd.
+Het toevoegen van nieuwe categorieën zal automatisch geen onderwerpen en herinneringen produceren - deze zullen manueel van de [ Inzichten van Gegevens ](#data-insights) tabel moeten worden toegevoegd.
 
 Als u een categorie wilt verwijderen, klikt u op het pictogram Verwijderen in de categorielijst. Wees voorzichtig, omdat **het schrappen van een categorie ook de bijbehorende punten** als merkaliassen zal schrappen die met die specifieke categorie verbonden zijn.
 
-## Overige bijhouden {#others-tracking}
+## Andere merken {#others-tracking}
 
 Op dit tabblad kunt u bijhouden hoe uw andere namen worden vermeld ten opzichte van uw merk in verschillende categorieën en regio&#39;s. Controleer hun aanwezigheid en prestaties in uw marktsegmenten. Tekstspatiëring aanpassen:
 
@@ -65,37 +93,11 @@ Door merkaliassen te gebruiken, kunt u alternatieve namen en variaties van uw me
 
 Als u een merkalias wilt verwijderen, klikt u op het verwijderpictogram in de lijst met aliassen.
 
-## Gegevens-inzichten {#data-insights}
-
-Op dit tabblad kunt u vragen controleren, beheren en aanpassen. U kunt de gegevensinzichten van de Aanwezigheid van de a [&#x200B; &#x200B;](/help/dashboards/brand-presence.md#data-insights) .csv uploaden en de lijst met herinneringen en onderwerpen van die analyse worden bevolkt. U kunt onderwerpen en hun bijbehorende herinneringen ook schrappen wijzigen en toevoegen zoals nodig.
-
-Als u een CSV-bestand met gegevensinzichten wilt importeren, moet u eerst een bestand exporteren vanaf het dashboard Handaanwezigheid. Zie de [&#x200B; gegevensinzichten &#x200B;](/help/dashboards/brand-presence.md#data-insights) sectie leren hoe te om dat te doen. Zodra u het bestand hebt:
-
-1. Op het dashboard, klik **uploadt CSV**.
-2. In het venster Gegevens importeren sleept u het bestand en zet u het neer of kiest u het bestand handmatig.
-3. Klik **uploadt Gegevens**.
-
-U kunt een nieuw Csv- dossier ook tot stand brengen door het malplaatje van het **venster van de Inzichten van Gegevens van de Invoer** te downloaden. Zodra u het malplaatje hebt, open het en input uw onderwerpen samen met hun bijbehorende herinneringen, categorieën, en gebieden elk in een nieuwe lijn.
-
-Bovendien kunt u onderwerpen/herinneringen aan de lijst onafhankelijk van een Csv- dossier ook toevoegen. Hiervoor moet u op het dashboard:
-
-1. Klik **toevoegen Onderwerp** knoop.
-2. In het nieuwe configuratievenster, selecteer de **Categorie**. Eerder gemaakte categorieën worden hier weergegeven.
-3. Voer de onderwerpnaam in.
-4. Voeg de snelle tekst toe.
-5. Selecteer het gebied.
-6. Klik **toevoegen Vragen** en het onderwerp met de herinnering zal op de lijst verschijnen.
-
->[!NOTE]
->Nieuw toegevoegde herinneringen zullen niet in MerkAanwezigheid verschijnen tot de verwerking volledig is.
-
-Voor de lijst, kunt u elk onderwerp klikken en de bijbehorende herinnering(en) zullen verschijnen, om het onderwerp en zijn bijbehorende herinneringen te schrappen, klik het schrappingspictogram van de lijst.
-
 ## CDN-configuratie {#cdn-configuration}
 
 Vanuit dit tabblad kunt u uw CDN-streams configureren, zodat Adobe LLM Optimizer uw CDN-gegevens kan analyseren. Deze gegevens worden gebruikt om dashboards (zoals het Verkeer van de Agentica), die inzicht in verkeerspatronen, prestatiesmetriek, en optimaliseringskansen verstrekken te aandrijven. Aan boord van uw leverancier CDN, klik **Op boord CDN**.
 
-![&#x200B; Klantenconfiguratie CDN &#x200B;](/help/overview/assets/cc-cdn.png)
+![ Klantenconfiguratie CDN ](/help/overview/assets/cc-cdn.png)
 
 Op het **Aan boord CDN Providervenster**:
 
