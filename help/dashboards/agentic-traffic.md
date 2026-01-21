@@ -2,9 +2,9 @@
 title: Agentic Traffic
 description: Leer hoe te om het dashboard van het Verkeer van de Agent te gebruiken om te zien hoe de agenten van AI met uw plaats in wisselwerking staan.
 feature: Agentic Traffic
-source-git-commit: a75ce71dc0ab9ffe7956a3dbd09dca23ea5f7096
+source-git-commit: 26926f3ed4df3a408b74b0208f0d1eb064b97d28
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1307'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Het dashboard van het Verkeer van de Agentic toont hoe de agenten van AI (kruipende agenten en praatbots) met uw plaats in wisselwerking staan. Met deze weergave kunt u het totale aantal aanvragen en algemene prestatiegegevens bijhouden. U kunt de distributie van verkeer over markten, categorieën, pagina&#39;s, en agenten ook bekijken. De gegevens die door dit dashboard worden gebruikt zijn afkomstig van de CDN- logboeken zodat moet u **CDN logboek vormen door:sturen** om metriek te tonen. Er zijn ook aanpasbare filters waarmee u de weergegeven gegevens kunt verfijnen.
 
-![&#x200B; Distributie van het Verkeer &#x200B;](/help/dashboards/assets/ag-main.png)
+![ Distributie van het Verkeer ](/help/dashboards/assets/ag-main.png)
 
 Op deze pagina vindt u het volgende:
 
@@ -29,11 +29,11 @@ Op deze pagina vindt u het volgende:
 
 Zonder **CDN logboek door:sturen**, is het Agentic dashboard van het Verkeer leeg. Om agentische interactie te bekijken, moet u **het logboek vormen CDN door:sturen**.  Bij de eerste aanmelding wordt een bericht weergegeven zoals in de onderstaande afbeelding wordt getoond.
 
-![&#x200B; CDN Opstelling &#x200B;](/help/dashboards/assets/ag-log-forward1.png)
+![ CDN Opstelling ](/help/dashboards/assets/ag-log-forward1.png)
 
-Selecteer **gaan naar Configuratie** en u zult automatisch aan de **CDN Configuratie** tabel van het [&#x200B; dashboard van de klantenconfiguratie &#x200B;](/help/dashboards/customer-configuration.md) navigeren.
+Selecteer **gaan naar Configuratie** en u zult automatisch aan de **CDN Configuratie** tabel van het [ dashboard van de klantenconfiguratie ](/help/dashboards/customer-configuration.md) navigeren.
 
-![&#x200B; CDN Opstelling Onboard &#x200B;](/help/dashboards/assets/ag-log-forward2.png)
+![ CDN Opstelling Onboard ](/help/dashboards/assets/ag-log-forward2.png)
 
 Op dit lusje, uitgezochte **Onboard CDN**. En het CDN leveranciersvenster wordt getoond.
 
@@ -59,7 +59,7 @@ LLM Optimizer verwerkt een subset met velden uit de CDN-logboeken. Hoewel de ruw
 * Tijdstempel
 * Inhoudstype
 
-Deze genormaliseerde velden worden weergegeven via de hoekweergave. Op het [&#x200B; dashboard van het Verkeer van 0&rbrace; Referral &lbrace;, worden de logboeken CDN gebruikt om de metriek van de paginascheiding te tonen. &#x200B;](/help/dashboards/referral-traffic.md) Er wordt geen persoonlijk identificeerbare informatie (PII) verwerkt of opgeslagen in een stadium van CDN-logopname of daaropvolgende gegevensverwerking.
+Deze genormaliseerde velden worden weergegeven via de hoekweergave. Op het [ dashboard van het Verkeer van 0} Referral {, worden de logboeken CDN gebruikt om de metriek van de paginascheiding te tonen. ](/help/dashboards/referral-traffic.md) Er wordt geen persoonlijk identificeerbare informatie (PII) verwerkt of opgeslagen in een stadium van CDN-logopname of daaropvolgende gegevensverwerking.
 
 ## Filters {#filters}
 
@@ -78,7 +78,7 @@ Nadat u de gewenste filter selecteert, klik **toepassen Filters** om de selectie
 
 De mening van de Distributie van het Verkeer toont hoe het agentenverkeer over markten, categorieën, en paginatypen wordt verspreid. Als zodanig helpt deze weergave u te bepalen welke geografische gebieden, productgebieden of inhoudopmaak het vaakst door AI-agents worden benaderd tijdens de interactie met uw site.
 
-![&#x200B; Distributie van het Verkeer &#x200B;](/help/dashboards/assets/ag-main.png)
+![ Distributie van het Verkeer ](/help/dashboards/assets/ag-main.png)
 
 Bovenaan op de pagina staan drie belangrijke meetgegevens waarmee u rekening moet houden:
 
@@ -92,23 +92,23 @@ Tendindicatoren voor elke metrische sleutel tonen hoe deze waarden in de loop de
 
 Gebruik de grafiek van de Trends van het Verkeer van het Agentschap om de wekelijkse totalen van succesvolle, ontbroken, en algemene klappen te volgen. Als dusdanig, kunt u veranderingen in agentenactiviteit en prestaties in tijd controleren. U kunt de muis ook boven het diagram houden om de gegevensevolutie over het wekelijkse tijdkader te zien.
 
-![&#x200B; Agentic de Trends van het Verkeer &#x200B;](/help/dashboards/assets/ag-trends.png)
+![ Agentic de Trends van het Verkeer ](/help/dashboards/assets/ag-trends.png)
 
 ## Boven- en onderomslagen {#top-bottom-movers}
 
-In de weergave Boven en Onder omslagen worden URL&#39;s gemarkeerd met de grootste week-over-week wijzigingen in het verkeer van personen: bezoeken of hits van AI-systemen die toegang hebben tot uw inhoud. **Bovenste Bedekken** toont pagina&#39;s die zicht of overeenkomst bereiken, terwijl **Onderste Bedekken** URLs met de steepste ontleedingen onthult. Zo kunt u snel vaststellen welke inhoud naar boven buigt, wat aandacht nodig kan hebben en waar door AI gestuurde detectiepatronen verschuiven.
+In de weergave Boven en Onder omslagen worden URL&#39;s gemarkeerd met de grootste week-over-week wijzigingen in het verkeer van personen: bezoeken of hits van AI-systemen die toegang hebben tot uw inhoud. **Bovenste Bedekken** toont pagina&#39;s die zicht of overeenkomst bereiken, terwijl **Onderste Bedekken** URLs met de steepste ontleedingen onthult. Zo kunt u snel vaststellen welke inhoud naar boven buigt, waardoor mogelijk aandacht nodig is en waar door AI gestuurde detectiepatronen verschuiven.
 
-![&#x200B; Hoogste en Onderste Bedekken &#x200B;](/help/dashboards/assets/movers.png)
+![ Hoogste en Onderste Bedekken ](/help/dashboards/assets/movers.png)
 
 ## Gebruikersagent en URL-prestatieanalyse {#user-url-performance}
 
 De mening van de Analyse van de Prestaties van de Agent van de Gebruiker en URL verstrekt verdere gegevensuitsplitsingen op hoe kruiplers en praatbots met uw plaats in wisselwerking staan. Klik op de onderstaande tabbladen voor gedetailleerde beschrijvingen.
 
-![&#x200B; Agent van de Gebruiker en de Analyse van Prestaties URL &#x200B;](/help/dashboards/assets/user-agent.png)
+![ Agent van de Gebruiker en de Analyse van Prestaties URL ](/help/dashboards/assets/user-agent.png)
 
 >[!BEGINTABS]
 
->[!TAB  Analyse van de Agent van 0&rbrace; Gebruiker]
+>[!TAB  Analyse van de Agent van 0} Gebruiker]
 
 De lijst van de Analyse van de Agent van de Gebruiker verstrekt een verdeling van verkeer door paginatype en agententype (bijvoorbeeld, kruiplers tegenover chatbots). Op deze manier is het gemakkelijk te begrijpen welke AI-agents kruipen welke delen van uw site. Het bevat de volgende categorieën:
 
@@ -134,10 +134,10 @@ De lijst van de Analyse van Prestaties URL toont een gedetailleerde mening van i
 
 De URL prestatieslijst heeft een onderzoeksgebied voor snelle toegang tot URLs en u kunt aanpassen welke metriek wordt getoond door **te klikken vormt Kolommen** knoop. U kunt extra details voor elke URL ook bekijken door op het **pictogram van Details** aan het eind van elke rij te klikken.
 
-![&#x200B; details URL &#x200B;](/help/dashboards/assets/details.png)
+![ details URL ](/help/dashboards/assets/details.png)
 
 De weergave URL-details biedt een holistisch inzicht in de prestaties van een pagina, waarbij wordt getoond hoe vaak deze wordt genoemd, het gevoel van AI-reacties op de plaats waar deze wordt genoemd, de onderwerpen en aanwijzingen waarin deze wordt weergegeven en trends in het agonische en verwijzingsverkeer in de loop van de tijd.
 
 >[!ENDTABS]
 
-Op beide lijsten, kunt u de **Uitvoer** optie gebruiken om lijst .csv te downloaden en de inzichten met uw team te delen of de lijsten in uitvoerende rapportering te omvatten.
+Op beide lijsten, kunt u de **optie van de Uitvoer** gebruiken om de lijst `.csv` te downloaden en de inzichten met uw team te delen of de lijsten in uitvoerende rapportering te omvatten.
