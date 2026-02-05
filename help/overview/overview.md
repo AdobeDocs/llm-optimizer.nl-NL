@@ -57,20 +57,20 @@ Generatieve motoroptimalisatie is van nature interfunctioneel. LLM Optimizer is 
 
 Met Adobe LLM Optimizer kunt u:
 
-**de Zichtbaarheid van het Merk van de Maatregel** - spoor wanneer, waar, en hoe vaak uw merk in AI-Vervaardigde onderzoeksresultaten wordt vermeld. Beweeg verder dan giswerk met een duidelijke zichtbaarheidsscore die je in de loop der tijd kunt benchmarken. Zie [&#x200B; dashboard van de Aanwezigheid van het Merk &#x200B;](/help/dashboards/brand-presence.md).
-**Benchmark anderen** - zie hoe uw merk tegen anderen met inbegrip van concurrenten in generatieve motoren stapelt. Identificeer aandeel van stemhiaten en ontdek concurrerende voordelen. Zie [&#x200B; dashboard van de Aanwezigheid van het Merk &#x200B;](/help/dashboards/brand-presence.md).
-**ontdekt Actiebare Kansen** - de inhoudskansen van het Punt (b.v., FAQs, abstracts, schema) en technische kansen (doorschuifbaarheid, indexerende kwesties) die aanhalingstekens en citaten direct verhogen. Zie [&#x200B; dashboard van Kansen &#x200B;](/help/dashboards/opportunities.md).
-**Effect van het Verkeer van het Spoor van AI** - het agentische verkeer van de Monitor (van de medewerkers van AI) en verwijzingsverkeer (de gebruiker klikt van citaties) aan uw bezeten eigenschappen. De zichtbaarheid van GEO beperken tot echte betrokkenheid. Zie [&#x200B; Agentic het dashboard van het Verkeer &#x200B;](/help/dashboards/agentic-traffic.md) en [&#x200B; het dashboard van het Verkeer van de Verwijzing &#x200B;](/help/dashboards/referral-traffic.md).
-**laat Team Collaboration** toe - de dashboards van het Aandeel, wijst eigenaars voor herinneringen of categorieën toe, en verzekert zichtbaarheidsdoelstellingen over marketing, de optimalisering van de onderzoeksmotor (SEO), en communicatie functies worden gevolgd. Zie [&#x200B; het dashboard van Collaboration &#x200B;](/help/dashboards/collaboration.md).
+**de Zichtbaarheid van het Merk van de Maatregel** - spoor wanneer, waar, en hoe vaak uw merk in AI-Vervaardigde onderzoeksresultaten wordt vermeld. Beweeg verder dan giswerk met een duidelijke zichtbaarheidsscore die je in de loop der tijd kunt benchmarken. Zie [ dashboard van de Aanwezigheid van het Merk ](/help/dashboards/brand-presence.md).
+**Benchmark anderen** - zie hoe uw merk tegen anderen met inbegrip van concurrenten in generatieve motoren stapelt. Identificeer aandeel van stemhiaten en ontdek concurrerende voordelen. Zie [ dashboard van de Aanwezigheid van het Merk ](/help/dashboards/brand-presence.md).
+**ontdekt Actiebare Kansen** - de inhoudskansen van het Punt (b.v., FAQs, abstracts, schema) en technische kansen (doorschuifbaarheid, indexerende kwesties) die aanhalingstekens en citaten direct verhogen. Zie [ dashboard van Kansen ](/help/dashboards/opportunities.md).
+**Effect van het Verkeer van het Spoor van AI** - het agentische verkeer van de Monitor (van de medewerkers van AI) en verwijzingsverkeer (de gebruiker klikt van citaties) aan uw bezeten eigenschappen. De zichtbaarheid van GEO beperken tot echte betrokkenheid. Zie [ Agentic het dashboard van het Verkeer ](/help/dashboards/agentic-traffic.md) en [ het dashboard van het Verkeer van de Verwijzing ](/help/dashboards/referral-traffic.md).
+**laat Team Collaboration** toe - de dashboards van het Aandeel, wijst eigenaars voor herinneringen of categorieën toe, en verzekert zichtbaarheidsdoelstellingen over marketing, de optimalisering van de onderzoeksmotor (SEO), en communicatie functies worden gevolgd. Zie [ het dashboard van Collaboration ](/help/dashboards/collaboration.md).
 
 ## Meer informatie
 
 Hier zijn bronnen die u kunnen helpen het beste uit de LLM Optimizer te halen:
 
-* [&#x200B; QuickStart &#x200B;](/help/overview/quick-start.md) krijgt u snel in werking gesteld.
-* [&#x200B; overzicht van dashboards &#x200B;](/help/dashboards/dashboards-overview.md) beschrijft alle dashboards beschikbaar in LLM Optimizer.
-* [&#x200B; Beste praktijken voor het vormen van categorieën, onderwerpen, herinneringen, en anderen &#x200B;](/help/overview/best-practices-topics-prompts.md) omvat essentiële informatie voor vestiging LLM Optimizer.
-* [&#x200B; Beste praktijken &#x200B;](/help/tutorials/best-practices.md) laat u beste praktijken voor optimalisering ontdekken LLM om uw merkzichtbaarheid in AI onderzoek op te voeren.
+* [ QuickStart ](/help/overview/quick-start.md) krijgt u snel in werking gesteld.
+* [ overzicht van dashboards ](/help/dashboards/dashboards-overview.md) beschrijft alle dashboards beschikbaar in LLM Optimizer.
+* [ Beste praktijken voor het vormen van categorieën, onderwerpen, herinneringen, en anderen ](/help/overview/best-practices-topics-prompts.md) omvat essentiële informatie voor vestiging LLM Optimizer.
+* [ Beste praktijken ](/help/tutorials/best-practices.md) laat u beste praktijken voor optimalisering ontdekken LLM om uw merkzichtbaarheid in AI onderzoek op te voeren.
 
 
 

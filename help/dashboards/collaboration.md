@@ -18,4 +18,4 @@ Met Collaboration kunt u teamleden uitnodigen voor de LLM Optimizer-werkruimte v
 
 U kunt teamleden uitnodigen door hun e-mail in het **E-mailgebied van het Adres** toe te voegen en **te klikken verzendt Uitnodiging**. Als ze accepteren, nemen ze deel aan de LLM Optimizer-werkruimte van uw organisatie.
 
-![&#x200B; Uitnodiging Collaboration &#x200B;](/help/dashboards/assets/collaboration.png)
+![ Uitnodiging Collaboration ](/help/dashboards/assets/collaboration.png)

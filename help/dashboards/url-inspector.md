@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Met de URL-controle kunt u analyseren hoe specifieke pagina&#39;s op uw domein in AI-zoekopdrachten uitvoeren. Het combineert zicht, agentisch verkeer, en verwijzingsgegevens op het niveau URL om u een korrelige mening te geven van welke URLs wordt geciteerd en hoe vaak zij in reacties verschijnen.
 
-![&#x200B; Inspecteur URL &#x200B;](/help/dashboards/assets/url-insp.png)
+![ Inspecteur URL ](/help/dashboards/assets/url-insp.png)
 
 ## Filters
 
@@ -45,7 +45,7 @@ De trendindicatoren voor elk overzichtsmetrisch tonen hoe deze waarden in tijd i
 
 In de weergave URL&#39;s waarnaar wordt verwezen, worden alle URL&#39;s van uw merk weergegeven die in door AI gegenereerde antwoorden zijn genoemd, met ondersteuning voor maatstaven. Beide lijsten hebben een onderzoeksgebied voor snelle toegang tot onderwerpen en u kunt aanpassen welke metriek wordt getoond door **te klikken vormt Kolommen** knoop. Ook, kunt u de **optie van de Uitvoer** gebruiken om lijst .csv te downloaden en de inzichten met uw team te delen of de lijst in uitvoerende rapportering te omvatten.
 
-![&#x200B; Bewerkte URLs &#x200B;](/help/dashboards/assets/cited-urls.png)
+![ Bewerkte URLs ](/help/dashboards/assets/cited-urls.png)
 
 De volgende cijfers worden verstrekt:
 
@@ -61,7 +61,7 @@ De volgende cijfers worden verstrekt:
 
 De trending URLs die voor citatiemening concurreren, benadrukt externe URLs die momenteel in antwoorden relevant voor uw merk worden genoemd, die meten wie citaten in uw ruimte wint. De gegevenslijst heeft een onderzoeksgebied voor snelle toegang tot specifieke URLs. Ook, kunt u de **optie van de Uitvoer** gebruiken om lijst .csv te downloaden en de inzichten met uw team te delen of de lijst in uitvoerende rapportering te omvatten.
 
-![&#x200B; het Trending URLs die voor Cites &#x200B;](/help/dashboards/assets/trend-url.png) concurreren
+![ het Trending URLs die voor Cites ](/help/dashboards/assets/trend-url.png) concurreren
 
 De volgende cijfers worden verstrekt:
 
@@ -76,4 +76,4 @@ De volgende cijfers worden verstrekt:
 
 Voor zowel de geciteerde als trending meningen, heeft URLs a **Details** knoop aan het eind van elke rij. Als u op de knop klikt, wordt er een apart venster weergegeven met aanvullende gegevens. Het detailvenster toont hoe vaak URL wordt geciteerd, <!--the sentiment of AI responses where it is mentioned,--> de onderwerpen en herinneringen het binnen verschijnt, en tendensen in agentic en verwijzingsverkeer in tijd (voor bezeten URLs).
 
-![&#x200B; Venster van Details &#x200B;](/help/dashboards/assets/details-url.png)
+![ Venster van Details ](/help/dashboards/assets/details-url.png)
