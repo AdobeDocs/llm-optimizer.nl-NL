@@ -18,7 +18,7 @@ Dit is een eerste belangrijke stap. Wat u nu beslist bepaalt hoe de informatie a
 
 In het dashboard van [[!UICONTROL Customer Configuration]](/help/dashboards/customer-configuration.md) definieert u hoe uw merk wordt gecontroleerd en geanalyseerd in het LLM-optimaliserplatform. Zie [[!UICONTROL Customer Configuration]](/help/dashboards/customer-configuration.md) voor informatie over het gebruik van het dashboard.
 
-![ het configuratievenster van de Klant ](/help/assets/best-practices/customer-configuration-best-practices.png)
+![&#x200B; het configuratievenster van de Klant &#x200B;](/help/assets/best-practices/customer-configuration-best-practices.png)
 
 In het dashboard van [!UICONTROL Customer Configuration] kunt u categorieën (zoals bedrijfseenheden of productlijnen) aanpassen, andere merken volgen, en merkaanduidingsaliassen toevoegen om alle variaties van uw merk in verschillende aanwijzingen vast te leggen. Deze opstelling verzekert het platform inzicht in uw bedrijfscontext, toelatend nauwkeurige zicht, verkeer, en opportuniteitsanalyse.
 
@@ -30,7 +30,7 @@ De Industry Prompt Library gebruiken:
 
 1. Navigeer aan het **dashboard van de Configuratie van de Klant**.
 1. Selecteer **de Herinneringsbibliotheek van de Download** om het bibliotheekdossier van LLM Optimizer te downloaden.
-   ![ de snelle download van de Bibliotheek van de Industrie ](/help/assets/best-practices/customer-configuration-prompts-library.png)
+   ![&#x200B; de snelle download van de Bibliotheek van de Industrie &#x200B;](/help/assets/best-practices/customer-configuration-prompts-library.png)
 1. Het overzicht stelde **Onderwerpen** voor en **Vragen** voor de industrie van uw merk op het respectieve lusje en kiest de opties die het meest relevant zijn.
 1. De kolom van het Stadium van de Reis van de Klant van het overzicht **om snelle opties over de klantenlevenscyclus (bijvoorbeeld, ontdekking aan omzetting aan behoud) te bekijken.** De vroege fase/top van de herinneringen van funnel zijn hoge prioriteit maar ook nadenken later stadium opties om behoud te bevorderen, klantensteun toe te laten, etc.
 1. Wijzig de onderwerpen of aanwijzingen die u nodig hebt om uw doelstellingen en doelstellingen zo goed mogelijk te ondersteunen voordat u uw onderwerpen uploadt en vragen naar Adobe LLM Optimizer (voeg bijvoorbeeld uw merk/productnaam toe of voeg terminologie toe voor het merk). Vragen kunnen handmatig of via bulkupload aan LLM Optimizer worden toegevoegd met de meegeleverde sjabloon *.csv* .
@@ -85,7 +85,7 @@ Hoe te om te besluiten hoe u opstellingscategorieën op één vraag gebaseerd is
 * Als u a *Web/inhoudseigenaar* bent, kies de **URL_DIR** benadering.
 * Als u a *handelend/aanbiedt manager* bent, kies de **product/de categorie van de Dienst** benadering.
 
-![ Toevoegend categorieën in LLM Optimizer ](/help/assets/best-practices/add-category.png)
+![&#x200B; Toevoegend categorieën in LLM Optimizer &#x200B;](/help/assets/best-practices/add-category.png)
 
 >[!IMPORTANT]
 >
@@ -121,7 +121,7 @@ Wanneer u een beslissing neemt over onderwerpen, wilt u een korte, platte lijst 
 * Contact opnemen met ondersteuning
 * Bedrijfs/Nieuws (als u dit echt nodig hebt)
 
-![ Toevoegend onderwerpen in LLM Optimizer ](/help/assets/best-practices/add-topic.png)
+![&#x200B; Toevoegend onderwerpen in LLM Optimizer &#x200B;](/help/assets/best-practices/add-topic.png)
 
 Houd rekening met het volgende wanneer u de lijst maakt:
 
@@ -172,6 +172,6 @@ Met anderen die volgen, kunt u zien hoe vaak andere merken naast uw merk in vers
 
 ## Meer informatie
 
-* [ dashboard van de Configuratie van de Klant ](/help/dashboards/customer-configuration.md) is waar u uw categorieën, onderwerpen, herinneringen, en anderen het volgen vormt.
-* [ de beste praktijken van LLM Optimizer ](/help/tutorials/best-practices.md) beschrijft beste praktijken rond Optimalisering LLM
+* [&#x200B; dashboard van de Configuratie van de Klant &#x200B;](/help/dashboards/customer-configuration.md) is waar u uw categorieën, onderwerpen, herinneringen, en anderen het volgen vormt.
+* [&#x200B; de beste praktijken van LLM Optimizer &#x200B;](/help/tutorials/best-practices.md) beschrijft beste praktijken rond Optimalisering LLM
 

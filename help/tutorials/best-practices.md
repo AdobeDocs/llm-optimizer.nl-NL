@@ -86,14 +86,14 @@ Onsite optimalisatie verbetert uw eigen inhoud voor LLM-zichtbaarheid. Dit zijn 
 
 >[!TIP]
 >
->LLM Optimizer stelt onsite en offsite optimaliseringskansen in het [ dashboard van Kansen ](/help/dashboards/opportunities.md) voor u voor. Deze mogelijkheden zijn specifiek voor uw site. Veel van deze suggesties kunnen rechtstreeks via LLM Optimizer naar uw site worden geïmplementeerd.
+>LLM Optimizer stelt onsite en offsite optimaliseringskansen in het [&#x200B; dashboard van Kansen &#x200B;](/help/dashboards/opportunities.md) voor u voor. Deze mogelijkheden zijn specifiek voor uw site. Veel van deze suggesties kunnen rechtstreeks via LLM Optimizer naar uw site worden geïmplementeerd.
 
 Hier volgen enkele tips en trucs voor optimalisatie:
 
 1. Technische toegankelijkheid waarborgen
 
    * Controleer de instellingen robots.txt en CDN om AI-agents toe te staan uw site te kruipen.
-   * Gebruik de URL-controle om geblokkeerde of ontoegankelijke pagina&#39;s te identificeren. Zie [ inspecteur URL ](/help/dashboards/url-inspector.md).
+   * Gebruik de URL-controle om geblokkeerde of ontoegankelijke pagina&#39;s te identificeren. Zie [&#x200B; inspecteur URL &#x200B;](/help/dashboards/url-inspector.md).
 
 2. Inhoud vernieuwen en structureren
 
@@ -108,7 +108,7 @@ Hier volgen enkele tips en trucs voor optimalisatie:
 
 4. Bewaking en herhaling
 
-   * Gebruik het [ dashboard van Kansen ](/help/dashboards/opportunities.md) om op aanbevelingen te identificeren en te handelen.
+   * Gebruik het [&#x200B; dashboard van Kansen &#x200B;](/help/dashboards/opportunities.md) om op aanbevelingen te identificeren en te handelen.
    * De zichtbaarheidsscore van het spoor, sentiment, en citaatfrequentie.
    * Pas aan op basis van de activiteiten van anderen (waaronder concurrenten) en snelle trends.
 
@@ -118,7 +118,7 @@ Offsite optimalisatie richt zich op het verbeteren van de zichtbaarheid van uw m
 
 >[!TIP]
 >
->LLM Optimizer stelt onsite en offsite optimaliseringskansen in het [ dashboard van Kansen ](/help/dashboards/opportunities.md) voor u voor. Deze mogelijkheden zijn specifiek voor uw site. Veel van deze suggesties kunnen rechtstreeks via LLM Optimizer naar uw site worden geïmplementeerd.
+>LLM Optimizer stelt onsite en offsite optimaliseringskansen in het [&#x200B; dashboard van Kansen &#x200B;](/help/dashboards/opportunities.md) voor u voor. Deze mogelijkheden zijn specifiek voor uw site. Veel van deze suggesties kunnen rechtstreeks via LLM Optimizer naar uw site worden geïmplementeerd.
 
 
 Belangrijke offsite kanalen:
@@ -132,7 +132,7 @@ Belangrijke offsite kanalen:
 Aanbevolen werkwijzen:
 
 * Diversifieer uw offsite voetafdruk.
-* Verwijzingen bewaken met Adobe LLM Optimizer. Zie [ dashboard van de Aanwezigheid van het Merk ](/help/dashboards/brand-presence.md).
+* Verwijzingen bewaken met Adobe LLM Optimizer. Zie [&#x200B; dashboard van de Aanwezigheid van het Merk &#x200B;](/help/dashboards/brand-presence.md).
 * Werk de inhoud van de schaal bij en zoek naar nieuwe integratiemogelijkheden.
 * Coördinatie met PR- en sociale teams.
 * Zorgen voor onpartijdige en informatieve bijdragen.
@@ -150,18 +150,18 @@ Houd deze belangrijke meetgegevens bij:
 * **Sentiment:** Of de verwijzing van uw merk positief, neutraal, of negatief is.
 * **Positie:** waar uw merk in de reactie (bijvoorbeeld, eerst, midden, of laatste) wordt vermeld.
 
-Deze metriek combineren in a **zicht** score, die u vertelt hoe sterk de aanwezigheid van uw merk in reacties LLM is. Zie het [ Merk Aanwezigheid ](/help/dashboards/brand-presence.md) bord.
+Deze metriek combineren in a **zicht** score, die u vertelt hoe sterk de aanwezigheid van uw merk in reacties LLM is. Zie het [&#x200B; Merk Aanwezigheid &#x200B;](/help/dashboards/brand-presence.md) bord.
 
 ### Traceerstrategie
 
 U kunt de volgende stappen uitvoeren om de voortgang te controleren:
 
 1. Benchmark uw huidige zichtbaarheid.
-   * Geef aan hoe vaak en waar uw merk wordt genoemd en genoemd en wat het sentiment is in Adobe LLM Optimizer. Zie het [ dashboard van de Aanwezigheid van het Merk ](/help/dashboards/brand-presence.md).
+   * Geef aan hoe vaak en waar uw merk wordt genoemd en genoemd en wat het sentiment is in Adobe LLM Optimizer. Zie het [&#x200B; dashboard van de Aanwezigheid van het Merk &#x200B;](/help/dashboards/brand-presence.md).
    * Analyseer aanwijzingen waar uw merk voorkomt en waar het niet voorkomt.
-   * Vergelijk zicht tegen anderen met inbegrip van concurrenten (in **anderen die** in het [ dashboard van de Configuratie van de Klant volgen ](/help/dashboards/customer-configuration.md)).
+   * Vergelijk zicht tegen anderen met inbegrip van concurrenten (in **anderen die** in het [&#x200B; dashboard van de Configuratie van de Klant volgen &#x200B;](/help/dashboards/customer-configuration.md)).
    * Bekijk de zichtbaarheid op door de gebruiker gegenereerde platforms zoals Reddit, Quora en Wikipedia. Segment op platform (ChatGPT, Google AI-modus, enzovoort)
-   * Het agentische verkeer van de monitor om te begrijpen welke pagina&#39;sLLMs bezoeken. Het uitzendende verkeer gaat vaak **niet** naar de homepage maar andere pagina&#39;s lager in de hiërarchie. Zie [ Agentic het dashboard van het Verkeer ](/help/assets/overview/agentic-traffic-card.png).
+   * Het agentische verkeer van de monitor om te begrijpen welke pagina&#39;sLLMs bezoeken. Het uitzendende verkeer gaat vaak **niet** naar de homepage maar andere pagina&#39;s lager in de hiërarchie. Zie [&#x200B; Agentic het dashboard van het Verkeer &#x200B;](/help/assets/overview/agentic-traffic-card.png).
 1. Wijzigingen bijhouden in de tijd.
    * Gebruik tijdfilters om wekelijkse en maandelijkse verschuivingen bij te houden.
    * Let op pieken of dalingen in zichtbaarheidsscore.
@@ -170,7 +170,7 @@ U kunt de volgende stappen uitvoeren om de voortgang te controleren:
    * De attributieeigenschappen van het gebruik om zichtverbeteringen aan verkeer, overeenkomst, en omzettingen aan te sluiten. De eigenschappen van de attributie in Adobe LLM Optimizer helpen u verbeteringen in zichtbaarheidsmetriek (verwijzingen, citaties, sentiment) aan echte bedrijfsresultaten zoals plaatsverkeer, gebruikersbetrokkenheid, en omzettingen verbinden. Dit bewijst ROI voor uw optimaliseringsinspanningen.
    * Wijzigingen bijhouden in het agonische en verwijzingsverkeer om optimalisatierendement te valideren.
 1. Inhoud verbeteren
-   * Gebruik het dashboard van Kansen van LLM Optimizer [ ](/help/dashboards/opportunities.md) om specifiek geadviseerde, directe veranderingen in uw plaats te identificeren en te maken. Zie [ Kansen ](/help/dashboards/opportunities.md) (dan de resultaten meten.) Controleer regelmatig de sectie over de mogelijkheden en onderneem actie naar aanleiding van de gedane aanbevelingen.
+   * Gebruik het dashboard van Kansen van LLM Optimizer [&#x200B; &#x200B;](/help/dashboards/opportunities.md) om specifiek geadviseerde, directe veranderingen in uw plaats te identificeren en te maken. Zie [&#x200B; Kansen &#x200B;](/help/dashboards/opportunities.md) (dan de resultaten meten.) Controleer regelmatig de sectie over de mogelijkheden en onderneem actie naar aanleiding van de gedane aanbevelingen.
    * Pagina&#39;s met minder zichtbaarheid voorrang geven.
    * Werk uw website en andere inhoud bij om deze relevanter te maken voor de aanwijzingen waarop u zich wilt richten.
    * Voeg veelgestelde vragen toe aan uw pagina&#39;s die veelgestelde vragen beantwoorden.
@@ -179,7 +179,7 @@ U kunt de volgende stappen uitvoeren om de voortgang te controleren:
    * Met Adobe LLM Optimizer kunt u bijhouden hoe de zichtbaarheid in de loop der tijd verandert.
    * Als u andere concurrenten ziet die vaker worden genoemd, past u uw strategie aan om vooruit te blijven.
    * Blijf uw inhoud bijwerken zodat deze overeenkomt met wat mensen zoeken en vragen.
-1. Pas [ offsite ](#offsite-optimization---expanding-your-brand-footprint) en [ onsite ](#onsite-optimization---strengthening-your-owned-content) strategieën aan die op inzichten worden gebaseerd.
+1. Pas [&#x200B; offsite &#x200B;](#offsite-optimization---expanding-your-brand-footprint) en [&#x200B; onsite &#x200B;](#onsite-optimization---strengthening-your-owned-content) strategieën aan die op inzichten worden gebaseerd.
 
 >[!NOTE]
 >
@@ -225,9 +225,9 @@ Het volgen van agentisch verkeer helpt u begrijpen hoe AI uw inhoud ziet en gebr
 Optimaliseren voor zintuiglijk verkeer:
 
 * Zorg voor de schuifbaarheid door de instellingen robots.txt en CDN te controleren.
-* Gebruik de [ Inspecteur URL ](/help/dashboards/url-inspector.md) om prestaties URL te analyseren.
-* Het gedrag van de Bot van het spoor door tot uw CDN- logboeken in het [ Agentic verkeersdashboard ](/help/dashboards/agentic-traffic.md) toegang te hebben.
-* Het verkeer van het segment om bedrijfsresultaten te begrijpen. Zie [ Beste praktijken voor categorieën, onderwerpen, en herinneringen ](/help/overview/best-practices-topics-prompts.md).
+* Gebruik de [&#x200B; Inspecteur URL &#x200B;](/help/dashboards/url-inspector.md) om prestaties URL te analyseren.
+* Het gedrag van de Bot van het spoor door tot uw CDN- logboeken in het [&#x200B; Agentic verkeersdashboard &#x200B;](/help/dashboards/agentic-traffic.md) toegang te hebben.
+* Het verkeer van het segment om bedrijfsresultaten te begrijpen. Zie [&#x200B; Beste praktijken voor categorieën, onderwerpen, en herinneringen &#x200B;](/help/overview/best-practices-topics-prompts.md).
 
 Hier volgen de meetgegevens:
 
