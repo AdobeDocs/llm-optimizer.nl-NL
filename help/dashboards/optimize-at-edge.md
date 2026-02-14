@@ -247,7 +247,7 @@ Deze tabel vindt u in de volgende tabel met mogelijkheden die de taalkundige web
 
 De [&#x200B; Adobe LLM Optimizer: Is uw webpagina citeerbaar?](https://chromewebstore.google.com/detail/adobe-llm-optimizer-is-yo/jbjngahjjdgonbeinjlepfamjdmdcbcc) De Chrome-extensie toont hoeveel van uw webpagina-inhoud LLM&#39;s kunnen benaderen en wat verborgen blijft. Deze software is ontworpen als een gratis, standalone diagnoseprogramma en vereist geen productlicentie of installatie.
 
-Met één klik kunt u de gereedschapsleesbaarheid van elke site evalueren. U kunt een vergelijking naast elkaar bekijken van wat AI agenten tegenover zien wat menselijke gebruikers zien, en schatten hoeveel inhoud door LLM Optimizer kon worden teruggekregen. Zie [&#x200B; AI uw website lezen?](https://business.adobe.com/blog/introducing-the-llm-optimizer-chrome-extension) voor meer informatie.
+Met één klik kunt u de gereedschapsleesbaarheid van elke site evalueren. U kunt een vergelijking naast elkaar bekijken van wat AI agenten tegenover zien wat menselijke gebruikers zien, en schatten hoeveel inhoud door LLM Optimizer kon worden teruggekregen. Zie [&#x200B; AI uw website lezen?](https://business.adobe.com/nl/blog/introducing-the-llm-optimizer-chrome-extension) voor meer informatie.
 
 ## Gedetailleerde mogelijkheden
 
