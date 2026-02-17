@@ -2,9 +2,9 @@
 title: Overzicht van dashboards
 description: Dit is het artikeloverzicht.
 feature: Onboarding
-source-git-commit: c6e37395362262eb5fe8366473e76086e36d77e9
+source-git-commit: ae37ef578f279eae6ea51fd8aed5c6b91c8e1088
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Welkom bij het overzicht van dashboards. De dashboards in LLM-Optimizer helpen marketers merkzichtbaarheid en sentiment over AI onderzoeksplatforms volgen, optimaliseringsmogelijkheden identificeren, en beschrijvende veranderingen uitvoeren om citaties en prestaties te verbeteren.
 
-De belangrijkste meningen omvatten de Aanwezigheid van het Merk, het Verkeer van de Agent en van de Verwijzing, Inspecteur URL, de Identificatie van de Kans, Collaboration, en de Configuratie van de Klant.
+De zeer belangrijke meningen omvatten Overzicht, de Aanwezigheid van het Merk, het Verkeer van het Bureau en van de Verwijzing, Inspecteur URL, Opportunity, Collaboration, en de Configuratie van de Klant.
 
 <!-- CARDS
 
