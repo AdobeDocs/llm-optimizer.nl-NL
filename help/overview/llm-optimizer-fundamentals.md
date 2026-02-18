@@ -1,9 +1,9 @@
 ---
 title: LLM Optimizer Basics
 description: Meer informatie over hoe Adobe LLM Optimizer de zichtbaarheid van merken verhoogt in zoekopdrachten die door AI worden gestuurd. Houd opmerkingen, citaten en inzichten bij. Optimaliseren vandaag voor betere betrokkenheid en invloed.
-source-git-commit: 06c09c4690488d9b29d0626521fb53bf7d70d3a8
+source-git-commit: 1f665bd14349c15d92f8274742606abcf9b02000
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -53,10 +53,10 @@ Generatieve motoroptimalisatie is van nature interfunctioneel. LLM Optimizer is 
 Met Adobe LLM Optimizer kunt u:
 
 **de Zichtbaarheid van het Merk van de Maatregel** - spoor wanneer, waar, en hoe vaak uw merk in AI-Vervaardigde onderzoeksresultaten wordt vermeld. Beweeg verder dan giswerk met een duidelijke zichtbaarheidsscore die je in de loop der tijd kunt benchmarken.
-**Benchmark anderen** - zie hoe uw merk tegen anderen in generatieve motoren stapelt. Identificeer aandeel van stemhiaten en ontdek concurrerende voordelen.
-**ontdekt Actiebare Kansen** - de inhoudskansen van het Punt (b.v., FAQs, abstracts, schema) en technische kansen (doorschuifbaarheid, indexerende kwesties) die aanhalingstekens en citaten direct verhogen.
-**Effect van het Verkeer van het Spoor van AI** - het agentische verkeer van de Monitor (van de medewerkers van AI) en verwijzingsverkeer (de gebruiker klikt van citaties) aan uw bezeten eigenschappen. De zichtbaarheid van GEO beperken tot echte betrokkenheid.
-**laat Team Collaboration** toe - de dashboards van het Aandeel, wijst eigenaars voor herinneringen of categorieën toe, en verzekert zichtbaarheidsdoelstellingen over marketing, SEO, en communicatie functies worden gevolgd.
+**Benchmark Anderen** - zie hoe uw merk tegen anderen in generatieve motoren stapelt. Identificeer aandeel van stemhiaten en ontdek concurrerende voordelen.
+**Ontdek Acteerbare Kansen** - de inhoudskansen van het Punt (b.v., FAQs, abstracts, schema) en technische kansen (kruipbaarheid, indexerende kwesties) die aanhalingstekens en citaten direct verhogen.
+**De Gevolgen van het Verkeer van het spoor van AI** - het agentische verkeer van de Monitor (van de medewerkers van AI) en verwijzingsverkeer (de gebruiker klikt van citaties) aan uw bezeten eigenschappen. De zichtbaarheid van GEO beperken tot echte betrokkenheid.
+**Laat Team Collaboration** toe - de dashboards van het Aandeel, wijs eigenaars voor herinneringen of categorieën toe, en zorg zichtbaarheidsdoelstellingen over marketing, SEO, en communicatie functies worden gevolgd.
 
 
 ## Verwijzingen
@@ -112,7 +112,7 @@ Use these as guidelines for creating tutorials - some may be covered already in 
 
 ## Identifying Optimization Opportunities
 
-* Content Fixes (Headings, FAQs, Canonicals)
+* Content Fixes (FAQs, Canonicals)
 * Technical Fixes (Blocked Agents, Errors)
 * Third-Party Influence Strategies
 

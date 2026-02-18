@@ -2,9 +2,9 @@
 title: Optimaliseren bij Edge
 description: Leer hoe u optimalisaties in LLM Optimizer kunt leveren aan de CDN-rand zonder dat er ontwerpwijzigingen nodig zijn.
 feature: Opportunities
-source-git-commit: ae37ef578f279eae6ea51fd8aed5c6b91c8e1088
+source-git-commit: 1f665bd14349c15d92f8274742606abcf9b02000
 workflow-type: tm+mt
-source-wordcount: '4843'
+source-wordcount: '4708'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 Deze pagina biedt een gedetailleerd overzicht van hoe u optimalisaties aan de CDN-rand kunt leveren zonder dat er ontwerpwijzigingen nodig zijn. Het behandelt het aan boord gaan proces, de beschikbare optimaliseringsmogelijkheden en hoe te om aan rand automatisch te optimaliseren.
 
 >[!NOTE]
->Deze functionaliteit is momenteel in Vroege Toegang. U kunt meer over de vroege programma&#39;s van de Toegang [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current#aem-beta-programs) leren.
+>Deze functionaliteit is momenteel in Vroege Toegang. U kunt meer over de vroege programma&#39;s van de Toegang [ hier ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current#aem-beta-programs) leren.
 
 ## Wat is Optimize in Edge?
 
@@ -35,7 +35,7 @@ Optimaliseren in Edge is ontworpen voor zakelijke gebruikers in marketing-, SEO-
 
 ### Welke mogelijkheden worden gesteund met Optimize in Edge?
 
-De kansen die de agentische Webervaring kunnen verbeteren worden gesteund met Optimize in Edge. Leer meer over elke kans zowel in de [&#x200B; pagina van het Dashboard van Kansen &#x200B;](/help/dashboards/opportunities.md) als de opportuniteitssectie in de huidige pagina.
+De kansen die de agentische Webervaring kunnen verbeteren worden gesteund met Optimize in Edge. Leer meer over elke kans zowel in de [ pagina van het Dashboard van Kansen ](/help/dashboards/opportunities.md) als de opportuniteitssectie in de huidige pagina.
 
 ## Onboarding
 
@@ -68,15 +68,15 @@ Ga als volgt te werk om het routeren van hoekig verkeer naar Edge Optimize:
 
 1. Navigeer aan **Configuratie van de Klant** en selecteer de **CDN Configuratie** tabel.
 
-   ![&#x200B; ga aan de Configuratie van de Klant &#x200B;](/help/assets/optimize-at-edge/prereq-customer-config-nav.png)
+   ![ ga aan de Configuratie van de Klant ](/help/assets/optimize-at-edge/prereq-customer-config-nav.png)
 
 2. Onder **AI Verkeer dat verplettert om Optimalisaties** op te stellen, tik **optimalisaties aan AI Agenten** checkbox opstelt. Het team van Adobe zal de verpletterende configuratie namens u behandelen.
 
-   ![&#x200B; Tik stel Optimalisaties aan AI Agenten &#x200B;](/help/assets/optimize-at-edge/prereq-deploy-checkbox.png) op
+   ![ Tik stel Optimalisaties aan AI Agenten ](/help/assets/optimize-at-edge/prereq-deploy-checkbox.png) op
 
 3. Nadat u het selectievakje hebt ingeschakeld, geeft de status aan dat de installatie wordt uitgevoerd. Het team van Adobe zal de verpletterende configuratie voor u voltooien.
 
-   ![&#x200B; AI Verkeer die opstelling verplettert momenteel &#x200B;](/help/assets/optimize-at-edge/prereq-traffic-routing-progress.png)
+   ![ AI Verkeer die opstelling verplettert momenteel ](/help/assets/optimize-at-edge/prereq-traffic-routing-progress.png)
 
    Zodra het verpletteren en actief wordt gevormd, zal de status bijwerken om een groen controleteken te tonen die erop wijzen dat het verpletteren met succes wordt toegelaten. U hoeft geen verdere actie te ondernemen.
 
@@ -84,7 +84,7 @@ Als u bovendien hulp nodig hebt bij de bovenstaande stappen, neemt u contact op 
 
 **Zelfbediening verpletterend via de Pijpleiding van Cloud Manager**
 
-Als u verkiest om het verpletteren door de Pijpleiding van Cloud Manager te vormen, volg de hieronder stappen. De verpletterende configuratie wordt gedaan door een [&#x200B; originSelector CDN regel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#origin-selectors) te gebruiken. De voorwaarden zijn als volgt:
+Als u verkiest om het verpletteren door de Pijpleiding van Cloud Manager te vormen, volg de hieronder stappen. De verpletterende configuratie wordt gedaan door een [ originSelector CDN regel ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#origin-selectors) te gebruiken. De voorwaarden zijn als volgt:
 
 * Bepaal het domein dat moet worden verpletterd.
 * Bepaal de paden die u wilt routeren.
@@ -92,7 +92,7 @@ Als u verkiest om het verpletteren door de Pijpleiding van Cloud Manager te vorm
 
 Om de regel op te stellen, moet u:
 
-* Creeer de pijpleiding van de a [&#x200B; configuratie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/operations/config-pipeline).
+* Creeer de pijpleiding van de a [ configuratie ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/config-pipeline).
 * Leg het configuratiebestand van `cdn.yaml` vast in uw opslagplaats.
 * Voer de configuratiepijplijn uit.
 
@@ -137,7 +137,7 @@ curl -svo /dev/null https://www.example.com/page.html --header "user-agent: chat
 
 De status van het verkeer dat verplettert kan ook in LLM Optimizer UI worden gecontroleerd. Navigeer aan **Configuratie van de Klant** en selecteer de **CDN Configuratie** tabel.
 
-![&#x200B; AI Verkeer die status met toegelaten verpletteren verplettert &#x200B;](/help/assets/optimize-at-edge/adobe-CDN-traffic-routed-tick.png)
+![ AI Verkeer die status met toegelaten verpletteren verplettert ](/help/assets/optimize-at-edge/adobe-CDN-traffic-routed-tick.png)
 
 >[!TAB  Fastly (BYOCDN) ]
 
@@ -158,15 +158,15 @@ Voordat u de Fastly VCL-regels instelt, moet u controleren of u:
 
 1. Navigeer aan **Configuratie van de Klant** en selecteer de **CDN Configuratie** tabel.
 
-   ![&#x200B; ga aan de Configuratie van de Klant &#x200B;](/help/assets/optimize-at-edge/prereq-customer-config-nav.png)
+   ![ ga aan de Configuratie van de Klant ](/help/assets/optimize-at-edge/prereq-customer-config-nav.png)
 
 2. Onder **AI Verkeer dat verplettert om Optimalisaties** op te stellen, tik **optimalisaties aan AI Agenten** checkbox opstelt.
 
-   ![&#x200B; Tik stel Optimalisaties aan AI Agenten &#x200B;](/help/assets/optimize-at-edge/prereq-deploy-checkbox.png) op
+   ![ Tik stel Optimalisaties aan AI Agenten ](/help/assets/optimize-at-edge/prereq-deploy-checkbox.png) op
 
 3. Kopieer de API sleutel en ga met de verpletterende configuratiestappen hieronder te werk.
 
-   ![&#x200B; Kopieer de API sleutel &#x200B;](/help/assets/optimize-at-edge/prereq-copy-api-key.png)
+   ![ Kopieer de API sleutel ](/help/assets/optimize-at-edge/prereq-copy-api-key.png)
 
    >[!NOTE]
    >In dit stadium, kan de status een rood kruis tonen die erop wijst dat de opstelling nog niet voltooid is. Dit wordt verwacht — zodra u de verpletterende configuratie hieronder voltooit en AI bot het verkeer begint te stromen, zal de status aan een groen controleteken bijwerken bevestigend dat het verpletteren met succes wordt toegelaten.
@@ -177,9 +177,9 @@ Als u bovendien hulp nodig hebt bij de bovenstaande stappen, neemt u contact op 
 
 Voeg de volgende drie fragmenten VCL aan uw Snelle dienst toe. Deze fragmenten behandelen het verpletteren van agentische verzoeken aan Edge Optimize, geheim voorgeheugenzeer belangrijke scheiding, en failover aan uw standaardoorsprong.
 
-![&#x200B; VCL van de Fastly &#x200B;](/help/assets/optimize-at-edge/fastly-vcl.png)
+![ VCL van de Fastly ](/help/assets/optimize-at-edge/fastly-vcl.png)
 
-![&#x200B; voeg VCL fragmenten &#x200B;](/help/assets/optimize-at-edge/add-vcl-snippets.png) toe
+![ voeg VCL fragmenten ](/help/assets/optimize-at-edge/add-vcl-snippets.png) toe
 
 **vcl_recv fragment**
 
@@ -243,7 +243,7 @@ curl -svo /dev/null https://www.example.com/page.html --header "user-agent: chat
 
 De status van het verkeer dat verplettert kan ook in LLM Optimizer UI worden gecontroleerd. Navigeer aan **Configuratie van de Klant** en selecteer de **CDN Configuratie** tabel.
 
-![&#x200B; AI Verkeer die status met toegelaten verpletteren verplettert &#x200B;](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
+![ AI Verkeer die status met toegelaten verpletteren verplettert ](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
 
 >[!TAB  Akamai (BYOCDN) ]
 
@@ -264,15 +264,15 @@ Voordat u de regels voor Akamai Property Manager instelt, moet u controleren of 
 
 1. Navigeer aan **Configuratie van de Klant** en selecteer de **CDN Configuratie** tabel.
 
-   ![&#x200B; ga aan de Configuratie van de Klant &#x200B;](/help/assets/optimize-at-edge/prereq-customer-config-nav.png)
+   ![ ga aan de Configuratie van de Klant ](/help/assets/optimize-at-edge/prereq-customer-config-nav.png)
 
 2. Onder **AI Verkeer dat verplettert om Optimalisaties** op te stellen, tik **optimalisaties aan AI Agenten** checkbox opstelt.
 
-   ![&#x200B; Tik stel Optimalisaties aan AI Agenten &#x200B;](/help/assets/optimize-at-edge/prereq-deploy-checkbox.png) op
+   ![ Tik stel Optimalisaties aan AI Agenten ](/help/assets/optimize-at-edge/prereq-deploy-checkbox.png) op
 
 3. Kopieer de API sleutel en ga met de verpletterende configuratiestappen hieronder te werk.
 
-   ![&#x200B; Kopieer de API sleutel &#x200B;](/help/assets/optimize-at-edge/prereq-copy-api-key.png)
+   ![ Kopieer de API sleutel ](/help/assets/optimize-at-edge/prereq-copy-api-key.png)
 
    >[!NOTE]
    >In dit stadium, kan de status een rood kruis tonen die erop wijst dat de opstelling nog niet voltooid is. Dit wordt verwacht — zodra u de verpletterende configuratie hieronder voltooit en AI bot het verkeer begint te stromen, zal de status aan een groen controleteken bijwerken bevestigend dat het verpletteren met succes wordt toegelaten.
@@ -296,23 +296,23 @@ Plaats het verpletteren voor de volgende gebruiker-agenten:
  *Perplexity-User*
 ```
 
-![&#x200B; plaats verpletterend criteria &#x200B;](/help/assets/optimize-at-edge/akamai-step1-routing.png)
+![ plaats verpletterend criteria ](/help/assets/optimize-at-edge/akamai-step1-routing.png)
 
 **2. Oorsprong en SSL-gedrag instellen**
 
 Oorsprong instellen als `live.edgeoptimize.net` en SAN afstemmen op `*.edgeoptimize.net`
 
-![&#x200B; Vastgestelde Oorsprong en SSL gedrag &#x200B;](/help/assets/optimize-at-edge/akamai-step2-origin.png)
+![ Vastgestelde Oorsprong en SSL gedrag ](/help/assets/optimize-at-edge/akamai-step2-origin.png)
 
 **3. Cachetoets instellen**
 
 De toetsvariabele voor de cache `PMUSER_EDGE_OPTIMIZE_CACHE_KEY` instellen op `LLMCLIENT=TRUE;X_FORWARDED_HOST={{builtin.AK_HOST}}`
 
-![&#x200B; vastgestelde Zeer belangrijke Variabele van het Geheime voorgeheugen &#x200B;](/help/assets/optimize-at-edge/akamai-step3-cachekey.png)
+![ vastgestelde Zeer belangrijke Variabele van het Geheime voorgeheugen ](/help/assets/optimize-at-edge/akamai-step3-cachekey.png)
 
 **4. Caching Rules**
 
-![&#x200B; Caching Regels &#x200B;](/help/assets/optimize-at-edge/akamai-step4-rules.png)
+![ Caching Regels ](/help/assets/optimize-at-edge/akamai-step4-rules.png)
 
 **5. Binnenkomende aanvraagheaders wijzigen**
 
@@ -321,29 +321,29 @@ Stel de volgende binnenkomende aanvraagheaders in:
 `x-edgeoptimize-config` to `LLMCLIENT=TRUE;`
 `x-edgeoptimize-url` t/m `{{builtin.AK_URL}}`
 
-![&#x200B; wijzigt Binnenkomende Kopballen van het Verzoek &#x200B;](/help/assets/optimize-at-edge/akamai-step5-request.png)
+![ wijzigt Binnenkomende Kopballen van het Verzoek ](/help/assets/optimize-at-edge/akamai-step5-request.png)
 
 **6. Binnenkomende antwoordheaders wijzigen**
 
-![&#x200B; wijzigt Inkomende Kopballen van de Reactie &#x200B;](/help/assets/optimize-at-edge/akamai-step6-response.png)
+![ wijzigt Inkomende Kopballen van de Reactie ](/help/assets/optimize-at-edge/akamai-step6-response.png)
 
 **7. Wijziging van cache-id**
 
-![&#x200B; Verandering van identiteitskaart van het Geheime voorgeheugen &#x200B;](/help/assets/optimize-at-edge/akamai-step7-cacheid.png)
+![ Verandering van identiteitskaart van het Geheime voorgeheugen ](/help/assets/optimize-at-edge/akamai-step7-cacheid.png)
 
 **8. Uitgaande verzoekkopballen wijzigen**
 
 `x-forwarded-host` header instellen op `{{builtin.AK_HOST}}`
 
-![&#x200B; wijzigt Uitgaande Kopballen van het Verzoek &#x200B;](/help/assets/optimize-at-edge/akamai-step8-outgoing-request.png)
+![ wijzigt Uitgaande Kopballen van het Verzoek ](/help/assets/optimize-at-edge/akamai-step8-outgoing-request.png)
 
 **9. Site-failover**
 
-![&#x200B; Failover van de Plaats &#x200B;](/help/assets/optimize-at-edge/akamai-step9-failover.png)
+![ Failover van de Plaats ](/help/assets/optimize-at-edge/akamai-step9-failover.png)
 
-![&#x200B; Gedrag Failover &#x200B;](/help/assets/optimize-at-edge/akamai-step9-failover-behaviors.png)
+![ Gedrag Failover ](/help/assets/optimize-at-edge/akamai-step9-failover-behaviors.png)
 
-![&#x200B; Regels Failover &#x200B;](/help/assets/optimize-at-edge/akamai-step9-failover-rules.png)
+![ Regels Failover ](/help/assets/optimize-at-edge/akamai-step9-failover-rules.png)
 
 Site-failover zorgt ervoor dat als bij Edge Optimize een `4XX` - of `5XX` -fout wordt geretourneerd, de aanvraag automatisch wordt teruggestuurd naar de standaardoorsprong, zodat de eindgebruiker nog steeds een antwoord ontvangt.
 
@@ -364,7 +364,7 @@ curl -svo /dev/null https://www.example.com/page.html --header "user-agent: chat
 
 De status van het verkeer dat verplettert kan ook in LLM Optimizer UI worden gecontroleerd. Navigeer aan **Configuratie van de Klant** en selecteer de **CDN Configuratie** tabel.
 
-![&#x200B; AI Verkeer die status met toegelaten verpletteren verplettert &#x200B;](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
+![ AI Verkeer die status met toegelaten verpletteren verplettert ](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
 
 >[!TAB  Cloudflare (BYOCDN) ]
 
@@ -386,15 +386,15 @@ Voordat u de Cloudflare Worker instelt die regels routeert, moet u ervoor zorgen
 
 1. Navigeer aan **Configuratie van de Klant** en selecteer de **CDN Configuratie** tabel.
 
-   ![&#x200B; ga aan de Configuratie van de Klant &#x200B;](/help/assets/optimize-at-edge/prereq-customer-config-nav.png)
+   ![ ga aan de Configuratie van de Klant ](/help/assets/optimize-at-edge/prereq-customer-config-nav.png)
 
 2. Onder **AI Verkeer dat verplettert om Optimalisaties** op te stellen, tik **optimalisaties aan AI Agenten** checkbox opstelt.
 
-   ![&#x200B; Tik stel Optimalisaties aan AI Agenten &#x200B;](/help/assets/optimize-at-edge/prereq-deploy-checkbox.png) op
+   ![ Tik stel Optimalisaties aan AI Agenten ](/help/assets/optimize-at-edge/prereq-deploy-checkbox.png) op
 
 3. Kopieer de API sleutel en ga met de verpletterende configuratiestappen hieronder te werk.
 
-   ![&#x200B; Kopieer de API sleutel &#x200B;](/help/assets/optimize-at-edge/prereq-copy-api-key.png)
+   ![ Kopieer de API sleutel ](/help/assets/optimize-at-edge/prereq-copy-api-key.png)
 
    >[!NOTE]
    >In dit stadium, kan de status een rood kruis tonen die erop wijst dat de opstelling nog niet voltooid is. Dit wordt verwacht — zodra u de verpletterende configuratie hieronder voltooit en AI bot het verkeer begint te stromen, zal de status aan een groen controleteken bijwerken bevestigend dat het verpletteren met succes wordt toegelaten.
@@ -436,7 +436,7 @@ Bij aanvragen naar de Edge Optimize-backend moeten de volgende headers worden in
 4. Geef de worker een naam (bijvoorbeeld `edge-optimize-router` ).
 5. Klik **opstellen** om de worker met de standaardcode tot stand te brengen.
 
-![&#x200B; dashboard van de Werknemers van de Wolk &#x200B;](/help/assets/optimize-at-edge/cloudflare-workers-dashboard.png)
+![ dashboard van de Werknemers van de Wolk ](/help/assets/optimize-at-edge/cloudflare-workers-dashboard.png)
 
 **Stap 2: Voeg de code van de Arbeider** toe
 
@@ -609,7 +609,7 @@ async function failoverToOrigin(request, env, url) {
 
 Klik **sparen en stel** op om de worker te publiceren.
 
-![&#x200B; de coderedacteur van de Arbeider van de Wolk &#x200B;](/help/assets/optimize-at-edge/cloudflare-worker-editor.png)
+![ de coderedacteur van de Arbeider van de Wolk ](/help/assets/optimize-at-edge/cloudflare-worker-editor.png)
 
 **Stap 3: Vorm omgevingsvariabelen**
 
@@ -627,13 +627,13 @@ Omgevingsvariabelen slaan gevoelige configuratie als de API-sleutel veilig op.
 4. Voor de API sleutel, klik **Coderen** om het veilig op te slaan.
 5. Klik **sparen en stel** op.
 
-![&#x200B; Cloudflare milieu variabelen &#x200B;](/help/assets/optimize-at-edge/cloudflare-env-variables.png)
+![ Cloudflare milieu variabelen ](/help/assets/optimize-at-edge/cloudflare-env-variables.png)
 
 **Stap 4: Voeg een route aan uw domein** toe
 
 De worker op uw domein activeren:
 
-1. Ga naar de Montages van uw arbeider **&#x200B;**&#x200B;> **Trekkers**.
+1. Ga naar de Montages van uw arbeider **** > **Trekkers**.
 2. Onder **Routes**, klik **route** toevoegen.
 3. Voer uw domeinpatroon in (bijvoorbeeld `www.example.com/*` of `example.com/*` ).
 4. Selecteer de zone in het vervolgkeuzemenu.
@@ -645,7 +645,7 @@ Alternatief, kunt u routes op het streekniveau vormen:
 2. Ga naar **Routes van de Arbeiders**.
 3. Klik **toevoegen route** en specificeer het patroon en de arbeider.
 
-![&#x200B; de routes van de Arbeider van de Wolk &#x200B;](/help/assets/optimize-at-edge/cloudflare-worker-routes.png)
+![ de routes van de Arbeider van de Wolk ](/help/assets/optimize-at-edge/cloudflare-worker-routes.png)
 
 **Stap 5: Verifieer de opstelling**
 
@@ -665,7 +665,7 @@ De header `x-edgeoptimize-request-id` is een succesvol antwoord:
 
 De status van het verkeer dat verplettert kan ook in LLM Optimizer UI worden gecontroleerd. Navigeer aan **Configuratie van de Klant** en selecteer de **CDN Configuratie** tabel.
 
-![&#x200B; AI Verkeer die status met toegelaten verpletteren verplettert &#x200B;](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
+![ AI Verkeer die status met toegelaten verpletteren verplettert ](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
 
 U kunt ook verifiëren dat het normale verkeer blijft werken:
 
@@ -800,16 +800,15 @@ Deze tabel vindt u in de volgende tabel met mogelijkheden die de taalkundige web
 | Opportunity | Type | Automatisch identificeren | Automatisch voorstellen | Automatisch optimaliseren |
 |---------|----------|----------|----------|----------|
 | Zichtbaarheid van inhoud herstellen | Technische GEO | Detecteert pagina&#39;s waarop kritieke inhoud van AI-agents wordt verborgen. Hiermee worden beïnvloede URL&#39;s en verwachte inhoud weergegeven die kunnen worden hersteld. | Hiermee wordt de inhoud gemarkeerd die beschikbaar kan worden gemaakt voor AI-agents en wordt aangeraden om pre-rendering voor deze pagina&#39;s in te schakelen. | Serveert een volledig teruggegeven, AI-vriendschappelijke momentopname van HTML aan zinloos verkeer dat de eerder verborgen inhoud terugkrijgt. |
-| Koppen voor LLM&#39;s optimaliseren | Inhoud optimaliseren | Scant koppen om lege, dubbele, ontbrekende of dubbelzinnige koppen te detecteren die de leesbaarheid van de machine kunnen verminderen. | Stelt een duidelijkere koptekshiërarchie en verbeterde labels voor en toont een voorvertoning van de bijgewerkte structuur voor elke pagina. | Hiermee wordt de verbeterde kopstructuur voor AI-agents geïnjecteerd, zodat uw visuele ontwerp behouden blijft en de pagina beter leesbaar wordt voor LLM&#39;s. |
 | LLM-vriendelijke samenvattingen toevoegen | Inhoud optimaliseren | Hiermee worden lange of complexe pagina&#39;s aangegeven waarvoor geen beknopte overzichten op pagina- of sectieniveau beschikbaar zijn, waardoor het voor AI moeilijker wordt om snel te scannen en te begrijpen. | Hiermee raadt u korte, door AI gegenereerde samenvattingen op pagina- en sectieniveau aan die de belangrijkste inhoud vastleggen. | Hiermee voegt u de samenvattingen in de desbetreffende HTML-secties in, waardoor modellen de pagina-inhoud beter kunnen interpreteren en beschrijven. |
 | Relevante veelgestelde vragen toevoegen | Inhoud optimaliseren | Hiermee worden gaten in de intentie in de bestaande pagina-inhoud gedetecteerd die baat kunnen hebben bij veelgestelde vragen. | Stelt door AI gegenereerde veelgestelde vragen-inhoud voor die is uitgelijnd op de gebruikersinstelling en bestaande onderwerpen. | Hiermee wordt veelgestelde vragen-inhoud in de HTML geïnjecteerd, waardoor pagina&#39;s beter te ontdekken en relevanter worden in door AI gestuurde antwoorden. |
 | Complexe inhoud vereenvoudigen | Inhoud optimaliseren | Hiermee markeert u pagina&#39;s met complexe tekst die AI-begrip kan belemmeren. | Biedt door AI gegenereerde vereenvoudigde versies van complexe tekst met behoud van de oorspronkelijke betekenis. | Hiermee herschrijft u complexe secties op de pagina en verbetert u de leesbaarheid van AI. |
 
 ### Extra gereedschappen
 
-[&#x200B; Adobe LLM Optimizer: Is uw webpage citabel?](https://chromewebstore.google.com/detail/adobe-llm-optimizer-is-yo/jbjngahjjdgonbeinjlepfamjdmdcbcc) Chrome-extensie laat zien hoeveel van uw webpagina-inhoud LLM&#39;s kunnen openen en wat verborgen blijft. Deze software is ontworpen als een gratis, standalone diagnoseprogramma en vereist geen productlicentie of installatie.
+[ Adobe LLM Optimizer: Is uw webpage citabel?](https://chromewebstore.google.com/detail/adobe-llm-optimizer-is-yo/jbjngahjjdgonbeinjlepfamjdmdcbcc) Chrome-extensie laat zien hoeveel van uw webpagina-inhoud LLM&#39;s kunnen openen en wat verborgen blijft. Deze software is ontworpen als een gratis, standalone diagnoseprogramma en vereist geen productlicentie of installatie.
 
-Met één klik kunt u de gereedschapsleesbaarheid van elke site evalueren. U kunt een vergelijking naast elkaar bekijken van wat AI agenten tegenover zien wat menselijke gebruikers zien, en schatten hoeveel inhoud door LLM Optimizer kon worden teruggekregen. Zie [&#x200B; AI uw website lezen?](https://business.adobe.com/nl/blog/introducing-the-llm-optimizer-chrome-extension) voor meer informatie.
+Met één klik kunt u de gereedschapsleesbaarheid van elke site evalueren. U kunt een vergelijking naast elkaar bekijken van wat AI agenten tegenover zien wat menselijke gebruikers zien, en schatten hoeveel inhoud door LLM Optimizer kon worden teruggekregen. Zie [ AI uw website lezen?](https://business.adobe.com/blog/introducing-the-llm-optimizer-chrome-extension) voor meer informatie.
 
 ## Gedetailleerde mogelijkheden
 
@@ -822,10 +821,6 @@ Dit zorgt ervoor dat de pagina voor het eerst volledig zichtbaar is voor AI-agen
 
 >[!IMPORTANT]
 >Deze pre-renderfunctie is automatisch van toepassing op alle hieronder weergegeven mogelijkheden bij Optimaliseren in Edge om ervoor te zorgen dat de pagina volledig zichtbaar is voor AI-agents.
-
-### Koppen voor LLM&#39;s optimaliseren
-
-Deze kans detecteert pagina&#39;s waar de kopstructuur het voor AI-agents moeilijk maakt de pagina te begrijpen vanwege lege, dubbele, ontbrekende of dubbelzinnige koppen. Voor elke betrokken pagina wordt met deze optie de suboptimale koppen weergegeven en wordt een duidelijkere hiërarchie aanbevolen. Wanneer opgesteld met Optimize in Edge, worden de betere rubrieken toegepast in HTML die aan agentic verkeer wordt gediend. Hierdoor is de machine beter leesbaar en blijft de persoonlijke lay-out ongewijzigd.
 
 ### LLM-vriendelijke samenvattingen toevoegen
 
@@ -843,37 +838,37 @@ Deze kans vindt pagina&#39;s met lange, complexe alinea&#39;s die AI-begrip kunn
 
 Voor elke gelegenheid, kunt u voorproef, uitgeven, opstellen, levende bekijken, en de optimalisaties bij de rand terugdraaien.
 
->[!VIDEO](https://video.tv.adobe.com/v/3477990/?captions=dut&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3477983/?learn=on&enablevpops)
 
 ### Voorvertoning
 
 **Voorproef** laat u het effect van een suggestie zien alvorens het live gaat. Er wordt een verschil tussen de huidige pagina en de voor AI geoptimaliseerde versie verwacht na het toepassen van de suggestie. In deze weergave wordt dezelfde functie Optimaliseren bij Edge gebruikt die live verkeer, maar in een geïsoleerde voorvertoningsmodus, mogelijk maakt. Dit beïnvloedt levend verkeer niet aangezien het een read-only simulatie voor overzicht is.
 
-![&#x200B; Voorproef &#x200B;](/help/assets/optimize-at-edge/preview.png)
+![ Voorproef ](/help/assets/optimize-at-edge/preview.png)
 
 ### Bewerken
 
 **geeft** uit staat u toe om de auto-geproduceerde suggestie te verfijnen of geheel te herschrijven alvorens het op te stellen. In plaats van de suggestie te accepteren, kunt u de volledige controle behouden via de bewerkingsworkflow. In de weergave worden voorgestelde wijzigingen weergegeven in een gestructureerde editor, waar u de tekst kunt wijzigen zodat deze beter aansluit bij uw oorspronkelijke intentie. De bewerkte versie wordt vervolgens aan AI-agents geleverd zodra deze zijn geïmplementeerd.
 
-![&#x200B; geeft &#x200B;](/help/assets/optimize-at-edge/edit.png) uit
+![ geeft ](/help/assets/optimize-at-edge/edit.png) uit
 
 ### Implementeren
 
 **stelt** op publiceert de geselecteerde suggesties zodat kunnen de geoptimaliseerde ervaringen van de rand aan AI agenten worden gediend. Als CDN volledig wordt verpletterd, gaan alle pagina&#39;s in het domein gewoonlijk met de nieuwe veranderingen binnen notulen. Als het verpletteren voor uitgezochte wegen slechts is gevormd, slechts gaan de gevoegde op lijst van gewenste personen pagina&#39;s met de optimalisaties.
 
-![&#x200B; opstellen &#x200B;](/help/assets/optimize-at-edge/deploy.png)
+![ opstellen ](/help/assets/optimize-at-edge/deploy.png)
 
 ### Live weergeven
 
 **Levende Mening** laat u verifiëren dat de optimalisering levend is en zich zoals verwacht voor agentisch verkeer gedraagt, een mening die anders moeilijk zou zijn om toegang te hebben. U kunt de actieve pagina weergeven onder Vaste suggesties, waardoor de pagina wordt weergegeven zoals deze wordt weergegeven bij AI-agents.
 
-![&#x200B; Levende Mening &#x200B;](/help/assets/optimize-at-edge/view-live.png)
+![ Levende Mening ](/help/assets/optimize-at-edge/view-live.png)
 
 ### Terugdraaien
 
 Met Terugdraaien wordt een eerder geïmplementeerde optimalisatie veilig hersteld. De alleen-AI versie van de pagina wordt doorgaans binnen enkele minuten teruggezet naar de vorige staat, zodat u indien nodig veilig met optimalisaties kunt experimenteren.
 
-![&#x200B; Terugkeer &#x200B;](/help/assets/optimize-at-edge/rollback.png)
+![ Terugkeer ](/help/assets/optimize-at-edge/rollback.png)
 
 ## Veelgestelde vragen
 
