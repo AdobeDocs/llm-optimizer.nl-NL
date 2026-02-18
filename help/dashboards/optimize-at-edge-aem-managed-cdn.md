@@ -20,15 +20,15 @@ Ga als volgt te werk om het routeren van hoekig verkeer naar Edge Optimize:
 
 1. Navigeer aan **Configuratie van de Klant** en selecteer de **CDN Configuratie** tabel.
 
-   ![ ga aan de Configuratie van de Klant ](/help/assets/optimize-at-edge/prereq-customer-config-nav.png)
+   ![&#x200B; ga aan de Configuratie van de Klant &#x200B;](/help/assets/optimize-at-edge/prereq-customer-config-nav.png)
 
 2. Onder **AI Verkeer dat verplettert om Optimalisaties** op te stellen, tik **optimalisaties aan AI Agenten** checkbox opstelt. Het team van Adobe zal de verpletterende configuratie namens u behandelen.
 
-   ![ Tik stel Optimalisaties aan AI Agenten ](/help/assets/optimize-at-edge/prereq-deploy-checkbox.png) op
+   ![&#x200B; Tik stel Optimalisaties aan AI Agenten &#x200B;](/help/assets/optimize-at-edge/prereq-deploy-checkbox.png) op
 
 3. Nadat u het selectievakje hebt ingeschakeld, geeft de status aan dat de installatie wordt uitgevoerd. Het team van Adobe zal de verpletterende configuratie voor u voltooien.
 
-   ![ AI Verkeer die opstelling verplettert momenteel ](/help/assets/optimize-at-edge/prereq-traffic-routing-progress.png)
+   ![&#x200B; AI Verkeer die opstelling verplettert momenteel &#x200B;](/help/assets/optimize-at-edge/prereq-traffic-routing-progress.png)
 
    Zodra het verpletteren en actief wordt gevormd, zal de status bijwerken om een groen controleteken te tonen die erop wijzen dat het verpletteren met succes wordt toegelaten. U hoeft geen verdere actie te ondernemen.
 
@@ -36,7 +36,7 @@ Als u bovendien hulp nodig hebt bij de bovenstaande stappen, neemt u contact op 
 
 **Zelfbediening verpletterend via de Pijpleiding van Cloud Manager**
 
-Als u verkiest om het verpletteren door de Pijpleiding van Cloud Manager te vormen, volg de hieronder stappen. De verpletterende configuratie wordt gedaan door een [ originSelector CDN regel ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#origin-selectors) te gebruiken. De voorwaarden zijn als volgt:
+Als u verkiest om het verpletteren door de Pijpleiding van Cloud Manager te vormen, volg de hieronder stappen. De verpletterende configuratie wordt gedaan door een [&#x200B; originSelector CDN regel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#origin-selectors) te gebruiken. De voorwaarden zijn als volgt:
 
 * Bepaal het domein dat moet worden verpletterd.
 * Bepaal de paden die u wilt routeren.
@@ -44,7 +44,7 @@ Als u verkiest om het verpletteren door de Pijpleiding van Cloud Manager te vorm
 
 Om de regel op te stellen, moet u:
 
-* Creeer de pijpleiding van de a [ configuratie ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/config-pipeline).
+* Creeer de pijpleiding van de a [&#x200B; configuratie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/config-pipeline).
 * Leg het configuratiebestand van `cdn.yaml` vast in uw opslagplaats.
 * Voer de configuratiepijplijn uit.
 

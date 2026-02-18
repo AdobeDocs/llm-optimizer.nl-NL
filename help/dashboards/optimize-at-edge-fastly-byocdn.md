@@ -29,9 +29,9 @@ Voordat u de Fastly VCL-regels instelt, moet u controleren of u:
 
 Voeg de volgende drie fragmenten VCL aan uw Snelle dienst toe. Deze fragmenten behandelen het verpletteren van agentische verzoeken aan Edge Optimize, geheim voorgeheugenzeer belangrijke scheiding, en failover aan uw standaardoorsprong.
 
-![ VCL van de Fastly ](/help/assets/optimize-at-edge/fastly-vcl.png)
+![&#x200B; VCL van de Fastly &#x200B;](/help/assets/optimize-at-edge/fastly-vcl.png)
 
-![ voeg VCL fragmenten ](/help/assets/optimize-at-edge/add-vcl-snippets.png) toe
+![&#x200B; voeg VCL fragmenten &#x200B;](/help/assets/optimize-at-edge/add-vcl-snippets.png) toe
 
 **vcl_recv fragment**
 

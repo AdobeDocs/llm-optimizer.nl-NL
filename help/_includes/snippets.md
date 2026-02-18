@@ -38,7 +38,7 @@ curl -svo /dev/null https://www.example.com/page.html \
   --header "user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 ```
 
-De reactie zou **** niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
+De reactie zou **&#x200B;**&#x200B;niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
 
 **3. Hoe te tussen de twee scenario&#39;s te onderscheiden**
 
@@ -49,7 +49,7 @@ De reactie zou **** niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De 
 
 De status van het verkeer dat verplettert kan ook in LLM Optimizer UI worden gecontroleerd. Navigeer aan **Configuratie van de Klant** en selecteer de **CDN Configuratie** tabel.
 
-![ AI Verkeer die status met toegelaten verpletteren verplettert ](/help/assets/optimize-at-edge/adobe-CDN-traffic-routed-tick.png)
+![&#x200B; AI Verkeer die status met toegelaten verpletteren verplettert &#x200B;](/help/assets/optimize-at-edge/adobe-CDN-traffic-routed-tick.png)
 
 ## Setup controleren - BYOCDN {#verify-setup-byocdn}
 
@@ -82,7 +82,7 @@ curl -svo /dev/null https://www.example.com/page.html \
   --header "user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 ```
 
-De reactie zou **** niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
+De reactie zou **&#x200B;**&#x200B;niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
 
 **3. Hoe te tussen de twee scenario&#39;s te onderscheiden**
 
@@ -93,7 +93,7 @@ De reactie zou **** niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De 
 
 De status van het verkeer dat verplettert kan ook in LLM Optimizer UI worden gecontroleerd. Navigeer aan **Configuratie van de Klant** en selecteer de **CDN Configuratie** tabel.
 
-![ AI Verkeer die status met toegelaten verpletteren verplettert ](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
+![&#x200B; AI Verkeer die status met toegelaten verpletteren verplettert &#x200B;](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
 
 ## Ophaalstappen voor API-sleutel {#retrieve-byocdn-api-key}
 
@@ -101,15 +101,15 @@ De status van het verkeer dat verplettert kan ook in LLM Optimizer UI worden gec
 
 1. Navigeer aan **Configuratie van de Klant** en selecteer de **CDN Configuratie** tabel.
 
-   ![ ga aan de Configuratie van de Klant ](/help/assets/optimize-at-edge/prereq-customer-config-nav.png)
+   ![&#x200B; ga aan de Configuratie van de Klant &#x200B;](/help/assets/optimize-at-edge/prereq-customer-config-nav.png)
 
 2. Onder **AI Verkeer dat verplettert om Optimalisaties** op te stellen, tik **optimalisaties aan AI Agenten** checkbox opstelt.
 
-   ![ Tik stel Optimalisaties aan AI Agenten ](/help/assets/optimize-at-edge/prereq-deploy-checkbox.png) op
+   ![&#x200B; Tik stel Optimalisaties aan AI Agenten &#x200B;](/help/assets/optimize-at-edge/prereq-deploy-checkbox.png) op
 
 3. Kopieer de API sleutel en ga met de verpletterende configuratiestappen hieronder te werk.
 
-   ![ Kopieer de API sleutel ](/help/assets/optimize-at-edge/prereq-copy-api-key.png)
+   ![&#x200B; Kopieer de API sleutel &#x200B;](/help/assets/optimize-at-edge/prereq-copy-api-key.png)
 
    >[!NOTE]
    >In dit stadium, kan de status een rood kruis tonen die erop wijst dat de opstelling nog niet voltooid is. Dit wordt verwacht — zodra u de verpletterende configuratie hieronder voltooit en AI bot het verkeer begint te stromen, zal de status aan een groen controleteken bijwerken bevestigend dat het verpletteren met succes wordt toegelaten.
@@ -118,4 +118,4 @@ Als u bovendien hulp nodig hebt bij de bovenstaande stappen, neemt u contact op 
 
 ## Terug naar overzicht {#return-to-overview}
 
-Meer leren over Optimaliseren bij Edge, met inbegrip van beschikbare kansen, auto-optimaliseringswerkschema&#39;s, en FAQs, terugkeer aan [ optimaliseren bij het overzicht van Edge ](/help/dashboards/optimize-at-edge.md).
+Meer leren over Optimaliseren bij Edge, met inbegrip van beschikbare kansen, auto-optimaliseringswerkschema&#39;s, en FAQs, terugkeer aan [&#x200B; optimaliseren bij het overzicht van Edge &#x200B;](/help/dashboards/optimize-at-edge.md).

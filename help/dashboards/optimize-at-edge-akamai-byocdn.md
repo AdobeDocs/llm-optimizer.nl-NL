@@ -42,23 +42,23 @@ Plaats het verpletteren voor volgende gebruiker-agenten :image.png
  *Perplexity-User*
 ```
 
-![ plaats verpletterend criteria ](/help/assets/optimize-at-edge/akamai-step1-routing.png)
+![&#x200B; plaats verpletterend criteria &#x200B;](/help/assets/optimize-at-edge/akamai-step1-routing.png)
 
 **2. Oorsprong en SSL-gedrag instellen**
 
 Oorsprong instellen als `live.edgeoptimize.net` en SAN afstemmen op `*.edgeoptimize.net`
 
-![ Vastgestelde Oorsprong en SSL gedrag ](/help/assets/optimize-at-edge/akamai-step2-origin.png)
+![&#x200B; Vastgestelde Oorsprong en SSL gedrag &#x200B;](/help/assets/optimize-at-edge/akamai-step2-origin.png)
 
 **3. Cachetoets instellen**
 
 De toetsvariabele voor de cache `PMUSER_EDGE_OPTIMIZE_CACHE_KEY` instellen op `LLMCLIENT=TRUE;X_FORWARDED_HOST={{builtin.AK_HOST}}`
 
-![ vastgestelde Zeer belangrijke Variabele van het Geheime voorgeheugen ](/help/assets/optimize-at-edge/akamai-step3-cachekey.png)
+![&#x200B; vastgestelde Zeer belangrijke Variabele van het Geheime voorgeheugen &#x200B;](/help/assets/optimize-at-edge/akamai-step3-cachekey.png)
 
 **4. Caching Rules**
 
-![ Caching Regels ](/help/assets/optimize-at-edge/akamai-step4-rules.png)
+![&#x200B; Caching Regels &#x200B;](/help/assets/optimize-at-edge/akamai-step4-rules.png)
 
 **5. Binnenkomende aanvraagheaders wijzigen**
 
@@ -67,29 +67,29 @@ Stel de volgende binnenkomende aanvraagheaders in:
 `x-edgeoptimize-config` to `LLMCLIENT=TRUE;`
 `x-edgeoptimize-url` t/m `{{builtin.AK_URL}}`
 
-![ wijzigt Binnenkomende Kopballen van het Verzoek ](/help/assets/optimize-at-edge/akamai-step5-request.png)
+![&#x200B; wijzigt Binnenkomende Kopballen van het Verzoek &#x200B;](/help/assets/optimize-at-edge/akamai-step5-request.png)
 
 **6. Binnenkomende antwoordheaders wijzigen**
 
-![ wijzigt Inkomende Kopballen van de Reactie ](/help/assets/optimize-at-edge/akamai-step6-response.png)
+![&#x200B; wijzigt Inkomende Kopballen van de Reactie &#x200B;](/help/assets/optimize-at-edge/akamai-step6-response.png)
 
 **7. Wijziging van cache-id**
 
-![ Verandering van identiteitskaart van het Geheime voorgeheugen ](/help/assets/optimize-at-edge/akamai-step7-cacheid.png)
+![&#x200B; Verandering van identiteitskaart van het Geheime voorgeheugen &#x200B;](/help/assets/optimize-at-edge/akamai-step7-cacheid.png)
 
 **8. Uitgaande verzoekkopballen wijzigen**
 
 `x-forwarded-host` header instellen op `{{builtin.AK_HOST}}`
 
-![ wijzigt Uitgaande Kopballen van het Verzoek ](/help/assets/optimize-at-edge/akamai-step8-outgoing-request.png)
+![&#x200B; wijzigt Uitgaande Kopballen van het Verzoek &#x200B;](/help/assets/optimize-at-edge/akamai-step8-outgoing-request.png)
 
 **9. Site-failover**
 
-![ Failover van de Plaats ](/help/assets/optimize-at-edge/akamai-step9-failover.png)
+![&#x200B; Failover van de Plaats &#x200B;](/help/assets/optimize-at-edge/akamai-step9-failover.png)
 
-![ Gedrag Failover ](/help/assets/optimize-at-edge/akamai-step9-failover-behaviors.png)
+![&#x200B; Gedrag Failover &#x200B;](/help/assets/optimize-at-edge/akamai-step9-failover-behaviors.png)
 
-![ Regels Failover ](/help/assets/optimize-at-edge/akamai-step9-failover-rules.png)
+![&#x200B; Regels Failover &#x200B;](/help/assets/optimize-at-edge/akamai-step9-failover-rules.png)
 
 Site-failover zorgt ervoor dat als bij Edge Optimize een `4XX` - of `5XX` -fout wordt geretourneerd, de aanvraag automatisch wordt teruggestuurd naar de standaardoorsprong, zodat de eindgebruiker nog steeds een antwoord ontvangt.
 
