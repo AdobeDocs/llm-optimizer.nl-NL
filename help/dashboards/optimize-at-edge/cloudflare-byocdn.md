@@ -61,7 +61,7 @@ Bij aanvragen naar de Edge Optimize-backend moeten de volgende headers worden in
 4. Geef de worker een naam (bijvoorbeeld `edge-optimize-router` ).
 5. Klik **opstellen** om de worker met de standaardcode tot stand te brengen.
 
-![ dashboard van de Werknemers van de Wolk ](/help/assets/optimize-at-edge/cloudflare-workers-dashboard.png)
+![&#x200B; dashboard van de Werknemers van de Wolk &#x200B;](/help/assets/optimize-at-edge/cloudflare-workers-dashboard.png)
 
 **Stap 2: Voeg de code van de Arbeider** toe
 
@@ -234,7 +234,7 @@ async function failoverToOrigin(request, env, url) {
 
 Klik **sparen en stel** op om de worker te publiceren.
 
-![ de coderedacteur van de Arbeider van de Wolk ](/help/assets/optimize-at-edge/cloudflare-worker-editor.png)
+![&#x200B; de coderedacteur van de Arbeider van de Wolk &#x200B;](/help/assets/optimize-at-edge/cloudflare-worker-editor.png)
 
 **Stap 3: Vorm omgevingsvariabelen**
 
@@ -252,13 +252,13 @@ Omgevingsvariabelen slaan gevoelige configuratie als de API-sleutel veilig op.
 4. Voor de API sleutel, klik **Coderen** om het veilig op te slaan.
 5. Klik **sparen en stel** op.
 
-![ Cloudflare milieu variabelen ](/help/assets/optimize-at-edge/cloudflare-env-variables.png)
+![&#x200B; Cloudflare milieu variabelen &#x200B;](/help/assets/optimize-at-edge/cloudflare-env-variables.png)
 
 **Stap 4: Voeg een route aan uw domein** toe
 
 De worker op uw domein activeren:
 
-1. Ga naar de Montages van uw arbeider **** > **Trekkers**.
+1. Ga naar de Montages van uw arbeider **&#x200B;**&#x200B;> **Trekkers**.
 2. Onder **Routes**, klik **route** toevoegen.
 3. Voer uw domeinpatroon in (bijvoorbeeld `www.example.com/*` of `example.com/*` ).
 4. Selecteer de zone in het vervolgkeuzemenu.
@@ -270,7 +270,7 @@ Alternatief, kunt u routes op het streekniveau vormen:
 2. Ga naar **Routes van de Arbeiders**.
 3. Klik **toevoegen route** en specificeer het patroon en de arbeider.
 
-![ de routes van de Arbeider van de Wolk ](/help/assets/optimize-at-edge/cloudflare-worker-routes.png)
+![&#x200B; de routes van de Arbeider van de Wolk &#x200B;](/help/assets/optimize-at-edge/cloudflare-worker-routes.png)
 
 **het verifiëren van failovergedrag**
 
@@ -413,7 +413,7 @@ curl -svo /dev/null https://www.example.com/page.html \
   --header "user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 ```
 
-De reactie zou **** niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
+De reactie zou **&#x200B;**&#x200B;niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
 
 **3. Hoe te tussen de twee scenario&#39;s te onderscheiden**
 
@@ -424,6 +424,6 @@ De reactie zou **** niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De 
 
 De status van het verkeer dat verplettert kan ook in LLM Optimizer UI worden gecontroleerd. Navigeer aan **Configuratie van de Klant** en selecteer de **CDN Configuratie** tabel.
 
-![ AI Verkeer die status met toegelaten verpletteren verplettert ](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
+![&#x200B; AI Verkeer die status met toegelaten verpletteren verplettert &#x200B;](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
 
 {{return-to-overview}}
