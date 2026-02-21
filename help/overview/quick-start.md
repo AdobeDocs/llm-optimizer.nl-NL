@@ -38,7 +38,7 @@ De klanten van de Wolk van AEM (Cloud Service, Managed Services, de Dienst van E
 Sommige productmogelijkheden zijn niet beschikbaar in de gratis versie:
 
 * Proefversie is beperkt tot één domein. U kunt het domein dat u hebt opgegeven niet wijzigen nadat u de installatie hebt voltooid.
-* De capaciteit om optimalisaties op te stellen is beschikbaar in Vroege Toegang. Leer meer bij [&#x200B; optimaliseren bij Edge vaak Gestelde Vragen &#x200B;](https://experienceleague.adobe.com/en/docs/llm-optimizer/using/resources/optimize-at-edge/overview#frequently-asked-questions).
+* De capaciteit om optimalisaties op te stellen is beschikbaar in Vroege Toegang. Leer meer bij [&#x200B; optimaliseren bij Edge vaak Gestelde Vragen &#x200B;](https://experienceleague.adobe.com/nl/docs/llm-optimizer/using/resources/optimize-at-edge/overview#frequently-asked-questions).
 
 Zie de onderstaande sectie voor meer informatie over het activeren van de gratis proefversie en het aan boord gaan van uw domein.
 
