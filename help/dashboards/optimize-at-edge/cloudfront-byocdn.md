@@ -49,7 +49,7 @@ Voordat u de configuratie van CloudFront instelt, moet u controleren of:
 
 5. Klik **creeer oorsprong**.
 
-![ Cloudfront Origin Creation ](/help/assets/optimize-at-edge/cloudfront-origin-creation.png)
+![&#x200B; Cloudfront Origin Creation &#x200B;](/help/assets/optimize-at-edge/cloudfront-origin-creation.png)
 
 **Stap 2: Creeer de functie van het kijkerverzoek**
 
@@ -61,7 +61,7 @@ Voordat u de configuratie van CloudFront instelt, moet u controleren of:
    * **Naam:** `edgeoptimize-routing`
    * **Runtime:** `cloudfront-js-2.0`
 
-3. Vervang de standaardcode met de code van [ viewer-request.js ](https://github.com/adobe-rnd/llmo-edge-optimize-samples/blob/main/cloudfront/cloudfront-function/viewer-request.js).
+3. Vervang de standaardcode met de code van [&#x200B; viewer-request.js &#x200B;](https://github.com/adobe-rnd/llmo-edge-optimize-samples/blob/main/cloudfront/cloudfront-function/viewer-request.js).
 
    Pas de volgende waarden in de code aan voordat u publiceert:
 
@@ -70,7 +70,7 @@ Voordat u de configuratie van CloudFront instelt, moet u controleren of:
 
 4. Klik **sparen veranderingen** > **publiceer functie**.
 
-![ Cloudfront functie creatie ](/help/assets/optimize-at-edge/cloudfront-function-creation.png)
+![&#x200B; Cloudfront functie creatie &#x200B;](/help/assets/optimize-at-edge/cloudfront-function-creation.png)
 
 
 **Stap 3: Vorm geheim voorgeheugenbeleid**
@@ -93,13 +93,13 @@ Als uw gedrag oude cacheinstellingen gebruikt:
 
    * Selecteer **omvatten de volgende kopballen** van dropdown.
    * Voeg `x-edgeoptimize-config` en `x-edgeoptimize-url` toe.
-     ![ Cloudfront de Verouderde van het Geheime voorgeheugen ](/help/assets/optimize-at-edge/cloudfront-cache-policy-legacy.png)
+     ![&#x200B; Cloudfront de Verouderde van het Geheime voorgeheugen &#x200B;](/help/assets/optimize-at-edge/cloudfront-cache-policy-legacy.png)
 
    Als u reeds **allen** hebt geselecteerd in dropdown Kopballen, overslaat deze stap — alle kopballen worden automatisch door:sturen aan de oorsprong.
 
 3. Controleer het **Voorwerp caching** plaatsen:
 
-   * Als de reeks aan **** aanpast - het wordt geadviseerd om **Minimale TTL** aan `0` te plaatsen. Nochtans, als uw huidige MinimumTTL reeds zeer kort is, kunt u niet het hoeven te veranderen.
+   * Als de reeks aan **&#x200B;**&#x200B;aanpast - het wordt geadviseerd om **Minimale TTL** aan `0` te plaatsen. Nochtans, als uw huidige MinimumTTL reeds zeer kort is, kunt u niet het hoeven te veranderen.
    * Als de reeks aan **kopballen van het oorsprongscache van het Gebruik** — geen verandering nodig.
 
 4. Klik **sparen veranderingen**.
@@ -115,10 +115,10 @@ Als uw gedrag reeds een beleid van het douanegeheime voorgeheugen gebruikt (u cr
 2. Klik **uitgeven**.
 
 3. Het wordt geadviseerd om **Minimale TTL** aan `0` te plaatsen. Nochtans, als uw huidige MinimumTTL reeds zeer kort is, kunt u niet het hoeven te veranderen.
-   ![ montages van beleidTTL van het Geheime voorgeheugen ](/help/assets/optimize-at-edge/cloudfront-cache-policy-ttl.png)
+   ![&#x200B; montages van beleidTTL van het Geheime voorgeheugen &#x200B;](/help/assets/optimize-at-edge/cloudfront-cache-policy-ttl.png)
 
 4. Onder **zeer belangrijke montages van het Geheime voorgeheugen** > **Kopballen**, samen met uw bestaande opneming, voeg `x-edgeoptimize-config` en `x-edgeoptimize-url` toe.
-   ![ de beleidskopballen van het Geheime voorgeheugen ](/help/assets/optimize-at-edge/cloudfront-cache-policy-headers.png)
+   ![&#x200B; de beleidskopballen van het Geheime voorgeheugen &#x200B;](/help/assets/optimize-at-edge/cloudfront-cache-policy-headers.png)
 
 5. Klik **sparen veranderingen**.
 
@@ -147,17 +147,17 @@ Als uw gedrag een door AWS beheerd cachebeleid (bijvoorbeeld `CachingOptimized` 
 
 2. **Naam:** `edgeoptimize-cache`
 
-   ![ het beleidsnaam van het Geheime voorgeheugen ](/help/assets/optimize-at-edge/cloudfront-cache-policy-name.png)
+   ![&#x200B; het beleidsnaam van het Geheime voorgeheugen &#x200B;](/help/assets/optimize-at-edge/cloudfront-cache-policy-name.png)
 
 3. Herhaal alle in deel 1 vermelde instellingen met de volgende wijzigingen:
 
    * Het wordt geadviseerd om **Minimale TTL** aan `0` te plaatsen. Nochtans, als uw huidige MinimumTTL reeds zeer kort is, kunt u niet het hoeven te veranderen.
 
-   ![ montages van beleidTTL van het Geheime voorgeheugen ](/help/assets/optimize-at-edge/cloudfront-cache-policy-ttl.png)
+   ![&#x200B; montages van beleidTTL van het Geheime voorgeheugen &#x200B;](/help/assets/optimize-at-edge/cloudfront-cache-policy-ttl.png)
 
    * Onder **de zeer belangrijke montages van het Geheime voorgeheugen** > **Kopballen**, omvat alles het beheerde beleid had, plus `x-edgeoptimize-config` en `x-edgeoptimize-url` toevoegen.
 
-   ![ de beleidskopballen van het Geheime voorgeheugen ](/help/assets/optimize-at-edge/cloudfront-cache-policy-headers.png)
+   ![&#x200B; de beleidskopballen van het Geheime voorgeheugen &#x200B;](/help/assets/optimize-at-edge/cloudfront-cache-policy-headers.png)
 
 4. Klik **creëren**.
 
@@ -189,7 +189,7 @@ Als uw gedrag een door AWS beheerd cachebeleid (bijvoorbeeld `CachingOptimized` 
 
 4. Klik **creëren functie**.
 
-5. In de coderedacteur, vervang de standaardcode met de code van [ oorsprong-verzoek-response.js ](https://github.com/adobe-rnd/llmo-edge-optimize-samples/blob/main/cloudfront/lambda/origin-request-response.js).
+5. In de coderedacteur, vervang de standaardcode met de code van [&#x200B; oorsprong-verzoek-response.js &#x200B;](https://github.com/adobe-rnd/llmo-edge-optimize-samples/blob/main/cloudfront/lambda/origin-request-response.js).
 
 6. Klik **opstellen** om de code te bewaren.
 
@@ -203,7 +203,7 @@ De automatisch gemaakte rol vertrouwt alleen op `lambda.amazonaws.com` . Voor La
 
 1. Klik **uitgeven vertrouwensbeleid**.
 
-2. Vervang het beleid met de inhoud van [ trust-policy.json ](https://github.com/adobe-rnd/llmo-edge-optimize-samples/blob/main/cloudfront/lambda/trust-policy.json).
+2. Vervang het beleid met de inhoud van [&#x200B; trust-policy.json &#x200B;](https://github.com/adobe-rnd/llmo-edge-optimize-samples/blob/main/cloudfront/lambda/trust-policy.json).
 
 3. Klik **beleid van de Update**.
 
@@ -218,7 +218,7 @@ De auto-gecreeerde rol komt met een `AWSLambdaBasicExecutionRole` beleid dat voo
 
 1. Klik **uitgeven**.
 
-2. Vervang het beleid met de inhoud van [ cloudwatch-policy.json ](https://github.com/adobe-rnd/llmo-edge-optimize-samples/blob/main/cloudfront/lambda/cloudwatch-policy.json).
+2. Vervang het beleid met de inhoud van [&#x200B; cloudwatch-policy.json &#x200B;](https://github.com/adobe-rnd/llmo-edge-optimize-samples/blob/main/cloudfront/lambda/cloudwatch-policy.json).
 
    Vervang `ACCOUNT_ID` in de JSON door de werkelijke AWS-account-id (in de rechterbovenhoek van de AWS-console) en `FUNCTION_NAME` door de naam van de Lambda-functie (bijvoorbeeld `edgeoptimize-origin` ).
 
@@ -234,10 +234,10 @@ De auto-gecreeerde rol komt met een `AWSLambdaBasicExecutionRole` beleid dat voo
 2. Voeg een beschrijving toe.
 
 3. Klik **publiceren**.
-   ![ Lambda publiceert ](/help/assets/optimize-at-edge/cloudfront-lambda-publish.png)
+   ![&#x200B; Lambda publiceert &#x200B;](/help/assets/optimize-at-edge/cloudfront-lambda-publish.png)
 
 4. Kopieer of neem nota onderaan **ARN van de Functie** — u hebt dit in de volgende stap nodig.
-   ![ Lambda ARN ](/help/assets/optimize-at-edge/cloudfront-lambda-arn.png)
+   ![&#x200B; Lambda ARN &#x200B;](/help/assets/optimize-at-edge/cloudfront-lambda-arn.png)
 
 **Stap 5: Koppel de functies en geheim voorgeheugenbeleid met gedrag**
 
@@ -246,7 +246,7 @@ De auto-gecreeerde rol komt met een `AWSLambdaBasicExecutionRole` beleid dat voo
 1. Bewerk uw gedrag.
 
 2. Als u een nieuw geheim voorgeheugenbeleid in Stap 3 (Scenario C) creeerde, plaats **beleid van het Geheime voorgeheugen** aan `edgeoptimize-cache`.
-   ![ Beleid van het Geheime voorgeheugen ](/help/assets/optimize-at-edge/cloudfront-behaviour-cache.png)
+   ![&#x200B; Beleid van het Geheime voorgeheugen &#x200B;](/help/assets/optimize-at-edge/cloudfront-behaviour-cache.png)
 
 3. Onder **associaties van de Functie**, vorm:
 
@@ -254,7 +254,7 @@ De auto-gecreeerde rol komt met een `AWSLambdaBasicExecutionRole` beleid dat voo
    * **verzoek van de Oorsprong:** Versioned ARN van de Functie van Stap 4 (in **publiceer een versie**)
    * **Oorsprong reactie:** Versioned ARN van de Functie van Stap 4 (in **publiceer een versie**)
 
-   ![ de associatieconfiguratie van de Functie ](/help/assets/optimize-at-edge/cloudfront-function-association.png)
+   ![&#x200B; de associatieconfiguratie van de Functie &#x200B;](/help/assets/optimize-at-edge/cloudfront-function-association.png)
 
 4. Klik **sparen veranderingen**.
 
@@ -287,7 +287,7 @@ curl -svo /dev/null https://www.example.com/page.html \
   --header "user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 ```
 
-De reactie zou **** niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
+De reactie zou **&#x200B;**&#x200B;niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
 
 **3. Hoe te tussen de twee scenario&#39;s te onderscheiden**
 
@@ -298,7 +298,7 @@ De reactie zou **** niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De 
 
 De status van het verkeer dat verplettert kan ook in LLM Optimizer UI worden gecontroleerd. Navigeer aan **Configuratie van de Klant** en selecteer de **CDN Configuratie** tabel.
 
-![ AI Verkeer die status met toegelaten verpletteren verplettert ](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
+![&#x200B; AI Verkeer die status met toegelaten verpletteren verplettert &#x200B;](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
 
 **4. Verifieer de logboeken correct stromen**
 
@@ -350,7 +350,7 @@ De functie Lambda@Edge (`edgeoptimize-origin`) is gekoppeld aan de gebeurtenisse
 
 **hoe te om een Lambda@Edge stroomonderbreking** te ontdekken
 
-* **de Gezondheidsdashboard van de Dienst van AWS** - controleer het [ Dashboard van de Gezondheid van de Dienst van AWS ](https://health.aws.amazon.com/health/status) voor om het even welke actieve incidenten die **Amazon CloudFront** of **AWS Lambda** beïnvloeden. Een wereldwijde of regionale uitval die hier wordt gemeld, is de snelste manier om dit probleem te bevestigen, is aan de kant van de AWS-infrastructuur in plaats van in uw configuratie.
+* **de Gezondheidsdashboard van de Dienst van AWS** - controleer het [&#x200B; Dashboard van de Gezondheid van de Dienst van AWS &#x200B;](https://health.aws.amazon.com/health/status) voor om het even welke actieve incidenten die **Amazon CloudFront** of **AWS Lambda** beïnvloeden. Een wereldwijde of regionale uitval die hier wordt gemeld, is de snelste manier om dit probleem te bevestigen, is aan de kant van de AWS-infrastructuur in plaats van in uw configuratie.
 * **Lambda@Edge fouten** — Navigeer aan **Console van AWS > CloudFront > Controle > [ Uw Distributie]**. Open de **Lambda@Edge fouten** tabel en controleer de **foutengrafiek van de Uitvoering** voor uitvoeringsfouten. Als deze hoog zijn, kan Lambda@Edge neer zijn.
 
 **Ontstekend de functie Lambda@Edge**
@@ -369,7 +369,7 @@ De functie Lambda@Edge (`edgeoptimize-origin`) is gekoppeld aan de gebeurtenisse
    | Aanvraag oorsprong | Geen koppeling |
    | Oorspronkelijke reactie | Geen koppeling |
 
-   ![ de associatieconfiguratie van de Functie ](/help/assets/optimize-at-edge/cloudfront-no-function-association.png)
+   ![&#x200B; de associatieconfiguratie van de Functie &#x200B;](/help/assets/optimize-at-edge/cloudfront-no-function-association.png)
 
 4. Klik **sparen veranderingen**.
 
@@ -395,7 +395,7 @@ Zodra opgesteld, alle verkeersroutes direct aan uw standaardoorsprong. Geen conf
 
    Gebruik versioned **ARN van de Functie** u in Stap 4 (in **publiceer een versie**) noteerde.
 
-   ![ de associatieconfiguratie van de Functie ](/help/assets/optimize-at-edge/cloudfront-function-association.png)
+   ![&#x200B; de associatieconfiguratie van de Functie &#x200B;](/help/assets/optimize-at-edge/cloudfront-function-association.png)
 
 4. Klik **sparen veranderingen**.
 
