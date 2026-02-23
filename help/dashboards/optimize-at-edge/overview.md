@@ -114,7 +114,7 @@ Deze kans vindt pagina&#39;s met lange, complexe alinea&#39;s die AI-begrip kunn
 
 Voor elke gelegenheid, kunt u voorproef, uitgeven, opstellen, levende bekijken, en de optimalisaties bij de rand terugdraaien.
 
->[!VIDEO](https://video.tv.adobe.com/v/3477983/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3477990/?captions=dut&learn=on&enablevpops)
 
 ### Voorvertoning
 
