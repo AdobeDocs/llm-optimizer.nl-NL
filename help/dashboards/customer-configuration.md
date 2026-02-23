@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Het Klantconfiguratiedashboard is een krachtig hulpmiddel dat inzicht biedt in de zichtbaarheid van uw merk in LLM&#39;s. Door categorieën, onderwerpen en herinneringen correct op te zetten, kunt u ervoor zorgen dat uw merk goed gepositioneerd is om in LLM-Gegenereerde reacties te verschijnen. Deze opstelling verzekert het platform inzicht in uw bedrijfscontext, toelatend nauwkeurige zicht, verkeer, en opportuniteitsanalyse.
 
-![ Dashboard van de Configuratie van de Klant ](/help/dashboards/assets/customer-config.png)
+![&#x200B; Dashboard van de Configuratie van de Klant &#x200B;](/help/dashboards/assets/customer-config.png)
 
 Als u wilt configureren hoe LLM Optimizer uw aanwezigheid van uw merk controleert en analyseert op verschillende markten en in concurrerende landschappen, hebt u toegang tot de volgende tabbladen:
 
@@ -27,13 +27,13 @@ Als u wilt configureren hoe LLM Optimizer uw aanwezigheid van uw merk controleer
 
 >[!IMPORTANT]
 >
-> Voor meer details op hoe te opstelling zien uw categorieën, onderwerpen, herinneringen de [ Beste praktijken voor het vormen van categorieën, onderwerpen, herinneringen ](/help/overview/best-practices-topics-prompts.md) pagina.
+> Voor meer details op hoe te opstelling zien uw categorieën, onderwerpen, herinneringen de [&#x200B; Beste praktijken voor het vormen van categorieën, onderwerpen, herinneringen &#x200B;](/help/overview/best-practices-topics-prompts.md) pagina.
 
 ## Vragen {#prompts-brand}
 
-Op dit tabblad kunt u vragen controleren, beheren en aanpassen. U kunt de analyse van de Aanwezigheid van het a [ ](/help/dashboards/brand-presence.md) .csv uploaden en de lijst zal met herinneringen en onderwerpen van die analyse worden bevolkt of [ download een Bibliotheek van Vragen ](/help/overview/best-practices-topics-prompts.md) die door Adobe wordt gecreeerd. U kunt onderwerpen en hun bijbehorende herinneringen ook schrappen wijzigen en toevoegen zoals nodig.
+Op dit tabblad kunt u vragen controleren, beheren en aanpassen. U kunt de analyse van de Aanwezigheid van het a [&#x200B; &#x200B;](/help/dashboards/brand-presence.md) .csv uploaden en de lijst zal met herinneringen en onderwerpen van die analyse worden bevolkt of [&#x200B; download een Bibliotheek van Vragen &#x200B;](/help/overview/best-practices-topics-prompts.md) die door Adobe wordt gecreeerd. U kunt onderwerpen en hun bijbehorende herinneringen ook schrappen wijzigen en toevoegen zoals nodig.
 
-Als u een CSV-bestand met gegevensinzichten wilt importeren, moet u eerst een bestand exporteren vanaf het dashboard Handaanwezigheid. Zie de [ gegevensinzichten ](/help/dashboards/brand-presence.md#data-insights) sectie leren hoe te om dat te doen. Zodra u het bestand hebt:
+Als u een CSV-bestand met gegevensinzichten wilt importeren, moet u eerst een bestand exporteren vanaf het dashboard Handaanwezigheid. Zie de [&#x200B; gegevensinzichten &#x200B;](/help/dashboards/brand-presence.md#data-insights) sectie leren hoe te om dat te doen. Zodra u het bestand hebt:
 
 1. Op het dashboard, klik **uploadt CSV**.
 2. In het venster Gegevens importeren sleept u het bestand en zet u het neer of kiest u het bestand handmatig.
@@ -41,7 +41,7 @@ Als u een CSV-bestand met gegevensinzichten wilt importeren, moet u eerst een be
 
 U kunt een nieuw Csv- dossier ook tot stand brengen door het malplaatje van het **venster van de Inzichten van Gegevens van de Invoer** te downloaden. Zodra u het malplaatje hebt, open het en input uw onderwerpen samen met hun bijbehorende herinneringen, categorieën, en gebieden elk in een nieuwe lijn.
 
-Om te leren hoe te om de Bibliotheek van de Vragen van de Industrie te downloaden en te gebruiken die door Adobe wordt gecreeerd zie de sectie van de Bibliotheek van de Vragen van de Industrie op [ deze pagina ](/help/overview/best-practices-topics-prompts.md)
+Om te leren hoe te om de Bibliotheek van de Vragen van de Industrie te downloaden en te gebruiken die door Adobe wordt gecreeerd zie de sectie van de Bibliotheek van de Vragen van de Industrie op [&#x200B; deze pagina &#x200B;](/help/overview/best-practices-topics-prompts.md)
 
 Bovendien kunt u onderwerpen/herinneringen aan de lijst onafhankelijk van een Csv- dossier of snelle bibliotheek ook toevoegen. Hiervoor moet u op het dashboard:
 
@@ -66,7 +66,7 @@ Vanuit het tabblad Categorieën kunt u bedrijfscategorieën of productlijnen def
 3. Pas het **Verwante Gebied** aan waar de categorie zal worden gecontroleerd.
 4. Klik **sparen** en de nieuwe categorie zal op de categorielijst verschijnen.
 
-Het toevoegen van nieuwe categorieën zal automatisch geen onderwerpen en herinneringen produceren - deze zullen manueel van de [ Inzichten van Gegevens ](#data-insights) tabel moeten worden toegevoegd.
+Het toevoegen van nieuwe categorieën zal automatisch geen onderwerpen en herinneringen produceren - deze zullen manueel van de [&#x200B; Inzichten van Gegevens &#x200B;](#data-insights) tabel moeten worden toegevoegd.
 
 Als u een categorie wilt verwijderen, klikt u op het pictogram Verwijderen in de categorielijst. Wees voorzichtig, omdat **het schrappen van een categorie ook de bijbehorende punten** als merkaliassen zal schrappen die met die specifieke categorie verbonden zijn.
 
@@ -98,7 +98,7 @@ Om een merkalias te schrappen, klik het **Schrapping** pictogram van de alias li
 
 Vanuit dit tabblad kunt u uw CDN-streams configureren, zodat Adobe LLM Optimizer uw CDN-gegevens kan analyseren. Deze gegevens worden gebruikt om dashboards (zoals het Verkeer van de Agentica), die inzicht in verkeerspatronen, prestatiesmetriek, en optimaliseringskansen verstrekken te aandrijven. Aan boord van uw leverancier CDN, klik **Op boord CDN**.
 
-![ Klantenconfiguratie CDN ](/help/overview/assets/cc-cdn.png)
+![&#x200B; Klantenconfiguratie CDN &#x200B;](/help/overview/assets/cc-cdn.png)
 
 Op het **Aan boord CDN Providervenster**:
 
@@ -115,7 +115,7 @@ Met Adobe LLM Optimizer kunt u uw Google Search Console-account integreren, zoda
 
 Het belangrijkste ding om over de integratie tussen LLM Optimizer met de Console van het Onderzoek van Google te herinneren is het volgende: in plaats van manueel te veronderstellen welke klanten een AI medewerker zouden kunnen vragen, bekijken wij wat zij **reeds** zoeken en die echte vragen omzetten in natuurlijke, gespreksherinneringen. Dit proces om van onderzoeksvragen aan AI herinneringen over te gaan wordt geïllustreerd in het diagram hieronder.
 
-![ Stroom van het Proces ](/help/dashboards/assets/diagram-flow.png)
+![&#x200B; Stroom van het Proces &#x200B;](/help/dashboards/assets/diagram-flow.png)
 
 In het algemeen bestaat het proces uit vijf stappen:
 
@@ -131,7 +131,7 @@ Elke query wordt geanalyseerd op semantische betekenis (waar de gebruiker echt o
 
 De verwante vragen worden automatisch gegroepeerd in **categorieën** (brede bedrijfsthema&#39;s) en **onderwerpen** (geconcentreerde subtopics binnen elke categorie). Het systeem geeft prioriteit aan categorieën die al zijn geconfigureerd in uw LLM Optimizer-configuratie. Bovendien kan het ook nieuwe categorieën weergeven die uw zoekgegevens onthullen, maar worden deze nog niet gecontroleerd. Het volgende diagram is een voorbeeld van categorieën en onderwerpen voor een meubelmerk:
 
-![ Meubelmerk van Meubilair ](/help/dashboards/assets/diagram-example.png)
+![&#x200B; Meubelmerk van Meubilair &#x200B;](/help/dashboards/assets/diagram-example.png)
 
 #### Stap 4 — Genereer herinneringen die in echte sleutelwoorden worden gegrond {#gsc-four}
 
@@ -179,28 +179,28 @@ Voordat u deze functie kunt gebruiken, moet u uw Google Search Console-account i
 
 1. Open het dashboard Configuratie van de Klant.
 1. Navigeer aan het lusje van de Console van het Onderzoek van Google en klik **Connect Rekening**.
-   ![ Google de Console van het Onderzoek ](/help/dashboards/assets/google-console.png)
+   ![&#x200B; Google de Console van het Onderzoek &#x200B;](/help/dashboards/assets/google-console.png)
 1. Meld u aan met een Google-account dat toegang heeft tot de gewenste eigenschap voor de zoekconsole.
-   ![ Google- Rekening ](/help/dashboards/assets/google-account.png)
+   ![&#x200B; Google- Rekening &#x200B;](/help/dashboards/assets/google-account.png)
 1. Kies de eigenschap waarmee u verbinding wilt maken.
-   ![ het Bezit van de Console ](/help/dashboards/assets/console-property.png)
+   ![&#x200B; het Bezit van de Console &#x200B;](/help/dashboards/assets/console-property.png)
 1. Nadat de verbinding is voltooid, begint LLM Optimizer relevante zoekopdrachten op te halen.
-   ![ het Ophalen Gegevens ](/help/dashboards/assets/console-complete.png)
+   ![&#x200B; het Ophalen Gegevens &#x200B;](/help/dashboards/assets/console-complete.png)
 
 #### Zoekopdrachten controleren en doorzoeken {#search-query}
 
 Nadat u het Google-account voor de zoekconsole hebt geïntegreerd met LLM-optimalisator, kunt u de lijst met onderwerpen en vragen die zijn opgehaald vanuit de zoekconsole bekijken en de aanwijzingen toevoegen uit de lijst.
 
 1. Controleer op het tabblad Zoekconsole van Google de lijst met onderwerpen en vragen die u hebt opgehaald uit de zoekconsole.
-   ![ Prompts Lijst ](/help/dashboards/assets/prompts-list.png)
+   ![&#x200B; Prompts Lijst &#x200B;](/help/dashboards/assets/prompts-list.png)
 1. Klik op het gewenste onderwerp/de vraagcategorie om de lijst uit te breiden.
 1. Gebruik **toevoegen** knoop om herinneringen van de lijst toe te voegen. U kunt ook bulksgewijs herinneringen en categorieën toevoegen door **te gebruiken voeg allen** toe.
-   ![ voeg Herinneringen ](/help/dashboards/assets/add-prompts.png) toe
+   ![&#x200B; voeg Herinneringen &#x200B;](/help/dashboards/assets/add-prompts.png) toe
 1. Zodra u met de selectie wordt tevredengesteld, klik **sparen** op het berichtbericht.
 
 #### Toegevoegde query&#39;s weergeven in de lijst met vragen {#prompts-list}
 
-Nadat een vraag wordt toegevoegd, verschijnt het in het [ Prompts ](#prompts-brand) lusje binnen het dashboard van de Configuratie van de Klant. De herinneringen die van de Console van het Onderzoek van Google worden betrokken zijn duidelijk met een pictogram van de Console van het Onderzoek van Google in de **kolom van de Oorsprong**. Met dit pictogram kunt u een onderscheid maken tussen aanwijzingen die in het werkelijke zoekgedrag van de gebruiker zijn geaard en de aanwijzingen die handmatig of vanuit andere bronnen zijn toegevoegd.
+Nadat een vraag wordt toegevoegd, verschijnt het in het [&#x200B; Prompts &#x200B;](#prompts-brand) lusje binnen het dashboard van de Configuratie van de Klant. De herinneringen die van de Console van het Onderzoek van Google worden betrokken zijn duidelijk met een pictogram van de Console van het Onderzoek van Google in de **kolom van de Oorsprong**. Met dit pictogram kunt u een onderscheid maken tussen aanwijzingen die in het werkelijke zoekgedrag van de gebruiker zijn geaard en de aanwijzingen die handmatig of vanuit andere bronnen zijn toegevoegd.
 
 ### Veelgestelde vragen {#gsc-faq}
 
