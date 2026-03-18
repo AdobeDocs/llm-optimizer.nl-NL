@@ -16,15 +16,15 @@ Deze pagina details hoe te om CDN- logboeken van Cloudflare aan het emmertje van
 
 ## Stap 1: Aan boord in LLM Optimizer {#step-1}
 
-Op de pagina van LLM Optimizer [ https://llmo.now/](https://llmo.now/):
+Op de pagina van LLM Optimizer [&#x200B; https://llmo.now/](https://llmo.now/):
 
 1. Ga naar het **dashboard van de Configuratie van de Klant**.
 
-   ![ knoop van de Configuratie ](/help/overview/assets/log-forwarding/common/config-button.png)
+   ![&#x200B; knoop van de Configuratie &#x200B;](/help/overview/assets/log-forwarding/common/config-button.png)
 
 1. Klik de **CDN Configuratie** tabel.
 
-   ![ CDN het lusje van de Configuratie ](/help/overview/assets/log-forwarding/common/cdn-config-tab.png)
+   ![&#x200B; CDN het lusje van de Configuratie &#x200B;](/help/overview/assets/log-forwarding/common/cdn-config-tab.png)
 
 1. Klik **krijgen Begonnen**.
 
@@ -32,11 +32,11 @@ Op de pagina van LLM Optimizer [ https://llmo.now/](https://llmo.now/):
 
 1. Naast **activeer AI de Inzichten van het Verkeer**, klik **vormen**.
 
-   ![ vormen ](/help/overview/assets/log-forwarding/common/configure.png)
+   ![&#x200B; vormen &#x200B;](/help/overview/assets/log-forwarding/common/configure.png)
 
 1. Selecteer **Cloudflare (BYOCDN)**.
 
-   ![ Uitgezochte Cloudflare ](/help/overview/assets/log-forwarding/cloudflare/cloudflare-select.png)
+   ![&#x200B; Uitgezochte Cloudflare &#x200B;](/help/overview/assets/log-forwarding/cloudflare/cloudflare-select.png)
 
 1. Klik **Onboard**.
 
@@ -44,7 +44,7 @@ Op de pagina van LLM Optimizer [ https://llmo.now/](https://llmo.now/):
 
 ## Stap 2: Een Logpush-taak maken in Cloudflare {#step-2}
 
-Op het [ dashboard van de Wolk ](https://dash.cloudflare.com/login), volg deze stappen:
+Op het [&#x200B; dashboard van de Wolk &#x200B;](https://dash.cloudflare.com/login), volg deze stappen:
 
 1. Ga naar de **Logpush** pagina op het **Domein (streek)** niveau.
 1. Selecteer **creeer een Logpush baan**.
@@ -53,15 +53,15 @@ Op het [ dashboard van de Wolk ](https://dash.cloudflare.com/login), volg deze s
 
    - **Emmertje** — de naam van het S3 emmertje. Kopieer de waarde van de LLM Optimizer CDN-configuratiepagina.
 
-     ![ Naam van het Emmertje ](/help/overview/assets/log-forwarding/common/bucket-name.png)
+     ![&#x200B; Naam van het Emmertje &#x200B;](/help/overview/assets/log-forwarding/common/bucket-name.png)
 
    - **Weg** — de emmer plaats binnen de opslagcontainer. Kopieer de waarde van de LLM Optimizer CDN-configuratiepagina.
 
-     ![ Cloudflare weg ](/help/overview/assets/log-forwarding/cloudflare/cloudflare-path.png)
+     ![&#x200B; Cloudflare weg &#x200B;](/help/overview/assets/log-forwarding/cloudflare/cloudflare-path.png)
 
    - **organiseer logboeken in dagelijkse subfolders** (geadviseerd).
 
-     ![ Dagelijkse subfolders ](/help/overview/assets/log-forwarding/cloudflare/cloudflare-daily-subfolders.png)
+     ![&#x200B; Dagelijkse subfolders &#x200B;](/help/overview/assets/log-forwarding/cloudflare/cloudflare-daily-subfolders.png)
 
    - **gebied van het Emmertje** — kopieer de waarde van de pagina van de Configuratie van LLM Optimizer CDN.
 
@@ -83,7 +83,7 @@ Op het [ dashboard van de Wolk ](https://dash.cloudflare.com/login), volg deze s
 
    - In **verzend de volgende gebieden**, zie de waarden in de configuratiepagina van LLM Optimizer.
 
-     ![ Logpush gebieden ](/help/overview/assets/log-forwarding/cloudflare/cloudflare-logpush-fields.png)
+     ![&#x200B; Logpush gebieden &#x200B;](/help/overview/assets/log-forwarding/cloudflare/cloudflare-logpush-fields.png)
 
    - **formaat van het Logboek**: JSON.
 
@@ -93,10 +93,10 @@ Op het [ dashboard van de Wolk ](https://dash.cloudflare.com/login), volg deze s
 
    - Kies de indeling van tijdstempelvelden in uw logboeken: `RFC3339` .
 
-     ![ formaat van de Chronologie ](/help/overview/assets/log-forwarding/cloudflare/cloudflare-timestamp-format.png)
+     ![&#x200B; formaat van de Chronologie &#x200B;](/help/overview/assets/log-forwarding/cloudflare/cloudflare-timestamp-format.png)
 
    - Voor steekproeftarieven, selecteer **Alle logboeken**.
 
-     ![ Bemonsteringsfrequentie ](/help/overview/assets/log-forwarding/cloudflare/cloudflare-sampling-rate.png)
+     ![&#x200B; Bemonsteringsfrequentie &#x200B;](/help/overview/assets/log-forwarding/cloudflare/cloudflare-sampling-rate.png)
 
 1. Selecteer **voorleggen** zodra u klaar bent vormend de Logpush baan.

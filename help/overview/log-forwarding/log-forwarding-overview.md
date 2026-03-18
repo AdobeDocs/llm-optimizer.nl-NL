@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # BYOCDN-overzicht van het doorsturen van logbestanden {#cdn-log-forwarding}
 
-Het door:sturen van het logboek voor een klant beheerde CDN (BYOCDN) is het proces om uw CDN toegangslogboeken naar het emmertje van Adobe te verzenden Amazon S3 zodat LLM Optimizer agentic verkeersgegevens kan verzamelen en analyseren. Zonder het logboek CDN door:sturen, kan het ](/help/dashboards/agentic-traffic.md) dashboard van het Verkeer 0} Agentic geen metriek tonen.[
+Het door:sturen van het logboek voor een klant beheerde CDN (BYOCDN) is het proces om uw CDN toegangslogboeken naar het emmertje van Adobe te verzenden Amazon S3 zodat LLM Optimizer agentic verkeersgegevens kan verzamelen en analyseren. Zonder het logboek CDN door:sturen, kan het [&#128279;](/help/dashboards/agentic-traffic.md) dashboard van het Verkeer 0&rbrace; Agentic geen metriek tonen.
 
 Voor de onderstaande handleidingen gelden dezelfde twee fasen:
 
-1. **Onboard in LLM Optimizer** — registreer uw CDN op de [ CDN- Configuratie ](/help/dashboards/customer-configuration.md) pagina om de benodigde S3 geloofsbrieven en wegdetails te produceren.
+1. **Onboard in LLM Optimizer** — registreer uw CDN op de [&#x200B; CDN- Configuratie &#x200B;](/help/dashboards/customer-configuration.md) pagina om de benodigde S3 geloofsbrieven en wegdetails te produceren.
 2. **vorm uw CDN** — gebruik die details om een logboek-door:sturen baan (of upload manueel logboeken) in de console van uw CDN leverancier tot stand te brengen.
 
 ## CDN-providers {#cdn-providers}
@@ -25,12 +25,12 @@ Volg de overeenkomstige gids voor u CDN leverancier.
 
 | CDN-provider | Hulplijn |
 |---|---|
-| Akamai | [ gids van de Mening ](/help/overview/log-forwarding/akamai.md) |
-| Cloudflare | [ gids van de Mening ](/help/overview/log-forwarding/cloudflare.md) |
-| CloudFront | [ gids van de Mening ](/help/overview/log-forwarding/cloudfront.md) |
-| Snel | [ gids van de Mening ](/help/overview/log-forwarding/fastly.md) |
-| Imperva | [ gids van de Mening ](/help/overview/log-forwarding/imperva.md) |
-| Overige (handmatige/niet-ondersteunde CDN) | [ gids van de Mening ](/help/overview/log-forwarding/other.md) |
+| Akamai | [&#x200B; gids van de Mening &#x200B;](/help/overview/log-forwarding/akamai.md) |
+| Cloudflare | [&#x200B; gids van de Mening &#x200B;](/help/overview/log-forwarding/cloudflare.md) |
+| CloudFront | [&#x200B; gids van de Mening &#x200B;](/help/overview/log-forwarding/cloudfront.md) |
+| Snel | [&#x200B; gids van de Mening &#x200B;](/help/overview/log-forwarding/fastly.md) |
+| Imperva | [&#x200B; gids van de Mening &#x200B;](/help/overview/log-forwarding/imperva.md) |
+| Overige (handmatige/niet-ondersteunde CDN) | [&#x200B; gids van de Mening &#x200B;](/help/overview/log-forwarding/other.md) |
 
 >[!NOTE]
 >

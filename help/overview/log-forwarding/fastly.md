@@ -16,23 +16,23 @@ Deze pagina verklaart hoe te om CDN- logboeken van Fastly aan het emmertje van A
 
 ## Stap 1: Aan boord in LLM Optimizer {#step-1}
 
-Op de pagina van LLM Optimizer [ https://llmo.now/](https://llmo.now/):
+Op de pagina van LLM Optimizer [&#x200B; https://llmo.now/](https://llmo.now/):
 
 1. Ga naar **Configuratie**.
 
-   ![ knoop van de Configuratie ](/help/overview/assets/log-forwarding/common/config-button.png)
+   ![&#x200B; knoop van de Configuratie &#x200B;](/help/overview/assets/log-forwarding/common/config-button.png)
 
 1. Klik de **CDN Configuratie** tabel.
 
-   ![ CDN het lusje van de Configuratie ](/help/overview/assets/log-forwarding/common/cdn-config-tab.png)
+   ![&#x200B; CDN het lusje van de Configuratie &#x200B;](/help/overview/assets/log-forwarding/common/cdn-config-tab.png)
 
 1. Klik **krijgen Begonnen**.
 1. Naast **activeer AI de Inzichten van het Verkeer**, klik **vormen**.
 
-   ![ vormen ](/help/overview/assets/log-forwarding/common/configure.png)
+   ![&#x200B; vormen &#x200B;](/help/overview/assets/log-forwarding/common/configure.png)
 1. Selecteer **snelst (BYOCDN)**.
 
-   ![ Uitgezochte snel ](/help/overview/assets/log-forwarding/fastly/fastly-select.png)
+   ![&#x200B; Uitgezochte snel &#x200B;](/help/overview/assets/log-forwarding/fastly/fastly-select.png)
 1. Klik **Onboard**.
 
 ## Stap 2: Maak snel een S3-eindpunt {#step-2}
@@ -49,10 +49,10 @@ Om een S3 eindpunt, op het **Snelle Controlebord** te creëren:
 | **Plaatsing** | Standaard |
 | **formaat van het Logboek** | Gebruik het koord van het logboekformaat dat in het **formaatkoord van het Logboek** hieronder wordt getoond. |
 | **formaat van de Chronologie** | `%Y-%m-%dT%H:%M:%S.000` |
-| **naam van het Emmertje** | Kopieer de **Naam van het Emmertje** van de de configuratiepagina van LLM Optimizer. ![Emmernaam ](/help/overview/assets/log-forwarding/fastly/fastly-bucket-name.png) |
-| **Domein** | Kopieer de **Naam van het Domein** van de de configuratiepagina van LLM Optimizer. ![Domeinnaam ](/help/overview/assets/log-forwarding/fastly/fastly-domain-name.png) |
+| **naam van het Emmertje** | Kopieer de **Naam van het Emmertje** van de de configuratiepagina van LLM Optimizer. ![Emmernaam &#x200B;](/help/overview/assets/log-forwarding/fastly/fastly-bucket-name.png) |
+| **Domein** | Kopieer de **Naam van het Domein** van de de configuratiepagina van LLM Optimizer. ![Domeinnaam &#x200B;](/help/overview/assets/log-forwarding/fastly/fastly-domain-name.png) |
 | **methode van de Toegang** | **Referenties van de Gebruiker** |
-| **Referenties van de Gebruiker** | Kopieer de **Sleutel van de Toegang** en **Geheime Sleutel** van de de configuratiepagina van LLM Optimizer. ![Toegangstoetsen ](/help/overview/assets/log-forwarding/common/access-keys.png) |
+| **Referenties van de Gebruiker** | Kopieer de **Sleutel van de Toegang** en **Geheime Sleutel** van de de configuratiepagina van LLM Optimizer. ![Toegangstoetsen &#x200B;](/help/overview/assets/log-forwarding/common/access-keys.png) |
 | **Periode** | `300` |
 
 **het formaatkoord van het Logboek:**
@@ -69,7 +69,7 @@ Nadat u de stappen hierboven voltooit, klik **Geavanceerde opties** en reeks:
 
 | Veld | Beschrijving |
 | --- | --- |
-| **Weg** | Kopieer **Weg** van de de configuratiepagina van LLM Optimizer. ![Pad ](/help/overview/assets/log-forwarding/fastly/fastly-path.png) |
+| **Weg** | Kopieer **Weg** van de de configuratiepagina van LLM Optimizer. ![Pad &#x200B;](/help/overview/assets/log-forwarding/fastly/fastly-path.png) |
 | **selecteer een formaat van de logboeklijn** | Leeg |
 | **Compressie** | Gzip |
 | **niveau van de Overtolligheid** | Standaard |

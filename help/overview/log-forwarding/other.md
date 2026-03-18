@@ -22,15 +22,15 @@ Deze methode imiteert het &quot;ononderbroken door:sturen&quot;model: stammen wo
 
 ## Stap 1: Aan boord in LLM Optimizer {#step-1}
 
-Op [ LLM Optimizer ](https://llmo.now/):
+Op [&#x200B; LLM Optimizer &#x200B;](https://llmo.now/):
 
 1. Ga naar **Configuratie**.
 
-   ![ knoop van de Configuratie ](/help/overview/assets/log-forwarding/common/config-button.png)
+   ![&#x200B; knoop van de Configuratie &#x200B;](/help/overview/assets/log-forwarding/common/config-button.png)
 
 1. Klik de **CDN Configuratie** tabel.
 
-   ![ CDN het lusje van de Configuratie ](/help/overview/assets/log-forwarding/common/cdn-config-tab.png)
+   ![&#x200B; CDN het lusje van de Configuratie &#x200B;](/help/overview/assets/log-forwarding/common/cdn-config-tab.png)
 
 1. Klik **krijgen Begonnen**.
 
@@ -38,11 +38,11 @@ Op [ LLM Optimizer ](https://llmo.now/):
 
 1. Naast **activeer AI de Inzichten van het Verkeer**, klik **vormen**.
 
-   ![ vormen ](/help/overview/assets/log-forwarding/common/configure.png)
+   ![&#x200B; vormen &#x200B;](/help/overview/assets/log-forwarding/common/configure.png)
 
 1. Selecteer **Andere**.
 
-   ![ Uitgezochte Andere ](/help/overview/assets/log-forwarding/other/other-select.png)
+   ![&#x200B; Uitgezochte Andere &#x200B;](/help/overview/assets/log-forwarding/other/other-select.png)
 
 1. Klik **Onboard**.
 

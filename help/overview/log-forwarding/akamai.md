@@ -16,15 +16,15 @@ Deze pagina verklaart hoe te om CDN- logboeken van Akamai aan het emmertje van S
 
 ## Stap 1: Aan boord in LLM Optimizer {#step-1}
 
-Op de pagina van LLM Optimizer [ https://llmo.now/](https://llmo.now/):
+Op de pagina van LLM Optimizer [&#x200B; https://llmo.now/](https://llmo.now/):
 
 1. Ga naar het **dashboard van de Configuratie van de Klant**.
 
-   ![ knoop van de Configuratie ](/help/overview/assets/log-forwarding/common/config-button.png)
+   ![&#x200B; knoop van de Configuratie &#x200B;](/help/overview/assets/log-forwarding/common/config-button.png)
 
 1. Klik de **CDN Configuratie** tabel.
 
-   ![ CDN het lusje van de Configuratie ](/help/overview/assets/log-forwarding/common/cdn-config-tab.png)
+   ![&#x200B; CDN het lusje van de Configuratie &#x200B;](/help/overview/assets/log-forwarding/common/cdn-config-tab.png)
 
 1. Klik **krijgen Begonnen**.
 
@@ -32,11 +32,11 @@ Op de pagina van LLM Optimizer [ https://llmo.now/](https://llmo.now/):
 
 1. Naast **activeer AI de Inzichten van het Verkeer**, klik **vormen**.
 
-   ![ vormen ](/help/overview/assets/log-forwarding/common/configure.png)
+   ![&#x200B; vormen &#x200B;](/help/overview/assets/log-forwarding/common/configure.png)
 
 1. Selecteer **Akamai (BYOCDN)**.
 
-   ![ Uitgezochte Akamai ](/help/overview/assets/log-forwarding/akamai/akamai-select.png)
+   ![&#x200B; Uitgezochte Akamai &#x200B;](/help/overview/assets/log-forwarding/akamai/akamai-select.png)
 
 1. Klik **Onboard**.
 
@@ -44,13 +44,13 @@ Op de pagina van LLM Optimizer [ https://llmo.now/](https://llmo.now/):
 
 ## Stap 2: Een stream maken in Akamai {#step-2}
 
-Op het Akamai controlepaneel [ https://control.akamai.com/ ](https://control.akamai.com/) volgt de stappen van de officiële documentatie Akamai aan [ een stroom ](https://techdocs.akamai.com/datastream2/docs/create-stream) creëren.
+Op het Akamai controlepaneel [&#x200B; https://control.akamai.com/ &#x200B;](https://control.akamai.com/) volgt de stappen van de officiële documentatie Akamai aan [&#x200B; een stroom &#x200B;](https://techdocs.akamai.com/datastream2/docs/create-stream) creëren.
 
 ## Stap 3: gegevensparameters kiezen {#step-3}
 
-Na het creëren van de stroom, op het Akamai controlepaneel, klik naast verdergaan **Reeksen van Gegevens** tabel. Volg de stappen van de officiële documentatie Akamai om de [ gegevensparameters ](https://techdocs.akamai.com/datastream2/docs/choose-data-parameters) te kiezen. De volgende velden uit de LLM Optimizer-configuratie zijn vereist:
+Na het creëren van de stroom, op het Akamai controlepaneel, klik naast verdergaan **Reeksen van Gegevens** tabel. Volg de stappen van de officiële documentatie Akamai om de [&#x200B; gegevensparameters &#x200B;](https://techdocs.akamai.com/datastream2/docs/choose-data-parameters) te kiezen. De volgende velden uit de LLM Optimizer-configuratie zijn vereist:
 
-![ LLMO configuratiegebieden ](/help/overview/assets/log-forwarding/akamai/akamai-llmo-config-fields.png)
+![&#x200B; LLMO configuratiegebieden &#x200B;](/help/overview/assets/log-forwarding/akamai/akamai-llmo-config-fields.png)
 
 De toewijzing moet als volgt zijn:
 
@@ -93,11 +93,11 @@ Na het creëren van de gegevensstromen en het kiezen van de parameters moet u de
 2. In **Naam**, ga een human-readable beschrijving voor de bestemming in.
 3. In **Emmertje**, kopieer de **Naam van het Emmertje** van de de configuratiepagina van LLM Optimizer.
 
-   ![ Naam van het Emmertje ](/help/overview/assets/log-forwarding/common/bucket-name.png)
+   ![&#x200B; Naam van het Emmertje &#x200B;](/help/overview/assets/log-forwarding/common/bucket-name.png)
 
 4. In **weg van de Omslag**, kopieer het **Weg** van de de configuratiepagina van LLM Optimizer.
 
-   ![ configuratie van de Weg ](/help/overview/assets/log-forwarding/akamai/akamai-path-config.png)
+   ![&#x200B; configuratie van de Weg &#x200B;](/help/overview/assets/log-forwarding/akamai/akamai-path-config.png)
 
 5. In **Gebied**, kopieer het **Gebied** van de de configuratiepagina van LLM Optimizer.
 
@@ -105,7 +105,7 @@ Na het creëren van de gegevensstromen en het kiezen van de parameters moet u de
 
 6. In **zeer belangrijke identiteitskaart van de Toegang** en **Geheime toegangssleutel**, kopieer beide waarden van de de configuratiepagina van LLM Optimizer.
 
-   ![ sleutels van de Toegang ](/help/overview/assets/log-forwarding/common/access-keys.png)
+   ![&#x200B; sleutels van de Toegang &#x200B;](/help/overview/assets/log-forwarding/common/access-keys.png)
 
 7. Klik **bevestigen &amp; sparen** om de verbinding aan de bestemming te bevestigen, en sparen de details u verstrekte. Als onderdeel van dit validatieproces gebruikt het systeem de opgegeven toegangssleutel-id en geheime toegangssleutel om een verificatiebestand in uw S3-map te maken met een tijdstempel in de bestandsnaam in de `Akamai_access_verification_[TimeStamp].txt` -indeling. Dit bestand wordt alleen weergegeven als het validatieproces is geslaagd en u toegang hebt tot het Amazon S3-emmertje en de map waarnaar u de logbestanden wilt verzenden.
 
@@ -121,10 +121,10 @@ Na het creëren van de gegevensstromen en het kiezen van de parameters moet u de
 
 9. Verander de **Pushfrequentie**. Kopieer de waarde van de de configuratiepagina van LLM Optimizer onder **Interval van het Logboek**.
 
-   ![ interval van het Logboek ](/help/overview/assets/log-forwarding/akamai/akamai-log-interval.png)
+   ![&#x200B; interval van het Logboek &#x200B;](/help/overview/assets/log-forwarding/akamai/akamai-log-interval.png)
 
 10. Klik **daarna** om het proces te voltooien.
 
 Vóór definitieve bevestiging, zou de configuratie aan dit voorbeeld gelijkaardig moeten kijken:
 
-![ Bevestiging van de Configuratie ](/help/overview/assets/log-forwarding/akamai/akamai-validation.png)
+![&#x200B; Bevestiging van de Configuratie &#x200B;](/help/overview/assets/log-forwarding/akamai/akamai-validation.png)

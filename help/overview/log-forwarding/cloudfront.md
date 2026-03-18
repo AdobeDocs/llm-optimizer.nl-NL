@@ -16,15 +16,15 @@ Deze pagina verklaart hoe te om CDN- logboeken van CloudFront aan het S3 emmertj
 
 ## Stap 1: Aan boord in LLM Optimizer {#step-1}
 
-Op de pagina van LLM Optimizer [ https://llmo.now/](https://llmo.now/):
+Op de pagina van LLM Optimizer [&#x200B; https://llmo.now/](https://llmo.now/):
 
 1. Ga naar het **dashboard van de Configuratie van de Klant**.
 
-   ![ knoop van de Configuratie ](/help/overview/assets/log-forwarding/common/config-button.png)
+   ![&#x200B; knoop van de Configuratie &#x200B;](/help/overview/assets/log-forwarding/common/config-button.png)
 
 1. Klik de **CDN Configuratie** tabel.
 
-   ![ CDN het lusje van de Configuratie ](/help/overview/assets/log-forwarding/common/cdn-config-tab.png)
+   ![&#x200B; CDN het lusje van de Configuratie &#x200B;](/help/overview/assets/log-forwarding/common/cdn-config-tab.png)
 
 1. Klik **krijgen Begonnen**.
 
@@ -32,25 +32,25 @@ Op de pagina van LLM Optimizer [ https://llmo.now/](https://llmo.now/):
 
 1. Naast **activeer AI de Inzichten van het Verkeer**, klik **vormen**.
 
-   ![ vormen ](/help/overview/assets/log-forwarding/common/configure.png)
+   ![&#x200B; vormen &#x200B;](/help/overview/assets/log-forwarding/common/configure.png)
 
 1. Ga uw **identiteitskaart van de Rekening van AWS** in.
 
-   ![ identiteitskaart van de Rekening van AWS ](/help/overview/assets/log-forwarding/cloudfront/cloudfront-aws-account.png)
+   ![&#x200B; identiteitskaart van de Rekening van AWS &#x200B;](/help/overview/assets/log-forwarding/cloudfront/cloudfront-aws-account.png)
 
 1. Selecteer **CloudFront (BYOCDN)**.
 
-   ![ Uitgezochte CloudFront ](/help/overview/assets/log-forwarding/cloudfront/cloudfront-select.png)
+   ![&#x200B; Uitgezochte CloudFront &#x200B;](/help/overview/assets/log-forwarding/cloudfront/cloudfront-select.png)
 
 1. Klik **Onboard**.
 
-   ![ knoop Onboard ](/help/overview/assets/log-forwarding/common/onboard-button.png)
+   ![&#x200B; knoop Onboard &#x200B;](/help/overview/assets/log-forwarding/common/onboard-button.png)
 
 ## Stap 2: Standaardlogboekregistratie inschakelen (CloudFront-console) {#step-2}
 
-Om standaardregistreren toe te laten, van de [ console van het Beheer van AWS ](https://aws.amazon.com/console/):
+Om standaardregistreren toe te laten, van de [&#x200B; console van het Beheer van AWS &#x200B;](https://aws.amazon.com/console/):
 
-1. Heb toegang tot de [ console CloudFront ](https://console.aws.amazon.com/cloudfront/v4/home) en [ werk een bestaande distributie ](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/HowToUpdateDistribution.html#HowToUpdateDistributionProcedure) bij.
+1. Heb toegang tot de [&#x200B; console CloudFront &#x200B;](https://console.aws.amazon.com/cloudfront/v4/home) en [&#x200B; werk een bestaande distributie &#x200B;](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/HowToUpdateDistribution.html#HowToUpdateDistributionProcedure) bij.
 
 1. Open het **Registreren** lusje.
 
@@ -58,21 +58,21 @@ Om standaardregistreren toe te laten, van de [ console van het Beheer van AWS ](
 
 1. Voor **Bestemming**, selecteer of creeer het middel. Ga de **emmernaam** in, kunt u de waarde van de de configuratiepagina van LLM Optimizer kopiëren CDN.
 
-   ![ CloudFront emmernaam ](/help/overview/assets/log-forwarding/cloudfront/cloudfront-bucket-name.png)
+   ![&#x200B; CloudFront emmernaam &#x200B;](/help/overview/assets/log-forwarding/cloudfront/cloudfront-bucket-name.png)
 
 1. Vorm **Extra montages**:
 
    - **selectie van het Gebied** — kies de gebieden van het logboekdossier. Zie de vereiste gebieden op de LLM Optimizer CDN configuratiepagina.
 
-     ![ CloudFront gebiedsselectie ](/help/overview/assets/log-forwarding/cloudfront/cloudfront-field-selection.png)
+     ![&#x200B; CloudFront gebiedsselectie &#x200B;](/help/overview/assets/log-forwarding/cloudfront/cloudfront-field-selection.png)
 
    - **het Verdelen** — kopieer het **wegachtervoegsel** van de de configuratiepagina van LLM Optimizer.
 
-     ![ CloudFront het verdelen ](/help/overview/assets/log-forwarding/cloudfront/cloudfront-partitioning.png)
+     ![&#x200B; CloudFront het verdelen &#x200B;](/help/overview/assets/log-forwarding/cloudfront/cloudfront-partitioning.png)
 
    - **formaat van de Output** — het formaat zou JSON moeten zijn.
 
-     ![ CloudFront outputformaat ](/help/overview/assets/log-forwarding/cloudfront/cloudfront-output-format.png)
+     ![&#x200B; CloudFront outputformaat &#x200B;](/help/overview/assets/log-forwarding/cloudfront/cloudfront-output-format.png)
 
 1. Voer de stappen uit om de distributie bij te werken of te maken.
 
@@ -82,13 +82,13 @@ Om standaardregistreren toe te laten, van de [ console van het Beheer van AWS ](
 
 De **bronrekening** (met de distributie CloudFront) verzendt toegangslogboeken naar de **bestemmingsrekening** (het S3 emmer dat in de de configuratiepagina van LLM Optimizer CDN wordt getoond). Beide accounts moeten de juiste machtigingen hebben.
 
-Bijvoorbeeld: de bronaccount `111111111111` verzendt logbestanden naar een S3-emmertje in een doelaccount `222222222222` . U kunt de [ Interface van de Lijn van het Bevel van AWS gebruiken ](https://aws.amazon.com/cli/).
+Bijvoorbeeld: de bronaccount `111111111111` verzendt logbestanden naar een S3-emmertje in een doelaccount `222222222222` . U kunt de [&#x200B; Interface van de Lijn van het Bevel van AWS gebruiken &#x200B;](https://aws.amazon.com/cli/).
 
 >[!NOTE]
 >
 >In de bevelen hieronder, vervang de waarde van de leveringsbestemmingsARN (`arn:aws:logs:us-east-1:222222222222:delivery-destination:cloudfront-delivery-destination`) met de waarde van **bestemmingsARN van de Levering** van de de configuratiepagina van LLM Optimizer.
 
-![ bestemmingsARN van de Levering ](/help/overview/assets/log-forwarding/cloudfront/cloudfront-delivery-destination-arn.png)
+![&#x200B; bestemmingsARN van de Levering &#x200B;](/help/overview/assets/log-forwarding/cloudfront/cloudfront-delivery-destination-arn.png)
 
 ### De bronaccount configureren {#source-account}
 
