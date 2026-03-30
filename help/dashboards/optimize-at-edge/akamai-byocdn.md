@@ -2,10 +2,10 @@
 title: Optimaliseren bij Edge - Akamai (BYOCDN)
 description: Leer hoe u Akamai BYOCDN configureert voor optimaliseren bij Edge in LLM Optimizer.
 feature: Opportunities
-source-git-commit: 9230e525340bb951fcd9f2ae1f88bad557d5b7d7
+source-git-commit: 16a1142cb70d9bcd70406a3779a43fc8568c77d0
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 2%
+source-wordcount: '745'
+ht-degree: 1%
 
 ---
 
@@ -42,23 +42,27 @@ Plaats het verpletteren voor volgende gebruiker-agenten :image.png
  *Perplexity-User*
 ```
 
-![&#x200B; plaats verpletterend criteria &#x200B;](/help/assets/optimize-at-edge/akamai-step1-routing.png)
+![ plaats verpletterend criteria ](/help/assets/optimize-at-edge/akamai-step1-routing.png)
 
 **2. Oorsprong en SSL-gedrag instellen**
 
 Oorsprong instellen als `live.edgeoptimize.net` en SAN afstemmen op `*.edgeoptimize.net`
 
-![&#x200B; Vastgestelde Oorsprong en SSL gedrag &#x200B;](/help/assets/optimize-at-edge/akamai-step2-origin.png)
+>[!NOTE]
+>
+>Als de bezitsactivering ontbreekt nadat u Optimize bij de regel van Edge toevoegt, controleer of de regel een verschillende de verificatiemodus van de Server SSL van de Oorsprong dan de standaardregel gebruikt. Als dit het geval is, werkt u de regel Optimaliseren bij Edge bij zodat deze overeenkomt met de standaardregel. Bijvoorbeeld, als de standaardregel **Montages van het Platform** gebruikt, gebruik **de Montages van het Platform** ook hier. Neem contact op met de ondersteuning van Akamai als u de vereiste instelling niet kunt gebruiken.
+
+![ Vastgestelde Oorsprong en SSL gedrag ](/help/assets/optimize-at-edge/akamai-step2-origin.png)
 
 **3. Cachetoets instellen**
 
 De toetsvariabele voor de cache `PMUSER_EDGE_OPTIMIZE_CACHE_KEY` instellen op `LLMCLIENT=TRUE;X_FORWARDED_HOST={{builtin.AK_HOST}}`
 
-![&#x200B; vastgestelde Zeer belangrijke Variabele van het Geheime voorgeheugen &#x200B;](/help/assets/optimize-at-edge/akamai-step3-cachekey.png)
+![ vastgestelde Zeer belangrijke Variabele van het Geheime voorgeheugen ](/help/assets/optimize-at-edge/akamai-step3-cachekey.png)
 
 **4. Caching Rules**
 
-![&#x200B; Caching Regels &#x200B;](/help/assets/optimize-at-edge/akamai-step4-rules.png)
+![ Caching Regels ](/help/assets/optimize-at-edge/akamai-step4-rules.png)
 
 **5. Binnenkomende aanvraagheaders wijzigen**
 
@@ -67,21 +71,21 @@ Stel de volgende binnenkomende aanvraagheaders in:
 `x-edgeoptimize-config` to `LLMCLIENT=TRUE;`
 `x-edgeoptimize-url` t/m `{{builtin.AK_URL}}`
 
-![&#x200B; wijzigt Binnenkomende Kopballen van het Verzoek &#x200B;](/help/assets/optimize-at-edge/akamai-step5-request.png)
+![ wijzigt Binnenkomende Kopballen van het Verzoek ](/help/assets/optimize-at-edge/akamai-step5-request.png)
 
 **6. Binnenkomende antwoordheaders wijzigen**
 
-![&#x200B; wijzigt Inkomende Kopballen van de Reactie &#x200B;](/help/assets/optimize-at-edge/akamai-step6-response.png)
+![ wijzigt Inkomende Kopballen van de Reactie ](/help/assets/optimize-at-edge/akamai-step6-response.png)
 
 **7. Wijziging van cache-id**
 
-![&#x200B; Verandering van identiteitskaart van het Geheime voorgeheugen &#x200B;](/help/assets/optimize-at-edge/akamai-step7-cacheid.png)
+![ Verandering van identiteitskaart van het Geheime voorgeheugen ](/help/assets/optimize-at-edge/akamai-step7-cacheid.png)
 
 **8. Uitgaande verzoekkopballen wijzigen**
 
 `x-forwarded-host` header instellen op `{{builtin.AK_HOST}}`
 
-![&#x200B; wijzigt Uitgaande Kopballen van het Verzoek &#x200B;](/help/assets/optimize-at-edge/akamai-step8-outgoing-request.png)
+![ wijzigt Uitgaande Kopballen van het Verzoek ](/help/assets/optimize-at-edge/akamai-step8-outgoing-request.png)
 
 **9. Site-failover**
 
@@ -91,7 +95,11 @@ De configuratie van Failover van de Plaats heeft twee delen: het failovergedrag 
 
 Binnen de belangrijkste verpletterende regel, vorm het gedrag van Failover van de Plaats en het Geavanceerde fragment van XML als volgt:
 
-![&#x200B; Failover van de Plaats &#x200B;](/help/assets/optimize-at-edge/akamai-step9-failover.png)
+>[!IMPORTANT]
+>
+>Het fragment van XML in deze stap vereist het **Geavanceerde** gedrag. In sommige Akamai-omgevingen is dit gedrag niet beschikbaar voor zelfbediening bewerken. Als u niet de **Geavanceerde** optie ziet, contacteer uw Akamai rekeningsteam of steun Akamai om de vereiste configuratie toe te laten.
+
+![ Failover van de Plaats ](/help/assets/optimize-at-edge/akamai-step9-failover.png)
 
 Voeg de aanvraagkoptekst `x-edgeoptimize-request` toe met de waarde `fo` via Geavanceerde XML:
 
@@ -105,7 +113,7 @@ Voeg de aanvraagkoptekst `x-edgeoptimize-request` toe met de waarde `fo` via Gea
 </forward:availability.fail-action2>
 ```
 
-![&#x200B; Gedrag Failover &#x200B;](/help/assets/optimize-at-edge/akamai-step9-failover-behaviors.png)
+![ Gedrag Failover ](/help/assets/optimize-at-edge/akamai-step9-failover-behaviors.png)
 
 **9b. De regel van de Kopbal van de Test van Failover (sibling regel)**
 
@@ -120,10 +128,12 @@ Voeg de aanvraagkoptekst `x-edgeoptimize-request` toe met de waarde `fo` via Gea
 >```
 >
 >Dit verzekert de de kopbalregel van de failovertest voor **allen** verpletterend regels, niet enkel.
+>
+>Verzeker ook **optimaliseren bij Edge die** regel verplettert niet door een recentere passende regel wordt met voeten getreden die de oorsprong, het in cache plaatsen gedrag, of geheime voorgeheugenidentiteitskaart voor de zelfde verzoeken verandert. Als een andere passende regel dit gedrag terugstelt, optimaliseert bij het verpletteren van Edge of caching van kan niet zoals verwacht werken.
 
 Als de aanvraagheader `x-edgeoptimize-request` -waarde `fo` is, stelt u de uitgaande antwoordheader `x-edgeoptimize-fo` in op `true` .
 
-![&#x200B; Regels Failover &#x200B;](/help/assets/optimize-at-edge/akamai-step9-failover-rules.png)
+![ Regels Failover ](/help/assets/optimize-at-edge/akamai-step9-failover-rules.png)
 
 Site-failover zorgt ervoor dat als bij Edge Optimize een `4XX` - of `5XX` -fout wordt geretourneerd, de aanvraag automatisch wordt teruggestuurd naar de standaardoorsprong, zodat de eindgebruiker nog steeds een antwoord ontvangt.
 
@@ -161,7 +171,7 @@ curl -svo /dev/null https://www.example.com/page.html \
   --header "user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 ```
 
-De reactie zou **&#x200B;**&#x200B;niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
+De reactie zou **** niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
 
 **3. Hoe te tussen de twee scenario&#39;s te onderscheiden**
 
@@ -172,6 +182,6 @@ De reactie zou **&#x200B;**&#x200B;niet `x-edgeoptimize-request-id` kopbal moete
 
 De status van het verkeer dat verplettert kan ook in LLM Optimizer UI worden gecontroleerd. Navigeer aan **Configuratie van de Klant** en selecteer de **CDN Configuratie** tabel.
 
-![&#x200B; AI Verkeer die status met toegelaten verpletteren verplettert &#x200B;](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
+![ AI Verkeer die status met toegelaten verpletteren verplettert ](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
 
 {{return-to-overview}}
