@@ -2,9 +2,9 @@
 title: Optimaliseren bij Edge
 description: Leer hoe u optimalisaties in LLM Optimizer kunt leveren aan de CDN-rand zonder dat er ontwerpwijzigingen nodig zijn.
 feature: Opportunities
-source-git-commit: d0134d1b7f8e1e50c7edf75e427d759389a0d18b
+source-git-commit: 23a4b06e2492d9692d37eb0e52208bdc49328b2a
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2240'
 ht-degree: 0%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 0%
 # Optimaliseren bij Edge
 
 Deze pagina biedt een gedetailleerd overzicht van hoe u optimalisaties aan de CDN-rand kunt leveren zonder dat er ontwerpwijzigingen nodig zijn. Het behandelt het aan boord gaan proces, de beschikbare optimaliseringsmogelijkheden en hoe te om aan rand automatisch te optimaliseren.
-
->[!NOTE]
->
->Deze functionaliteit is momenteel in Vroege Toegang. U kunt meer over de vroege programma&#39;s van de Toegang [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current#aem-beta-programs) leren.
 
 ## Wat is Optimize in Edge?
 
@@ -36,11 +32,21 @@ Optimaliseren in Edge is ontworpen voor zakelijke gebruikers in marketing-, SEO-
 
 ### Welke mogelijkheden worden gesteund met Optimize in Edge?
 
-De kansen die de agentische Webervaring kunnen verbeteren worden gesteund met Optimize in Edge. Leer meer over elke kans zowel in de [&#x200B; pagina van het Dashboard van Kansen &#x200B;](/help/dashboards/opportunities.md) als de opportuniteitssectie in de huidige pagina.
+De kansen die de agentische Webervaring kunnen verbeteren worden gesteund met Optimize in Edge. Leer meer over elke kans zowel in de [ pagina van het Dashboard van Kansen ](/help/dashboards/opportunities.md) als de opportuniteitssectie in de huidige pagina.
 
 ## Onboarding
 
-Neem contact op met uw Adobe-accountteam of het FDE-team om het instapproces te starten. Uw IT- of CDN-team is ook vereist om de voorwaarden en het installatieproces te voltooien. Daarnaast kunt u contact opnemen met `llmo-at-edge@adobe.com` voor verdere assistentie bij het instappen.
+<!--You should reach out to either your Adobe account team or the FDE team to start the onboarding process. Your IT or CDN team is also required to complete the pre-requisites and setup process. Additionally, you can also contact `llmo-at-edge@adobe.com` for further onboarding assistance.-->
+
+Start het instapproces in je LLM Optimizer-account:
+
+1. Op het **dashboard van de Configuratie van de Klant**, selecteer de **CDN Configuratie** tabel.
+1. Klik **aan boord CDN**.
+   ![ CDN het lusje van de Configuratie ](/help/overview/assets/cc-cdn.png)
+1. Voor AEM Fastly-klanten kan Adobe helpen bij het voltooien van het instapproces. Voor klanten die andere leveranciers CDN gebruiken, moet uw team van IT/CDN de vereiste opstelling en eerste vereisten voltooien. U kunt ook naar de CDN-voorbeeldhulplijnen verwijzen die hieronder worden gegeven voor aanvullende instructies.
+
+>[!NOTE]
+>Raadpleeg de stapsgewijze hulplijnen hieronder voor de volledige instapkaartstroom. Voor problemen die niet door de hulplijnen worden opgelost, kunt u uitreiken tot `llmo-at-edge@adobe.com` .
 
 Voorwaarden voor optimalisatie aan boord in Edge:
 
@@ -60,11 +66,11 @@ Om het opstellingsproces te begeleiden, selecteer hieronder uw leverancier CDN e
 
 | CDN-provider | Type | Hulplijn |
 |---|---|---|
-| AEM Cloud Service Managed CDN (snel) | Beheerd door Adobe | [&#x200B; de opstellingsgids van de Mening &#x200B;](/help/dashboards/optimize-at-edge/aemcs-managed-cdn.md) |
-| Snel (BYOCDN) | Uw eigen CDN ophalen | [&#x200B; de opstellingsgids van de Mening &#x200B;](/help/dashboards/optimize-at-edge/fastly-byocdn.md) |
-| Akamai (BYOCDN) | Uw eigen CDN ophalen | [&#x200B; de opstellingsgids van de Mening &#x200B;](/help/dashboards/optimize-at-edge/akamai-byocdn.md) |
-| Cloudflare (BYOCDN) | Uw eigen CDN ophalen | [&#x200B; de opstellingsgids van de Mening &#x200B;](/help/dashboards/optimize-at-edge/cloudflare-byocdn.md) |
-| CloudFront (BYOCDN) | Uw eigen CDN ophalen | [&#x200B; de opstellingsgids van de Mening &#x200B;](/help/dashboards/optimize-at-edge/cloudfront-byocdn.md) |
+| AEM Cloud Service Managed CDN (snel) | Beheerd door Adobe | [ de opstellingsgids van de Mening ](/help/dashboards/optimize-at-edge/aemcs-managed-cdn.md) |
+| Snel (BYOCDN) | Uw eigen CDN ophalen | [ de opstellingsgids van de Mening ](/help/dashboards/optimize-at-edge/fastly-byocdn.md) |
+| Akamai (BYOCDN) | Uw eigen CDN ophalen | [ de opstellingsgids van de Mening ](/help/dashboards/optimize-at-edge/akamai-byocdn.md) |
+| Cloudflare (BYOCDN) | Uw eigen CDN ophalen | [ de opstellingsgids van de Mening ](/help/dashboards/optimize-at-edge/cloudflare-byocdn.md) |
+| CloudFront (BYOCDN) | Uw eigen CDN ophalen | [ de opstellingsgids van de Mening ](/help/dashboards/optimize-at-edge/cloudfront-byocdn.md) |
 
 >[!NOTE]
 >
@@ -85,9 +91,9 @@ Deze tabel vindt u in de volgende tabel met mogelijkheden die de taalkundige web
 
 ### Extra gereedschappen
 
-[&#x200B; Adobe LLM Optimizer: Is uw webpage citabel?](https://chromewebstore.google.com/detail/adobe-llm-optimizer-is-yo/jbjngahjjdgonbeinjlepfamjdmdcbcc) Chrome-extensie laat zien hoeveel van uw webpagina-inhoud LLM&#39;s kunnen openen en wat verborgen blijft. Deze software is ontworpen als een gratis, standalone diagnoseprogramma en vereist geen productlicentie of installatie.
+De ](https://chromewebstore.google.com/detail/ai-content-visibility-che/jbjngahjjdgonbeinjlepfamjdmdcbcc) browser uitbreiding van de Controle van de Zichtbaarheid van de Inhoud van 0} AI { toont hoeveel van uw inhoud LLMs van de webpagina tot toegang kan hebben en wat verborgen blijft. [Deze software is ontworpen als een gratis, standalone diagnoseprogramma en vereist geen productlicentie of installatie.
 
-Met één klik kunt u de gereedschapsleesbaarheid van elke site evalueren. U kunt een vergelijking naast elkaar bekijken van wat AI agenten tegenover zien wat menselijke gebruikers zien, en schatten hoeveel inhoud door LLM Optimizer kon worden teruggekregen. Zie [&#x200B; AI uw website lezen?](https://business.adobe.com/nl/blog/introducing-the-llm-optimizer-chrome-extension) voor meer informatie.
+Met één klik kunt u de gereedschapsleesbaarheid van elke site evalueren. U kunt een vergelijking naast elkaar bekijken van wat AI agenten tegenover zien wat menselijke gebruikers zien, en schatten hoeveel inhoud door LLM Optimizer kon worden teruggekregen. Zie [ AI uw website lezen?](https://business.adobe.com/blog/introducing-the-llm-optimizer-chrome-extension) voor meer informatie.
 
 ## Gedetailleerde mogelijkheden
 
@@ -117,39 +123,43 @@ Deze kans vindt pagina&#39;s met lange, complexe alinea&#39;s die AI-begrip kunn
 
 Voor elke gelegenheid, kunt u voorproef, uitgeven, opstellen, levende bekijken, en de optimalisaties bij de rand terugdraaien.
 
->[!VIDEO](https://video.tv.adobe.com/v/3477990/?captions=dut&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3477983/?learn=on&enablevpops)
 
 ### Voorvertoning
 
 **Voorproef** laat u het effect van een suggestie zien alvorens het live gaat. Er wordt een verschil tussen de huidige pagina en de voor AI geoptimaliseerde versie verwacht na het toepassen van de suggestie. In deze weergave wordt dezelfde functie Optimaliseren bij Edge gebruikt die live verkeer, maar in een geïsoleerde voorvertoningsmodus, mogelijk maakt. Dit beïnvloedt levend verkeer niet aangezien het een read-only simulatie voor overzicht is.
 
-![&#x200B; Voorproef &#x200B;](/help/assets/optimize-at-edge/preview.png)
+![ Voorproef ](/help/assets/optimize-at-edge/preview.png)
 
 ### Bewerken
 
 **geeft** uit staat u toe om de auto-geproduceerde suggestie te verfijnen of geheel te herschrijven alvorens het op te stellen. In plaats van de suggestie te accepteren, kunt u de volledige controle behouden via de bewerkingsworkflow. In de weergave worden voorgestelde wijzigingen weergegeven in een gestructureerde editor, waar u de tekst kunt wijzigen zodat deze beter aansluit bij uw oorspronkelijke intentie. De bewerkte versie wordt vervolgens aan AI-agents geleverd zodra deze zijn geïmplementeerd.
 
-![&#x200B; geeft &#x200B;](/help/assets/optimize-at-edge/edit.png) uit
+![ geeft ](/help/assets/optimize-at-edge/edit.png) uit
 
 ### Implementeren
 
 **stelt** op publiceert de geselecteerde suggesties zodat kunnen de geoptimaliseerde ervaringen van de rand aan AI agenten worden gediend. Als CDN volledig wordt verpletterd, gaan alle pagina&#39;s in het domein gewoonlijk met de nieuwe veranderingen binnen notulen. Als het verpletteren voor uitgezochte wegen slechts is gevormd, slechts gaan de gevoegde op lijst van gewenste personen pagina&#39;s met de optimalisaties.
 
-![&#x200B; opstellen &#x200B;](/help/assets/optimize-at-edge/deploy.png)
+![ opstellen ](/help/assets/optimize-at-edge/deploy.png)
 
 ### Live weergeven
 
 **Levende Mening** laat u verifiëren dat de optimalisering levend is en zich zoals verwacht voor agentisch verkeer gedraagt, een mening die anders moeilijk zou zijn om toegang te hebben. U kunt de actieve pagina weergeven onder Vaste suggesties, waardoor de pagina wordt weergegeven zoals deze wordt weergegeven bij AI-agents.
 
-![&#x200B; Levende Mening &#x200B;](/help/assets/optimize-at-edge/view-live.png)
+![ Levende Mening ](/help/assets/optimize-at-edge/view-live.png)
 
 ### Terugdraaien
 
 Met Terugdraaien wordt een eerder geïmplementeerde optimalisatie veilig hersteld. De alleen-AI versie van de pagina wordt doorgaans binnen enkele minuten teruggezet naar de vorige staat, zodat u indien nodig veilig met optimalisaties kunt experimenteren.
 
-![&#x200B; Terugkeer &#x200B;](/help/assets/optimize-at-edge/rollback.png)
+![ Terugkeer ](/help/assets/optimize-at-edge/rollback.png)
 
 ## Veelgestelde vragen
+
+V: Kunnen klanten proberen om te optimaliseren bij Edge?
+
+Ja, klanten met een proefversie kunnen toegang krijgen tot één optimalisatiemogelijkheid en deze voor maximaal 10 pagina&#39;s implementeren. Standaard is de mogelijkheid Zichtbaarheid van inhoud herstellen, waardoor AI-agents toegang hebben tot de volledige versie van de pagina-inhoud.
 
 V. Welk soort LLMs richt u met Optimize bij Edge?
 
