@@ -32,7 +32,7 @@ Optimaliseren in Edge is ontworpen voor zakelijke gebruikers in marketing-, SEO-
 
 ### Welke mogelijkheden worden gesteund met Optimize in Edge?
 
-De kansen die de agentische Webervaring kunnen verbeteren worden gesteund met Optimize in Edge. Leer meer over elke kans zowel in de [ pagina van het Dashboard van Kansen ](/help/dashboards/opportunities.md) als de opportuniteitssectie in de huidige pagina.
+De kansen die de agentische Webervaring kunnen verbeteren worden gesteund met Optimize in Edge. Leer meer over elke kans zowel in de [&#x200B; pagina van het Dashboard van Kansen &#x200B;](/help/dashboards/opportunities.md) als de opportuniteitssectie in de huidige pagina.
 
 ## Onboarding
 
@@ -42,7 +42,7 @@ Start het instapproces in je LLM Optimizer-account:
 
 1. Op het **dashboard van de Configuratie van de Klant**, selecteer de **CDN Configuratie** tabel.
 1. Klik **aan boord CDN**.
-   ![ CDN het lusje van de Configuratie ](/help/overview/assets/cc-cdn.png)
+   ![&#x200B; CDN het lusje van de Configuratie &#x200B;](/help/overview/assets/cc-cdn.png)
 1. Voor AEM Fastly-klanten kan Adobe helpen bij het voltooien van het instapproces. Voor klanten die andere leveranciers CDN gebruiken, moet uw team van IT/CDN de vereiste opstelling en eerste vereisten voltooien. U kunt ook naar de CDN-voorbeeldhulplijnen verwijzen die hieronder worden gegeven voor aanvullende instructies.
 
 >[!NOTE]
@@ -66,11 +66,11 @@ Om het opstellingsproces te begeleiden, selecteer hieronder uw leverancier CDN e
 
 | CDN-provider | Type | Hulplijn |
 |---|---|---|
-| AEM Cloud Service Managed CDN (snel) | Beheerd door Adobe | [ de opstellingsgids van de Mening ](/help/dashboards/optimize-at-edge/aemcs-managed-cdn.md) |
-| Snel (BYOCDN) | Uw eigen CDN ophalen | [ de opstellingsgids van de Mening ](/help/dashboards/optimize-at-edge/fastly-byocdn.md) |
-| Akamai (BYOCDN) | Uw eigen CDN ophalen | [ de opstellingsgids van de Mening ](/help/dashboards/optimize-at-edge/akamai-byocdn.md) |
-| Cloudflare (BYOCDN) | Uw eigen CDN ophalen | [ de opstellingsgids van de Mening ](/help/dashboards/optimize-at-edge/cloudflare-byocdn.md) |
-| CloudFront (BYOCDN) | Uw eigen CDN ophalen | [ de opstellingsgids van de Mening ](/help/dashboards/optimize-at-edge/cloudfront-byocdn.md) |
+| AEM Cloud Service Managed CDN (snel) | Beheerd door Adobe | [&#x200B; de opstellingsgids van de Mening &#x200B;](/help/dashboards/optimize-at-edge/aemcs-managed-cdn.md) |
+| Snel (BYOCDN) | Uw eigen CDN ophalen | [&#x200B; de opstellingsgids van de Mening &#x200B;](/help/dashboards/optimize-at-edge/fastly-byocdn.md) |
+| Akamai (BYOCDN) | Uw eigen CDN ophalen | [&#x200B; de opstellingsgids van de Mening &#x200B;](/help/dashboards/optimize-at-edge/akamai-byocdn.md) |
+| Cloudflare (BYOCDN) | Uw eigen CDN ophalen | [&#x200B; de opstellingsgids van de Mening &#x200B;](/help/dashboards/optimize-at-edge/cloudflare-byocdn.md) |
+| CloudFront (BYOCDN) | Uw eigen CDN ophalen | [&#x200B; de opstellingsgids van de Mening &#x200B;](/help/dashboards/optimize-at-edge/cloudfront-byocdn.md) |
 
 >[!NOTE]
 >
@@ -91,9 +91,9 @@ Deze tabel vindt u in de volgende tabel met mogelijkheden die de taalkundige web
 
 ### Extra gereedschappen
 
-De ](https://chromewebstore.google.com/detail/ai-content-visibility-che/jbjngahjjdgonbeinjlepfamjdmdcbcc) browser uitbreiding van de Controle van de Zichtbaarheid van de Inhoud van 0} AI { toont hoeveel van uw inhoud LLMs van de webpagina tot toegang kan hebben en wat verborgen blijft. [Deze software is ontworpen als een gratis, standalone diagnoseprogramma en vereist geen productlicentie of installatie.
+De [&#128279;](https://chromewebstore.google.com/detail/ai-content-visibility-che/jbjngahjjdgonbeinjlepfamjdmdcbcc) browser uitbreiding van de Controle van de Zichtbaarheid van de Inhoud van 0&rbrace; AI &lbrace; toont hoeveel van uw inhoud LLMs van de webpagina tot toegang kan hebben en wat verborgen blijft. Deze software is ontworpen als een gratis, standalone diagnoseprogramma en vereist geen productlicentie of installatie.
 
-Met één klik kunt u de gereedschapsleesbaarheid van elke site evalueren. U kunt een vergelijking naast elkaar bekijken van wat AI agenten tegenover zien wat menselijke gebruikers zien, en schatten hoeveel inhoud door LLM Optimizer kon worden teruggekregen. Zie [ AI uw website lezen?](https://business.adobe.com/blog/introducing-the-llm-optimizer-chrome-extension) voor meer informatie.
+Met één klik kunt u de gereedschapsleesbaarheid van elke site evalueren. U kunt een vergelijking naast elkaar bekijken van wat AI agenten tegenover zien wat menselijke gebruikers zien, en schatten hoeveel inhoud door LLM Optimizer kon worden teruggekregen. Zie [&#x200B; AI uw website lezen?](https://business.adobe.com/blog/introducing-the-llm-optimizer-chrome-extension) voor meer informatie.
 
 ## Gedetailleerde mogelijkheden
 
@@ -129,31 +129,31 @@ Voor elke gelegenheid, kunt u voorproef, uitgeven, opstellen, levende bekijken, 
 
 **Voorproef** laat u het effect van een suggestie zien alvorens het live gaat. Er wordt een verschil tussen de huidige pagina en de voor AI geoptimaliseerde versie verwacht na het toepassen van de suggestie. In deze weergave wordt dezelfde functie Optimaliseren bij Edge gebruikt die live verkeer, maar in een geïsoleerde voorvertoningsmodus, mogelijk maakt. Dit beïnvloedt levend verkeer niet aangezien het een read-only simulatie voor overzicht is.
 
-![ Voorproef ](/help/assets/optimize-at-edge/preview.png)
+![&#x200B; Voorproef &#x200B;](/help/assets/optimize-at-edge/preview.png)
 
 ### Bewerken
 
 **geeft** uit staat u toe om de auto-geproduceerde suggestie te verfijnen of geheel te herschrijven alvorens het op te stellen. In plaats van de suggestie te accepteren, kunt u de volledige controle behouden via de bewerkingsworkflow. In de weergave worden voorgestelde wijzigingen weergegeven in een gestructureerde editor, waar u de tekst kunt wijzigen zodat deze beter aansluit bij uw oorspronkelijke intentie. De bewerkte versie wordt vervolgens aan AI-agents geleverd zodra deze zijn geïmplementeerd.
 
-![ geeft ](/help/assets/optimize-at-edge/edit.png) uit
+![&#x200B; geeft &#x200B;](/help/assets/optimize-at-edge/edit.png) uit
 
 ### Implementeren
 
 **stelt** op publiceert de geselecteerde suggesties zodat kunnen de geoptimaliseerde ervaringen van de rand aan AI agenten worden gediend. Als CDN volledig wordt verpletterd, gaan alle pagina&#39;s in het domein gewoonlijk met de nieuwe veranderingen binnen notulen. Als het verpletteren voor uitgezochte wegen slechts is gevormd, slechts gaan de gevoegde op lijst van gewenste personen pagina&#39;s met de optimalisaties.
 
-![ opstellen ](/help/assets/optimize-at-edge/deploy.png)
+![&#x200B; opstellen &#x200B;](/help/assets/optimize-at-edge/deploy.png)
 
 ### Live weergeven
 
 **Levende Mening** laat u verifiëren dat de optimalisering levend is en zich zoals verwacht voor agentisch verkeer gedraagt, een mening die anders moeilijk zou zijn om toegang te hebben. U kunt de actieve pagina weergeven onder Vaste suggesties, waardoor de pagina wordt weergegeven zoals deze wordt weergegeven bij AI-agents.
 
-![ Levende Mening ](/help/assets/optimize-at-edge/view-live.png)
+![&#x200B; Levende Mening &#x200B;](/help/assets/optimize-at-edge/view-live.png)
 
 ### Terugdraaien
 
 Met Terugdraaien wordt een eerder geïmplementeerde optimalisatie veilig hersteld. De alleen-AI versie van de pagina wordt doorgaans binnen enkele minuten teruggezet naar de vorige staat, zodat u indien nodig veilig met optimalisaties kunt experimenteren.
 
-![ Terugkeer ](/help/assets/optimize-at-edge/rollback.png)
+![&#x200B; Terugkeer &#x200B;](/help/assets/optimize-at-edge/rollback.png)
 
 ## Veelgestelde vragen
 
