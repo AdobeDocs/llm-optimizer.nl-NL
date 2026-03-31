@@ -41,7 +41,7 @@ De activeringsstroom is afhankelijk van uw Adobe-product.
 
 Als AEM Cloud-klant kunt u uw proefversie activeren door:
 
-* Navigeer aan [&#x200B; Experience Hub &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/experience-hub/experience-hub) en gebruik de kaart van de Aankondiging van het Product om LLM Optimizer te activeren. Nadat u **probeert LLM Optimizer** selecteert, wordt u opnieuw gericht aan [&#x200B; https://llmo.now &#x200B;](https://llmo.now). Meld u aan via IMS en voer vervolgens een domein- en merknaam in om het instapproces te starten.
+* Navigeer aan [&#x200B; Experience Hub &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/experience-hub/experience-hub) en gebruik de kaart van de Aankondiging van het Product om LLM Optimizer te activeren. Nadat u **probeert LLM Optimizer** selecteert, wordt u opnieuw gericht aan [&#x200B; https://llmo.now &#x200B;](https://llmo.now). Meld u aan via IMS en voer vervolgens een domein- en merknaam in om het instapproces te starten.
 * Of ga direct naar [&#x200B; https://llmo.now &#x200B;](https://llmo.now) en teken binnen.
 
 ![&#x200B; Proefversie van LLM Optimizer &#x200B;](/help/overview/assets/llm-trial.png)
@@ -89,7 +89,7 @@ Aan boord van uw merknaam en domein om LLM Optimizer te gaan gebruiken.
 
 Tijdens de instapkaartfase wordt een kleine set categorieën, onderwerpen en aanwijzingen gegenereerd. De analyse van de Aanwezigheid van het merk op die herinneringen zal beschikbaar zijn kort nadat uw plaats is ingezien.
 
-De mogelijkheid om optimalisaties aan de rand te implementeren is ook beschikbaar. Leer meer in [&#x200B; optimaliseren bij Edge — Veelgestelde vragen &#x200B;](https://experienceleague.adobe.com/en/docs/llm-optimizer/using/resources/optimize-at-edge/overview#frequently-asked-questions).
+De mogelijkheid om optimalisaties aan de rand te implementeren is ook beschikbaar. Leer meer in [&#x200B; optimaliseren bij Edge — Veelgestelde vragen &#x200B;](https://experienceleague.adobe.com/nl/docs/llm-optimizer/using/resources/optimize-at-edge/overview#frequently-asked-questions).
 
 Bovendien, vorm [&#x200B; het logboek CDN door:sturen &#x200B;](#step-4) voor verkeersanalyse. LLM Optimizer vereist Brand Presence-gegevens en inzichten van het agentische en verwijzingsverkeer om mogelijkheden te identificeren en aanbevelingen te doen die AI-zichtbaarheid bevorderen.
 
