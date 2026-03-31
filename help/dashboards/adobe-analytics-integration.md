@@ -86,7 +86,7 @@ Tijdens de installatie definieert u welke rapportsuite en pagina-dimensie LLM Op
 
 ### Hoe het verkeer LLM wordt geïdentificeerd
 
-Het op LLM-Gebaseerde verkeer wordt geïdentificeerd door het type van Referteur van Adobe Analytics [&#x200B; te gebruiken - de Conversationele hulpmiddelen van AI &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/referrer-type#conversational-ai-tools).
+Het op LLM-Gebaseerde verkeer wordt geïdentificeerd door het type van Referteur van Adobe Analytics [&#x200B; te gebruiken - de Conversationele hulpmiddelen van AI &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/components/dimensions/referrer-type#conversational-ai-tools).
 
 ### Gegevens ingevoerd {#data-ingested}
 
