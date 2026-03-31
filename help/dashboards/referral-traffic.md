@@ -15,9 +15,9 @@ ht-degree: 0%
 Het Verkeer van de verwijzing toont hoe de bezoekers bij uw plaats van externe platforms, AI citaties, en verwijzingsverbindingen aankomen. Het volgt en analyseert verkeersbronnen, verwijzingspatronen, en omzettingsmetriek van externe websites en platforms. Dit zal u helpen begrijpen welke bronnen, gebieden, en pagina&#39;s het meest betrokken verkeer drijven. <!--Data is sourced from the CDN logs, a privacy-preserving source that does not capture personal user data.--> Er zijn ook aanpasbare filters waarmee u de weergegeven gegevens kunt verfijnen.
 
 >[!NOTE]
->Door gebrek, bouwt dit dashboard verkeersinzichten van **CDN logboeken**. Als uw organisatie op een betaalde aanbieding is, kunt u **Adobe Analytics** verbinden om gegevens toe te voegen die AI-gedreven ontdekking en plaatsovereenkomst meten. Dit gegeven is beschikbaar in het **BedrijfsEffect** lusje. Zonder integratie met Adobe Analytics is de tab niet gevuld. Zie [ de Integratie van Adobe Analytics ](/help/dashboards/adobe-analytics-integration.md) voor meer details.
+>Door gebrek, bouwt dit dashboard verkeersinzichten van **CDN logboeken**. Als uw organisatie op een betaalde aanbieding is, kunt u **Adobe Analytics** verbinden om gegevens toe te voegen die AI-gedreven ontdekking en plaatsovereenkomst meten. Dit gegeven is beschikbaar in het **BedrijfsEffect** lusje. Zonder integratie met Adobe Analytics is de tab niet gevuld. Zie [&#x200B; de Integratie van Adobe Analytics &#x200B;](/help/dashboards/adobe-analytics-integration.md) voor meer details.
 
-![ Verwijzing Pagina ](/help/dashboards/assets/referral-traffic.png)
+![&#x200B; Verwijzing Pagina &#x200B;](/help/dashboards/assets/referral-traffic.png)
 
 Op deze pagina vindt u het volgende:
 
@@ -29,9 +29,9 @@ Op deze pagina vindt u het volgende:
 
 ## Instellen {#setup}
 
-Bij de eerste aanmelding kan het dashboard Referral-verkeer leeg worden weergegeven. Om uw gegevens te bekijken, moet u [ CDN logboek vormen door:sturen ](/help/dashboards/customer-configuration.md#cdn-configuration), door te selecteren **ga naar Configuratie**.
+Bij de eerste aanmelding kan het dashboard Referral-verkeer leeg worden weergegeven. Om uw gegevens te bekijken, moet u [&#x200B; CDN logboek vormen door:sturen &#x200B;](/help/dashboards/customer-configuration.md#cdn-configuration), door te selecteren **ga naar Configuratie**.
 
-![ Opstelling van de Verwijzing ](/help/dashboards/assets/referral-setup1.png)
+![&#x200B; Opstelling van de Verwijzing &#x200B;](/help/dashboards/assets/referral-setup1.png)
 
 <!--
 1. Select your Source (either CDN logs or AEM Operational Telemetry).
@@ -63,7 +63,7 @@ Het dashboard benadrukt de algemene verwijzingsprestaties door zeer belangrijke 
 * **Constante tarief** - het percentage bezoekers die een toestemmingsherinnering goedkeuren.
 * **Stuitpercentage** - het percentage zittingen van verwijzingsbronnen die geen betrokkenheidsgebeurtenis hadden.
 
-![ Verwijzing Pagina ](/help/dashboards/assets/referral-traffic.png)
+![&#x200B; Verwijzing Pagina &#x200B;](/help/dashboards/assets/referral-traffic.png)
 
 Naast de algemene prestatiemetriek die hierboven wordt voorgesteld, zijn er drie extra panelen die de verkeersdistributie over verschillende markten, verwijzingsbronnen en de categorieën van de paginaintentie tonen <!-- the **Top Regions** panel breaks down traffic by geography. Meanwhile, the **Top Referral Sources** panel shows the platforms driving the most visits. Trend indicators for the metrics show how these values are changing over time compared to the previous period.-->
 
@@ -79,7 +79,7 @@ The Top Referral URLs list surfaces your site's most visited pages from referral
 
 De de gegevensdetails van de Bron van de Verwijzing en lijsten van de Analyse van de Prestaties URL helpen u zowel verkeersvolume als kwaliteit evalueren. Klik op elk tabblad hieronder voor meer informatie:
 
-![ Details van het Verkeer van de Verwijzing ](/help/dashboards/assets/traffic-details.png)
+![&#x200B; Details van het Verkeer van de Verwijzing &#x200B;](/help/dashboards/assets/traffic-details.png)
 
 >[!BEGINTABS]
 

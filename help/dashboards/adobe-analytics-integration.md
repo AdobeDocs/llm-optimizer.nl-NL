@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Adobe Analytics-integratie
 
-De Adobe Analytics-integratie maakt verbinding met LLM Optimizer met de Adobe Analytics-gegevens van uw organisatie, zodat u kunt meten hoe de door AI aangestuurde detectie zich vertaalt in echte betrokkenheid van websites en zakelijke resultaten. Nadat het integratieproces volledig is, zullen de gegevens in het **dashboard 1} van het Verkeer van 0} Referral onder het** BedrijfsEffect **tabel beschikbaar zijn.**
+De Adobe Analytics-integratie maakt verbinding met LLM Optimizer met de Adobe Analytics-gegevens van uw organisatie, zodat u kunt meten hoe de door AI aangestuurde detectie zich vertaalt in echte betrokkenheid van websites en zakelijke resultaten. Nadat het integratieproces volledig is, zullen de gegevens in het **dashboard 1&rbrace; van het Verkeer van 0&rbrace; Referral onder het** BedrijfsEffect **tabel beschikbaar zijn.**
 
 Door analysegegevens te koppelen aan AI-zichtbaarheidsinzichten, helpt LLM Optimizer u bij het bijhouden van:
 
@@ -30,44 +30,44 @@ Deze integratie overbrugt de kloof tussen de zichtbaarheid van AI en de analyse 
 
 ## Adobe Analytics verbinden met het verwijzingsverkeer dashboard {#connect}
 
-De verbindingsstroom begint van het [ dashboard van het Verkeer van de Verwijzing ](/help/dashboards/referral-traffic.md) als volgt:
+De verbindingsstroom begint van het [&#x200B; dashboard van het Verkeer van de Verwijzing &#x200B;](/help/dashboards/referral-traffic.md) als volgt:
 
-1. Open het ](/help/dashboards/referral-traffic.md) dashboard van het Verkeer 0} Referral. [De standaardmening is **Inzichten van het Verkeer**.
+1. Open het [&#128279;](/help/dashboards/referral-traffic.md) dashboard van het Verkeer 0&rbrace; Referral. De standaardmening is **Inzichten van het Verkeer**.
 
-   ![ het dashboard van het Verkeer van verwijzingen, het lusje van de Inzichten van het Verkeer ](/help/dashboards/assets/aa-integration-01-referral-traffic-traffic-insights.png)
+   ![&#x200B; het dashboard van het Verkeer van verwijzingen, het lusje van de Inzichten van het Verkeer &#x200B;](/help/dashboards/assets/aa-integration-01-referral-traffic-traffic-insights.png)
 
 1. Selecteer het **BedrijfsEffect** lusje. Als geen analyseleverancier wordt aangesloten, verschijnt een banner: **verbindt om BedrijfsEffect** te zien, met **verbindt met Analytics**.
 
-   ![ BedrijfsEffect lusje met verbindt met Analytics ](/help/dashboards/assets/aa-integration-02-business-impact-connect.png)
+   ![&#x200B; BedrijfsEffect lusje met verbindt met Analytics &#x200B;](/help/dashboards/assets/aa-integration-02-business-impact-connect.png)
 
-1. Selecteer **verbind met Analytics**. Dit opent het ](/help/dashboards/customer-configuration.md) dashboard van de Configuratie van de Klant 0} {op **Analytics** tabel.[
+1. Selecteer **verbind met Analytics**. Dit opent het [&#128279;](/help/dashboards/customer-configuration.md) dashboard van de Configuratie van de Klant 0&rbrace; &lbrace;op **Analytics** tabel.
 
-   ![ Configuratie van de Klant, het lusje van Analytics ](/help/dashboards/assets/aa-integration-03-analytics-tab.png)
+   ![&#x200B; Configuratie van de Klant, het lusje van Analytics &#x200B;](/help/dashboards/assets/aa-integration-03-analytics-tab.png)
 
 1. Onder **Geloofsbrieven**, ga **identiteitskaart van de Cliënt** en **Geheime Cliënt** in, dan uitgezocht **verifieer &amp; ga** verder. Houd rekening met het volgende:
 
    * **verifieer &amp; ga** is beschikbaar slechts wanneer beide gebieden worden gevuld.
    * Na een geslaagde verificatie worden de rapportsuites geladen.
-   * Gebruik **identiteitskaart van de Cliënt** en **Geheime Cliënt** van a [ technische rekening ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/) die toegang tot de rapportreeks heeft u wenst.
+   * Gebruik **identiteitskaart van de Cliënt** en **Geheime Cliënt** van a [&#x200B; technische rekening &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/) die toegang tot de rapportreeks heeft u wenst.
 
-   ![ de geloofsbrieven van Analytics en verifiëren &amp; verdergaan ](/help/dashboards/assets/aa-integration-04-credentials.png)
+   ![&#x200B; de geloofsbrieven van Analytics en verifiëren &amp; verdergaan &#x200B;](/help/dashboards/assets/aa-integration-04-credentials.png)
 
 1. Onder **Configuratie**, kies de Reeks van het a **Rapport**.
 
    Wanneer een rapportreeks wordt geselecteerd, laadt LLM Optimizer de **pagina URL Dimension** opties beschikbaar voor die reeks.
 
-   ![ geselecteerde de reeks van het Rapport en dimensies ladend ](/help/dashboards/assets/aa-integration-05-report-suite.png)
+   ![&#x200B; geselecteerde de reeks van het Rapport en dimensies ladend &#x200B;](/help/dashboards/assets/aa-integration-05-report-suite.png)
 
 1. Kies Dimension van de a **Pagina URL** (reeks-specifieke afmetingenlijst), dan uitgezocht **sparen &amp; laat** toe.
 
    * **Pagina URL Dimension** blijft gehandicapt tot een rapportreeks wordt geselecteerd en de afmetingen hebben geladen.
    * **sparen &amp; laat toe** is beschikbaar slechts nadat u een paginaURL afmeting selecteert.
 
-   ![ de dimensie van URL van de Pagina en sparen &amp; laat ](/help/dashboards/assets/aa-integration-06-page-url-dimension.png) toe
+   ![&#x200B; de dimensie van URL van de Pagina en sparen &amp; laat &#x200B;](/help/dashboards/assets/aa-integration-06-page-url-dimension.png) toe
 
 1. Na het bewaren, zou de configuratie de **Verbonden** status moeten tonen. U kunt op het dashboard van het Verkeer van de Verwijzing met **terugkeren naar het Dashboard van het Verkeer van de Verwijzing**. In **Verkeer van de Verwijzing** op het **BedrijfsEffect** lusje, zou de status als **moeten verschijnen verbonden met Adobe Analytics**.
 
-   ![ verbonden met Adobe Analytics in configuratie en BedrijfsEffect ](/help/dashboards/assets/aa-integration-07-connected.png)
+   ![&#x200B; verbonden met Adobe Analytics in configuratie en BedrijfsEffect &#x200B;](/help/dashboards/assets/aa-integration-07-connected.png)
 
 ### Nadat u verbinding hebt gemaakt {#after-connect}
 
@@ -86,7 +86,7 @@ Tijdens de installatie definieert u welke rapportsuite en pagina-dimensie LLM Op
 
 ### Hoe het verkeer LLM wordt geïdentificeerd
 
-Het op LLM-Gebaseerde verkeer wordt geïdentificeerd door het type van Referteur van Adobe Analytics [ te gebruiken - de Conversationele hulpmiddelen van AI ](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/referrer-type#conversational-ai-tools).
+Het op LLM-Gebaseerde verkeer wordt geïdentificeerd door het type van Referteur van Adobe Analytics [&#x200B; te gebruiken - de Conversationele hulpmiddelen van AI &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/referrer-type#conversational-ai-tools).
 
 ### Gegevens ingevoerd {#data-ingested}
 
@@ -136,7 +136,7 @@ Nee. De integratie is alleen beschikbaar voor klanten van LLM Optimizer die abon
 
 V: Welke gegevens worden verzameld of opgeslagen?
 
-Zie [ Gegevens ingebed ](#data-ingested) hierboven hoofdstuk. LLM Optimizer werkt met geaggregeerde meetgegevens van de Adobe Analytics API&#39;s die door uw organisatie zijn geautoriseerd, en niet met de onbewerkte gegevens op raakniveau.
+Zie [&#x200B; Gegevens ingebed &#x200B;](#data-ingested) hierboven hoofdstuk. LLM Optimizer werkt met geaggregeerde meetgegevens van de Adobe Analytics API&#39;s die door uw organisatie zijn geautoriseerd, en niet met de onbewerkte gegevens op raakniveau.
 
 V: Hoe worden gegevens opgenomen?
 
@@ -168,4 +168,4 @@ Gegevens worden momenteel gecodeerd in doorvoer en niet in rust. Dit kan in toek
 
 V: Zijn historische gegevens teruggezet?
 
-Ja. Na een geslaagde installatie worden de laatste vier volledige kalenderweken en de huidige kalenderweek teruggezet. Zie ook [ nadat u ](#after-connect) verbindt.
+Ja. Na een geslaagde installatie worden de laatste vier volledige kalenderweken en de huidige kalenderweek teruggezet. Zie ook [&#x200B; nadat u &#x200B;](#after-connect) verbindt.
