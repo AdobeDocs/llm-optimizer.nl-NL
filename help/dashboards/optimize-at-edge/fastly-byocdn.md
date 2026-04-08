@@ -32,9 +32,9 @@ Voordat u de Fastly VCL-regels instelt, moet u controleren of u:
 
 Voeg de volgende drie fragmenten VCL aan uw Snelle dienst toe. Deze fragmenten behandelen het verpletteren van agentische verzoeken aan Edge Optimize, geheim voorgeheugenzeer belangrijke scheiding, en failover aan uw standaardoorsprong.
 
-![ VCL van de Fastly ](/help/assets/optimize-at-edge/fastly-vcl.png)
+![&#x200B; VCL van de Fastly &#x200B;](/help/assets/optimize-at-edge/fastly-vcl.png)
 
-![ voeg VCL fragmenten ](/help/assets/optimize-at-edge/add-vcl-snippets.png) toe
+![&#x200B; voeg VCL fragmenten &#x200B;](/help/assets/optimize-at-edge/add-vcl-snippets.png) toe
 
 **vcl_recv fragment**
 
@@ -115,7 +115,7 @@ curl -svo /dev/null https://www.example.com/page.html \
   --header "user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 ```
 
-De reactie zou **** niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
+De reactie zou **&#x200B;**&#x200B;niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
 
 **3. Hoe te tussen de twee scenario&#39;s te onderscheiden**
 

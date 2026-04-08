@@ -20,25 +20,25 @@ Ga als volgt te werk om het routeren van hoekig verkeer naar Edge Optimize:
 
 1. In LLM Optimizer, open **configuratie van de Klant** en selecteer de **CDN configuratie** tabel.
 
-   ![ ga aan de Configuratie van de Klant ](/help/assets/optimize-at-edge/prereq-customer-config-nav.png)
+   ![&#x200B; ga aan de Configuratie van de Klant &#x200B;](/help/assets/optimize-at-edge/prereq-customer-config-nav.png)
 
 2. Bepaal de plaats van **optimalisaties aan AI agenten** sectie. Tik **toelaten optimaliseringsmotor** checkbox.
 
-   ![ stelt optimalisaties aan AI agenten op — hangende ](/help/assets/optimize-at-edge/byocdn-deploy-optimizations-pending.png)
+   ![&#x200B; stelt optimalisaties aan AI agenten op — hangende &#x200B;](/help/assets/optimize-at-edge/byocdn-deploy-optimizations-pending.png)
 
-3. In de bevestigingsdialoog, laat de uitgezochte **** toe. Het team van Adobe zal de verpletterende configuratie namens u behandelen.
+3. In de bevestigingsdialoog, laat de uitgezochte **&#x200B;**&#x200B;toe. Het team van Adobe zal de verpletterende configuratie namens u behandelen.
 
-   ![ laat de bevestigingsdialoog van de optimaliseringsmotor ](/help/assets/optimize-at-edge/byocdn-enable-optimization-engine-dialog.png) toe
+   ![&#x200B; laat de bevestigingsdialoog van de optimaliseringsmotor &#x200B;](/help/assets/optimize-at-edge/byocdn-enable-optimization-engine-dialog.png) toe
 
    Zodra het verpletteren wordt gevormd en actief, de statusupdates aan **Voltooid** met een groen controleteken bevestigend dat het verpletteren wordt toegelaten. U hoeft geen verdere actie te ondernemen.
 
-   ![ stelt optimalisaties aan AI agenten op — voltooide ](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
+   ![&#x200B; stelt optimalisaties aan AI agenten op — voltooide &#x200B;](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
 
 Als u bovendien hulp nodig hebt bij de bovenstaande stappen, neemt u contact op met uw Adobe-accountteam of `llmo-at-edge@adobe.com` .
 
 **Zelfbediening verpletterend via de Pijpleiding van Cloud Manager**
 
-Als u verkiest om het verpletteren door de Pijpleiding van Cloud Manager te vormen, volg de hieronder stappen. De verpletterende configuratie wordt gedaan door een [ originSelector CDN regel ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#origin-selectors) te gebruiken. De voorwaarden zijn als volgt:
+Als u verkiest om het verpletteren door de Pijpleiding van Cloud Manager te vormen, volg de hieronder stappen. De verpletterende configuratie wordt gedaan door een [&#x200B; originSelector CDN regel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#origin-selectors) te gebruiken. De voorwaarden zijn als volgt:
 
 * Bepaal het domein dat moet worden verpletterd.
 * Bepaal de paden die u wilt routeren.
@@ -46,7 +46,7 @@ Als u verkiest om het verpletteren door de Pijpleiding van Cloud Manager te vorm
 
 Om de regel op te stellen, moet u:
 
-* Creeer de pijpleiding van de a [ configuratie ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/config-pipeline).
+* Creeer de pijpleiding van de a [&#x200B; configuratie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/config-pipeline).
 * Leg het configuratiebestand van `cdn.yaml` vast in uw opslagplaats.
 * Voer de configuratiepijplijn uit.
 
@@ -108,7 +108,7 @@ curl -svo /dev/null https://www.example.com/page.html \
   --header "user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 ```
 
-De reactie zou **** niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
+De reactie zou **&#x200B;**&#x200B;niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
 
 **3. Hoe te tussen de twee scenario&#39;s te onderscheiden**
 
@@ -121,6 +121,6 @@ De reactie zou **** niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De 
 
 U kunt het verpletteren in LLM Optimizer UI ook bevestigen. Open **configuratie van de Klant** en selecteer de **CDN configuratie** tabel. Wanneer het verpletteren actief is, stelt **optimalisaties aan AI agenten** sectie toont **Voltooid** op.
 
-![ stelt optimalisaties aan AI agenten op — voltooide ](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
+![&#x200B; stelt optimalisaties aan AI agenten op — voltooide &#x200B;](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
 
 {{return-to-overview}}

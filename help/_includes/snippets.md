@@ -13,19 +13,19 @@ ht-degree: 0%
 
 1. In LLM Optimizer, open **configuratie van de Klant** en selecteer de **CDN configuratie** tabel.
 
-   ![ ga aan de Configuratie van de Klant ](/help/assets/optimize-at-edge/prereq-customer-config-nav.png)
+   ![&#x200B; ga aan de Configuratie van de Klant &#x200B;](/help/assets/optimize-at-edge/prereq-customer-config-nav.png)
 
 2. Bepaal de plaats van **optimalisaties aan AI agenten** sectie. Tik **toelaten optimaliseringsmotor** checkbox.
 
-   ![ stelt optimalisaties aan AI agenten op — hangende ](/help/assets/optimize-at-edge/byocdn-deploy-optimizations-pending.png)
+   ![&#x200B; stelt optimalisaties aan AI agenten op — hangende &#x200B;](/help/assets/optimize-at-edge/byocdn-deploy-optimizations-pending.png)
 
-3. In de bevestigingsdialoog, laat de uitgezochte **** toe.
+3. In de bevestigingsdialoog, laat de uitgezochte **&#x200B;**&#x200B;toe.
 
-   ![ laat de bevestigingsdialoog van de optimaliseringsmotor ](/help/assets/optimize-at-edge/byocdn-enable-optimization-engine-dialog.png) toe
+   ![&#x200B; laat de bevestigingsdialoog van de optimaliseringsmotor &#x200B;](/help/assets/optimize-at-edge/byocdn-enable-optimization-engine-dialog.png) toe
 
 4. Selecteer **details van de Mening**. In **stel optimaliseringsdetails** dialoog op, kopieer de **productie API sleutel** (gebruik **Exemplaar** naast het gebied).
 
-   ![ de sleutel van productie API in stelt optimalisatiedetails ](/help/assets/optimize-at-edge/byocdn-production-api-key-details.png) op
+   ![&#x200B; de sleutel van productie API in stelt optimalisatiedetails &#x200B;](/help/assets/optimize-at-edge/byocdn-production-api-key-details.png) op
 
    >[!NOTE]
    >Uit het dialoogvenster kan blijken dat de installatie niet is voltooid. Dit wordt verwacht tot het verpletteren wordt geverifieerd — u kunt nog de API sleutel kopiëren zodat kan uw team van IT of CDN de configuratie beëindigen.
@@ -47,13 +47,13 @@ Gebruik het opvoeren hostname wanneer u Optimize bij Edge in een lagere milieu w
 
 2. In **stel optimalisaties aan AI agenten** sectie op, uitgezocht **voeg werkgebieddomein** toe (of **domein van het Stadium** als een het opvoeren domein reeds wordt gevormd).
 
-3. In de **dialoog van het Domein 0} van het Stadium {, ga volledige het opvoeren URL met inbegrip van `https://` in en selecteer** Vastgesteld Domein **.**
+3. In de **dialoog van het Domein 0&rbrace; van het Stadium &lbrace;, ga volledige het opvoeren URL met inbegrip van `https://` in en selecteer** Vastgesteld Domein **.**
 
-   ![ de inputdialoog van het Domein van het Stadium ](/help/assets/optimize-at-edge/byocdn-staging-domain-input.png)
+   ![&#x200B; de inputdialoog van het Domein van het Stadium &#x200B;](/help/assets/optimize-at-edge/byocdn-staging-domain-input.png)
 
-4. Bevestig het domein in de volgende herinnering. Wanneer het werkschema voltooit, toont de **dialoog van de Domeinen van het 0} Stadium het gevormde domein en zijn** API sleutel **.** Selecteer **Exemplaar** om de het opvoeren API sleutel te kopiëren.
+4. Bevestig het domein in de volgende herinnering. Wanneer het werkschema voltooit, toont de **dialoog van de Domeinen van het 0&rbrace; Stadium het gevormde domein en zijn** API sleutel **.** Selecteer **Exemplaar** om de het opvoeren API sleutel te kopiëren.
 
-   ![ het Staging domein API sleutel ](/help/assets/optimize-at-edge/byocdn-staging-domain-api-key.png)
+   ![&#x200B; het Staging domein API sleutel &#x200B;](/help/assets/optimize-at-edge/byocdn-staging-domain-api-key.png)
 
 Neem contact op met `llmo-at-edge@adobe.com` als u hulp nodig hebt.
 
@@ -61,8 +61,8 @@ Neem contact op met `llmo-at-edge@adobe.com` als u hulp nodig hebt.
 
 De status van het verkeer dat verplettert kan ook in LLM Optimizer UI worden gecontroleerd. Navigeer aan **configuratie van de Klant** en selecteer de **CDN configuratie** tabel.
 
-![ stelt optimalisaties aan AI agenten op — voltooide ](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
+![&#x200B; stelt optimalisaties aan AI agenten op — voltooide &#x200B;](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
 
 ## Terug naar overzicht {#return-to-overview}
 
-Meer leren over Optimaliseren bij Edge, met inbegrip van beschikbare kansen, auto-optimaliseringswerkschema&#39;s, en FAQs, terugkeer aan [ optimaliseren bij het overzicht van Edge ](/help/dashboards/optimize-at-edge/overview.md).
+Meer leren over Optimaliseren bij Edge, met inbegrip van beschikbare kansen, auto-optimaliseringswerkschema&#39;s, en FAQs, terugkeer aan [&#x200B; optimaliseren bij het overzicht van Edge &#x200B;](/help/dashboards/optimize-at-edge/overview.md).
