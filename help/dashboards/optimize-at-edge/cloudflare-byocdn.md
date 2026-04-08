@@ -2,9 +2,9 @@
 title: Optimaliseren bij Edge - Cloudflare (BYOCDN)
 description: Leer hoe u Cloudflare BYOCDN configureert voor optimaliseren bij Edge in LLM Optimizer.
 feature: Opportunities
-source-git-commit: 9230e525340bb951fcd9f2ae1f88bad557d5b7d7
+source-git-commit: da789100d814004687de2f46e18a295671dec4b8
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1439'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,11 @@ Voordat u de Cloudflare Worker instelt die regels routeert, moet u ervoor zorgen
 * Voltooid het LLM Optimizer-instapproces.
 * Voltooid het logboek CDN door:sturen aan LLM Optimizer.
 * Een Edge Optimize API-sleutel die is opgehaald uit de gebruikersinterface van LLM Optimizer.
+* (Optioneel) Een testende Edge Optimize API-sleutel als u het routeren eerst test op een testhostnaam.
 
 {{retrieve-byocdn-api-key}}
+
+{{retrieve-staging-edge-optimize-api-key}}
 
 **hoe het verpletteren van werken**
 
@@ -61,7 +64,7 @@ Bij aanvragen naar de Edge Optimize-backend moeten de volgende headers worden in
 4. Geef de worker een naam (bijvoorbeeld `edge-optimize-router` ).
 5. Klik **opstellen** om de worker met de standaardcode tot stand te brengen.
 
-![&#x200B; dashboard van de Werknemers van de Wolk &#x200B;](/help/assets/optimize-at-edge/cloudflare-workers-dashboard.png)
+![ dashboard van de Werknemers van de Wolk ](/help/assets/optimize-at-edge/cloudflare-workers-dashboard.png)
 
 **Stap 2: Voeg de code van de Arbeider** toe
 
@@ -234,7 +237,7 @@ async function failoverToOrigin(request, env, url) {
 
 Klik **sparen en stel** op om de worker te publiceren.
 
-![&#x200B; de coderedacteur van de Arbeider van de Wolk &#x200B;](/help/assets/optimize-at-edge/cloudflare-worker-editor.png)
+![ de coderedacteur van de Arbeider van de Wolk ](/help/assets/optimize-at-edge/cloudflare-worker-editor.png)
 
 **Stap 3: Vorm omgevingsvariabelen**
 
@@ -252,13 +255,13 @@ Omgevingsvariabelen slaan gevoelige configuratie als de API-sleutel veilig op.
 4. Voor de API sleutel, klik **Coderen** om het veilig op te slaan.
 5. Klik **sparen en stel** op.
 
-![&#x200B; Cloudflare milieu variabelen &#x200B;](/help/assets/optimize-at-edge/cloudflare-env-variables.png)
+![ Cloudflare milieu variabelen ](/help/assets/optimize-at-edge/cloudflare-env-variables.png)
 
 **Stap 4: Voeg een route aan uw domein** toe
 
 De worker op uw domein activeren:
 
-1. Ga naar de Montages van uw arbeider **&#x200B;**&#x200B;> **Trekkers**.
+1. Ga naar de Montages van uw arbeider **** > **Trekkers**.
 2. Onder **Routes**, klik **route** toevoegen.
 3. Voer uw domeinpatroon in (bijvoorbeeld `www.example.com/*` of `example.com/*` ).
 4. Selecteer de zone in het vervolgkeuzemenu.
@@ -270,7 +273,7 @@ Alternatief, kunt u routes op het streekniveau vormen:
 2. Ga naar **Routes van de Arbeiders**.
 3. Klik **toevoegen route** en specificeer het patroon en de arbeider.
 
-![&#x200B; de routes van de Arbeider van de Wolk &#x200B;](/help/assets/optimize-at-edge/cloudflare-worker-routes.png)
+![ de routes van de Arbeider van de Wolk ](/help/assets/optimize-at-edge/cloudflare-worker-routes.png)
 
 **het verifiëren van failovergedrag**
 
@@ -413,7 +416,7 @@ curl -svo /dev/null https://www.example.com/page.html \
   --header "user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 ```
 
-De reactie zou **&#x200B;**&#x200B;niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
+De reactie zou **** niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
 
 **3. Hoe te tussen de twee scenario&#39;s te onderscheiden**
 
@@ -422,8 +425,17 @@ De reactie zou **&#x200B;**&#x200B;niet `x-edgeoptimize-request-id` kopbal moete
 | `x-edgeoptimize-request-id` | Huidig — bevat een unieke aanvraag-id | Afwezig |
 | `x-edgeoptimize-fo` | Alleen aanwezig als failover is opgetreden (waarde: `1`) | Afwezig |
 
-De status van het verkeer dat verplettert kan ook in LLM Optimizer UI worden gecontroleerd. Navigeer aan **Configuratie van de Klant** en selecteer de **CDN Configuratie** tabel.
+**4. Het opvoeren van domein (facultatief)**
 
-![&#x200B; AI Verkeer die status met toegelaten verpletteren verplettert &#x200B;](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
+Als u een het opvoeren hostname en het opvoeren API sleutel van LLM Optimizer gebruikt, stel de zelfde logica van de Arbeider op uw **opvoeren** streek op gebruikend de **het opvoeren** API sleutel. Dan verifieer beide verkeer op de het opvoeren gastheer:
+
+```
+curl -svo /dev/null https://staging.example.com/page.html \
+  --header "user-agent: chatgpt-user"
+```
+
+Vervang `https://staging.example.com/page.html` door de URL en het pad in de echte staging. Een geslaagde reactie is onder andere de header `x-edgeoptimize-request-id` .
+
+{{verify-routing-status-in-ui}}
 
 {{return-to-overview}}

@@ -2,9 +2,9 @@
 title: Optimaliseren bij Edge, snel (BYOCDN)
 description: Leer hoe u snel BYOCDN configureert voor optimaliseren bij Edge in LLM Optimizer.
 feature: Opportunities
-source-git-commit: 9230e525340bb951fcd9f2ae1f88bad557d5b7d7
+source-git-commit: da789100d814004687de2f46e18a295671dec4b8
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -22,16 +22,19 @@ Voordat u de Fastly VCL-regels instelt, moet u controleren of u:
 * Voltooid het LLM Optimizer-instapproces.
 * Voltooid het logboek CDN door:sturen aan LLM Optimizer.
 * Een Edge Optimize API-sleutel die is opgehaald uit de gebruikersinterface van LLM Optimizer.
+* (Optioneel) Een testende Edge Optimize API-sleutel als u het routeren eerst test op een testhostnaam.
 
 {{retrieve-byocdn-api-key}}
+
+{{retrieve-staging-edge-optimize-api-key}}
 
 **Configuratie**
 
 Voeg de volgende drie fragmenten VCL aan uw Snelle dienst toe. Deze fragmenten behandelen het verpletteren van agentische verzoeken aan Edge Optimize, geheim voorgeheugenzeer belangrijke scheiding, en failover aan uw standaardoorsprong.
 
-![&#x200B; VCL van de Fastly &#x200B;](/help/assets/optimize-at-edge/fastly-vcl.png)
+![ VCL van de Fastly ](/help/assets/optimize-at-edge/fastly-vcl.png)
 
-![&#x200B; voeg VCL fragmenten &#x200B;](/help/assets/optimize-at-edge/add-vcl-snippets.png) toe
+![ voeg VCL fragmenten ](/help/assets/optimize-at-edge/add-vcl-snippets.png) toe
 
 **vcl_recv fragment**
 
@@ -112,7 +115,7 @@ curl -svo /dev/null https://www.example.com/page.html \
   --header "user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 ```
 
-De reactie zou **&#x200B;**&#x200B;niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
+De reactie zou **** niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
 
 **3. Hoe te tussen de twee scenario&#39;s te onderscheiden**
 
@@ -121,8 +124,17 @@ De reactie zou **&#x200B;**&#x200B;niet `x-edgeoptimize-request-id` kopbal moete
 | `x-edgeoptimize-request-id` | Huidig — bevat een unieke aanvraag-id | Afwezig |
 | `x-edgeoptimize-fo` | Alleen aanwezig als failover is opgetreden (waarde: `1`) | Afwezig |
 
-De status van het verkeer dat verplettert kan ook in LLM Optimizer UI worden gecontroleerd. Navigeer aan **Configuratie van de Klant** en selecteer de **CDN Configuratie** tabel.
+**4. Het opvoeren van domein (facultatief)**
 
-![&#x200B; AI Verkeer die status met toegelaten verpletteren verplettert &#x200B;](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
+Als u een het opvoeren hostname en het opvoeren API sleutel van LLM Optimizer gebruikt, voeg de zelfde fragmenten VCL aan uw **het opvoeren van** het opvoeren **API sleutel toe.** Dan verifieer beide verkeer op de het opvoeren gastheer:
+
+```
+curl -svo /dev/null https://staging.example.com/page.html \
+  --header "user-agent: chatgpt-user"
+```
+
+Vervang `https://staging.example.com/page.html` door de URL en het pad in de echte staging. Een geslaagde reactie is onder andere de header `x-edgeoptimize-request-id` .
+
+{{verify-routing-status-in-ui}}
 
 {{return-to-overview}}

@@ -2,7 +2,7 @@
 title: Optimaliseren bij Edge - AEM Cloud Service Managed CDN (snel)
 description: Leer hoe u de CDN (Fastly) voor beheer van de AEM Cloud Service configureert voor optimalisatie bij Edge in LLM Optimizer.
 feature: Opportunities
-source-git-commit: 9230e525340bb951fcd9f2ae1f88bad557d5b7d7
+source-git-commit: 0c7ccadbb40c8c119cb2a57cf8118708c33c4236
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%
@@ -18,25 +18,27 @@ Deze configuratie leidt verwerpelijk verkeer (verzoeken van AI bots en gebruiker
 
 Ga als volgt te werk om het routeren van hoekig verkeer naar Edge Optimize:
 
-1. Navigeer aan **Configuratie van de Klant** en selecteer de **CDN Configuratie** tabel.
+1. In LLM Optimizer, open **configuratie van de Klant** en selecteer de **CDN configuratie** tabel.
 
-   ![&#x200B; ga aan de Configuratie van de Klant &#x200B;](/help/assets/optimize-at-edge/prereq-customer-config-nav.png)
+   ![ ga aan de Configuratie van de Klant ](/help/assets/optimize-at-edge/prereq-customer-config-nav.png)
 
-2. Onder **AI Verkeer dat verplettert om Optimalisaties** op te stellen, tik **optimalisaties aan AI Agenten** checkbox opstelt. Het team van Adobe zal de verpletterende configuratie namens u behandelen.
+2. Bepaal de plaats van **optimalisaties aan AI agenten** sectie. Tik **toelaten optimaliseringsmotor** checkbox.
 
-   ![&#x200B; Tik stel Optimalisaties aan AI Agenten &#x200B;](/help/assets/optimize-at-edge/prereq-deploy-checkbox.png) op
+   ![ stelt optimalisaties aan AI agenten op — hangende ](/help/assets/optimize-at-edge/byocdn-deploy-optimizations-pending.png)
 
-3. Nadat u het selectievakje hebt ingeschakeld, geeft de status aan dat de installatie wordt uitgevoerd. Het team van Adobe zal de verpletterende configuratie voor u voltooien.
+3. In de bevestigingsdialoog, laat de uitgezochte **** toe. Het team van Adobe zal de verpletterende configuratie namens u behandelen.
 
-   ![&#x200B; AI Verkeer die opstelling verplettert momenteel &#x200B;](/help/assets/optimize-at-edge/prereq-traffic-routing-progress.png)
+   ![ laat de bevestigingsdialoog van de optimaliseringsmotor ](/help/assets/optimize-at-edge/byocdn-enable-optimization-engine-dialog.png) toe
 
-   Zodra het verpletteren en actief wordt gevormd, zal de status bijwerken om een groen controleteken te tonen die erop wijzen dat het verpletteren met succes wordt toegelaten. U hoeft geen verdere actie te ondernemen.
+   Zodra het verpletteren wordt gevormd en actief, de statusupdates aan **Voltooid** met een groen controleteken bevestigend dat het verpletteren wordt toegelaten. U hoeft geen verdere actie te ondernemen.
+
+   ![ stelt optimalisaties aan AI agenten op — voltooide ](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
 
 Als u bovendien hulp nodig hebt bij de bovenstaande stappen, neemt u contact op met uw Adobe-accountteam of `llmo-at-edge@adobe.com` .
 
 **Zelfbediening verpletterend via de Pijpleiding van Cloud Manager**
 
-Als u verkiest om het verpletteren door de Pijpleiding van Cloud Manager te vormen, volg de hieronder stappen. De verpletterende configuratie wordt gedaan door een [&#x200B; originSelector CDN regel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#origin-selectors) te gebruiken. De voorwaarden zijn als volgt:
+Als u verkiest om het verpletteren door de Pijpleiding van Cloud Manager te vormen, volg de hieronder stappen. De verpletterende configuratie wordt gedaan door een [ originSelector CDN regel ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#origin-selectors) te gebruiken. De voorwaarden zijn als volgt:
 
 * Bepaal het domein dat moet worden verpletterd.
 * Bepaal de paden die u wilt routeren.
@@ -44,7 +46,7 @@ Als u verkiest om het verpletteren door de Pijpleiding van Cloud Manager te vorm
 
 Om de regel op te stellen, moet u:
 
-* Creeer de pijpleiding van de a [&#x200B; configuratie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/operations/config-pipeline).
+* Creeer de pijpleiding van de a [ configuratie ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/config-pipeline).
 * Leg het configuratiebestand van `cdn.yaml` vast in uw opslagplaats.
 * Voer de configuratiepijplijn uit.
 
@@ -106,7 +108,7 @@ curl -svo /dev/null https://www.example.com/page.html \
   --header "user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 ```
 
-De reactie zou **&#x200B;**&#x200B;niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
+De reactie zou **** niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
 
 **3. Hoe te tussen de twee scenario&#39;s te onderscheiden**
 
@@ -115,8 +117,10 @@ De reactie zou **&#x200B;**&#x200B;niet `x-edgeoptimize-request-id` kopbal moete
 | `x-edgeoptimize-request-id` | Huidig — bevat een unieke aanvraag-id | Afwezig |
 | `x-edgeoptimize-fo` | Alleen aanwezig als failover is opgetreden (waarde: `1`) | Afwezig |
 
-De status van het verkeer dat verplettert kan ook in LLM Optimizer UI worden gecontroleerd. Navigeer aan **Configuratie van de Klant** en selecteer de **CDN Configuratie** tabel.
+**4. De verpletterende status van de controle in LLM Optimizer**
 
-![&#x200B; AI Verkeer die status met toegelaten verpletteren verplettert &#x200B;](/help/assets/optimize-at-edge/adobe-CDN-traffic-routed-tick.png)
+U kunt het verpletteren in LLM Optimizer UI ook bevestigen. Open **configuratie van de Klant** en selecteer de **CDN configuratie** tabel. Wanneer het verpletteren actief is, stelt **optimalisaties aan AI agenten** sectie toont **Voltooid** op.
+
+![ stelt optimalisaties aan AI agenten op — voltooide ](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
 
 {{return-to-overview}}

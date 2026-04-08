@@ -2,9 +2,9 @@
 title: Optimaliseren bij Edge - Akamai (BYOCDN)
 description: Leer hoe u Akamai BYOCDN configureert voor optimaliseren bij Edge in LLM Optimizer.
 feature: Opportunities
-source-git-commit: 16a1142cb70d9bcd70406a3779a43fc8568c77d0
+source-git-commit: f2a652761acbea7ca5b8e8740c1dbd0132e42f7f
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '849'
 ht-degree: 1%
 
 ---
@@ -22,27 +22,34 @@ Voordat u de regels voor Akamai Property Manager instelt, moet u controleren of 
 * Voltooid het LLM Optimizer-instapproces.
 * Voltooid het logboek CDN door:sturen aan LLM Optimizer.
 * Een Edge Optimize API-sleutel die is opgehaald uit de gebruikersinterface van LLM Optimizer.
+* (Optioneel) Een testende Edge Optimize API-sleutel als u het routeren eerst test op een testhostnaam.
 
 {{retrieve-byocdn-api-key}}
 
+{{retrieve-staging-edge-optimize-api-key}}
+
 **Configuratie**
 
-De volgende regel van de Manager van het Bezit van Akamai leidt gebruikersagenten LLM aan Edge Optimize. De configuratie bevat de volgende stappen:
+De volgende regel van de Manager van het Bezit van Akamai leidt opnieuw het paginagedrag van HTML aan Edge Optimize. De configuratie bevat de volgende stappen:
 
-**1. Plaats verpletterend criteria (gebruiker-Agent aanpassing)**
+**1. Plaats verpletterend criteria (gebruiker-Agent en het verkeer van HTML aanpassing)**
 
-Plaats het verpletteren voor volgende gebruiker-agenten :image.png
+Plaats het verpletteren voor de volgende gebruikersagenten:
 
 ```
- *AdobeEdgeOptimize-AI*,
- *ChatGPT-User*,
- *GPTBot*,
- *OAI-SearchBot*,
- *PerplexityBot*,
+ *AdobeEdgeOptimize-AI*
+ *ChatGPT-User*
+ *GPTBot*
+ *OAI-SearchBot*
+ *PerplexityBot*
  *Perplexity-User*
 ```
 
-![&#x200B; plaats verpletterend criteria &#x200B;](/help/assets/optimize-at-edge/akamai-step1-routing.png)
+>[!NOTE]
+>
+>Pas Optimize bij Edge toe die regel verplettert slechts aan het agentic de paginaverkeer van HTML. Een gemeenschappelijke opstelling moet verzoek-zijcriteria zoals **Uitbreiding van het Dossier** gebruiken om `html` en `EMPTY_STRING` voor uitbreidbare pagina URLs aan te passen. Als uw site HTML bedient van andere URL-patronen of niet-paginanummerde routes bevat, zoals API-eindpunten, kunt u de regel verfijnen met aanvullende op paden gebaseerde criteria.
+
+![ plaats verpletterend criteria ](/help/assets/optimize-at-edge/akamai-step1-routing.png)
 
 **2. Oorsprong en SSL-gedrag instellen**
 
@@ -52,40 +59,40 @@ Oorsprong instellen als `live.edgeoptimize.net` en SAN afstemmen op `*.edgeoptim
 >
 >Als de bezitsactivering ontbreekt nadat u Optimize bij de regel van Edge toevoegt, controleer of de regel een verschillende de verificatiemodus van de Server SSL van de Oorsprong dan de standaardregel gebruikt. Als dit het geval is, werkt u de regel Optimaliseren bij Edge bij zodat deze overeenkomt met de standaardregel. Bijvoorbeeld, als de standaardregel **Montages van het Platform** gebruikt, gebruik **de Montages van het Platform** ook hier. Neem contact op met de ondersteuning van Akamai als u de vereiste instelling niet kunt gebruiken.
 
-![&#x200B; Vastgestelde Oorsprong en SSL gedrag &#x200B;](/help/assets/optimize-at-edge/akamai-step2-origin.png)
+![ Vastgestelde Oorsprong en SSL gedrag ](/help/assets/optimize-at-edge/akamai-step2-origin.png)
 
 **3. Cachetoets instellen**
 
 De toetsvariabele voor de cache `PMUSER_EDGE_OPTIMIZE_CACHE_KEY` instellen op `LLMCLIENT=TRUE;X_FORWARDED_HOST={{builtin.AK_HOST}}`
 
-![&#x200B; vastgestelde Zeer belangrijke Variabele van het Geheime voorgeheugen &#x200B;](/help/assets/optimize-at-edge/akamai-step3-cachekey.png)
+![ vastgestelde Zeer belangrijke Variabele van het Geheime voorgeheugen ](/help/assets/optimize-at-edge/akamai-step3-cachekey.png)
 
 **4. Caching Rules**
 
-![&#x200B; Caching Regels &#x200B;](/help/assets/optimize-at-edge/akamai-step4-rules.png)
+![ Caching Regels ](/help/assets/optimize-at-edge/akamai-step4-rules.png)
 
 **5. Binnenkomende aanvraagheaders wijzigen**
 
 Stel de volgende binnenkomende aanvraagheaders in:
 `x-edgeoptimize-api-key` naar de API-sleutel die is opgehaald uit LLMO
 `x-edgeoptimize-config` to `LLMCLIENT=TRUE;`
-`x-edgeoptimize-url` t/m `{{builtin.AK_URL}}`
+`x-edgeoptimize-url` to `{{builtin.AK_URL}}`
 
-![&#x200B; wijzigt Binnenkomende Kopballen van het Verzoek &#x200B;](/help/assets/optimize-at-edge/akamai-step5-request.png)
+![ wijzigt Binnenkomende Kopballen van het Verzoek ](/help/assets/optimize-at-edge/akamai-step5-request.png)
 
 **6. Binnenkomende antwoordheaders wijzigen**
 
-![&#x200B; wijzigt Inkomende Kopballen van de Reactie &#x200B;](/help/assets/optimize-at-edge/akamai-step6-response.png)
+![ wijzigt Inkomende Kopballen van de Reactie ](/help/assets/optimize-at-edge/akamai-step6-response.png)
 
 **7. Wijziging van cache-id**
 
-![&#x200B; Verandering van identiteitskaart van het Geheime voorgeheugen &#x200B;](/help/assets/optimize-at-edge/akamai-step7-cacheid.png)
+![ Verandering van identiteitskaart van het Geheime voorgeheugen ](/help/assets/optimize-at-edge/akamai-step7-cacheid.png)
 
 **8. Uitgaande verzoekkopballen wijzigen**
 
 `x-forwarded-host` header instellen op `{{builtin.AK_HOST}}`
 
-![&#x200B; wijzigt Uitgaande Kopballen van het Verzoek &#x200B;](/help/assets/optimize-at-edge/akamai-step8-outgoing-request.png)
+![ wijzigt Uitgaande Kopballen van het Verzoek ](/help/assets/optimize-at-edge/akamai-step8-outgoing-request.png)
 
 **9. Site-failover**
 
@@ -99,7 +106,7 @@ Binnen de belangrijkste verpletterende regel, vorm het gedrag van Failover van d
 >
 >Het fragment van XML in deze stap vereist het **Geavanceerde** gedrag. In sommige Akamai-omgevingen is dit gedrag niet beschikbaar voor zelfbediening bewerken. Als u niet de **Geavanceerde** optie ziet, contacteer uw Akamai rekeningsteam of steun Akamai om de vereiste configuratie toe te laten.
 
-![&#x200B; Failover van de Plaats &#x200B;](/help/assets/optimize-at-edge/akamai-step9-failover.png)
+![ Failover van de Plaats ](/help/assets/optimize-at-edge/akamai-step9-failover.png)
 
 Voeg de aanvraagkoptekst `x-edgeoptimize-request` toe met de waarde `fo` via Geavanceerde XML:
 
@@ -113,7 +120,7 @@ Voeg de aanvraagkoptekst `x-edgeoptimize-request` toe met de waarde `fo` via Gea
 </forward:availability.fail-action2>
 ```
 
-![&#x200B; Gedrag Failover &#x200B;](/help/assets/optimize-at-edge/akamai-step9-failover-behaviors.png)
+![ Gedrag Failover ](/help/assets/optimize-at-edge/akamai-step9-failover-behaviors.png)
 
 **9b. De regel van de Kopbal van de Test van Failover (sibling regel)**
 
@@ -133,7 +140,7 @@ Voeg de aanvraagkoptekst `x-edgeoptimize-request` toe met de waarde `fo` via Gea
 
 Als de aanvraagheader `x-edgeoptimize-request` -waarde `fo` is, stelt u de uitgaande antwoordheader `x-edgeoptimize-fo` in op `true` .
 
-![&#x200B; Regels Failover &#x200B;](/help/assets/optimize-at-edge/akamai-step9-failover-rules.png)
+![ Regels Failover ](/help/assets/optimize-at-edge/akamai-step9-failover-rules.png)
 
 Site-failover zorgt ervoor dat als bij Edge Optimize een `4XX` - of `5XX` -fout wordt geretourneerd, de aanvraag automatisch wordt teruggestuurd naar de standaardoorsprong, zodat de eindgebruiker nog steeds een antwoord ontvangt.
 
@@ -171,7 +178,7 @@ curl -svo /dev/null https://www.example.com/page.html \
   --header "user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 ```
 
-De reactie zou **&#x200B;**&#x200B;niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
+De reactie zou **** niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
 
 **3. Hoe te tussen de twee scenario&#39;s te onderscheiden**
 
@@ -180,8 +187,17 @@ De reactie zou **&#x200B;**&#x200B;niet `x-edgeoptimize-request-id` kopbal moete
 | `x-edgeoptimize-request-id` | Huidig — bevat een unieke aanvraag-id | Afwezig |
 | `x-edgeoptimize-fo` | Alleen aanwezig als failover is opgetreden (waarde: `1`) | Afwezig |
 
-De status van het verkeer dat verplettert kan ook in LLM Optimizer UI worden gecontroleerd. Navigeer aan **Configuratie van de Klant** en selecteer de **CDN Configuratie** tabel.
+**4. Het opvoeren van domein (facultatief)**
 
-![&#x200B; AI Verkeer die status met toegelaten verpletteren verplettert &#x200B;](/help/assets/optimize-at-edge/byocdn-CDN-traffic-routed-tick.png)
+Als u een het opvoeren hostname en het opvoeren API sleutel van LLM Optimizer gebruikt, stel het zelfde verpletterende patroon op uw **opvoeren** bezit Akamai gebruikend het **opvoeren** sleutel in uw regels op. Dan verifieer beide verkeer op de het opvoeren gastheer:
+
+```
+curl -svo /dev/null https://staging.example.com/page.html \
+  --header "user-agent: chatgpt-user"
+```
+
+Vervang `https://staging.example.com/page.html` door de URL en het pad in de echte staging. Een geslaagde reactie is onder andere de header `x-edgeoptimize-request-id` .
+
+{{verify-routing-status-in-ui}}
 
 {{return-to-overview}}
