@@ -63,7 +63,7 @@ Er zijn twee manieren om de Cloudflare Worker voor Edge Optimize in te stellen:
 * [**Optie 1: Stel (geadviseerd) op Cloudflare op**](#option-1-deploy-to-cloudflare) — leidt automatisch tot een nieuwe worker en zet u voor de vereiste milieuvariabelen en geheimen ertoe. Gebruik deze optie als u geen bestaande Cloudflare Worker voor dit domein hebt.
 * [**Optie 2: Handmatige opstelling**](#option-2-manual-setup) - geleidelijke instructies voor het creëren van en het vormen van de arbeider zelf. Gebruik deze optie als u al een bestaande Worker van de Wolk hebt u wilt uitbreiden, of als u volledige controle over de plaatsing verkiest.
 
-Ongeacht welke optie u kiest, moet u de worker aan uw domein manueel verbinden — zie [ Stap: Voeg een route aan uw domein ](#add-a-route-to-your-domain) toe.
+Ongeacht welke optie u kiest, moet u de worker aan uw domein manueel verbinden — zie [&#x200B; Stap: Voeg een route aan uw domein &#x200B;](#add-a-route-to-your-domain) toe.
 
 ## Optie 1: Distribueren naar cloud
 
@@ -71,23 +71,23 @@ Deze optie gebruikt **stelt aan Cloudflare** knoop op om de worker automatisch t
 
 >[!IMPORTANT]
 >
->Gebruik deze optie slechts als u **** geen bestaande Worker van de Wolk op uw domein hebt. Als u reeds een worker hebt, gebruik [ Optie 2: De handmatige opstelling ](#option-2-manual-setup) om Edge toe te voegen optimaliseert verpletterend logica aan uw bestaande worker.
+>Gebruik deze optie slechts als u **&#x200B;**&#x200B;geen bestaande Worker van de Wolk op uw domein hebt. Als u reeds een worker hebt, gebruik [&#x200B; Optie 2: De handmatige opstelling &#x200B;](#option-2-manual-setup) om Edge toe te voegen optimaliseert verpletterend logica aan uw bestaande worker.
 
 **Stap 1: Implementeer de arbeider**
 
 Klik op de onderstaande knop om de Edge Optimize-worker te implementeren in uw Cloudflare-account:
 
-[![ opstellen aan Cloudflare ](https://deploy.workers.cloudflare.com/button) ](https://deploy.workers.cloudflare.com/?url=https://github.com/adobe/llmo-code-samples/tree/main/optimize-at-edge/cloudflare/automation)
+[![&#x200B; opstellen aan Cloudflare &#x200B;](https://deploy.workers.cloudflare.com/button) &#x200B;](https://deploy.workers.cloudflare.com/?url=https://github.com/adobe/llmo-code-samples/tree/main/optimize-at-edge/cloudflare/automation)
 
 **Stap 2: Vul de plaatsingsvorm** in
 
 Als u op de knop klikt, wordt de instellingspagina van de workers geopend. Vul het formulier als volgt in:
 
-![ de opstellingspagina van de Werknemers van de Wolk 1}](/help/assets/optimize-at-edge/cloudflare-deploy-form.png)
+![&#x200B; de opstellingspagina van de Werknemers van de Wolk 1&rbrace;](/help/assets/optimize-at-edge/cloudflare-deploy-form.png)
 
-1. **de rekening van de Git** - selecteer uw rekening GitHub of GitLab van dropdown. Cloudflare forks the worker code into a repository in your account. Als geen rekening vermeld is, kunt u een nieuwe verbinding direct van dropdown toevoegen door **+ Nieuwe Verbinding GitHub** of **+ Nieuwe Verbinding GitLab** te selecteren. Voor meer informatie, zie de [ de integratiegids van de Git van de Wolk ](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/github-integration/).
+1. **de rekening van de Git** - selecteer uw rekening GitHub of GitLab van dropdown. Cloudflare forks the worker code into a repository in your account. Als geen rekening vermeld is, kunt u een nieuwe verbinding direct van dropdown toevoegen door **+ Nieuwe Verbinding GitHub** of **+ Nieuwe Verbinding GitLab** te selecteren. Voor meer informatie, zie de [&#x200B; de integratiegids van de Git van de Wolk &#x200B;](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/github-integration/).
 
-   ![ de rekeningsdropdown tonen van de GitHub Nieuwe Verbinding GitHub en de Nieuwe opties van de Verbinding GitLab ](/help/assets/optimize-at-edge/cloudflare-git-connection.png)
+   ![&#x200B; de rekeningsdropdown tonen van de GitHub Nieuwe Verbinding GitHub en de Nieuwe opties van de Verbinding GitLab &#x200B;](/help/assets/optimize-at-edge/cloudflare-git-connection.png)
 2. **creeer privé bewaarplaats van het Git** — Verlaat dit gecontroleerd (gebrek).
 3. **de naam van het Project** — Verlaat als `edge-optimize-router` of ga een naam van uw keus in.
 4. **EDGE_OPTIMIZE_API_KEY** — Deeg uw Adobe-Geleverde sleutel van Edge optimaliseer API. Deze waarde wordt opgeslagen als een versleuteld geheim.
@@ -97,7 +97,7 @@ Als u op de knop klikt, wordt de instellingspagina van de workers geopend. Vul h
 8. **bouwt voor niet-productie takken** - laat ongecontroleerd. Dit is een ontwikkelaarswerkstroomfunctie en is niet nodig voor deze implementatie.
 9. Klik **creëren en opstellen**.
 
-Nadat de worker wordt opgesteld, ga aan [ te werk voeg een route aan uw domein ](#add-a-route-to-your-domain) toe om de worker met uw domein te verbinden. Het verpletteren wordt niet automatisch gevormd en moet manueel worden voltooid.
+Nadat de worker wordt opgesteld, ga aan [&#x200B; te werk voeg een route aan uw domein &#x200B;](#add-a-route-to-your-domain) toe om de worker met uw domein te verbinden. Het verpletteren wordt niet automatisch gevormd en moet manueel worden voltooid.
 
 ## Optie 2: Handmatige installatie
 
@@ -111,7 +111,7 @@ Voer de volgende stappen uit om de worker handmatig te maken en te configureren.
 4. Geef de worker een naam (bijvoorbeeld `edge-optimize-router` ).
 5. Klik **opstellen** om de worker met de standaardcode tot stand te brengen.
 
-![ dashboard van de Werknemers van de Wolk ](/help/assets/optimize-at-edge/cloudflare-workers-dashboard.png)
+![&#x200B; dashboard van de Werknemers van de Wolk &#x200B;](/help/assets/optimize-at-edge/cloudflare-workers-dashboard.png)
 
 **Stap 2: Voeg de code van de Arbeider** toe
 
@@ -284,7 +284,7 @@ async function failoverToOrigin(request, env, url) {
 
 Klik **sparen en stel** op om de worker te publiceren.
 
-![ de coderedacteur van de Arbeider van de Wolk ](/help/assets/optimize-at-edge/cloudflare-worker-editor.png)
+![&#x200B; de coderedacteur van de Arbeider van de Wolk &#x200B;](/help/assets/optimize-at-edge/cloudflare-worker-editor.png)
 
 **Stap 3: Vorm milieuvariabelen en geheimen**
 
@@ -302,13 +302,13 @@ Omgevingsvariabelen slaan gevoelige configuratie als de API-sleutel veilig op.
 4. Voor de API sleutel, klik **Coderen** om het veilig op te slaan.
 5. Klik **sparen en stel** op.
 
-![ Cloudflare milieu variabelen ](/help/assets/optimize-at-edge/cloudflare-env-variables.png)
+![&#x200B; Cloudflare milieu variabelen &#x200B;](/help/assets/optimize-at-edge/cloudflare-env-variables.png)
 
 ## Voeg een route aan uw domein toe {#add-a-route-to-your-domain}
 
 Ongeacht de instellingsoptie die u hebt gebruikt, moet u de worker handmatig koppelen aan uw domein. Deze stap activeert de arbeider op uw verkeer.
 
-1. Ga naar de Montages van uw arbeider **** > **Trekkers**.
+1. Ga naar de Montages van uw arbeider **&#x200B;**&#x200B;> **Trekkers**.
 2. Onder **Routes**, klik **route** toevoegen.
 3. Voer uw domeinpatroon in (bijvoorbeeld `www.example.com/*` of `example.com/*` ).
 4. Selecteer de zone in het vervolgkeuzemenu.
@@ -320,7 +320,7 @@ Alternatief, kunt u routes op het streekniveau vormen:
 2. Ga naar **Routes van de Arbeiders**.
 3. Klik **toevoegen route** en specificeer het patroon en de arbeider.
 
-![ de routes van de Arbeider van de Wolk ](/help/assets/optimize-at-edge/cloudflare-worker-routes.png)
+![&#x200B; de routes van de Arbeider van de Wolk &#x200B;](/help/assets/optimize-at-edge/cloudflare-worker-routes.png)
 
 **het verifiëren van failovergedrag**
 
@@ -463,7 +463,7 @@ curl -svo /dev/null https://www.example.com/page.html \
   --header "user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 ```
 
-De reactie zou **** niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
+De reactie zou **&#x200B;**&#x200B;niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
 
 **3. Hoe te tussen de twee scenario&#39;s te onderscheiden**
 
