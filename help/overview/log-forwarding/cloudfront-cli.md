@@ -12,23 +12,23 @@ ht-degree: 0%
 
 # Log Forwarding: CloudFront (AWS CLI) {#log-forwarding-cloudfront-cli}
 
-Op deze pagina ziet u hoe u CDN-logbestanden van CloudFront naar S3-emmertje van Adobe doorstuurt voor verzameling van hoekige verkeersgegevens. U gebruikt de LLM Optimizer CDN-configuratiepagina voor toegang tot LLM Optimizer. Nadat het aan boord gaan proces volledig is, volg de stappen op deze pagina worden verstrekt om logboek door:sturen te vormen door de [ Interface van de Lijn van het Bevel van AWS ](https://aws.amazon.com/cli/) in [ Stap 2 ](#step-2-cli) te gebruiken.
+Op deze pagina ziet u hoe u CDN-logbestanden van CloudFront naar S3-emmertje van Adobe doorstuurt voor verzameling van hoekige verkeersgegevens. U gebruikt de LLM Optimizer CDN-configuratiepagina voor toegang tot LLM Optimizer. Nadat het aan boord gaan proces volledig is, volg de stappen op deze pagina worden verstrekt om logboek door:sturen te vormen door de [&#x200B; Interface van de Lijn van het Bevel van AWS &#x200B;](https://aws.amazon.com/cli/) in [&#x200B; Stap 2 &#x200B;](#step-2-cli) te gebruiken.
 
 >[!NOTE]
 >
-> Deze gids verklaart hoe te om logboek door:sturen te vormen door de [ Interface van de Lijn van het Bevel van AWS ](https://aws.amazon.com/cli/) te gebruiken. Als u logboek door:sturen wilt vormen door **CloudFront UI** te gebruiken, zie [ Logboek door:sturen: CloudFront ](/help/overview/log-forwarding/cloudfront.md).
+> Deze gids verklaart hoe te om logboek door:sturen te vormen door de [&#x200B; Interface van de Lijn van het Bevel van AWS &#x200B;](https://aws.amazon.com/cli/) te gebruiken. Als u logboek door:sturen wilt vormen door **CloudFront UI** te gebruiken, zie [&#x200B; Logboek door:sturen: CloudFront &#x200B;](/help/overview/log-forwarding/cloudfront.md).
 
 ## Stap 1: Aan boord in LLM Optimizer {#step-1}
 
-Op de pagina van LLM Optimizer [ https://llmo.now/](https://llmo.now/):
+Op de pagina van LLM Optimizer [&#x200B; https://llmo.now/](https://llmo.now/):
 
 1. Ga naar het **dashboard van de Configuratie van de Klant**.
 
-   ![ knoop van de Configuratie ](/help/overview/assets/log-forwarding/common/config-button.png)
+   ![&#x200B; knoop van de Configuratie &#x200B;](/help/overview/assets/log-forwarding/common/config-button.png)
 
 1. Klik de **CDN Configuratie** tabel.
 
-   ![ CDN het lusje van de Configuratie ](/help/overview/assets/log-forwarding/common/cdn-config-tab.png)
+   ![&#x200B; CDN het lusje van de Configuratie &#x200B;](/help/overview/assets/log-forwarding/common/cdn-config-tab.png)
 
 1. Klik **krijgen Begonnen**.
 
@@ -36,7 +36,7 @@ Op de pagina van LLM Optimizer [ https://llmo.now/](https://llmo.now/):
 
 1. Naast **activeer AI de Inzichten van het Verkeer**, klik **vormen**.
 
-   ![ vormen ](/help/overview/assets/log-forwarding/common/configure.png)
+   ![&#x200B; vormen &#x200B;](/help/overview/assets/log-forwarding/common/configure.png)
 
 1. Ga uw **identiteitskaart van de Rekening van AWS** in.
 
@@ -44,7 +44,7 @@ Op de pagina van LLM Optimizer [ https://llmo.now/](https://llmo.now/):
 
 1. Selecteer **CloudFront (BYOCDN)**.
 
-   ![ Uitgezochte CloudFront ](/help/overview/assets/log-forwarding/cloudfront/cloudfront-select.png)
+   ![&#x200B; Uitgezochte CloudFront &#x200B;](/help/overview/assets/log-forwarding/cloudfront/cloudfront-select.png)
 
 1. Klik **Onboard**.
 
