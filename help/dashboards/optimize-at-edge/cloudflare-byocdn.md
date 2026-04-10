@@ -2,9 +2,9 @@
 title: Optimaliseren bij Edge - Cloudflare (BYOCDN)
 description: Leer hoe u Cloudflare BYOCDN configureert voor optimaliseren bij Edge in LLM Optimizer.
 feature: Opportunities
-source-git-commit: da789100d814004687de2f46e18a295671dec4b8
+source-git-commit: 14dbee36f39b0d993d448edccb63fb8a519704a1
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1922'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,53 @@ Bij aanvragen naar de Edge Optimize-backend moeten de volgende headers worden in
 | `x-edgeoptimize-api-key` | De API-sleutel die Adobe voor uw domein biedt. | `your-api-key-here` |
 | `x-edgeoptimize-config` | De koord van de configuratie voor geheim voorgeheugenzeer belangrijke differentiatie. | `LLMCLIENT=TRUE;` |
 
+## Opties instellen
+
+Er zijn twee manieren om de Cloudflare Worker voor Edge Optimize in te stellen:
+
+* [**Optie 1: Stel (geadviseerd) op Cloudflare op**](#option-1-deploy-to-cloudflare) — leidt automatisch tot een nieuwe worker en zet u voor de vereiste milieuvariabelen en geheimen ertoe. Gebruik deze optie als u geen bestaande Cloudflare Worker voor dit domein hebt.
+* [**Optie 2: Handmatige opstelling**](#option-2-manual-setup) - geleidelijke instructies voor het creëren van en het vormen van de arbeider zelf. Gebruik deze optie als u al een bestaande Worker van de Wolk hebt u wilt uitbreiden, of als u volledige controle over de plaatsing verkiest.
+
+Ongeacht welke optie u kiest, moet u de worker aan uw domein manueel verbinden — zie [ Stap: Voeg een route aan uw domein ](#add-a-route-to-your-domain) toe.
+
+## Optie 1: Distribueren naar cloud
+
+Deze optie gebruikt **stelt aan Cloudflare** knoop op om de worker automatisch tot stand te brengen en de vereiste milieuvariabelen en geheimen in uw rekening van de Vast te vormen. Dit is de snelste manier om aan de slag te gaan als u een nieuwe worker instelt.
+
+>[!IMPORTANT]
+>
+>Gebruik deze optie slechts als u **** geen bestaande Worker van de Wolk op uw domein hebt. Als u reeds een worker hebt, gebruik [ Optie 2: De handmatige opstelling ](#option-2-manual-setup) om Edge toe te voegen optimaliseert verpletterend logica aan uw bestaande worker.
+
+**Stap 1: Implementeer de arbeider**
+
+Klik op de onderstaande knop om de Edge Optimize-worker te implementeren in uw Cloudflare-account:
+
+[![ opstellen aan Cloudflare ](https://deploy.workers.cloudflare.com/button) ](https://deploy.workers.cloudflare.com/?url=https://github.com/adobe/llmo-code-samples/tree/main/optimize-at-edge/cloudflare/automation)
+
+**Stap 2: Vul de plaatsingsvorm** in
+
+Als u op de knop klikt, wordt de instellingspagina van de workers geopend. Vul het formulier als volgt in:
+
+![ de opstellingspagina van de Werknemers van de Wolk 1}](/help/assets/optimize-at-edge/cloudflare-deploy-form.png)
+
+1. **de rekening van de Git** - selecteer uw rekening GitHub of GitLab van dropdown. Cloudflare forks the worker code into a repository in your account. Als geen rekening vermeld is, kunt u een nieuwe verbinding direct van dropdown toevoegen door **+ Nieuwe Verbinding GitHub** of **+ Nieuwe Verbinding GitLab** te selecteren. Voor meer informatie, zie de [ de integratiegids van de Git van de Wolk ](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/github-integration/).
+
+   ![ de rekeningsdropdown tonen van de GitHub Nieuwe Verbinding GitHub en de Nieuwe opties van de Verbinding GitLab ](/help/assets/optimize-at-edge/cloudflare-git-connection.png)
+2. **creeer privé bewaarplaats van het Git** — Verlaat dit gecontroleerd (gebrek).
+3. **de naam van het Project** — Verlaat als `edge-optimize-router` of ga een naam van uw keus in.
+4. **EDGE_OPTIMIZE_API_KEY** — Deeg uw Adobe-Geleverde sleutel van Edge optimaliseer API. Deze waarde wordt opgeslagen als een versleuteld geheim.
+5. **EDGE_OPTIMIZE_TARGET_HOST** - ga het domein van uw plaats zonder het protocol (bijvoorbeeld, `www.example.com`) in.
+6. **bouwt bevel** — Laat leeg.
+7. **stel bevel** op - laat als `npm run deploy` (vooraf ingevuld).
+8. **bouwt voor niet-productie takken** - laat ongecontroleerd. Dit is een ontwikkelaarswerkstroomfunctie en is niet nodig voor deze implementatie.
+9. Klik **creëren en opstellen**.
+
+Nadat de worker wordt opgesteld, ga aan [ te werk voeg een route aan uw domein ](#add-a-route-to-your-domain) toe om de worker met uw domein te verbinden. Het verpletteren wordt niet automatisch gevormd en moet manueel worden voltooid.
+
+## Optie 2: Handmatige installatie
+
+Voer de volgende stappen uit om de worker handmatig te maken en te configureren.
+
 **Stap 1: Creeer de Worker van de Veldarm**
 
 1. Meld u aan bij het dashboard Cloudflare.
@@ -64,7 +111,7 @@ Bij aanvragen naar de Edge Optimize-backend moeten de volgende headers worden in
 4. Geef de worker een naam (bijvoorbeeld `edge-optimize-router` ).
 5. Klik **opstellen** om de worker met de standaardcode tot stand te brengen.
 
-![&#x200B; dashboard van de Werknemers van de Wolk &#x200B;](/help/assets/optimize-at-edge/cloudflare-workers-dashboard.png)
+![ dashboard van de Werknemers van de Wolk ](/help/assets/optimize-at-edge/cloudflare-workers-dashboard.png)
 
 **Stap 2: Voeg de code van de Arbeider** toe
 
@@ -237,9 +284,9 @@ async function failoverToOrigin(request, env, url) {
 
 Klik **sparen en stel** op om de worker te publiceren.
 
-![&#x200B; de coderedacteur van de Arbeider van de Wolk &#x200B;](/help/assets/optimize-at-edge/cloudflare-worker-editor.png)
+![ de coderedacteur van de Arbeider van de Wolk ](/help/assets/optimize-at-edge/cloudflare-worker-editor.png)
 
-**Stap 3: Vorm omgevingsvariabelen**
+**Stap 3: Vorm milieuvariabelen en geheimen**
 
 Omgevingsvariabelen slaan gevoelige configuratie als de API-sleutel veilig op.
 
@@ -255,13 +302,13 @@ Omgevingsvariabelen slaan gevoelige configuratie als de API-sleutel veilig op.
 4. Voor de API sleutel, klik **Coderen** om het veilig op te slaan.
 5. Klik **sparen en stel** op.
 
-![&#x200B; Cloudflare milieu variabelen &#x200B;](/help/assets/optimize-at-edge/cloudflare-env-variables.png)
+![ Cloudflare milieu variabelen ](/help/assets/optimize-at-edge/cloudflare-env-variables.png)
 
-**Stap 4: Voeg een route aan uw domein** toe
+## Voeg een route aan uw domein toe {#add-a-route-to-your-domain}
 
-De worker op uw domein activeren:
+Ongeacht de instellingsoptie die u hebt gebruikt, moet u de worker handmatig koppelen aan uw domein. Deze stap activeert de arbeider op uw verkeer.
 
-1. Ga naar de Montages van uw arbeider **&#x200B;**&#x200B;> **Trekkers**.
+1. Ga naar de Montages van uw arbeider **** > **Trekkers**.
 2. Onder **Routes**, klik **route** toevoegen.
 3. Voer uw domeinpatroon in (bijvoorbeeld `www.example.com/*` of `example.com/*` ).
 4. Selecteer de zone in het vervolgkeuzemenu.
@@ -273,7 +320,7 @@ Alternatief, kunt u routes op het streekniveau vormen:
 2. Ga naar **Routes van de Arbeiders**.
 3. Klik **toevoegen route** en specificeer het patroon en de arbeider.
 
-![&#x200B; de routes van de Arbeider van de Wolk &#x200B;](/help/assets/optimize-at-edge/cloudflare-worker-routes.png)
+![ de routes van de Arbeider van de Wolk ](/help/assets/optimize-at-edge/cloudflare-worker-routes.png)
 
 **het verifiëren van failovergedrag**
 
@@ -377,7 +424,7 @@ const FAILOVER_ON_5XX = false;
 | Probleem | Mogelijke oorzaak | Oplossing |
 |-------|----------------|----------|
 | Geen `x-edgeoptimize-request-id` header in reactie | De route van de arbeider niet, of gebruikersagent niet in de agentic bots lijst. | Verifieer uw routepatroon de verzoek URL aanpast. Controleer of de gebruikersagent zich in de array `AGENTIC_BOTS` bevindt. |
-| 401 of 403 fouten van Edge Optimize | Ongeldige of ontbrekende API-sleutel. | Controleer of `EDGE_OPTIMIZE_API_KEY` correct is ingesteld in omgevingsvariabelen. Neem contact op met Adobe om te bevestigen dat uw API-sleutel actief is. |
+| 401 of 403 fouten van Edge Optimize | Ongeldige of ontbrekende API-sleutel. | Controleer of `EDGE_OPTIMIZE_API_KEY` correct is ingesteld in omgevingsvariabelen en geheimen. Neem contact op met Adobe om te bevestigen dat uw API-sleutel actief is. |
 | Oneindige omleidingen of lussen | Koptekst voor lusbeveiliging wordt niet op de juiste wijze ingesteld of gecontroleerd. | Controleer of de `x-edgeoptimize-request` -headercontrole is uitgevoerd. |
 | Beïnvloed menselijk verkeer | Worker die logica verplettert is te breed. | Verifieer de gebruikersagent passende logica correct en case-insensitive is. Controleer of `TARGETED_PATHS` correct is geconfigureerd. |
 | Trage responstijden | Netwerkvertraging naar Edge Optimize backend. | Dit wordt verwacht voor het eerste verzoek; volgende aanvragen worden in de cache geplaatst bij Edge Optimize. |
@@ -416,7 +463,7 @@ curl -svo /dev/null https://www.example.com/page.html \
   --header "user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 ```
 
-De reactie zou **&#x200B;**&#x200B;niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
+De reactie zou **** niet `x-edgeoptimize-request-id` kopbal moeten bevatten. De pagina-inhoud en de reactietijd moeten gelijk blijven aan voordat u Optimaliseren in Edge inschakelt.
 
 **3. Hoe te tussen de twee scenario&#39;s te onderscheiden**
 
