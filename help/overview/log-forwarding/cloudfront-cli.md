@@ -2,9 +2,9 @@
 title: Log Forwarding - CloudFront (AWS CLI)
 description: CDN van CloudFront door:sturen aan Adobe S3 emmer gebruikend AWS CLI voor leveringsopstelling en verrichtingen.
 feature: Agentic Traffic
-source-git-commit: 0d51bbde954c399dc6595522fa70b576461f458a
+source-git-commit: 3277e7f7f2e0c5e4693e40473d595b12d9e5f2e8
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -12,23 +12,23 @@ ht-degree: 0%
 
 # Log Forwarding: CloudFront (AWS CLI) {#log-forwarding-cloudfront-cli}
 
-Op deze pagina ziet u hoe u CDN-logbestanden van CloudFront naar S3-emmertje van Adobe doorstuurt voor verzameling van hoekige verkeersgegevens. U gebruikt de LLM Optimizer CDN-configuratiepagina voor toegang tot LLM Optimizer. Nadat het aan boord gaan proces volledig is, volg de stappen op deze pagina worden verstrekt om logboek door:sturen te vormen door de [&#x200B; Interface van de Lijn van het Bevel van AWS &#x200B;](https://aws.amazon.com/cli/) in [&#x200B; Stap 2 &#x200B;](#step-2-cli) te gebruiken.
+Op deze pagina ziet u hoe u CDN-logbestanden van CloudFront naar S3-emmertje van Adobe doorstuurt voor verzameling van hoekige verkeersgegevens. U gebruikt de LLM Optimizer CDN-configuratiepagina voor toegang tot LLM Optimizer. Nadat het aan boord gaan proces volledig is, volg de stappen op deze pagina worden verstrekt om logboek door:sturen te vormen door de [ Interface van de Lijn van het Bevel van AWS ](https://aws.amazon.com/cli/) in [ Stap 2 ](#step-2-cli) te gebruiken.
 
 >[!NOTE]
 >
-> Deze gids verklaart hoe te om logboek door:sturen te vormen door de [&#x200B; Interface van de Lijn van het Bevel van AWS &#x200B;](https://aws.amazon.com/cli/) te gebruiken. Als u logboek door:sturen wilt vormen door **CloudFront UI** te gebruiken, zie [&#x200B; Logboek door:sturen: CloudFront &#x200B;](/help/overview/log-forwarding/cloudfront.md).
+> Deze gids verklaart hoe te om logboek door:sturen te vormen door de [ Interface van de Lijn van het Bevel van AWS ](https://aws.amazon.com/cli/) te gebruiken. Als u logboek door:sturen wilt vormen door **CloudFront UI** te gebruiken, zie [ Logboek door:sturen: CloudFront ](/help/overview/log-forwarding/cloudfront.md).
 
 ## Stap 1: Aan boord in LLM Optimizer {#step-1}
 
-Op de pagina van LLM Optimizer [&#x200B; https://llmo.now/](https://llmo.now/):
+Op de pagina van LLM Optimizer [ https://llmo.now/](https://llmo.now/):
 
 1. Ga naar het **dashboard van de Configuratie van de Klant**.
 
-   ![&#x200B; knoop van de Configuratie &#x200B;](/help/overview/assets/log-forwarding/common/config-button.png)
+   ![ knoop van de Configuratie ](/help/overview/assets/log-forwarding/common/config-button.png)
 
 1. Klik de **CDN Configuratie** tabel.
 
-   ![&#x200B; CDN het lusje van de Configuratie &#x200B;](/help/overview/assets/log-forwarding/common/cdn-config-tab.png)
+   ![ CDN het lusje van de Configuratie ](/help/overview/assets/log-forwarding/common/cdn-config-tab.png)
 
 1. Klik **krijgen Begonnen**.
 
@@ -36,19 +36,19 @@ Op de pagina van LLM Optimizer [&#x200B; https://llmo.now/](https://llmo.now/):
 
 1. Naast **activeer AI de Inzichten van het Verkeer**, klik **vormen**.
 
-   ![&#x200B; vormen &#x200B;](/help/overview/assets/log-forwarding/common/configure.png)
+   ![ vormen ](/help/overview/assets/log-forwarding/common/configure.png)
 
 1. Ga uw **identiteitskaart van de Rekening van AWS** in.
 
-   ![&#x200B; identiteitskaart van de Rekening van AWS &#x200B;](/help/overview/assets/log-forwarding/cloudfront/cloudfront-aws-account.png)
+<!--  ![AWS Account ID](/help/overview/assets/log-forwarding/cloudfront/cloudfront-aws-account.png)-->
 
 1. Selecteer **CloudFront (BYOCDN)**.
 
-   ![&#x200B; Uitgezochte CloudFront &#x200B;](/help/overview/assets/log-forwarding/cloudfront/cloudfront-select.png)
+   ![ Uitgezochte CloudFront ](/help/overview/assets/log-forwarding/cloudfront/cloudfront-select.png)
 
 1. Klik **Onboard**.
 
-   ![&#x200B; knoop Onboard &#x200B;](/help/overview/assets/log-forwarding/common/onboard-button.png)
+<!-- ![Onboard button](/help/overview/assets/log-forwarding/common/onboard-button.png)-->
 
 ## Stap 2: Het logboek van CDN van de opstelling door:sturen met AWS CLI {#step-2-cli}
 
